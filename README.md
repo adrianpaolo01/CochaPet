@@ -1,3 +1,6 @@
+# CochaPet
+Plataforma para reportar y encontrar mascotas perdidas en Cochabamba
+
 #### Proyeto base para proyectos tddlab:
 
 #### Creado a partir de proyecto usado en IngSoftware: parcel-jest-base
