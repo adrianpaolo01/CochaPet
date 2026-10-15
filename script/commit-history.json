@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cb242961ab63e3601a3284aeba19b1c1be89833b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:56:15.000Z",
       "message": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cb242961ab63e3601a3284aeba19b1c1be89833b"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T20:43:43.000Z",
+      "message": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 114,
+      "additions": 100,
+      "deletions": 14,
       "date": "2026-10-15"
     },
     "coverage": 100,

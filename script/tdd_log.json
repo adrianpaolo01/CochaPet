@@ -328,9 +328,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cb242961ab63e3601a3284aeba19b1c1be89833b",
     "commitName": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
     "commitTimestamp": 1792094175896,
     "testId": 16
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094189560,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792097022595,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
+    "commitTimestamp": 1792097024180,
+    "testId": 17
   }
 ]
