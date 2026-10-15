@@ -54,9 +54,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56ba1200abd423dd432a0a901e31fb2f19cfabbc",
     "commitName": "feat(HU13): usar la especie como titulo cuando no hay nombre",
     "commitTimestamp": 1792091749020,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1792091767025,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1792092082506,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar Perdida como estado de un reporte de perdida",
+    "commitTimestamp": 1792092084208,
+    "testId": 2
   }
 ]
