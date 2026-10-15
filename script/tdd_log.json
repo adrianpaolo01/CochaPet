@@ -98,9 +98,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "956ad7c299c1df3127430b51a966588afd7b0827",
     "commitName": "feat(HU13): mostrar Encontrada como estado de un reporte de hallazgo",
     "commitTimestamp": 1792092417253,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1792092435667,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1792092750703,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar la fecha de la publicacion como dia/mes/anio",
+    "commitTimestamp": 1792092752749,
+    "testId": 4
   }
 ]

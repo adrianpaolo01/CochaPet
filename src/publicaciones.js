@@ -10,3 +10,10 @@ export function tituloPublicacion(publicacion) {
 export function etiquetaEstado(publicacion) {
   return capitalizar(publicacion.tipo);
 }
+
+export function formatearFecha(fecha) {
+  const f = new Date(fecha);
+  const dia = String(f.getDate()).padStart(2, "0");
+  const mes = String(f.getMonth() + 1).padStart(2, "0");
+  return `${dia}/${mes}/${f.getFullYear()}`;
+}
