@@ -32,9 +32,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8120978a6f9bdc705ac285ef423bb04d37d92843",
     "commitName": "feat(HU13): usar el nombre de la mascota como titulo",
     "commitTimestamp": 1792091413022,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1792091427694,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1792091741507,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): usar la especie como titulo cuando no hay nombre",
+    "commitTimestamp": 1792091749020,
+    "testId": 1
   }
 ]
