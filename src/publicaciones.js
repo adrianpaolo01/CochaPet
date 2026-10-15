@@ -17,3 +17,7 @@ export function formatearFecha(fecha) {
   const mes = String(f.getMonth() + 1).padStart(2, "0");
   return `${dia}/${mes}/${f.getFullYear()}`;
 }
+
+export function fotoPrincipal(publicacion) {
+  return publicacion.fotos[0];
+}

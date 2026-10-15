@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "95f74dece4eb338b2a3ba58c1d99df0120d8fb1f",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:32:31.000Z",
       "message": "feat(HU13): mostrar la fecha de la publicacion como dia/mes/anio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/95f74dece4eb338b2a3ba58c1d99df0120d8fb1f"
     },
     "stats": {
       "total": 13,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:38:16.000Z",
+      "message": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

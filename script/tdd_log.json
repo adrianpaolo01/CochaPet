@@ -120,9 +120,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95f74dece4eb338b2a3ba58c1d99df0120d8fb1f",
     "commitName": "feat(HU13): mostrar la fecha de la publicacion como dia/mes/anio",
     "commitTimestamp": 1792092752749,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1792092779626,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1792093095250,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
+    "commitTimestamp": 1792093096895,
+    "testId": 5
   }
 ]
