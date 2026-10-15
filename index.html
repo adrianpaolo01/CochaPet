@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es-BO">
   <head>
-    <title>Hola mundo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CochaPet</title>
   </head>
   <body>
-    <h1>Hola mundo</h1>
-    <div id="hola-mundo-div"></div>
+    <header class="encabezado">
+      <span class="marca">Cocha<span class="marca-acento">Pet</span></span>
+    </header>
+    <main class="contenedor">
+      <h1>Mascotas perdidas y encontradas</h1>
+      <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>
+      <div id="lista-publicaciones" class="grilla"></div>
+    </main>
+
+    <template id="plantilla-tarjeta">
+      <article class="tarjeta">
+        <img class="tarjeta-foto" alt="" loading="lazy" />
+        <div class="tarjeta-cuerpo">
+          <span class="badge"></span>
+          <h3 class="tarjeta-titulo"></h3>
+          <p class="tarjeta-datos"></p>
+        </div>
+      </article>
+    </template>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>

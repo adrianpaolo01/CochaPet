@@ -192,9 +192,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "51d37f63cbeed498ee04ba0f2785d80b3cc353c7",
     "commitName": "feat(HU13): exponer las publicaciones del inicio en GET /api/publicaciones",
     "commitTimestamp": 1792093329606,
     "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093403148,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar las publicaciones del inicio como tarjetas",
+    "commitTimestamp": 1792093404869,
+    "testId": 9
   }
 ]
