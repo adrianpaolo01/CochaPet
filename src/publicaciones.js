@@ -23,5 +23,7 @@ export function fotoPrincipal(publicacion) {
 }
 
 export function ordenarParaInicio(publicaciones) {
-  return [...publicaciones].sort((a, b) => Number(b.destacada) - Number(a.destacada));
+  return [...publicaciones].sort(
+    (a, b) => Number(b.destacada) - Number(a.destacada) || new Date(b.fecha) - new Date(a.fecha)
+  );
 }

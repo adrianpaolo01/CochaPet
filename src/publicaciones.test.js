@@ -29,4 +29,12 @@ describe("Publicaciones", () => {
     const publicaciones = [{ id: 1, destacada: false }, { id: 2, destacada: true }];
     expect(ordenarParaInicio(publicaciones).map((p) => p.id)).toEqual([2, 1]);
   });
+
+  it("deberia mostrar primero las mas recientes dentro de cada grupo", () => {
+    const publicaciones = [
+      { id: 1, destacada: false, fecha: "2026-10-10T10:00:00Z" },
+      { id: 2, destacada: false, fecha: "2026-10-12T10:00:00Z" },
+    ];
+    expect(ordenarParaInicio(publicaciones).map((p) => p.id)).toEqual([2, 1]);
+  });
 });
