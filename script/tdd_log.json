@@ -164,9 +164,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a0def878cac7d6e0abec9babceb125fc9a8bde26",
     "commitName": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
     "commitTimestamp": 1792093249388,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093288595,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): consultar en la base las publicaciones con barrio, fotos y destacada",
+    "commitTimestamp": 1792093290014,
+    "testId": 7
   }
 ]

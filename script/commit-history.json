@@ -114,16 +114,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a0def878cac7d6e0abec9babceb125fc9a8bde26",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:40:48.000Z",
       "message": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a0def878cac7d6e0abec9babceb125fc9a8bde26"
     },
     "stats": {
       "total": 21,
       "additions": 21,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:41:29.000Z",
+      "message": "feat(HU13): consultar en la base las publicaciones con barrio, fotos y destacada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
       "deletions": 0,
       "date": "2026-10-15"
     },
