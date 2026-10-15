@@ -1,0 +1,358 @@
+[
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1792039516507,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1792039530925,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1792091092284,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1792091405958,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "8120978a6f9bdc705ac285ef423bb04d37d92843",
+    "commitName": "feat(HU13): usar el nombre de la mascota como titulo",
+    "commitTimestamp": 1792091413022,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1792091427694,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1792091741507,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "56ba1200abd423dd432a0a901e31fb2f19cfabbc",
+    "commitName": "feat(HU13): usar la especie como titulo cuando no hay nombre",
+    "commitTimestamp": 1792091749020,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1792091767025,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1792092082506,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "68a459745ea34fcb4e090ddb032b4fad98aed6d2",
+    "commitName": "feat(HU13): mostrar Perdida como estado de un reporte de perdida",
+    "commitTimestamp": 1792092084208,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1792092098036,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1792092415362,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "956ad7c299c1df3127430b51a966588afd7b0827",
+    "commitName": "feat(HU13): mostrar Encontrada como estado de un reporte de hallazgo",
+    "commitTimestamp": 1792092417253,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1792092435667,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1792092750703,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "95f74dece4eb338b2a3ba58c1d99df0120d8fb1f",
+    "commitName": "feat(HU13): mostrar la fecha de la publicacion como dia/mes/anio",
+    "commitTimestamp": 1792092752749,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1792092779626,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1792093095250,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "b5dc94bcf138e4621a8356ddb4188904b8bb85bb",
+    "commitName": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
+    "commitTimestamp": 1792093096895,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1792093118272,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093247719,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "a0def878cac7d6e0abec9babceb125fc9a8bde26",
+    "commitName": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
+    "commitTimestamp": 1792093249388,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093288595,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "46ab328bcbfaae229c2b3e4155d5941e51ef72d8",
+    "commitName": "feat(HU13): consultar en la base las publicaciones con barrio, fotos y destacada",
+    "commitTimestamp": 1792093290014,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093328030,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "51d37f63cbeed498ee04ba0f2785d80b3cc353c7",
+    "commitName": "feat(HU13): exponer las publicaciones del inicio en GET /api/publicaciones",
+    "commitTimestamp": 1792093329606,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093403148,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "ff5ef6b216865735814fb026d9d039b245617f0b",
+    "commitName": "feat(HU13): mostrar las publicaciones del inicio como tarjetas",
+    "commitTimestamp": 1792093404869,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093424380,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "61521cc0bfa2125d182a9495abb550510ae41478",
+    "commitName": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
+    "commitTimestamp": 1792093425852,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093445429,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "e0b2d07026dfaa4bbb1450a278e91eb58fe4abe5",
+    "commitName": "style(HU13): mostrar las publicaciones en grilla con badge de color por tipo",
+    "commitTimestamp": 1792093446957,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1792093475932,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1792093792989,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "caba5ba7df947cce777045cd19e6d923214058a9",
+    "commitName": "feat(HU13): mostrar primero las publicaciones destacadas",
+    "commitTimestamp": 1792093794608,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1792093820578,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "926eb9d7ba9591a26031a0496308f1293339af17",
+    "commitName": "feat(HU13): mostrar las destacadas primero con su badge en el inicio",
+    "commitTimestamp": 1792093822184,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1792093838437,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1792093988763,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "531844aa529c7c56028814acc48346aca423f19b",
+    "commitName": "feat(HU13): mostrar primero las publicaciones mas recientes dentro de cada grupo",
+    "commitTimestamp": 1792093990374,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1792094014150,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094150226,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "3a2341d619594d0758472612e84f04c68ab11ea7",
+    "commitName": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
+    "commitTimestamp": 1792094151969,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094174448,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "cb242961ab63e3601a3284aeba19b1c1be89833b",
+    "commitName": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
+    "commitTimestamp": 1792094175896,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094189560,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792097022595,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
+    "commitTimestamp": 1792097024180,
+    "testId": 17
+  }
+]

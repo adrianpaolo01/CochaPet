@@ -1,0 +1,344 @@
+[
+  {
+    "sha": "8120978a6f9bdc705ac285ef423bb04d37d92843",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:10:12.000Z",
+      "message": "feat(HU13): usar el nombre de la mascota como titulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8120978a6f9bdc705ac285ef423bb04d37d92843"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "56ba1200abd423dd432a0a901e31fb2f19cfabbc",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:15:48.000Z",
+      "message": "feat(HU13): usar la especie como titulo cuando no hay nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/56ba1200abd423dd432a0a901e31fb2f19cfabbc"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "68a459745ea34fcb4e090ddb032b4fad98aed6d2",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:21:23.000Z",
+      "message": "feat(HU13): mostrar Perdida como estado de un reporte de perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/68a459745ea34fcb4e090ddb032b4fad98aed6d2"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "956ad7c299c1df3127430b51a966588afd7b0827",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:26:56.000Z",
+      "message": "feat(HU13): mostrar Encontrada como estado de un reporte de hallazgo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/956ad7c299c1df3127430b51a966588afd7b0827"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "95f74dece4eb338b2a3ba58c1d99df0120d8fb1f",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:32:31.000Z",
+      "message": "feat(HU13): mostrar la fecha de la publicacion como dia/mes/anio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/95f74dece4eb338b2a3ba58c1d99df0120d8fb1f"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b5dc94bcf138e4621a8356ddb4188904b8bb85bb",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:38:16.000Z",
+      "message": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b5dc94bcf138e4621a8356ddb4188904b8bb85bb"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "a0def878cac7d6e0abec9babceb125fc9a8bde26",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:40:48.000Z",
+      "message": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a0def878cac7d6e0abec9babceb125fc9a8bde26"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "46ab328bcbfaae229c2b3e4155d5941e51ef72d8",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:41:29.000Z",
+      "message": "feat(HU13): consultar en la base las publicaciones con barrio, fotos y destacada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/46ab328bcbfaae229c2b3e4155d5941e51ef72d8"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "51d37f63cbeed498ee04ba0f2785d80b3cc353c7",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:42:08.000Z",
+      "message": "feat(HU13): exponer las publicaciones del inicio en GET /api/publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/51d37f63cbeed498ee04ba0f2785d80b3cc353c7"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ff5ef6b216865735814fb026d9d039b245617f0b",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:43:24.000Z",
+      "message": "feat(HU13): mostrar las publicaciones del inicio como tarjetas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ff5ef6b216865735814fb026d9d039b245617f0b"
+    },
+    "stats": {
+      "total": 49,
+      "additions": 42,
+      "deletions": 7,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "61521cc0bfa2125d182a9495abb550510ae41478",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:43:45.000Z",
+      "message": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/61521cc0bfa2125d182a9495abb550510ae41478"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e0b2d07026dfaa4bbb1450a278e91eb58fe4abe5",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:44:06.000Z",
+      "message": "style(HU13): mostrar las publicaciones en grilla con badge de color por tipo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e0b2d07026dfaa4bbb1450a278e91eb58fe4abe5"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "caba5ba7df947cce777045cd19e6d923214058a9",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:49:53.000Z",
+      "message": "feat(HU13): mostrar primero las publicaciones destacadas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/caba5ba7df947cce777045cd19e6d923214058a9"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "926eb9d7ba9591a26031a0496308f1293339af17",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:50:21.000Z",
+      "message": "feat(HU13): mostrar las destacadas primero con su badge en el inicio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/926eb9d7ba9591a26031a0496308f1293339af17"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "531844aa529c7c56028814acc48346aca423f19b",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:53:09.000Z",
+      "message": "feat(HU13): mostrar primero las publicaciones mas recientes dentro de cada grupo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/531844aa529c7c56028814acc48346aca423f19b"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3a2341d619594d0758472612e84f04c68ab11ea7",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:55:51.000Z",
+      "message": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3a2341d619594d0758472612e84f04c68ab11ea7"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cb242961ab63e3601a3284aeba19b1c1be89833b",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:56:15.000Z",
+      "message": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cb242961ab63e3601a3284aeba19b1c1be89833b"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T20:43:43.000Z",
+      "message": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 114,
+      "additions": 100,
+      "deletions": 14,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
