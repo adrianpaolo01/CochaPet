@@ -292,9 +292,31 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "531844aa529c7c56028814acc48346aca423f19b",
     "commitName": "feat(HU13): mostrar primero las publicaciones mas recientes dentro de cada grupo",
     "commitTimestamp": 1792093990374,
     "testId": 14
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1792094014150,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094150226,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
+    "commitTimestamp": 1792094151969,
+    "testId": 15
   }
 ]

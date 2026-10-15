@@ -1,4 +1,4 @@
-import { etiquetaEstado, formatearFecha, fotoPrincipal, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
+import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 describe("Publicaciones", () => {
   it("deberia usar el nombre de la mascota como titulo", () => {
@@ -36,5 +36,10 @@ describe("Publicaciones", () => {
       { id: 2, destacada: false, fecha: "2026-10-12T10:00:00Z" },
     ];
     expect(ordenarParaInicio(publicaciones).map((p) => p.id)).toEqual([2, 1]);
+  });
+
+  it("deberia dar un mensaje solo cuando no hay publicaciones activas", () => {
+    expect(mensajeInicio([])).toEqual("Todavía no hay mascotas publicadas.");
+    expect(mensajeInicio([{ id: 1 }])).toBeNull();
   });
 });

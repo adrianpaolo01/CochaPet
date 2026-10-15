@@ -27,3 +27,7 @@ export function ordenarParaInicio(publicaciones) {
     (a, b) => Number(b.destacada) - Number(a.destacada) || new Date(b.fecha) - new Date(a.fecha)
   );
 }
+
+export function mensajeInicio(publicaciones) {
+  return publicaciones.length === 0 ? "Todavía no hay mascotas publicadas." : null;
+}

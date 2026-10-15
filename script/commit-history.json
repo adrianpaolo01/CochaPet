@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "531844aa529c7c56028814acc48346aca423f19b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:53:09.000Z",
       "message": "feat(HU13): mostrar primero las publicaciones mas recientes dentro de cada grupo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/531844aa529c7c56028814acc48346aca423f19b"
     },
     "stats": {
       "total": 12,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:55:51.000Z",
+      "message": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
