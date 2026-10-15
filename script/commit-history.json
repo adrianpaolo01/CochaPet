@@ -285,16 +285,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3a2341d619594d0758472612e84f04c68ab11ea7",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:55:51.000Z",
       "message": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3a2341d619594d0758472612e84f04c68ab11ea7"
     },
     "stats": {
       "total": 11,
       "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:56:15.000Z",
+      "message": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
       "deletions": 1,
       "date": "2026-10-15"
     },

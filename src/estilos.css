@@ -34,3 +34,4 @@ body {
 .badge-destacada { margin-left: 6px; background: var(--tinta); color: #fff; }
 .tarjeta-destacada { outline: 2px solid var(--primario); }
 .badge[hidden] { display: none; }
+.mensaje-vacio { padding: 48px 16px; border-radius: 16px; background: var(--superficie); text-align: center; color: var(--tinta-suave); }

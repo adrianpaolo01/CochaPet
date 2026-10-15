@@ -314,9 +314,23 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3a2341d619594d0758472612e84f04c68ab11ea7",
     "commitName": "feat(HU13): dar un mensaje cuando no hay publicaciones activas",
     "commitTimestamp": 1792094151969,
     "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792094174448,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar el mensaje de lista vacia en el inicio",
+    "commitTimestamp": 1792094175896,
+    "testId": 16
   }
 ]
