@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b5dc94bcf138e4621a8356ddb4188904b8bb85bb",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:38:16.000Z",
       "message": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b5dc94bcf138e4621a8356ddb4188904b8bb85bb"
     },
     "stats": {
       "total": 10,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:40:48.000Z",
+      "message": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -142,9 +142,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b5dc94bcf138e4621a8356ddb4188904b8bb85bb",
     "commitName": "feat(HU13): usar la primera foto como foto principal de la tarjeta",
     "commitTimestamp": 1792093096895,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1792093118272,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093247719,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar en el inicio solo las publicaciones activas",
+    "commitTimestamp": 1792093249388,
+    "testId": 6
   }
 ]
