@@ -178,9 +178,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "46ab328bcbfaae229c2b3e4155d5941e51ef72d8",
     "commitName": "feat(HU13): consultar en la base las publicaciones con barrio, fotos y destacada",
     "commitTimestamp": 1792093290014,
     "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093328030,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): exponer las publicaciones del inicio en GET /api/publicaciones",
+    "commitTimestamp": 1792093329606,
+    "testId": 8
   }
 ]
