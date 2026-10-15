@@ -9,4 +9,7 @@ report.json
 .husky/.commit-state
 # Documentos y reglas locales (no se suben al repo)
 CLAUDE.md
-CochaPet*.pdf
+*.pdf
+
+# Variables de entorno (credenciales de Neon)
+.env
