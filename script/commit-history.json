@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "68a459745ea34fcb4e090ddb032b4fad98aed6d2",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:21:23.000Z",
       "message": "feat(HU13): mostrar Perdida como estado de un reporte de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/68a459745ea34fcb4e090ddb032b4fad98aed6d2"
     },
     "stats": {
       "total": 10,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:26:56.000Z",
+      "message": "feat(HU13): mostrar Encontrada como estado de un reporte de hallazgo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

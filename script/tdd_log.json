@@ -76,9 +76,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "68a459745ea34fcb4e090ddb032b4fad98aed6d2",
     "commitName": "feat(HU13): mostrar Perdida como estado de un reporte de perdida",
     "commitTimestamp": 1792092084208,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1792092098036,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1792092415362,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar Encontrada como estado de un reporte de hallazgo",
+    "commitTimestamp": 1792092417253,
+    "testId": 3
   }
 ]

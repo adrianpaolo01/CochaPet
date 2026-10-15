@@ -12,4 +12,8 @@ describe("Publicaciones", () => {
   it("deberia mostrar Perdida para un reporte de mascota perdida", () => {
     expect(etiquetaEstado({ tipo: "PERDIDA" })).toEqual("Perdida");
   });
+
+  it("deberia mostrar Encontrada para un reporte de mascota encontrada", () => {
+    expect(etiquetaEstado({ tipo: "ENCONTRADA" })).toEqual("Encontrada");
+  });
 });
