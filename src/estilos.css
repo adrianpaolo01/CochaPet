@@ -21,3 +21,13 @@ body {
 .marca-acento { color: var(--primario); }
 .contenedor { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
 .subtitulo { color: var(--tinta-suave); }
+
+.grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.tarjeta { overflow: hidden; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); }
+.tarjeta-foto { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.tarjeta-cuerpo { padding: 16px; }
+.tarjeta-titulo { margin: 8px 0 4px; font-size: 17px; }
+.tarjeta-datos { margin: 0; color: var(--tinta-suave); font-size: 13px; }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.badge-perdida { background: var(--primario); color: #fff; }
+.badge-encontrada { background: var(--exito-suave); color: #065f46; }

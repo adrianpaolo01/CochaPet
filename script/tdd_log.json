@@ -220,9 +220,23 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "61521cc0bfa2125d182a9495abb550510ae41478",
     "commitName": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
     "commitTimestamp": 1792093425852,
     "testId": 10
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093445429,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU13): mostrar las publicaciones en grilla con badge de color por tipo",
+    "commitTimestamp": 1792093446957,
+    "testId": 11
   }
 ]

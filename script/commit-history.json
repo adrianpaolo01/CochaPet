@@ -190,16 +190,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "61521cc0bfa2125d182a9495abb550510ae41478",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:43:45.000Z",
       "message": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/61521cc0bfa2125d182a9495abb550510ae41478"
     },
     "stats": {
       "total": 25,
       "additions": 25,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:44:06.000Z",
+      "message": "style(HU13): mostrar las publicaciones en grilla con badge de color por tipo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
       "deletions": 0,
       "date": "2026-10-15"
     },

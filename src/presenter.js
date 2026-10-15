@@ -7,6 +7,7 @@ function crearTarjeta(publicacion) {
   const tarjeta = plantilla.content.cloneNode(true);
   tarjeta.querySelector(".tarjeta-foto").src = fotoPrincipal(publicacion);
   tarjeta.querySelector(".badge").textContent = etiquetaEstado(publicacion);
+  tarjeta.querySelector(".badge").classList.add(`badge-${publicacion.tipo.toLowerCase()}`);
   tarjeta.querySelector(".tarjeta-titulo").textContent = tituloPublicacion(publicacion);
   tarjeta.querySelector(".tarjeta-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
   return tarjeta;
