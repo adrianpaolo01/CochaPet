@@ -31,3 +31,6 @@ body {
 .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
 .badge-perdida { background: var(--primario); color: #fff; }
 .badge-encontrada { background: var(--exito-suave); color: #065f46; }
+.badge-destacada { margin-left: 6px; background: var(--tinta); color: #fff; }
+.tarjeta-destacada { outline: 2px solid var(--primario); }
+.badge[hidden] { display: none; }

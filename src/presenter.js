@@ -1,4 +1,4 @@
-import { etiquetaEstado, formatearFecha, fotoPrincipal, tituloPublicacion } from "./publicaciones.js";
+import { etiquetaEstado, formatearFecha, fotoPrincipal, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 const lista = document.querySelector("#lista-publicaciones");
 const plantilla = document.querySelector("#plantilla-tarjeta");
@@ -9,6 +9,10 @@ function crearTarjeta(publicacion) {
   tarjeta.querySelector(".badge").textContent = etiquetaEstado(publicacion);
   tarjeta.querySelector(".badge").classList.add(`badge-${publicacion.tipo.toLowerCase()}`);
   tarjeta.querySelector(".tarjeta-titulo").textContent = tituloPublicacion(publicacion);
+  if (publicacion.destacada) {
+    tarjeta.querySelector(".tarjeta").classList.add("tarjeta-destacada");
+    tarjeta.querySelector(".badge-destacada").hidden = false;
+  }
   tarjeta.querySelector(".tarjeta-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
   return tarjeta;
 }
@@ -16,7 +20,7 @@ function crearTarjeta(publicacion) {
 async function mostrarPublicaciones() {
   const respuesta = await fetch("/api/publicaciones");
   const publicaciones = await respuesta.json();
-  lista.replaceChildren(...publicaciones.map(crearTarjeta));
+  lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
 }
 
 mostrarPublicaciones();

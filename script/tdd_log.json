@@ -256,9 +256,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "caba5ba7df947cce777045cd19e6d923214058a9",
     "commitName": "feat(HU13): mostrar primero las publicaciones destacadas",
     "commitTimestamp": 1792093794608,
     "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1792093820578,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar las destacadas primero con su badge en el inicio",
+    "commitTimestamp": 1792093822184,
+    "testId": 13
   }
 ]
