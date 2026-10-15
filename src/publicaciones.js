@@ -21,3 +21,7 @@ export function formatearFecha(fecha) {
 export function fotoPrincipal(publicacion) {
   return publicacion.fotos[0];
 }
+
+export function ordenarParaInicio(publicaciones) {
+  return [...publicaciones].sort((a, b) => Number(b.destacada) - Number(a.destacada));
+}

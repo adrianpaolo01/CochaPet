@@ -1,4 +1,4 @@
-import { etiquetaEstado, formatearFecha, fotoPrincipal, tituloPublicacion } from "./publicaciones.js";
+import { etiquetaEstado, formatearFecha, fotoPrincipal, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 describe("Publicaciones", () => {
   it("deberia usar el nombre de la mascota como titulo", () => {
@@ -23,5 +23,10 @@ describe("Publicaciones", () => {
 
   it("deberia usar la primera foto como foto principal", () => {
     expect(fotoPrincipal({ fotos: ["frente.jpg", "perfil.jpg"] })).toEqual("frente.jpg");
+  });
+
+  it("deberia mostrar primero las publicaciones destacadas", () => {
+    const publicaciones = [{ id: 1, destacada: false }, { id: 2, destacada: true }];
+    expect(ordenarParaInicio(publicaciones).map((p) => p.id)).toEqual([2, 1]);
   });
 });

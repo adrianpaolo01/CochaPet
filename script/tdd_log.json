@@ -234,9 +234,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e0b2d07026dfaa4bbb1450a278e91eb58fe4abe5",
     "commitName": "style(HU13): mostrar las publicaciones en grilla con badge de color por tipo",
     "commitTimestamp": 1792093446957,
     "testId": 11
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1792093475932,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1792093792989,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU13): mostrar primero las publicaciones destacadas",
+    "commitTimestamp": 1792093794608,
+    "testId": 12
   }
 ]
