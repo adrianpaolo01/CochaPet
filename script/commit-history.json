@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff5ef6b216865735814fb026d9d039b245617f0b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T19:43:24.000Z",
       "message": "feat(HU13): mostrar las publicaciones del inicio como tarjetas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ff5ef6b216865735814fb026d9d039b245617f0b"
     },
     "stats": {
       "total": 49,
       "additions": 42,
       "deletions": 7,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-15T19:43:45.000Z",
+      "message": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
       "date": "2026-10-15"
     },
     "coverage": 100,

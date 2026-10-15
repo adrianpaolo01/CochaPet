@@ -206,9 +206,23 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff5ef6b216865735814fb026d9d039b245617f0b",
     "commitName": "feat(HU13): mostrar las publicaciones del inicio como tarjetas",
     "commitTimestamp": 1792093404869,
     "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1792093424380,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU13): aplicar colores, fuente y encabezado del prototipo de UI",
+    "commitTimestamp": 1792093425852,
+    "testId": 10
   }
 ]

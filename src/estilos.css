@@ -1,0 +1,23 @@
+:root {
+  --primario: #cc4900;
+  --exito-suave: #d1fae5;
+  --fondo: #f9f9ff;
+  --superficie: #ffffff;
+  --tinta: #111c2d;
+  --tinta-suave: #4b5568;
+  --sombra: 0 1px 2px rgba(17, 28, 45, 0.06), 0 4px 16px rgba(17, 28, 45, 0.06);
+}
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 15px;
+}
+
+.encabezado { padding: 16px 24px; background: var(--superficie); box-shadow: var(--sombra); }
+.marca { font-size: 22px; font-weight: 800; }
+.marca-acento { color: var(--primario); }
+.contenedor { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+.subtitulo { color: var(--tinta-suave); }
