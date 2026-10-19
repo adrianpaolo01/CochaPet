@@ -350,9 +350,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "193115b8a564b1e18a0d87b6a7dd20cdd2989b49",
     "commitName": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
     "commitTimestamp": 1792097024180,
     "testId": 17
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792446384993,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: separar la ruta de publicaciones para reutilizarla en Vercel",
+    "commitTimestamp": 1792446393240,
+    "testId": 18
   }
 ]
