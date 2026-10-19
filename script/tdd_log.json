@@ -364,9 +364,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d52e5dcc98ebf2f0fcbeeae1983ff33fe90e8e2b",
     "commitName": "refactor: separar la ruta de publicaciones para reutilizarla en Vercel",
     "commitTimestamp": 1792446393240,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: agregar la funcion de Vercel y la configuracion de despliegue",
+    "commitTimestamp": 1792446415245,
+    "testId": 19
   }
 ]

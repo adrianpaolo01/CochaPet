@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d52e5dcc98ebf2f0fcbeeae1983ff33fe90e8e2b",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-19T21:46:32.000Z",
       "message": "refactor: separar la ruta de publicaciones para reutilizarla en Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d52e5dcc98ebf2f0fcbeeae1983ff33fe90e8e2b"
     },
     "stats": {
       "total": 38,
       "additions": 24,
       "deletions": 14,
+      "date": "2026-10-19"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-19T21:46:54.000Z",
+      "message": "chore: agregar la funcion de Vercel y la configuracion de despliegue",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
       "date": "2026-10-19"
     },
     "coverage": 100,
