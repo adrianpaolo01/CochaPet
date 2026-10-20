@@ -19,11 +19,17 @@ function crearTarjeta(publicacion) {
 }
 
 async function mostrarPublicaciones() {
-  const respuesta = await fetch("/api/publicaciones");
-  const publicaciones = await respuesta.json();
-  lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
-  mensaje.textContent = mensajeInicio(publicaciones) ?? "";
-  mensaje.hidden = !mensaje.textContent;
+  try {
+    const respuesta = await fetch("/api/publicaciones");
+    if (!respuesta.ok) throw new Error("No se pudieron cargar las publicaciones");
+    const publicaciones = await respuesta.json();
+    lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
+    mensaje.textContent = mensajeInicio(publicaciones) ?? "";
+    mensaje.hidden = !mensaje.textContent;
+  } catch {
+    mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
+    mensaje.hidden = false;
+  }
 }
 
 mostrarPublicaciones();

@@ -7,9 +7,13 @@ dist
 report.json
 ./.husky/_
 .husky/.commit-state
+
 # Documentos y reglas locales (no se suben al repo)
 CLAUDE.md
 *.pdf
 
 # Variables de entorno (credenciales de Neon)
 .env
+.env.*
+!.env.example
+.vercel
