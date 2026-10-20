@@ -462,9 +462,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c4e5c1549ce1e64a792e538194d7e51a502cbc9",
     "commitName": "feat(HU10): conectar el buscador de nombres en la pagina",
     "commitTimestamp": 1792470450559,
     "testId": 24
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1792470470292,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1792470786913,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU10): restaurar todas las mascotas al vaciar la busqueda",
+    "commitTimestamp": 1792470813408,
+    "testId": 25
   }
 ]
