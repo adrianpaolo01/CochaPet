@@ -448,9 +448,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "67b84f2d7b1af23d9148dfba2439738cb1540ac4",
     "commitName": "feat(HU10): buscar mascotas por parte del nombre",
     "commitTimestamp": 1792470404478,
     "testId": 23
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1792470433316,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU10): conectar el buscador de nombres en la pagina",
+    "commitTimestamp": 1792470450559,
+    "testId": 24
   }
 ]

@@ -1,8 +1,10 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
+import { buscarPorNombre } from "./busqueda.js";
 
 const lista = document.querySelector("#lista-publicaciones");
 const plantilla = document.querySelector("#plantilla-tarjeta");
 const mensaje = document.querySelector("#mensaje-inicio");
+const buscador = document.querySelector("#buscar-mascotas");
 
 function crearTarjeta(publicacion) {
   const tarjeta = plantilla.content.cloneNode(true);
@@ -26,6 +28,11 @@ async function mostrarPublicaciones() {
     lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
     mensaje.textContent = mensajeInicio(publicaciones) ?? "";
     mensaje.hidden = !mensaje.textContent;
+    buscador.disabled = false;
+    buscador.addEventListener("input", () => {
+      const filtradas = buscarPorNombre(publicaciones, buscador.value);
+      lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
+    });
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;

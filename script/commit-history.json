@@ -456,16 +456,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "67b84f2d7b1af23d9148dfba2439738cb1540ac4",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T04:26:43.000Z",
       "message": "feat(HU10): buscar mascotas por parte del nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/67b84f2d7b1af23d9148dfba2439738cb1540ac4"
     },
     "stats": {
       "total": 12,
       "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:27:29.000Z",
+      "message": "feat(HU10): conectar el buscador de nombres en la pagina",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
       "deletions": 0,
       "date": "2026-10-20"
     },
