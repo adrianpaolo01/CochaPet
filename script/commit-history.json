@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "be9424577ead320056f3017528478461bc2faf54",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T03:56:52.000Z",
       "message": "feat: git ignore modificado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/be9424577ead320056f3017528478461bc2faf54"
     },
     "stats": {
       "total": 2,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:26:43.000Z",
+      "message": "feat(HU10): buscar mascotas por parte del nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

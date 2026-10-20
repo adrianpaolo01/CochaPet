@@ -410,9 +410,47 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "be9424577ead320056f3017528478461bc2faf54",
     "commitName": "feat: git ignore modificado",
     "commitTimestamp": 1792468613127,
     "testId": 22
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1792470040848,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1792470053120,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1792470375666,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1792470387640,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU10): buscar mascotas por parte del nombre",
+    "commitTimestamp": 1792470404478,
+    "testId": 23
   }
 ]
