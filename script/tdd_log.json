@@ -364,9 +364,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e67f08cab971c04e59aec2bba611dc29501baea",
     "commitName": "chore(HU13): preparar el despliegue en Vercel",
     "commitTimestamp": 1792463020087,
     "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementacion para el despliegue",
+    "commitTimestamp": 1792466778716,
+    "testId": 19
   }
 ]

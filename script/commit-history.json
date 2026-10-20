@@ -342,16 +342,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e67f08cab971c04e59aec2bba611dc29501baea",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T02:23:38.000Z",
       "message": "chore(HU13): preparar el despliegue en Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7e67f08cab971c04e59aec2bba611dc29501baea"
     },
     "stats": {
       "total": 170,
       "additions": 147,
+      "deletions": 23,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T03:26:17.000Z",
+      "message": "feat: implementacion para el despliegue",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 2,
       "deletions": 23,
       "date": "2026-10-20"
     },
