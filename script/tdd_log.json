@@ -520,9 +520,23 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "834b02f728844b9f08182dd8a99d2c1a2fba9d65",
     "commitName": "feat(HU10): mostrar el mensaje de busqueda sin resultados",
     "commitTimestamp": 1792471219440,
     "testId": 27
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792471244007,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU10): dar espacio y foco al campo de busqueda",
+    "commitTimestamp": 1792471288961,
+    "testId": 28
   }
 ]

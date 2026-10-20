@@ -532,17 +532,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "834b02f728844b9f08182dd8a99d2c1a2fba9d65",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T04:40:18.000Z",
       "message": "feat(HU10): mostrar el mensaje de busqueda sin resultados",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/834b02f728844b9f08182dd8a99d2c1a2fba9d65"
     },
     "stats": {
       "total": 4,
       "additions": 3,
       "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:41:27.000Z",
+      "message": "style(HU10): dar espacio y foco al campo de busqueda",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-10-20"
     },
     "coverage": 100,
