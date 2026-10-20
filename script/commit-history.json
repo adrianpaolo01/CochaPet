@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "851db2fed5549dccdd8cfd4b9565c54f0f8f850c",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T04:33:32.000Z",
       "message": "feat(HU10): restaurar todas las mascotas al vaciar la busqueda",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/851db2fed5549dccdd8cfd4b9565c54f0f8f850c"
     },
     "stats": {
       "total": 6,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:39:35.000Z",
+      "message": "feat(HU10): indicar cuando la busqueda no tiene coincidencias",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

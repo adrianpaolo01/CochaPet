@@ -484,9 +484,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "851db2fed5549dccdd8cfd4b9565c54f0f8f850c",
     "commitName": "feat(HU10): restaurar todas las mascotas al vaciar la busqueda",
     "commitTimestamp": 1792470813408,
     "testId": 25
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1792470843275,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792471164223,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU10): indicar cuando la busqueda no tiene coincidencias",
+    "commitTimestamp": 1792471176087,
+    "testId": 26
   }
 ]

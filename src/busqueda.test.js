@@ -1,4 +1,4 @@
-import { buscarPorNombre } from "./busqueda.js";
+import { buscarPorNombre, mensajeBusqueda } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -9,5 +9,10 @@ describe("Busqueda de mascotas", () => {
   it("deberia mostrar todas las mascotas al borrar el texto", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: null }];
     expect(buscarPorNombre(publicaciones, "")).toEqual(publicaciones);
+  });
+
+  it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
+    expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
+    expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();
   });
 });
