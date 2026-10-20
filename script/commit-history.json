@@ -418,17 +418,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c59e40e23a68dccf9a479bfd68be2e6464d26988",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T03:54:18.000Z",
       "message": "chore: finalizar la actualizacion local con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c59e40e23a68dccf9a479bfd68be2e6464d26988"
     },
     "stats": {
       "total": 244,
       "additions": 180,
       "deletions": 64,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T03:56:52.000Z",
+      "message": "feat: git ignore modificado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
       "date": "2026-10-20"
     },
     "coverage": 100,

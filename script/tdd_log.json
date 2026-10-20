@@ -404,9 +404,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c59e40e23a68dccf9a479bfd68be2e6464d26988",
     "commitName": "chore: finalizar la actualizacion local con main",
     "commitTimestamp": 1792468459678,
     "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: git ignore modificado",
+    "commitTimestamp": 1792468613127,
+    "testId": 22
   }
 ]
