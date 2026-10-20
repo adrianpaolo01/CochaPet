@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "be9424577ead320056f3017528478461bc2faf54",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T03:56:52.000Z",
       "message": "feat: git ignore modificado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/be9424577ead320056f3017528478461bc2faf54"
     },
     "stats": {
       "total": 2,
@@ -452,6 +452,120 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "67b84f2d7b1af23d9148dfba2439738cb1540ac4",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:26:43.000Z",
+      "message": "feat(HU10): buscar mascotas por parte del nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/67b84f2d7b1af23d9148dfba2439738cb1540ac4"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8c4e5c1549ce1e64a792e538194d7e51a502cbc9",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:27:29.000Z",
+      "message": "feat(HU10): conectar el buscador de nombres en la pagina",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8c4e5c1549ce1e64a792e538194d7e51a502cbc9"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "851db2fed5549dccdd8cfd4b9565c54f0f8f850c",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:33:32.000Z",
+      "message": "feat(HU10): restaurar todas las mascotas al vaciar la busqueda",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/851db2fed5549dccdd8cfd4b9565c54f0f8f850c"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "55d9674ef70884d4c5c4449e919ed095d527a152",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:39:35.000Z",
+      "message": "feat(HU10): indicar cuando la busqueda no tiene coincidencias",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/55d9674ef70884d4c5c4449e919ed095d527a152"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "834b02f728844b9f08182dd8a99d2c1a2fba9d65",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:40:18.000Z",
+      "message": "feat(HU10): mostrar el mensaje de busqueda sin resultados",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/834b02f728844b9f08182dd8a99d2c1a2fba9d65"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:41:27.000Z",
+      "message": "style(HU10): dar espacio y foco al campo de busqueda",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
