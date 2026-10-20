@@ -342,21 +342,97 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
-    "author": "Adrian Paolo",
+    "sha": "b3f410a236ea9449697dc5356e684ee056aab96c",
+    "author": "BerniUCB",
     "commit": {
-      "date": "2026-10-20T03:44:25.000Z",
-      "message": "feat: git ignore modificado",
+      "date": "2026-10-19T22:30:08.000Z",
+      "message": "chore: usar fotos reales de animales en el seed",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {
-      "total": 2,
-      "additions": 2,
-      "deletions": 0,
-      "date": "2026-10-20"
+      "total": 47,
+      "additions": 31,
+      "deletions": 16,
+      "date": "2026-10-19"
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7e67f08cab971c04e59aec2bba611dc29501baea",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T02:23:38.000Z",
+      "message": "chore(HU13): preparar el despliegue en Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7e67f08cab971c04e59aec2bba611dc29501baea"
+    },
+    "stats": {
+      "total": 170,
+      "additions": 147,
+      "deletions": 23,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "14fdbe8686632920ee759b92397d41e6645c7d30",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T03:26:17.000Z",
+      "message": "feat: implementacion para el despliegue",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 2,
+      "deletions": 23,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "40aa7db726e980a332d2f8e72a514c04934ecb60",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-20T03:44:29.000Z",
+      "message": "chore: actualizar la rama con main y combinar los registros de TDD",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/40aa7db726e980a332d2f8e72a514c04934ecb60"
+    },
+    "stats": {
+      "total": 195,
+      "additions": 149,
+      "deletions": 46,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T03:54:18.000Z",
+      "message": "chore: finalizar la actualizacion local con main",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 244,
+      "additions": 180,
+      "deletions": 64,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

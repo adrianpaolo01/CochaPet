@@ -356,9 +356,57 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
-    "commitName": "feat: git ignore modificado",
-    "commitTimestamp": 1792467866498,
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1792448902849,
+    "success": true,
     "testId": 18
+  },
+  {
+    "commitId": "b3f410a236ea9449697dc5356e684ee056aab96c",
+    "commitName": "chore: usar fotos reales de animales en el seed",
+    "commitTimestamp": 1792449009324,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1792463010536,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "7e67f08cab971c04e59aec2bba611dc29501baea",
+    "commitName": "chore(HU13): preparar el despliegue en Vercel",
+    "commitTimestamp": 1792463020087,
+    "testId": 18
+  },
+  {
+    "commitId": "14fdbe8686632920ee759b92397d41e6645c7d30",
+    "commitName": "feat: implementacion para el despliegue",
+    "commitTimestamp": 1792466778716,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1792467852530,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "40aa7db726e980a332d2f8e72a514c04934ecb60",
+    "commitName": "chore: actualizar la rama con main y combinar los registros de TDD",
+    "commitTimestamp": 1792467872300,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: finalizar la actualizacion local con main",
+    "commitTimestamp": 1792468459678,
+    "testId": 21
   }
 ]

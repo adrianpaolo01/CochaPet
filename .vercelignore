@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.git
+.parcel-cache
+.cache
+coverage
+dist
+node_modules
+cypress
+script/report.json
+CLAUDE.md
+*.pdf

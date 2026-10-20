@@ -45,6 +45,8 @@ El proyecto **no usa frameworks**: HTML, CSS y JavaScript escritos a mano.
    # Terminal 1: servidor de la API (puerto 3000)
    node --env-file=.env servidor/servidor.js
 
+
+
    # Terminal 2: página web (puerto 1234)
    npm start
    ```
@@ -60,6 +62,40 @@ El proyecto **no usa frameworks**: HTML, CSS y JavaScript escritos a mano.
 | `npm run build` | Genera la versión de producción en `dist/` |
 | `npm run db:esquema` | Crea las tablas en la base. **Ya está ejecutado**; si se vuelve a correr, falla sin tocar datos |
 | `npm run db:seed` | **Borra todos los datos** y vuelve a cargar los datos de ejemplo. La base es compartida: avisar al equipo antes de usarlo |
+
+## Despliegue en Vercel
+
+La página se compila con Parcel a `dist/`. La ruta `/api/publicaciones` se
+ejecuta como una función de Node.js (`api/publicaciones.js`) y consulta Neon.
+El servidor local y Vercel comparten el manejador de `servidor/aplicacion.js`.
+No se necesita agregar un framework.
+
+1. Subir los cambios de despliegue a la rama que se va a importar. Vercel
+   recibe los archivos de GitHub, no los cambios pendientes de tu computadora.
+2. En Vercel, seleccionar **Add New → Project** e importar `CochaPet`.
+   Si GitHub solicita permisos, limitar la instalación a ese repositorio.
+3. Seleccionar **Framework Preset: Other** y **Root Directory: ./**.
+   `vercel.json` define la instalación, el build (`npm run build`), la salida
+   (`dist`) y la región de la función (`gru1`, São Paulo).
+4. En **Environment Variables**, agregar `DATABASE_URL` con la conexión de
+   Neon recibida por un medio privado. Habilitarla en Production y, si las
+   previews deben consultar la misma base compartida, también en Preview.
+   Se puede agregar `HUSKY=0`; el comando de instalación ya lo establece y
+   evita descargar el binario de Cypress durante el despliegue.
+5. Seleccionar **Deploy**. Usar la dirección que Vercel asigne: el nombre
+   `cochapet.vercel.app` puede pertenecer a otro proyecto.
+6. Comprobar `/api/publicaciones`: debe responder HTTP 200 con un arreglo
+   JSON. Abrir el inicio y verificar tarjetas, estilos y fotografías.
+   Ante un error 500, revisar **Logs** y la variable `DATABASE_URL`.
+   Después de cambiar variables de entorno, crear un nuevo despliegue.
+
+No ejecutar `db:seed` durante la instalación o el build: borra los datos de
+la base compartida. Las fotos se cargan desde las URL guardadas en la tabla
+`foto`; el seed del repositorio utiliza placeholders y el despliegue no
+reemplaza esas imágenes automáticamente.
+
+El archivo `.env` se usa solo en desarrollo. `.gitignore` y `.vercelignore`
+evitan subirlo. `.env.example` documenta el formato sin credenciales reales.
 
 ## Base de datos
 
