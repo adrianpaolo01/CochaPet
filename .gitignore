@@ -13,3 +13,5 @@ CLAUDE.md
 
 # Variables de entorno (credenciales de Neon)
 .env
+
+.agents

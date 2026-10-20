@@ -323,18 +323,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "193115b8a564b1e18a0d87b6a7dd20cdd2989b49",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-15T20:43:43.000Z",
       "message": "docs(HU13): actualizar el README con el stack, la puesta en marcha y la forma de trabajo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/193115b8a564b1e18a0d87b6a7dd20cdd2989b49"
     },
     "stats": {
       "total": 114,
       "additions": 100,
       "deletions": 14,
       "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T03:44:25.000Z",
+      "message": "feat: git ignore modificado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2026-10-20"
     },
     "coverage": 100,
     "test_count": 11,
