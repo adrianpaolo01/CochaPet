@@ -513,16 +513,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "55d9674ef70884d4c5c4449e919ed095d527a152",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T04:39:35.000Z",
       "message": "feat(HU10): indicar cuando la busqueda no tiene coincidencias",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/55d9674ef70884d4c5c4449e919ed095d527a152"
     },
     "stats": {
       "total": 11,
       "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-20T04:40:18.000Z",
+      "message": "feat(HU10): mostrar el mensaje de busqueda sin resultados",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
       "deletions": 1,
       "date": "2026-10-20"
     },

@@ -1,5 +1,5 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
-import { buscarPorNombre } from "./busqueda.js";
+import { buscarPorNombre, mensajeBusqueda } from "./busqueda.js";
 
 const lista = document.querySelector("#lista-publicaciones");
 const plantilla = document.querySelector("#plantilla-tarjeta");
@@ -32,6 +32,8 @@ async function mostrarPublicaciones() {
     buscador.addEventListener("input", () => {
       const filtradas = buscarPorNombre(publicaciones, buscador.value);
       lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
+      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(filtradas) ?? "";
+      mensaje.hidden = !mensaje.textContent;
     });
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";

@@ -506,9 +506,23 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "55d9674ef70884d4c5c4449e919ed095d527a152",
     "commitName": "feat(HU10): indicar cuando la busqueda no tiene coincidencias",
     "commitTimestamp": 1792471176087,
     "testId": 26
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792471195493,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU10): mostrar el mensaje de busqueda sin resultados",
+    "commitTimestamp": 1792471219440,
+    "testId": 27
   }
 ]
