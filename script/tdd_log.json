@@ -1452,9 +1452,31 @@
     "testId": 73
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3789a4f16ecd397d75daf5f50aed2f18c8f13be5",
     "commitName": "feat(HU29): volver a la foto anterior ampliada",
     "commitTimestamp": 1792622514020,
     "testId": 73
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1792622520835,
+    "success": false,
+    "testId": 74
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1792622829560,
+    "success": true,
+    "testId": 74
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): ir a la ultima foto antes de la primera",
+    "commitTimestamp": 1792622830872,
+    "testId": 74
   }
 ]

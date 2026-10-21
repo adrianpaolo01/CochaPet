@@ -24,4 +24,8 @@ describe("Galeria", () => {
   it("deberia volver a la foto anterior", () => {
     expect(anteriorIndice(2, 3)).toEqual(1);
   });
+
+  it("deberia ir a la ultima foto antes de la primera", () => {
+    expect(anteriorIndice(0, 3)).toEqual(2);
+  });
 });
