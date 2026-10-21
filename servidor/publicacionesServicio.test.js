@@ -1,4 +1,4 @@
-import { publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
   it("deberia devolver solo las publicaciones activas", async () => {
@@ -13,5 +13,27 @@ describe("Publicaciones servicio", () => {
     const resultado = await publicacionesParaInicio(repositorio);
 
     expect(resultado.map((p) => p.id)).toEqual([1]);
+  });
+
+  it("deberia devolver el detalle de una publicacion activa", async () => {
+    const repositorio = { obtenerPorId: async () => ({ id: 1, estado: "ACTIVA" }) };
+
+    const resultado = await detalleDePublicacion(repositorio, 1);
+
+    expect(resultado).toEqual({ id: 1, estado: "ACTIVA" });
+  });
+
+  it("deberia devolver null si la publicacion no existe", async () => {
+    const repositorio = { obtenerPorId: async () => undefined };
+
+    const resultado = await detalleDePublicacion(repositorio, 99);
+
+    expect(resultado).toBeNull();
+  });
+
+  it.each(["OCULTA", "VOLVIO_A_CASA"])("deberia devolver null si la publicacion esta %s", async (estado) => {
+    const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
+
+    expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
   });
 });

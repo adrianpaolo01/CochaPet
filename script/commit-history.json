@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b3f194e4f9422d7f5831a83fb4288809fd437da7",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T07:27:23.000Z",
       "message": "feat(HU12): cargar los barrios del selector desde la api",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b3f194e4f9422d7f5831a83fb4288809fd437da7"
     },
     "stats": {
       "total": 28,
@@ -927,6 +927,348 @@
     },
     "coverage": 100,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "34c602429b1686ddc35dbe9c4de1feaf451c8ed1",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:36:34.000Z",
+      "message": "feat(HU28): devolver el detalle de una publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/34c602429b1686ddc35dbe9c4de1feaf451c8ed1"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0e04dd03c25fabae0049d12bd74e3eda80feace2",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:42:29.000Z",
+      "message": "feat(HU28): devolver null si la publicacion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0e04dd03c25fabae0049d12bd74e3eda80feace2"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "edfecd38527f266547ec9afc36b4a375f36efbaf",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:48:08.000Z",
+      "message": "feat(HU28): ocultar el detalle si la publicacion no esta activa",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/edfecd38527f266547ec9afc36b4a375f36efbaf"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "61a44329ec892c3a670ab9688f94182960cb5d3f",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:53:52.000Z",
+      "message": "feat(HU28): responder el detalle en GET /api/publicaciones/:id",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/61a44329ec892c3a670ab9688f94182960cb5d3f"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:59:30.000Z",
+      "message": "feat(HU28): responder 404 si el detalle no esta disponible",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "eec83d7805e72082083caa196ea038090a847181",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:04:28.000Z",
+      "message": "feat(HU28): responder 500 si falla la carga del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/eec83d7805e72082083caa196ea038090a847181"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "bf88ca5e9db1edcece27e2079c258a6d04de2c13",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:05:04.000Z",
+      "message": "feat(HU28): sacar el id de la publicacion desde el hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bf88ca5e9db1edcece27e2079c258a6d04de2c13"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "438a2072acb2a4c88ff98ff288a69ecddbd046b2",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:05:38.000Z",
+      "message": "feat(HU28): dar null si el hash no es de una mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/438a2072acb2a4c88ff98ff288a69ecddbd046b2"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f7ea8f3a32146976f190621182856c1433b3b6f8",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:06:11.000Z",
+      "message": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f7ea8f3a32146976f190621182856c1433b3b6f8"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "96f234bed05d2c5a2f6e2bbf0b373d3ce456266a",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:06:42.000Z",
+      "message": "feat(HU28): armar el enlace de llamada de la publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/96f234bed05d2c5a2f6e2bbf0b373d3ce456266a"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c93a1f066ebd52a37cef5d9602796881da8f44e6",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:07:13.000Z",
+      "message": "feat(HU28): consultar el detalle de una publicacion en la base",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c93a1f066ebd52a37cef5d9602796881da8f44e6"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e00f67db1d004f4a005cba58bcd33a9f28675477",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:07:47.000Z",
+      "message": "feat(HU28): exponer el detalle como funcion de Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e00f67db1d004f4a005cba58bcd33a9f28675477"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0dca14f9a36da3bd385d3226b8487c12e8295fa4",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:08:11.000Z",
+      "message": "feat(HU28): enlazar cada tarjeta con su detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0dca14f9a36da3bd385d3226b8487c12e8295fa4"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "578764b4ce885e2552b08beaf13cae57e9546956",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:08:57.000Z",
+      "message": "feat(HU28): mostrar todas las fotos en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/578764b4ce885e2552b08beaf13cae57e9546956"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b66734705b2ec189534b20514e933e2fe5aab816",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:09:21.000Z",
+      "message": "feat(HU28): mostrar titulo, barrio y fecha en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b66734705b2ec189534b20514e933e2fe5aab816"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "580641950ff108b88135dc71f5c5630f917a52f4",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:09:41.000Z",
+      "message": "feat(HU28): mostrar la descripcion completa en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/580641950ff108b88135dc71f5c5630f917a52f4"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ec682ae9cbb19baad4eac6fee484b68942df7592",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:10:04.000Z",
+      "message": "feat(HU28): mostrar los botones de WhatsApp y llamada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ec682ae9cbb19baad4eac6fee484b68942df7592"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:10:27.000Z",
+      "message": "style(HU28): estilos de las fotos y los botones del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

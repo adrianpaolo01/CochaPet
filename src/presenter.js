@@ -20,6 +20,7 @@ function crearTarjeta(publicacion) {
     tarjeta.querySelector(".badge-destacada").hidden = false;
   }
   tarjeta.querySelector(".tarjeta-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
+  tarjeta.querySelector(".tarjeta-enlace").href = `#/mascota/${publicacion.id}`;
   return tarjeta;
 }
 

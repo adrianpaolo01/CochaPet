@@ -952,9 +952,341 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b3f194e4f9422d7f5831a83fb4288809fd437da7",
     "commitName": "feat(HU12): cargar los barrios del selector desde la api",
     "commitTimestamp": 1792567645516,
     "testId": 47
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1792585876137,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1792586188648,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "34c602429b1686ddc35dbe9c4de1feaf451c8ed1",
+    "commitName": "feat(HU28): devolver el detalle de una publicacion",
+    "commitTimestamp": 1792586195203,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1792586232502,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1792586548187,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "0e04dd03c25fabae0049d12bd74e3eda80feace2",
+    "commitName": "feat(HU28): devolver null si la publicacion no existe",
+    "commitTimestamp": 1792586550245,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 2,
+    "numTotalTests": 35,
+    "timestamp": 1792586574722,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1792586886547,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "edfecd38527f266547ec9afc36b4a375f36efbaf",
+    "commitName": "feat(HU28): ocultar el detalle si la publicacion no esta activa",
+    "commitTimestamp": 1792586888592,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1792586918425,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1792587231380,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "61a44329ec892c3a670ab9688f94182960cb5d3f",
+    "commitName": "feat(HU28): responder el detalle en GET /api/publicaciones/:id",
+    "commitTimestamp": 1792587233484,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 2,
+    "numTotalTests": 38,
+    "timestamp": 1792587257123,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1792587568276,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9",
+    "commitName": "feat(HU28): responder 404 si el detalle no esta disponible",
+    "commitTimestamp": 1792587570637,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1792587594576,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792587866852,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "eec83d7805e72082083caa196ea038090a847181",
+    "commitName": "feat(HU28): responder 500 si falla la carga del detalle",
+    "commitTimestamp": 1792587868950,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1792587894442,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1792587903141,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "bf88ca5e9db1edcece27e2079c258a6d04de2c13",
+    "commitName": "feat(HU28): sacar el id de la publicacion desde el hash",
+    "commitTimestamp": 1792587905264,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 5,
+    "numTotalTests": 45,
+    "timestamp": 1792587926484,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1792587936898,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "438a2072acb2a4c88ff98ff288a69ecddbd046b2",
+    "commitName": "feat(HU28): dar null si el hash no es de una mascota",
+    "commitTimestamp": 1792587938887,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1792587961602,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1792587970115,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "f7ea8f3a32146976f190621182856c1433b3b6f8",
+    "commitName": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
+    "commitTimestamp": 1792587971637,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792587988889,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588001543,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "96f234bed05d2c5a2f6e2bbf0b373d3ce456266a",
+    "commitName": "feat(HU28): armar el enlace de llamada de la publicacion",
+    "commitTimestamp": 1792588003101,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588032487,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "c93a1f066ebd52a37cef5d9602796881da8f44e6",
+    "commitName": "feat(HU28): consultar el detalle de una publicacion en la base",
+    "commitTimestamp": 1792588033933,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588060263,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "commitId": "e00f67db1d004f4a005cba58bcd33a9f28675477",
+    "commitName": "feat(HU28): exponer el detalle como funcion de Vercel",
+    "commitTimestamp": 1792588067879,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588090213,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "commitId": "0dca14f9a36da3bd385d3226b8487c12e8295fa4",
+    "commitName": "feat(HU28): enlazar cada tarjeta con su detalle",
+    "commitTimestamp": 1792588091668,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588136678,
+    "success": true,
+    "testId": 61
+  },
+  {
+    "commitId": "578764b4ce885e2552b08beaf13cae57e9546956",
+    "commitName": "feat(HU28): mostrar todas las fotos en el detalle",
+    "commitTimestamp": 1792588138111,
+    "testId": 61
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588160850,
+    "success": true,
+    "testId": 62
+  },
+  {
+    "commitId": "b66734705b2ec189534b20514e933e2fe5aab816",
+    "commitName": "feat(HU28): mostrar titulo, barrio y fecha en el detalle",
+    "commitTimestamp": 1792588162308,
+    "testId": 62
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588180429,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "580641950ff108b88135dc71f5c5630f917a52f4",
+    "commitName": "feat(HU28): mostrar la descripcion completa en el detalle",
+    "commitTimestamp": 1792588181838,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588203743,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "commitId": "ec682ae9cbb19baad4eac6fee484b68942df7592",
+    "commitName": "feat(HU28): mostrar los botones de WhatsApp y llamada",
+    "commitTimestamp": 1792588205143,
+    "testId": 64
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588226476,
+    "success": true,
+    "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU28): estilos de las fotos y los botones del detalle",
+    "commitTimestamp": 1792588227915,
+    "testId": 65
   }
 ]
