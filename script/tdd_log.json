@@ -1488,9 +1488,31 @@
     "testId": 75
   },
   {
-    "commitId": "HEAD",
+    "commitId": "088be91c85cc2d5e716ce0df5d3f530c5f3043a4",
     "commitName": "feat(HU29): boton para volver a la foto anterior en el visor",
     "commitTimestamp": 1792622846470,
     "testId": 75
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 1,
+    "numTotalTests": 55,
+    "timestamp": 1792622855806,
+    "success": false,
+    "testId": 76
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792623166019,
+    "success": true,
+    "testId": 76
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): permitir pasar de foto cuando hay varias",
+    "commitTimestamp": 1792623167418,
+    "testId": 76
   }
 ]

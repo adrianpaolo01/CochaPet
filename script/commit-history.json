@@ -1444,12 +1444,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "088be91c85cc2d5e716ce0df5d3f530c5f3043a4",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:47:25.000Z",
       "message": "feat(HU29): boton para volver a la foto anterior en el visor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/088be91c85cc2d5e716ce0df5d3f530c5f3043a4"
     },
     "stats": {
       "total": 6,
@@ -1459,6 +1459,25 @@
     },
     "coverage": 100,
     "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:52:46.000Z",
+      "message": "feat(HU29): permitir pasar de foto cuando hay varias",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 55,
     "failed_tests": 0,
     "conclusion": "success"
   }

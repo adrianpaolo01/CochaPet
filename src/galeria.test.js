@@ -1,4 +1,4 @@
-import { anteriorIndice, fotoAmpliada, siguienteIndice } from "./galeria.js";
+import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice } from "./galeria.js";
 
 describe("Galeria", () => {
   it("deberia mostrar ampliada la primera foto al abrirla", () => {
@@ -27,5 +27,9 @@ describe("Galeria", () => {
 
   it("deberia ir a la ultima foto antes de la primera", () => {
     expect(anteriorIndice(0, 3)).toEqual(2);
+  });
+
+  it("deberia permitir pasar de foto cuando hay varias", () => {
+    expect(hayVariasFotos(["frente.jpg", "perfil.jpg"])).toBe(true);
   });
 });

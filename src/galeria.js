@@ -9,3 +9,7 @@ export function siguienteIndice(indice, total) {
 export function anteriorIndice(indice, total) {
   return (indice - 1 + total) % total;
 }
+
+export function hayVariasFotos() {
+  return true;
+}
