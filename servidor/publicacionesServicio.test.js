@@ -30,4 +30,10 @@ describe("Publicaciones servicio", () => {
 
     expect(resultado).toBeNull();
   });
+
+  it.each(["OCULTA", "VOLVIO_A_CASA"])("deberia devolver null si la publicacion esta %s", async (estado) => {
+    const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
+
+    expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
+  });
 });

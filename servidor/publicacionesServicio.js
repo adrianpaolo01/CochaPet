@@ -4,5 +4,6 @@ export async function publicacionesParaInicio(repositorio) {
 }
 
 export async function detalleDePublicacion(repositorio, id) {
-  return (await repositorio.obtenerPorId(id)) ?? null;
+  const publicacion = await repositorio.obtenerPorId(id);
+  return publicacion?.estado === "ACTIVA" ? publicacion : null;
 }

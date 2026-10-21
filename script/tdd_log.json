@@ -996,9 +996,31 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0e04dd03c25fabae0049d12bd74e3eda80feace2",
     "commitName": "feat(HU28): devolver null si la publicacion no existe",
     "commitTimestamp": 1792586550245,
     "testId": 49
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 2,
+    "numTotalTests": 35,
+    "timestamp": 1792586574722,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1792586886547,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): ocultar el detalle si la publicacion no esta activa",
+    "commitTimestamp": 1792586888592,
+    "testId": 50
   }
 ]
