@@ -1284,9 +1284,31 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bacf85fb9ece1a15794ae8da4a785311e17cd866",
     "commitName": "style(HU28): estilos de las fotos y los botones del detalle",
     "commitTimestamp": 1792588227915,
     "testId": 65
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1792620555656,
+    "success": false,
+    "testId": 66
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792620868912,
+    "success": true,
+    "testId": 66
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): mostrar ampliada la foto que se abre",
+    "commitTimestamp": 1792620873982,
+    "testId": 66
   }
 ]

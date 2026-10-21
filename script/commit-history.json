@@ -1254,12 +1254,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bacf85fb9ece1a15794ae8da4a785311e17cd866",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:10:27.000Z",
       "message": "style(HU28): estilos de las fotos y los botones del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bacf85fb9ece1a15794ae8da4a785311e17cd866"
     },
     "stats": {
       "total": 4,
@@ -1269,6 +1269,25 @@
     },
     "coverage": 100,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:14:33.000Z",
+      "message": "feat(HU29): mostrar ampliada la foto que se abre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }
