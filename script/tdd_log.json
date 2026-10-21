@@ -1256,9 +1256,23 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "580641950ff108b88135dc71f5c5630f917a52f4",
     "commitName": "feat(HU28): mostrar la descripcion completa en el detalle",
     "commitTimestamp": 1792588181838,
     "testId": 63
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588203743,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): mostrar los botones de WhatsApp y llamada",
+    "commitTimestamp": 1792588205143,
+    "testId": 64
   }
 ]

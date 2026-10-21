@@ -1216,17 +1216,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "580641950ff108b88135dc71f5c5630f917a52f4",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:09:41.000Z",
       "message": "feat(HU28): mostrar la descripcion completa en el detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/580641950ff108b88135dc71f5c5630f917a52f4"
     },
     "stats": {
       "total": 2,
       "additions": 2,
       "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:10:04.000Z",
+      "message": "feat(HU28): mostrar los botones de WhatsApp y llamada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-10-21"
     },
     "coverage": 100,
