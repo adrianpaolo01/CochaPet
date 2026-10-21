@@ -1406,9 +1406,23 @@
     "testId": 72
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8f9f822898f2a75039434de9bf6ae622ba15aa96",
     "commitName": "feat(HU16): mencionar tu perro o tu gato en el WhatsApp si la mascota no tiene nombre",
     "commitTimestamp": 1792625960224,
     "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792625978814,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU16): mostrar aviso de seguridad contra estafas junto al contacto",
+    "commitTimestamp": 1792625985410,
+    "testId": 73
   }
 ]
