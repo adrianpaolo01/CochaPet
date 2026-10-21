@@ -722,17 +722,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d65750ea9c555329a669a0f6c314028e4a2a24f8",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T04:22:10.000Z",
       "message": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d65750ea9c555329a669a0f6c314028e4a2a24f8"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T05:31:08.000Z",
+      "message": "chore(HU12): iniciar rama de busqueda por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,

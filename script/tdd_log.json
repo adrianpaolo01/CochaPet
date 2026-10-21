@@ -732,9 +732,15 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d65750ea9c555329a669a0f6c314028e4a2a24f8",
     "commitName": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
     "commitTimestamp": 1792556531134,
     "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU12): iniciar rama de busqueda por barrio",
+    "commitTimestamp": 1792560669387,
+    "testId": 38
   }
 ]
