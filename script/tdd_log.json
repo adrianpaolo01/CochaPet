@@ -732,9 +732,229 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d65750ea9c555329a669a0f6c314028e4a2a24f8",
     "commitName": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
     "commitTimestamp": 1792556531134,
     "testId": 37
+  },
+  {
+    "commitId": "4e60f5a5273db3f60b50b4a0c360024cfb72feac",
+    "commitName": "chore(HU12): iniciar rama de busqueda por barrio",
+    "commitTimestamp": 1792560669387,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1792563943845,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "cdab61789e0df06513576557a4eeccfa6f908ae6",
+    "commitName": "feat(HU12): filtrar mascotas por barrio",
+    "commitTimestamp": 1792564185236,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1792564539696,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "77ecae702d3099bbc2433fa809781877210d1d72",
+    "commitName": "feat: mostrar todas las mascotas si no se elige barrio",
+    "commitTimestamp": 1792564698657,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1792564821114,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "b82aba186ef12e574e78fe9f74747f4b1b296d96",
+    "commitName": "feat: mostrar: No mostrar publis si ni hay relacionadas con ek barrio",
+    "commitTimestamp": 1792564867439,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1792564929058,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1792564937986,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792564946128,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792565417399,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "5d7ac096c62171b376aa6838c6a911a491b9315d",
+    "commitName": "feat: mostrar: combinar filtros con barrio",
+    "commitTimestamp": 1792565500590,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792565582169,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "30ad5d91472270860cdd6f0f09e0047af960ff90",
+    "commitName": "feat: front para filtrado por barrio",
+    "commitTimestamp": 1792565913427,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792565936185,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792566761553,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792566867189,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "71fa6cad7c26f40b330ced2d411a63482d4aabf2",
+    "commitName": "feat(HU12): listar todos los barrios dede la bd",
+    "commitTimestamp": 1792566903475,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1792566949785,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1792566958776,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1792566971085,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1792567096256,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "a998cd9096852cb54bb06ca3b0beaed16d983415",
+    "commitName": "feat(HU12): lista de barrios en la ruta api barrios",
+    "commitTimestamp": 1792567145195,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1792567184557,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567194380,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567275399,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "7bda40b3edacb53ac0b8b5bd09244ce5bc9669a8",
+    "commitName": "feat(HU12): responder error 500 si falla la carga de barrios",
+    "commitTimestamp": 1792567291703,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567363741,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567483553,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU12): cargar los barrios del selector desde la api",
+    "commitTimestamp": 1792567645516,
+    "testId": 47
   }
 ]

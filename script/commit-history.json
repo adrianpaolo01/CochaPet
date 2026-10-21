@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d65750ea9c555329a669a0f6c314028e4a2a24f8",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T04:22:10.000Z",
       "message": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d65750ea9c555329a669a0f6c314028e4a2a24f8"
     },
     "stats": {
       "total": 6,
@@ -737,6 +737,196 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4e60f5a5273db3f60b50b4a0c360024cfb72feac",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T05:31:08.000Z",
+      "message": "chore(HU12): iniciar rama de busqueda por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4e60f5a5273db3f60b50b4a0c360024cfb72feac"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cdab61789e0df06513576557a4eeccfa6f908ae6",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:29:43.000Z",
+      "message": "feat(HU12): filtrar mascotas por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cdab61789e0df06513576557a4eeccfa6f908ae6"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "77ecae702d3099bbc2433fa809781877210d1d72",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:38:17.000Z",
+      "message": "feat: mostrar todas las mascotas si no se elige barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/77ecae702d3099bbc2433fa809781877210d1d72"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b82aba186ef12e574e78fe9f74747f4b1b296d96",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:41:05.000Z",
+      "message": "feat: mostrar: No mostrar publis si ni hay relacionadas con ek barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b82aba186ef12e574e78fe9f74747f4b1b296d96"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5d7ac096c62171b376aa6838c6a911a491b9315d",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:51:38.000Z",
+      "message": "feat: mostrar: combinar filtros con barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5d7ac096c62171b376aa6838c6a911a491b9315d"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "30ad5d91472270860cdd6f0f09e0047af960ff90",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:58:31.000Z",
+      "message": "feat: front para filtrado por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/30ad5d91472270860cdd6f0f09e0047af960ff90"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "71fa6cad7c26f40b330ced2d411a63482d4aabf2",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:15:01.000Z",
+      "message": "feat(HU12): listar todos los barrios dede la bd",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/71fa6cad7c26f40b330ced2d411a63482d4aabf2"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "a998cd9096852cb54bb06ca3b0beaed16d983415",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:19:03.000Z",
+      "message": "feat(HU12): lista de barrios en la ruta api barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a998cd9096852cb54bb06ca3b0beaed16d983415"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7bda40b3edacb53ac0b8b5bd09244ce5bc9669a8",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:21:29.000Z",
+      "message": "feat(HU12): responder error 500 si falla la carga de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7bda40b3edacb53ac0b8b5bd09244ce5bc9669a8"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:27:23.000Z",
+      "message": "feat(HU12): cargar los barrios del selector desde la api",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 26,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

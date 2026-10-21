@@ -43,4 +43,28 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(404);
     expect(repositorio.listar).not.toHaveBeenCalled();
   });
+
+  it("devuelve la lista de barrios ordenada como JSON", async () => {
+    const barriosRepositorio = { listar: async () => [{ id: 1, nombre: "Sarco" }, { id: 2, nombre: "Aranjuez" }] };
+    const respuesta = crearRespuesta();
+
+    await crearManejador({ listar: jest.fn() }, barriosRepositorio)({ method: "GET", url: "/api/barrios" }, respuesta);
+
+    expect(respuesta.writeHead).toHaveBeenCalledWith(200, { "Content-Type": "application/json; charset=utf-8" });
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual(["Aranjuez", "Sarco"]);
+  });
+
+  it("devuelve un error 500 al cargar los barrios sin revelar detalles de la base de datos", async () => {
+    const barriosRepositorio = { listar: async () => { throw new Error("detalle privado de conexion"); } };
+    const respuesta = crearRespuesta();
+    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
+    try {
+      await crearManejador({ listar: jest.fn() }, barriosRepositorio)({ method: "GET", url: "/api/barrios" }, respuesta);
+
+      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar los barrios" });
+    } finally {
+      registro.mockRestore();
+    }
+  });
 });

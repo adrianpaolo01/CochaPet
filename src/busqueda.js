@@ -21,11 +21,15 @@ export function filtrarPorColor(publicaciones, color) {
   return filtrarPorCampo(publicaciones, "color", color);
 }
 
+export function filtrarPorBarrio(publicaciones, barrio) {
+  return filtrarPorCampo(publicaciones, "barrio", barrio);
+}
+
 export function opcionesDe(publicaciones, campo) {
   const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color }) {
-  return filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color);
+export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "" }) {
+  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color), barrio);
 }

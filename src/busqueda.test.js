@@ -1,4 +1,4 @@
-import { buscarPorNombre, filtrarMascotas, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -36,6 +36,22 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorColor(publicaciones, "")).toEqual(publicaciones);
   });
 
+  it("deberia filtrar por barrio sin distinguir mayusculas", () => {
+    const publicaciones = [{ barrio: "Cala Cala" }, { barrio: "Sarco" }, { barrio: null }];
+    expect(filtrarPorBarrio(publicaciones, "cala cala")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia mostrar todas las mascotas si no se elige barrio", () => {
+    const publicaciones = [{ barrio: "Cala Cala" }, { barrio: null }];
+    expect(filtrarPorBarrio(publicaciones, "")).toEqual(publicaciones);
+  });
+
+  it("deberia devolver una lista vacia si ninguna mascota es del barrio elegido", () => {
+  const publicaciones = [{ barrio: "Cala Cala" }, { barrio: "Sarco" }];
+  expect(filtrarPorBarrio(publicaciones, "Pacata")).toEqual([]);
+});
+
+
   it("deberia listar las razas sin repetir, sin vacios y en orden", () => {
     const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }, { raza: "Mestizo" }];
     expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
@@ -48,5 +64,14 @@ describe("Busqueda de mascotas", () => {
       { nombre: "Lucas", raza: "Mestizo", color: "gris" },
     ];
     expect(filtrarMascotas(publicaciones, { texto: "lu", raza: "Husky", color: "gris" })).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia filtrar por barrio al combinar los filtros", () => {
+    const publicaciones = [
+      { barrio: "Cala Cala" },
+      { barrio: "Sarco" },
+      { barrio: "Sarco" },
+    ];
+    expect(filtrarMascotas(publicaciones, { texto: "", raza: "", color: "", barrio: "Sarco" })).toEqual([publicaciones[1], publicaciones[2]]);
   });
 });
