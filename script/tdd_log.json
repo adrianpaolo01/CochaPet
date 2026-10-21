@@ -1320,9 +1320,23 @@
     "testId": 67
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a38b278da2b385759416420947c71a14c206239f",
     "commitName": "style(HU28): mostrar el detalle en una tarjeta con foto principal",
     "commitTimestamp": 1792621893582,
     "testId": 67
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621903865,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU28): colores y estados de los botones de WhatsApp y llamada",
+    "commitTimestamp": 1792621904257,
+    "testId": 68
   }
 ]

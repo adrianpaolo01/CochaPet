@@ -1292,17 +1292,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a38b278da2b385759416420947c71a14c206239f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:31:33.000Z",
       "message": "style(HU28): mostrar el detalle en una tarjeta con foto principal",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a38b278da2b385759416420947c71a14c206239f"
     },
     "stats": {
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-10-21T22:31:44.000Z",
+      "message": "style(HU28): colores y estados de los botones de WhatsApp y llamada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
       "date": "2026-10-21"
     },
     "coverage": 100,
