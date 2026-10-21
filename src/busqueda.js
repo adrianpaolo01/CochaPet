@@ -30,6 +30,6 @@ export function opcionesDe(publicaciones, campo) {
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color }) {
-  return filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color);
+export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "" }) {
+  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color), barrio);
 }

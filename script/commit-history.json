@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b82aba186ef12e574e78fe9f74747f4b1b296d96",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T06:41:05.000Z",
       "message": "feat: mostrar: No mostrar publis si ni hay relacionadas con ek barrio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b82aba186ef12e574e78fe9f74747f4b1b296d96"
     },
     "stats": {
       "total": 6,
@@ -813,6 +813,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:51:38.000Z",
+      "message": "feat: mostrar: combinar filtros con barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

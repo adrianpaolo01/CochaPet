@@ -780,9 +780,47 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b82aba186ef12e574e78fe9f74747f4b1b296d96",
     "commitName": "feat: mostrar: No mostrar publis si ni hay relacionadas con ek barrio",
     "commitTimestamp": 1792564867439,
     "testId": 41
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1792564929058,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1792564937986,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792564946128,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792565417399,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar: combinar filtros con barrio",
+    "commitTimestamp": 1792565500590,
+    "testId": 42
   }
 ]
