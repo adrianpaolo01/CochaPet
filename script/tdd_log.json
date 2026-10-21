@@ -900,9 +900,39 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a998cd9096852cb54bb06ca3b0beaed16d983415",
     "commitName": "feat(HU12): lista de barrios en la ruta api barrios",
     "commitTimestamp": 1792567145195,
     "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1792567184557,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567194380,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567275399,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU12): responder error 500 si falla la carga de barrios",
+    "commitTimestamp": 1792567291703,
+    "testId": 46
   }
 ]

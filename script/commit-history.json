@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a998cd9096852cb54bb06ca3b0beaed16d983415",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T07:19:03.000Z",
       "message": "feat(HU12): lista de barrios en la ruta api barrios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a998cd9096852cb54bb06ca3b0beaed16d983415"
     },
     "stats": {
       "total": 17,
@@ -889,6 +889,25 @@
     },
     "coverage": 100,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:21:29.000Z",
+      "message": "feat(HU12): responder error 500 si falla la carga de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

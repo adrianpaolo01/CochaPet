@@ -19,7 +19,12 @@ export function crearManejador(repositorio, barriosRepositorio) {
       return;
     }
     if (req.method === "GET" && ruta === "/api/barrios") {
-      responderJson(res, 200, await barriosParaLista(barriosRepositorio));
+      try {
+        responderJson(res, 200, await barriosParaLista(barriosRepositorio));
+      } catch (error) {
+        console.error(error);
+        responderJson(res, 500, { error: "No se pudieron cargar los barrios" });
+      }
       return;
     }
     responderJson(res, 404, { error: "No encontrado" });
