@@ -1284,9 +1284,87 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bacf85fb9ece1a15794ae8da4a785311e17cd866",
     "commitName": "style(HU28): estilos de las fotos y los botones del detalle",
     "commitTimestamp": 1792588227915,
     "testId": 65
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621877694,
+    "success": true,
+    "testId": 66
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621884535,
+    "success": true,
+    "testId": 66
+  },
+  {
+    "commitId": "06f59fd8b9d777c7e6172866be34dd60eb3e36a8",
+    "commitName": "style(HU28): estilo de boton para el enlace volver",
+    "commitTimestamp": 1792621884968,
+    "testId": 66
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621893165,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "a38b278da2b385759416420947c71a14c206239f",
+    "commitName": "style(HU28): mostrar el detalle en una tarjeta con foto principal",
+    "commitTimestamp": 1792621893582,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621903865,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "84853bd6e9b0944bf80c1862fc4bc36133449ff8",
+    "commitName": "style(HU28): colores y estados de los botones de WhatsApp y llamada",
+    "commitTimestamp": 1792621904257,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621913456,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "commitId": "41664d3784adcae64d7a545c9a70087c52fe1cd3",
+    "commitName": "style(HU28): iconos en los botones de contacto",
+    "commitTimestamp": 1792621913835,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621922088,
+    "success": true,
+    "testId": 70
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU28): boton ver detalle y ajuste del detalle en celular",
+    "commitTimestamp": 1792621922493,
+    "testId": 70
   }
 ]
