@@ -1228,9 +1228,23 @@
     "testId": 61
   },
   {
-    "commitId": "HEAD",
+    "commitId": "578764b4ce885e2552b08beaf13cae57e9546956",
     "commitName": "feat(HU28): mostrar todas las fotos en el detalle",
     "commitTimestamp": 1792588138111,
     "testId": 61
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588160850,
+    "success": true,
+    "testId": 62
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): mostrar titulo, barrio y fecha en el detalle",
+    "commitTimestamp": 1792588162308,
+    "testId": 62
   }
 ]

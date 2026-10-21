@@ -1,4 +1,4 @@
-import { idDesdeHash } from "./publicaciones.js";
+import { formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
@@ -11,6 +11,8 @@ async function mostrarVista() {
   if (id === null) return;
   const respuesta = await fetch(`/api/publicaciones/${id}`);
   const publicacion = await respuesta.json();
+  document.querySelector("#detalle-titulo").textContent = tituloPublicacion(publicacion);
+  document.querySelector("#detalle-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
   fotos.replaceChildren(...publicacion.fotos.map((url) => Object.assign(new Image(), { src: url, alt: "" })));
 }
 
