@@ -1040,9 +1040,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "61a44329ec892c3a670ab9688f94182960cb5d3f",
     "commitName": "feat(HU28): responder el detalle en GET /api/publicaciones/:id",
     "commitTimestamp": 1792587233484,
     "testId": 51
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 2,
+    "numTotalTests": 38,
+    "timestamp": 1792587257123,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1792587568276,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): responder 404 si el detalle no esta disponible",
+    "commitTimestamp": 1792587570637,
+    "testId": 52
   }
 ]

@@ -56,6 +56,16 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual(detalle);
   });
 
+  it.each([undefined, { id: 4, estado: "OCULTA" }])("devuelve 404 si el detalle no esta disponible (%p)", async (publicacion) => {
+    const repositorio = { obtenerPorId: async () => publicacion };
+    const respuesta = crearRespuesta();
+
+    await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones/4" }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(404);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No encontrado" });
+  });
+
   it("devuelve la lista de barrios ordenada como JSON", async () => {
     const barriosRepositorio = { listar: async () => [{ id: 1, nombre: "Sarco" }, { id: 2, nombre: "Aranjuez" }] };
     const respuesta = crearRespuesta();

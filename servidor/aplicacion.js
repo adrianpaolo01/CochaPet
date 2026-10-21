@@ -20,7 +20,9 @@ export function crearManejador(repositorio, barriosRepositorio) {
     }
     const detalle = ruta.match(/^\/api\/publicaciones\/(\d+)$/);
     if (req.method === "GET" && detalle) {
-      responderJson(res, 200, await detalleDePublicacion(repositorio, Number(detalle[1])));
+      const publicacion = await detalleDePublicacion(repositorio, Number(detalle[1]));
+      if (publicacion) responderJson(res, 200, publicacion);
+      else responderJson(res, 404, { error: "No encontrado" });
       return;
     }
     if (req.method === "GET" && ruta === "/api/barrios") {
