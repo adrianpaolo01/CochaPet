@@ -1,5 +1,5 @@
 import { barriosParaLista } from "./barriosServicio.js";
-import { publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
 
 function responderJson(res, estado, datos) {
   res.writeHead(estado, { "Content-Type": "application/json; charset=utf-8" });
@@ -16,6 +16,11 @@ export function crearManejador(repositorio, barriosRepositorio) {
         console.error(error);
         responderJson(res, 500, { error: "No se pudieron cargar las publicaciones" });
       }
+      return;
+    }
+    const detalle = ruta.match(/^\/api\/publicaciones\/(\d+)$/);
+    if (req.method === "GET" && detalle) {
+      responderJson(res, 200, await detalleDePublicacion(repositorio, Number(detalle[1])));
       return;
     }
     if (req.method === "GET" && ruta === "/api/barrios") {

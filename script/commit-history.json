@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "edfecd38527f266547ec9afc36b4a375f36efbaf",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T12:48:08.000Z",
       "message": "feat(HU28): ocultar el detalle si la publicacion no esta activa",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/edfecd38527f266547ec9afc36b4a375f36efbaf"
     },
     "stats": {
       "total": 9,
@@ -984,6 +984,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T12:53:52.000Z",
+      "message": "feat(HU28): responder el detalle en GET /api/publicaciones/:id",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }

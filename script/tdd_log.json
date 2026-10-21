@@ -1018,9 +1018,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "edfecd38527f266547ec9afc36b4a375f36efbaf",
     "commitName": "feat(HU28): ocultar el detalle si la publicacion no esta activa",
     "commitTimestamp": 1792586888592,
     "testId": 50
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1792586918425,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1792587231380,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): responder el detalle en GET /api/publicaciones/:id",
+    "commitTimestamp": 1792587233484,
+    "testId": 51
   }
 ]
