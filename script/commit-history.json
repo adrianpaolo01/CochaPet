@@ -1349,12 +1349,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "12cf8733bba87fa6c0646144e9265405633dd21d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:32:02.000Z",
       "message": "style(HU28): boton ver detalle y ajuste del detalle en celular",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/12cf8733bba87fa6c0646144e9265405633dd21d"
     },
     "stats": {
       "total": 3,
@@ -1364,6 +1364,82 @@
     },
     "coverage": 100,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "367c65597039cd530c050ed743ac0cec4e05a448",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:33:27.000Z",
+      "message": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/367c65597039cd530c050ed743ac0cec4e05a448"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8f9f822898f2a75039434de9bf6ae622ba15aa96",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:39:17.000Z",
+      "message": "feat(HU16): mencionar tu perro o tu gato en el WhatsApp si la mascota no tiene nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8f9f822898f2a75039434de9bf6ae622ba15aa96"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "635369aa649e611e6b4ed7363b1ec180faa86c27",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:39:44.000Z",
+      "message": "feat(HU16): mostrar aviso de seguridad contra estafas junto al contacto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/635369aa649e611e6b4ed7363b1ec180faa86c27"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:40:03.000Z",
+      "message": "style(HU16): estilos del aviso de seguridad contra estafas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }

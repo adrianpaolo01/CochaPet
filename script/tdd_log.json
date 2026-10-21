@@ -1362,9 +1362,81 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "12cf8733bba87fa6c0646144e9265405633dd21d",
     "commitName": "style(HU28): boton ver detalle y ajuste del detalle en celular",
     "commitTimestamp": 1792621922493,
     "testId": 70
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792625264551,
+    "success": false,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792625599295,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "367c65597039cd530c050ed743ac0cec4e05a448",
+    "commitName": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
+    "commitTimestamp": 1792625610213,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1792625634697,
+    "success": false,
+    "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792625949548,
+    "success": true,
+    "testId": 72
+  },
+  {
+    "commitId": "8f9f822898f2a75039434de9bf6ae622ba15aa96",
+    "commitName": "feat(HU16): mencionar tu perro o tu gato en el WhatsApp si la mascota no tiene nombre",
+    "commitTimestamp": 1792625960224,
+    "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792625978814,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "635369aa649e611e6b4ed7363b1ec180faa86c27",
+    "commitName": "feat(HU16): mostrar aviso de seguridad contra estafas junto al contacto",
+    "commitTimestamp": 1792625985410,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792626001532,
+    "success": true,
+    "testId": 74
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU16): estilos del aviso de seguridad contra estafas",
+    "commitTimestamp": 1792626005200,
+    "testId": 74
   }
 ]
