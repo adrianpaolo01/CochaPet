@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "77ecae702d3099bbc2433fa809781877210d1d72",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T06:38:17.000Z",
       "message": "feat: mostrar todas las mascotas si no se elige barrio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/77ecae702d3099bbc2433fa809781877210d1d72"
     },
     "stats": {
       "total": 5,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:41:05.000Z",
+      "message": "feat: mostrar: No mostrar publis si ni hay relacionadas con ek barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }
