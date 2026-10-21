@@ -31,3 +31,7 @@ export function ordenarParaInicio(publicaciones) {
 export function mensajeInicio(publicaciones) {
   return publicaciones.length === 0 ? "Todavía no hay mascotas publicadas." : null;
 }
+
+export function idDesdeHash(hash) {
+  return Number(hash.split("/")[2]);
+}

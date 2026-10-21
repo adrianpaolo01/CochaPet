@@ -1,4 +1,4 @@
-import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
+import { etiquetaEstado, formatearFecha, fotoPrincipal, idDesdeHash, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 describe("Publicaciones", () => {
   it("deberia usar el nombre de la mascota como titulo", () => {
@@ -41,5 +41,9 @@ describe("Publicaciones", () => {
   it("deberia dar un mensaje solo cuando no hay publicaciones activas", () => {
     expect(mensajeInicio([])).toEqual("Todavía no hay mascotas publicadas.");
     expect(mensajeInicio([{ id: 1 }])).toBeNull();
+  });
+
+  it("deberia sacar el id de la publicacion desde el hash", () => {
+    expect(idDesdeHash("#/mascota/3")).toEqual(3);
   });
 });

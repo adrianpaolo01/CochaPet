@@ -1084,9 +1084,31 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eec83d7805e72082083caa196ea038090a847181",
     "commitName": "feat(HU28): responder 500 si falla la carga del detalle",
     "commitTimestamp": 1792587868950,
     "testId": 53
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1792587894442,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1792587903141,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): sacar el id de la publicacion desde el hash",
+    "commitTimestamp": 1792587905264,
+    "testId": 54
   }
 ]
