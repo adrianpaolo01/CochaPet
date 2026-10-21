@@ -1172,9 +1172,23 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "96f234bed05d2c5a2f6e2bbf0b373d3ce456266a",
     "commitName": "feat(HU28): armar el enlace de llamada de la publicacion",
     "commitTimestamp": 1792588003101,
     "testId": 57
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588032487,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): consultar el detalle de una publicacion en la base",
+    "commitTimestamp": 1792588033933,
+    "testId": 58
   }
 ]

@@ -1102,17 +1102,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "96f234bed05d2c5a2f6e2bbf0b373d3ce456266a",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:06:42.000Z",
       "message": "feat(HU28): armar el enlace de llamada de la publicacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/96f234bed05d2c5a2f6e2bbf0b373d3ce456266a"
     },
     "stats": {
       "total": 14,
       "additions": 12,
       "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:07:13.000Z",
+      "message": "feat(HU28): consultar el detalle de una publicacion en la base",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,
