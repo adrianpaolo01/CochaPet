@@ -1273,12 +1273,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "95e96994913d69bfbafcaecd09893c82a86cbe96",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:14:33.000Z",
       "message": "feat(HU29): mostrar ampliada la foto que se abre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/95e96994913d69bfbafcaecd09893c82a86cbe96"
     },
     "stats": {
       "total": 10,
@@ -1288,6 +1288,25 @@
     },
     "coverage": 100,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:19:53.000Z",
+      "message": "feat(HU29): ampliar la foto elegida segun su posicion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

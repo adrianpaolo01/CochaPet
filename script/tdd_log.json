@@ -1306,9 +1306,31 @@
     "testId": 66
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95e96994913d69bfbafcaecd09893c82a86cbe96",
     "commitName": "feat(HU29): mostrar ampliada la foto que se abre",
     "commitTimestamp": 1792620873982,
     "testId": 66
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1792620883933,
+    "success": false,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1792621192827,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): ampliar la foto elegida segun su posicion",
+    "commitTimestamp": 1792621194074,
+    "testId": 67
   }
 ]
