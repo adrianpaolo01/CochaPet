@@ -1568,9 +1568,23 @@
     "testId": 79
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c7d820c5a598987c90eaf9915dfdd087c60fbdb9",
     "commitName": "feat(HU29): indicar que foto ampliada se esta viendo",
     "commitTimestamp": 1792623819824,
     "testId": 79
+  },
+  {
+    "numPassedTests": 57,
+    "failedTests": 0,
+    "numTotalTests": 57,
+    "timestamp": 1792623834184,
+    "success": true,
+    "testId": 80
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): mostrar contador y boton para cerrar el visor",
+    "commitTimestamp": 1792623835419,
+    "testId": 80
   }
 ]

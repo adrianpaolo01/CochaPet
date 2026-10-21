@@ -1,5 +1,5 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
-import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice } from "./galeria.js";
+import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
@@ -13,6 +13,7 @@ function mostrarEnVisor(indice) {
   if (!foto) return;
   indiceVisor = indice;
   document.querySelector("#visor-foto").src = foto;
+  document.querySelector("#visor-contador").textContent = textoContador(indice, urls.length);
   for (const boton of visor.querySelectorAll("#visor-anterior, #visor-siguiente")) boton.hidden = !hayVariasFotos(urls);
   if (!visor.open) visor.showModal();
 }
