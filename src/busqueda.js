@@ -25,3 +25,7 @@ export function opcionesDe(publicaciones, campo) {
   const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
+
+export function filtrarMascotas(publicaciones, { texto, raza, color }) {
+  return filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color);
+}

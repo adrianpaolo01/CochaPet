@@ -660,9 +660,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b530312242678889b9d4f7fd6e4ac2f3ab4e23da",
     "commitName": "feat(HU27): listar las razas y colores disponibles para elegir",
     "commitTimestamp": 1792556109092,
     "testId": 33
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1792556120522,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556427537,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): combinar los filtros de nombre, raza y color",
+    "commitTimestamp": 1792556433145,
+    "testId": 34
   }
 ]

@@ -1,4 +1,4 @@
-import { buscarPorNombre, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { buscarPorNombre, filtrarMascotas, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -39,5 +39,14 @@ describe("Busqueda de mascotas", () => {
   it("deberia listar las razas sin repetir, sin vacios y en orden", () => {
     const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }, { raza: "Mestizo" }];
     expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
+  });
+
+  it("deberia combinar los filtros de nombre, raza y color", () => {
+    const publicaciones = [
+      { nombre: "Luna", raza: "Husky", color: "gris" },
+      { nombre: "Lulu", raza: "Husky", color: "negro" },
+      { nombre: "Lucas", raza: "Mestizo", color: "gris" },
+    ];
+    expect(filtrarMascotas(publicaciones, { texto: "lu", raza: "Husky", color: "gris" })).toEqual([publicaciones[0]]);
   });
 });
