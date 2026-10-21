@@ -1582,9 +1582,23 @@
     "testId": 80
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8216f547bedde2b060a168dd386375b282ef6b4f",
     "commitName": "feat(HU29): mostrar contador y boton para cerrar el visor",
     "commitTimestamp": 1792623835419,
     "testId": 80
+  },
+  {
+    "numPassedTests": 57,
+    "failedTests": 0,
+    "numTotalTests": 57,
+    "timestamp": 1792623845342,
+    "success": true,
+    "testId": 81
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU29): estilos del visor de fotos ampliadas",
+    "commitTimestamp": 1792623846689,
+    "testId": 81
   }
 ]

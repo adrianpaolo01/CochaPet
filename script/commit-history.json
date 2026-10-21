@@ -1539,17 +1539,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8216f547bedde2b060a168dd386375b282ef6b4f",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T23:03:54.000Z",
       "message": "feat(HU29): mostrar contador y boton para cerrar el visor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8216f547bedde2b060a168dd386375b282ef6b4f"
     },
     "stats": {
       "total": 5,
       "additions": 4,
       "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 57,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T23:04:06.000Z",
+      "message": "style(HU29): estilos del visor de fotos ampliadas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,

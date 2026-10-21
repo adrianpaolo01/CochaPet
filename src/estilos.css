@@ -42,3 +42,12 @@ label[for="buscar-mascotas"], label[for="filtro-raza"], label[for="filtro-color"
 #detalle-fotos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin: 16px 0; }
 #detalle-fotos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; }
 .boton { display: inline-block; margin: 8px 8px 0 0; padding: 10px 18px; border-radius: 999px; background: var(--primario); color: #fff; font-weight: 700; text-decoration: none; }
+
+#detalle-fotos img { cursor: zoom-in; }
+#visor { max-width: min(960px, 92vw); padding: 16px; border: none; border-radius: 16px; text-align: center; }
+#visor::backdrop { background: rgba(17, 28, 45, 0.85); }
+#visor-foto { display: block; max-width: 100%; max-height: 75vh; margin: 0 auto; object-fit: contain; border-radius: 12px; }
+#visor-contador { margin: 12px 0 0; color: var(--tinta-suave); }
+#visor button[hidden] { display: none; }
+#visor .boton { border: none; font: inherit; cursor: pointer; }
+.visor-cerrar { float: right; border: none; background: none; font-size: 28px; line-height: 1; cursor: pointer; color: var(--tinta); }
