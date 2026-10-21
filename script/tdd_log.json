@@ -1150,9 +1150,31 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f7ea8f3a32146976f190621182856c1433b3b6f8",
     "commitName": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
     "commitTimestamp": 1792587971637,
     "testId": 56
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792587988889,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588001543,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): armar el enlace de llamada de la publicacion",
+    "commitTimestamp": 1792588003101,
+    "testId": 57
   }
 ]

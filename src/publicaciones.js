@@ -1,3 +1,5 @@
+const PREFIJO_BOLIVIA = "591";
+
 function capitalizar(texto) {
   return texto.charAt(0) + texto.slice(1).toLowerCase();
 }
@@ -39,5 +41,9 @@ export function idDesdeHash(hash) {
 
 export function enlaceWhatsApp(publicacion) {
   const mensaje = `Hola, vi la publicación de ${tituloPublicacion(publicacion)} en CochaPet.`;
-  return `https://wa.me/591${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
+  return `https://wa.me/${PREFIJO_BOLIVIA}${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
+}
+
+export function enlaceLlamada(publicacion) {
+  return `tel:+${PREFIJO_BOLIVIA}${publicacion.telefono}`;
 }

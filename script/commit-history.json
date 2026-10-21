@@ -1083,12 +1083,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f7ea8f3a32146976f190621182856c1433b3b6f8",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:06:11.000Z",
       "message": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f7ea8f3a32146976f190621182856c1433b3b6f8"
     },
     "stats": {
       "total": 12,
@@ -1098,6 +1098,25 @@
     },
     "coverage": 100,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:06:42.000Z",
+      "message": "feat(HU28): armar el enlace de llamada de la publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

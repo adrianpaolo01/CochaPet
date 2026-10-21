@@ -1,4 +1,4 @@
-import { enlaceWhatsApp, etiquetaEstado, formatearFecha, fotoPrincipal, idDesdeHash, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
+import { enlaceLlamada, enlaceWhatsApp, etiquetaEstado, formatearFecha, fotoPrincipal, idDesdeHash, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 describe("Publicaciones", () => {
   it("deberia usar el nombre de la mascota como titulo", () => {
@@ -50,6 +50,10 @@ describe("Publicaciones", () => {
   it("deberia armar el enlace de WhatsApp con un mensaje que menciona a la mascota", () => {
     const mensaje = encodeURIComponent("Hola, vi la publicación de Firulais en CochaPet.");
     expect(enlaceWhatsApp({ telefono: "70000001", nombre: "Firulais", especie: "PERRO" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
+  });
+
+  it("deberia armar el enlace de llamada con el telefono de la publicacion", () => {
+    expect(enlaceLlamada({ telefono: "70000001" })).toEqual("tel:+59170000001");
   });
 
   it.each(["", "#/", "#/mascota/", "#/mascota/abc", "#/otra/3"])("deberia dar null si el hash %p no es de una mascota", (hash) => {
