@@ -1,4 +1,4 @@
-import { fotoAmpliada, siguienteIndice } from "./galeria.js";
+import { anteriorIndice, fotoAmpliada, siguienteIndice } from "./galeria.js";
 
 describe("Galeria", () => {
   it("deberia mostrar ampliada la primera foto al abrirla", () => {
@@ -19,5 +19,9 @@ describe("Galeria", () => {
 
   it("deberia volver a la primera foto despues de la ultima", () => {
     expect(siguienteIndice(2, 3)).toEqual(0);
+  });
+
+  it("deberia volver a la foto anterior", () => {
+    expect(anteriorIndice(2, 3)).toEqual(1);
   });
 });

@@ -1430,9 +1430,31 @@
     "testId": 72
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fbfcfcbfa981d5b265456a8e6401fbbaf1a06e2",
     "commitName": "feat(HU29): boton para pasar a la siguiente foto en el visor",
     "commitTimestamp": 1792622196834,
     "testId": 72
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1792622204299,
+    "success": false,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1792622512741,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): volver a la foto anterior ampliada",
+    "commitTimestamp": 1792622514020,
+    "testId": 73
   }
 ]
