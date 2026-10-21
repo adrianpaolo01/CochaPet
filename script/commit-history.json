@@ -1197,17 +1197,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b66734705b2ec189534b20514e933e2fe5aab816",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:09:21.000Z",
       "message": "feat(HU28): mostrar titulo, barrio y fecha en el detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b66734705b2ec189534b20514e933e2fe5aab816"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:09:41.000Z",
+      "message": "feat(HU28): mostrar la descripcion completa en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,

@@ -1242,9 +1242,23 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b66734705b2ec189534b20514e933e2fe5aab816",
     "commitName": "feat(HU28): mostrar titulo, barrio y fecha en el detalle",
     "commitTimestamp": 1792588162308,
     "testId": 62
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588180429,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): mostrar la descripcion completa en el detalle",
+    "commitTimestamp": 1792588181838,
+    "testId": 63
   }
 ]
