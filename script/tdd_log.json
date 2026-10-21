@@ -1350,9 +1350,31 @@
     "testId": 68
   },
   {
-    "commitId": "HEAD",
+    "commitId": "acdd2416d7a3b8c132860a351b5442acf7311a06",
     "commitName": "feat(HU29): no ampliar foto si la posicion no existe",
     "commitTimestamp": 1792621513100,
     "testId": 68
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1792621530763,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1792621539539,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): abrir la foto ampliada al hacer clic en el detalle",
+    "commitTimestamp": 1792621540711,
+    "testId": 69
   }
 ]

@@ -1,8 +1,19 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
+import { fotoAmpliada } from "./galeria.js";
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
 const fotos = document.querySelector("#detalle-fotos");
+const visor = document.querySelector("#visor");
+
+fotos.addEventListener("click", (evento) => {
+  const indice = [...fotos.children].indexOf(evento.target);
+  const urls = [...fotos.children].map((img) => img.src);
+  const foto = fotoAmpliada(urls, indice);
+  if (!foto) return;
+  document.querySelector("#visor-foto").src = foto;
+  visor.showModal();
+});
 
 async function mostrarVista() {
   const id = idDesdeHash(location.hash);
