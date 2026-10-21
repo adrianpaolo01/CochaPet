@@ -1362,10 +1362,82 @@
     "testId": 70
   },
   {
-    "commitId": "4b84d00c6bfc74ad173613f473f17da074bed789",
+    "commitId": "12cf8733bba87fa6c0646144e9265405633dd21d",
     "commitName": "style(HU28): boton ver detalle y ajuste del detalle en celular",
     "commitTimestamp": 1792621922493,
     "testId": 70
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792625264551,
+    "success": false,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792625599295,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "367c65597039cd530c050ed743ac0cec4e05a448",
+    "commitName": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
+    "commitTimestamp": 1792625610213,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1792625634697,
+    "success": false,
+    "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792625949548,
+    "success": true,
+    "testId": 72
+  },
+  {
+    "commitId": "8f9f822898f2a75039434de9bf6ae622ba15aa96",
+    "commitName": "feat(HU16): mencionar tu perro o tu gato en el WhatsApp si la mascota no tiene nombre",
+    "commitTimestamp": 1792625960224,
+    "testId": 72
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792625978814,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "635369aa649e611e6b4ed7363b1ec180faa86c27",
+    "commitName": "feat(HU16): mostrar aviso de seguridad contra estafas junto al contacto",
+    "commitTimestamp": 1792625985410,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792626001532,
+    "success": true,
+    "testId": 74
+  },
+  {
+    "commitId": "70877e0eddbcc2e10188bb5c5d9b1b9b5907d271",
+    "commitName": "style(HU16): estilos del aviso de seguridad contra estafas",
+    "commitTimestamp": 1792626005200,
+    "testId": 74
   },
   {
     "numPassedTests": 47,
@@ -1373,7 +1445,7 @@
     "numTotalTests": 48,
     "timestamp": 1792620555656,
     "success": false,
-    "testId": 71
+    "testId": 75
   },
   {
     "numPassedTests": 48,
@@ -1381,13 +1453,13 @@
     "numTotalTests": 48,
     "timestamp": 1792620868912,
     "success": true,
-    "testId": 71
+    "testId": 75
   },
   {
     "commitId": "95e96994913d69bfbafcaecd09893c82a86cbe96",
     "commitName": "feat(HU29): mostrar ampliada la foto que se abre",
     "commitTimestamp": 1792620873982,
-    "testId": 71
+    "testId": 75
   },
   {
     "numPassedTests": 48,
@@ -1395,7 +1467,7 @@
     "numTotalTests": 49,
     "timestamp": 1792620883933,
     "success": false,
-    "testId": 72
+    "testId": 76
   },
   {
     "numPassedTests": 49,
@@ -1403,13 +1475,13 @@
     "numTotalTests": 49,
     "timestamp": 1792621192827,
     "success": true,
-    "testId": 72
+    "testId": 76
   },
   {
     "commitId": "14029a0bc66e87ce6975b3ac9e6ac10e4267ee32",
     "commitName": "feat(HU29): ampliar la foto elegida segun su posicion",
     "commitTimestamp": 1792621194074,
-    "testId": 72
+    "testId": 76
   },
   {
     "numPassedTests": 49,
@@ -1417,7 +1489,7 @@
     "numTotalTests": 50,
     "timestamp": 1792621202870,
     "success": false,
-    "testId": 73
+    "testId": 77
   },
   {
     "numPassedTests": 50,
@@ -1425,13 +1497,13 @@
     "numTotalTests": 50,
     "timestamp": 1792621511866,
     "success": true,
-    "testId": 73
+    "testId": 77
   },
   {
     "commitId": "acdd2416d7a3b8c132860a351b5442acf7311a06",
     "commitName": "feat(HU29): no ampliar foto si la posicion no existe",
     "commitTimestamp": 1792621513100,
-    "testId": 73
+    "testId": 77
   },
   {
     "numPassedTests": 50,
@@ -1439,7 +1511,7 @@
     "numTotalTests": 50,
     "timestamp": 1792621530763,
     "success": true,
-    "testId": 74
+    "testId": 78
   },
   {
     "numPassedTests": 50,
@@ -1447,13 +1519,13 @@
     "numTotalTests": 50,
     "timestamp": 1792621539539,
     "success": true,
-    "testId": 74
+    "testId": 78
   },
   {
     "commitId": "9000d96af64540cc9da8b8dfc82bfa510b42cd14",
     "commitName": "feat(HU29): abrir la foto ampliada al hacer clic en el detalle",
     "commitTimestamp": 1792621540711,
-    "testId": 74
+    "testId": 78
   },
   {
     "numPassedTests": 50,
@@ -1461,7 +1533,7 @@
     "numTotalTests": 51,
     "timestamp": 1792621548662,
     "success": false,
-    "testId": 75
+    "testId": 79
   },
   {
     "numPassedTests": 51,
@@ -1469,13 +1541,13 @@
     "numTotalTests": 51,
     "timestamp": 1792621857461,
     "success": true,
-    "testId": 75
+    "testId": 79
   },
   {
     "commitId": "b554acd7fef4caf7f60fdf6cdb2293084179fefe",
     "commitName": "feat(HU29): pasar a la siguiente foto ampliada",
     "commitTimestamp": 1792621858731,
-    "testId": 75
+    "testId": 79
   },
   {
     "numPassedTests": 51,
@@ -1483,7 +1555,7 @@
     "numTotalTests": 52,
     "timestamp": 1792621865965,
     "success": false,
-    "testId": 76
+    "testId": 80
   },
   {
     "numPassedTests": 52,
@@ -1491,13 +1563,13 @@
     "numTotalTests": 52,
     "timestamp": 1792622174377,
     "success": true,
-    "testId": 76
+    "testId": 80
   },
   {
     "commitId": "f6a833f284269ab013c585c1875d9ab6303388e8",
     "commitName": "feat(HU29): volver a la primera foto despues de la ultima",
     "commitTimestamp": 1792622175668,
-    "testId": 76
+    "testId": 80
   },
   {
     "numPassedTests": 52,
@@ -1505,13 +1577,13 @@
     "numTotalTests": 52,
     "timestamp": 1792622195596,
     "success": true,
-    "testId": 77
+    "testId": 81
   },
   {
     "commitId": "5fbfcfcbfa981d5b265456a8e6401fbbaf1a06e2",
     "commitName": "feat(HU29): boton para pasar a la siguiente foto en el visor",
     "commitTimestamp": 1792622196834,
-    "testId": 77
+    "testId": 81
   },
   {
     "numPassedTests": 52,
@@ -1519,7 +1591,7 @@
     "numTotalTests": 53,
     "timestamp": 1792622204299,
     "success": false,
-    "testId": 78
+    "testId": 82
   },
   {
     "numPassedTests": 53,
@@ -1527,13 +1599,13 @@
     "numTotalTests": 53,
     "timestamp": 1792622512741,
     "success": true,
-    "testId": 78
+    "testId": 82
   },
   {
     "commitId": "3789a4f16ecd397d75daf5f50aed2f18c8f13be5",
     "commitName": "feat(HU29): volver a la foto anterior ampliada",
     "commitTimestamp": 1792622514020,
-    "testId": 78
+    "testId": 82
   },
   {
     "numPassedTests": 53,
@@ -1541,7 +1613,7 @@
     "numTotalTests": 54,
     "timestamp": 1792622520835,
     "success": false,
-    "testId": 79
+    "testId": 83
   },
   {
     "numPassedTests": 54,
@@ -1549,13 +1621,13 @@
     "numTotalTests": 54,
     "timestamp": 1792622829560,
     "success": true,
-    "testId": 79
+    "testId": 83
   },
   {
     "commitId": "79e2906aa7da1c226e6cad6ad3ce24498ca21604",
     "commitName": "feat(HU29): ir a la ultima foto antes de la primera",
     "commitTimestamp": 1792622830872,
-    "testId": 79
+    "testId": 83
   },
   {
     "numPassedTests": 54,
@@ -1563,13 +1635,13 @@
     "numTotalTests": 54,
     "timestamp": 1792622845216,
     "success": true,
-    "testId": 80
+    "testId": 84
   },
   {
     "commitId": "088be91c85cc2d5e716ce0df5d3f530c5f3043a4",
     "commitName": "feat(HU29): boton para volver a la foto anterior en el visor",
     "commitTimestamp": 1792622846470,
-    "testId": 80
+    "testId": 84
   },
   {
     "numPassedTests": 54,
@@ -1577,7 +1649,7 @@
     "numTotalTests": 55,
     "timestamp": 1792622855806,
     "success": false,
-    "testId": 81
+    "testId": 85
   },
   {
     "numPassedTests": 55,
@@ -1585,13 +1657,13 @@
     "numTotalTests": 55,
     "timestamp": 1792623166019,
     "success": true,
-    "testId": 81
+    "testId": 85
   },
   {
     "commitId": "db5e177514d0a12d57512e14d770bd0fb2fbfeda",
     "commitName": "feat(HU29): permitir pasar de foto cuando hay varias",
     "commitTimestamp": 1792623167418,
-    "testId": 81
+    "testId": 85
   },
   {
     "numPassedTests": 55,
@@ -1599,7 +1671,7 @@
     "numTotalTests": 56,
     "timestamp": 1792623174551,
     "success": false,
-    "testId": 82
+    "testId": 86
   },
   {
     "numPassedTests": 56,
@@ -1607,13 +1679,13 @@
     "numTotalTests": 56,
     "timestamp": 1792623483573,
     "success": true,
-    "testId": 82
+    "testId": 86
   },
   {
     "commitId": "99d022e01d61ba4121a6acf0860c403e8fed8f90",
     "commitName": "feat(HU29): no permitir pasar de foto cuando hay una sola",
     "commitTimestamp": 1792623484894,
-    "testId": 82
+    "testId": 86
   },
   {
     "numPassedTests": 56,
@@ -1621,13 +1693,13 @@
     "numTotalTests": 56,
     "timestamp": 1792623496869,
     "success": true,
-    "testId": 83
+    "testId": 87
   },
   {
     "commitId": "3d268619b2cb9fe19d5f4f464b5e74d169df1a66",
     "commitName": "feat(HU29): ocultar los botones del visor si hay una sola foto",
     "commitTimestamp": 1792623498182,
-    "testId": 83
+    "testId": 87
   },
   {
     "numPassedTests": 56,
@@ -1635,7 +1707,7 @@
     "numTotalTests": 57,
     "timestamp": 1792623505841,
     "success": false,
-    "testId": 84
+    "testId": 88
   },
   {
     "numPassedTests": 57,
@@ -1643,13 +1715,13 @@
     "numTotalTests": 57,
     "timestamp": 1792623818581,
     "success": true,
-    "testId": 84
+    "testId": 88
   },
   {
     "commitId": "c7d820c5a598987c90eaf9915dfdd087c60fbdb9",
     "commitName": "feat(HU29): indicar que foto ampliada se esta viendo",
     "commitTimestamp": 1792623819824,
-    "testId": 84
+    "testId": 88
   },
   {
     "numPassedTests": 57,
@@ -1657,13 +1729,13 @@
     "numTotalTests": 57,
     "timestamp": 1792623834184,
     "success": true,
-    "testId": 85
+    "testId": 89
   },
   {
     "commitId": "8216f547bedde2b060a168dd386375b282ef6b4f",
     "commitName": "feat(HU29): mostrar contador y boton para cerrar el visor",
     "commitTimestamp": 1792623835419,
-    "testId": 85
+    "testId": 89
   },
   {
     "numPassedTests": 57,
@@ -1671,13 +1743,13 @@
     "numTotalTests": 57,
     "timestamp": 1792623845342,
     "success": true,
-    "testId": 86
+    "testId": 90
   },
   {
     "commitId": "e4815537f99bc2e69745b7b9908679bffa9ee374",
     "commitName": "style(HU29): estilos del visor de fotos ampliadas",
     "commitTimestamp": 1792623846689,
-    "testId": 86
+    "testId": 90
   },
   {
     "numPassedTests": 57,
@@ -1685,12 +1757,26 @@
     "numTotalTests": 57,
     "timestamp": 1792626330062,
     "success": true,
-    "testId": 87
+    "testId": 91
+  },
+  {
+    "commitId": "9a18f72801c53291f0b97a5f0d148b73633276f4",
+    "commitName": "chore(HU29): fusionar main y resolver conflictos con los estilos del detalle",
+    "commitTimestamp": 1792626332425,
+    "testId": 91
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 0,
+    "numTotalTests": 58,
+    "timestamp": 1792627144499,
+    "success": true,
+    "testId": 92
   },
   {
     "commitId": "HEAD",
-    "commitName": "chore(HU29): fusionar main y resolver conflictos con los estilos del detalle",
-    "commitTimestamp": 1792626332425,
-    "testId": 87
+    "commitName": "chore(HU29): fusionar main con HU16 y resolver conflictos de los logs",
+    "commitTimestamp": 1792627146807,
+    "testId": 92
   }
 ]
