@@ -862,9 +862,47 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "71fa6cad7c26f40b330ced2d411a63482d4aabf2",
     "commitName": "feat(HU12): listar todos los barrios dede la bd",
     "commitTimestamp": 1792566903475,
     "testId": 44
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1792566949785,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1792566958776,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1792566971085,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1792567096256,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU12): lista de barrios en la ruta api barrios",
+    "commitTimestamp": 1792567145195,
+    "testId": 45
   }
 ]

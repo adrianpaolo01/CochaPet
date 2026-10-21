@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "71fa6cad7c26f40b330ced2d411a63482d4aabf2",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T07:15:01.000Z",
       "message": "feat(HU12): listar todos los barrios dede la bd",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/71fa6cad7c26f40b330ced2d411a63482d4aabf2"
     },
     "stats": {
       "total": 21,
@@ -870,6 +870,25 @@
     },
     "coverage": 100,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T07:19:03.000Z",
+      "message": "feat(HU12): lista de barrios en la ruta api barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }
