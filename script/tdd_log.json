@@ -1510,9 +1510,31 @@
     "testId": 76
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db5e177514d0a12d57512e14d770bd0fb2fbfeda",
     "commitName": "feat(HU29): permitir pasar de foto cuando hay varias",
     "commitTimestamp": 1792623167418,
     "testId": 76
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 1,
+    "numTotalTests": 56,
+    "timestamp": 1792623174551,
+    "success": false,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1792623483573,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): no permitir pasar de foto cuando hay una sola",
+    "commitTimestamp": 1792623484894,
+    "testId": 77
   }
 ]

@@ -1463,12 +1463,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db5e177514d0a12d57512e14d770bd0fb2fbfeda",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:52:46.000Z",
       "message": "feat(HU29): permitir pasar de foto cuando hay varias",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/db5e177514d0a12d57512e14d770bd0fb2fbfeda"
     },
     "stats": {
       "total": 10,
@@ -1478,6 +1478,25 @@
     },
     "coverage": 100,
     "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:58:04.000Z",
+      "message": "feat(HU29): no permitir pasar de foto cuando hay una sola",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 56,
     "failed_tests": 0,
     "conclusion": "success"
   }

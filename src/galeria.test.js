@@ -32,4 +32,8 @@ describe("Galeria", () => {
   it("deberia permitir pasar de foto cuando hay varias", () => {
     expect(hayVariasFotos(["frente.jpg", "perfil.jpg"])).toBe(true);
   });
+
+  it("deberia no permitir pasar de foto cuando hay una sola", () => {
+    expect(hayVariasFotos(["frente.jpg"])).toBe(false);
+  });
 });

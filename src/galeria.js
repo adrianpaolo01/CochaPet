@@ -10,6 +10,6 @@ export function anteriorIndice(indice, total) {
   return (indice - 1 + total) % total;
 }
 
-export function hayVariasFotos() {
-  return true;
+export function hayVariasFotos(fotos) {
+  return fotos.length > 1;
 }
