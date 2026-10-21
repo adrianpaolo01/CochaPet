@@ -12,6 +12,7 @@
       <span class="marca">Cocha<span class="marca-acento">Pet</span></span>
     </header>
     <main class="contenedor">
+      <div id="vista-lista">
       <h1>Mascotas perdidas y encontradas</h1>
       <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>
       <label for="buscar-mascotas">Buscar por nombre</label>
@@ -24,6 +25,11 @@
       <select id="filtro-barrio" disabled><option value="">Todos</option></select>
       <p id="mensaje-inicio" class="mensaje-vacio" hidden></p>
       <div id="lista-publicaciones" class="grilla"></div>
+      </div>
+      <section id="vista-detalle" hidden>
+        <a href="#/">← Volver</a>
+        <div id="detalle-fotos"></div>
+      </section>
     </main>
 
     <template id="plantilla-tarjeta">
@@ -40,5 +46,6 @@
     </template>
 
     <script type="module" src="./src/presenter.js"></script>
+    <script type="module" src="./src/detallePresenter.js"></script>
   </body>
 </html>

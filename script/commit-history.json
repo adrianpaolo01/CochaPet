@@ -1159,16 +1159,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0dca14f9a36da3bd385d3226b8487c12e8295fa4",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:08:11.000Z",
       "message": "feat(HU28): enlazar cada tarjeta con su detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0dca14f9a36da3bd385d3226b8487c12e8295fa4"
     },
     "stats": {
       "total": 2,
       "additions": 2,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:08:57.000Z",
+      "message": "feat(HU28): mostrar todas las fotos en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
       "deletions": 0,
       "date": "2026-10-21"
     },
