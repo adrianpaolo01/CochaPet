@@ -1306,9 +1306,23 @@
     "testId": 66
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06f59fd8b9d777c7e6172866be34dd60eb3e36a8",
     "commitName": "style(HU28): estilo de boton para el enlace volver",
     "commitTimestamp": 1792621884968,
     "testId": 66
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792621893165,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU28): mostrar el detalle en una tarjeta con foto principal",
+    "commitTimestamp": 1792621893582,
+    "testId": 67
   }
 ]

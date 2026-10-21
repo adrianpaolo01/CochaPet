@@ -44,3 +44,8 @@ label[for="buscar-mascotas"], label[for="filtro-raza"], label[for="filtro-color"
 .boton { display: inline-block; margin: 8px 8px 0 0; padding: 10px 18px; border-radius: 999px; background: var(--primario); color: #fff; font-weight: 700; text-decoration: none; }
 .enlace-volver { display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 999px; background: var(--superficie); box-shadow: var(--sombra); color: var(--tinta); font-weight: 700; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; }
 .enlace-volver:hover { transform: translateX(-2px); color: var(--primario); }
+.detalle-tarjeta { max-width: 820px; margin: 16px auto 0; padding: 24px; border-radius: 20px; background: var(--superficie); box-shadow: var(--sombra); }
+#detalle-fotos img:first-child { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+#detalle-titulo { margin: 8px 0 4px; font-size: 26px; font-weight: 800; }
+#detalle-datos { margin: 0 0 16px; color: var(--tinta-suave); font-weight: 600; }
+#detalle-descripcion { margin: 0 0 24px; line-height: 1.6; }

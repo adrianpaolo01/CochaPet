@@ -1273,17 +1273,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06f59fd8b9d777c7e6172866be34dd60eb3e36a8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:31:24.000Z",
       "message": "style(HU28): estilo de boton para el enlace volver",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/06f59fd8b9d777c7e6172866be34dd60eb3e36a8"
     },
     "stats": {
       "total": 4,
       "additions": 3,
       "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-10-21T22:31:33.000Z",
+      "message": "style(HU28): mostrar el detalle en una tarjeta con foto principal",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,
