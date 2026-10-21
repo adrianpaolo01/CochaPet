@@ -534,9 +534,207 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4941edd4c3c8cc8df6142659bdf874c7f6863445",
     "commitName": "style(HU10): dar espacio y foco al campo de busqueda",
     "commitTimestamp": 1792471288961,
     "testId": 28
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792554486808,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1792554507279,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792554818233,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "1be2eca39a60448e8101affb6e1ea774ae62e103",
+    "commitName": "feat(HU27): filtrar mascotas por raza",
+    "commitTimestamp": 1792554823937,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1792554833233,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1792555138619,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "288cfd879e4192bfeed53d7ff5e3edd5f5b85bf6",
+    "commitName": "feat(HU27): mostrar todas las mascotas si no se elige raza",
+    "commitTimestamp": 1792555143088,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1792555151804,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1792555457531,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "70066b2159a221506ce240834a4acaccd30d1d24",
+    "commitName": "feat(HU27): filtrar mascotas por color",
+    "commitTimestamp": 1792555462887,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1792555471012,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1792555776925,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1792555783497,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "d541495eae7f77ef8b184dd7033cc987ed1a5fb5",
+    "commitName": "feat(HU27): mostrar todas las mascotas si no se elige color",
+    "commitTimestamp": 1792555788524,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1792555797844,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1792556104026,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "b530312242678889b9d4f7fd6e4ac2f3ab4e23da",
+    "commitName": "feat(HU27): listar las razas y colores disponibles para elegir",
+    "commitTimestamp": 1792556109092,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1792556120522,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556427537,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "dd560aa87548e423bb3410e237addcdb27921c0c",
+    "commitName": "feat(HU27): combinar los filtros de nombre, raza y color",
+    "commitTimestamp": 1792556433145,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556460993,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556480741,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "073709fe37932acb0d9383874addc5b3ca687a11",
+    "commitName": "feat(HU27): elegir la raza en la pagina y combinarla con la busqueda",
+    "commitTimestamp": 1792556482542,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556503233,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "c50aad24928f9ea17a7909da42d8e14e8f8c4b1d",
+    "commitName": "feat(HU27): elegir el color en la pagina y combinarlo con los demas filtros",
+    "commitTimestamp": 1792556507345,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556529198,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
+    "commitTimestamp": 1792556531134,
+    "testId": 37
   }
 ]

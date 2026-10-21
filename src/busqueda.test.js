@@ -1,4 +1,4 @@
-import { buscarPorNombre, mensajeBusqueda } from "./busqueda.js";
+import { buscarPorNombre, filtrarMascotas, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -14,5 +14,39 @@ describe("Busqueda de mascotas", () => {
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
     expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
     expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();
+  });
+
+  it("deberia filtrar por raza sin distinguir mayusculas", () => {
+    const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }];
+    expect(filtrarPorRaza(publicaciones, "mestizo")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia mostrar todas las mascotas si no se elige raza", () => {
+    const publicaciones = [{ raza: "Husky" }, { raza: null }];
+    expect(filtrarPorRaza(publicaciones, "")).toEqual(publicaciones);
+  });
+
+  it("deberia filtrar por color sin distinguir mayusculas", () => {
+    const publicaciones = [{ color: "negro" }, { color: "Blanco" }, { color: null }];
+    expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);
+  });
+
+  it("deberia mostrar todas las mascotas si no se elige color", () => {
+    const publicaciones = [{ color: "negro" }, { color: null }];
+    expect(filtrarPorColor(publicaciones, "")).toEqual(publicaciones);
+  });
+
+  it("deberia listar las razas sin repetir, sin vacios y en orden", () => {
+    const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }, { raza: "Mestizo" }];
+    expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
+  });
+
+  it("deberia combinar los filtros de nombre, raza y color", () => {
+    const publicaciones = [
+      { nombre: "Luna", raza: "Husky", color: "gris" },
+      { nombre: "Lulu", raza: "Husky", color: "negro" },
+      { nombre: "Lucas", raza: "Mestizo", color: "gris" },
+    ];
+    expect(filtrarMascotas(publicaciones, { texto: "lu", raza: "Husky", color: "gris" })).toEqual([publicaciones[0]]);
   });
 });

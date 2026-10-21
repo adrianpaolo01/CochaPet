@@ -7,3 +7,25 @@ export function buscarPorNombre(publicaciones, texto) {
 export function mensajeBusqueda(publicaciones) {
   return publicaciones.length === 0 ? "No se encontraron mascotas." : null;
 }
+
+function filtrarPorCampo(publicaciones, campo, valor) {
+  if (valor === "") return publicaciones;
+  return publicaciones.filter((p) => p[campo] && p[campo].toLowerCase() === valor.toLowerCase());
+}
+
+export function filtrarPorRaza(publicaciones, raza) {
+  return filtrarPorCampo(publicaciones, "raza", raza);
+}
+
+export function filtrarPorColor(publicaciones, color) {
+  return filtrarPorCampo(publicaciones, "color", color);
+}
+
+export function opcionesDe(publicaciones, campo) {
+  const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
+  return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+}
+
+export function filtrarMascotas(publicaciones, { texto, raza, color }) {
+  return filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color);
+}
