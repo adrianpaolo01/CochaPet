@@ -30,4 +30,9 @@ describe("Busqueda de mascotas", () => {
     const publicaciones = [{ color: "negro" }, { color: "Blanco" }, { color: null }];
     expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);
   });
+
+  it("deberia mostrar todas las mascotas si no se elige color", () => {
+    const publicaciones = [{ color: "negro" }, { color: null }];
+    expect(filtrarPorColor(publicaciones, "")).toEqual(publicaciones);
+  });
 });

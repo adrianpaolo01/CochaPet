@@ -608,9 +608,39 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "70066b2159a221506ce240834a4acaccd30d1d24",
     "commitName": "feat(HU27): filtrar mascotas por color",
     "commitTimestamp": 1792555462887,
     "testId": 31
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1792555471012,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1792555776925,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1792555783497,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): mostrar todas las mascotas si no se elige color",
+    "commitTimestamp": 1792555788524,
+    "testId": 32
   }
 ]

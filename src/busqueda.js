@@ -8,11 +8,15 @@ export function mensajeBusqueda(publicaciones) {
   return publicaciones.length === 0 ? "No se encontraron mascotas." : null;
 }
 
+function filtrarPorCampo(publicaciones, campo, valor) {
+  if (valor === "") return publicaciones;
+  return publicaciones.filter((p) => p[campo] && p[campo].toLowerCase() === valor.toLowerCase());
+}
+
 export function filtrarPorRaza(publicaciones, raza) {
-  if (raza === "") return publicaciones;
-  return publicaciones.filter((p) => p.raza && p.raza.toLowerCase() === raza.toLowerCase());
+  return filtrarPorCampo(publicaciones, "raza", raza);
 }
 
 export function filtrarPorColor(publicaciones, color) {
-  return publicaciones.filter((p) => p.color && p.color.toLowerCase() === color.toLowerCase());
+  return filtrarPorCampo(publicaciones, "color", color);
 }

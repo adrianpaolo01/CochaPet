@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "70066b2159a221506ce240834a4acaccd30d1d24",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T04:04:22.000Z",
       "message": "feat(HU27): filtrar mascotas por color",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/70066b2159a221506ce240834a4acaccd30d1d24"
     },
     "stats": {
       "total": 11,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T04:09:47.000Z",
+      "message": "feat(HU27): mostrar todas las mascotas si no se elige color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
