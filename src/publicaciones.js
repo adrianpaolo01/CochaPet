@@ -40,7 +40,7 @@ export function idDesdeHash(hash) {
 }
 
 export function enlaceWhatsApp(publicacion) {
-  const mensaje = `Hola, vi la publicación de ${tituloPublicacion(publicacion)} en CochaPet.`;
+  const mensaje = `Hola, creo que encontré a ${tituloPublicacion(publicacion)}, la mascota que publicaste en CochaPet.`;
   return `https://wa.me/${PREFIJO_BOLIVIA}${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
 }
 

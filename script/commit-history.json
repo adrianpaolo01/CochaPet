@@ -1349,17 +1349,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "12cf8733bba87fa6c0646144e9265405633dd21d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:32:02.000Z",
       "message": "style(HU28): boton ver detalle y ajuste del detalle en celular",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/12cf8733bba87fa6c0646144e9265405633dd21d"
     },
     "stats": {
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:33:27.000Z",
+      "message": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-10-21"
     },
     "coverage": 100,

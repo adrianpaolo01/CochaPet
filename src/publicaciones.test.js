@@ -47,8 +47,8 @@ describe("Publicaciones", () => {
     expect(idDesdeHash("#/mascota/3")).toEqual(3);
   });
 
-  it("deberia armar el enlace de WhatsApp con un mensaje que menciona a la mascota", () => {
-    const mensaje = encodeURIComponent("Hola, vi la publicación de Firulais en CochaPet.");
+  it("deberia armar el enlace de WhatsApp avisando que encontre a la mascota por su nombre", () => {
+    const mensaje = encodeURIComponent("Hola, creo que encontré a Firulais, la mascota que publicaste en CochaPet.");
     expect(enlaceWhatsApp({ telefono: "70000001", nombre: "Firulais", especie: "PERRO" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
   });
 

@@ -1362,9 +1362,31 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "12cf8733bba87fa6c0646144e9265405633dd21d",
     "commitName": "style(HU28): boton ver detalle y ajuste del detalle en celular",
     "commitTimestamp": 1792621922493,
     "testId": 70
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792625264551,
+    "success": false,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792625599295,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
+    "commitTimestamp": 1792625610213,
+    "testId": 71
   }
 ]
