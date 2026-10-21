@@ -1372,9 +1372,31 @@
     "testId": 69
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9000d96af64540cc9da8b8dfc82bfa510b42cd14",
     "commitName": "feat(HU29): abrir la foto ampliada al hacer clic en el detalle",
     "commitTimestamp": 1792621540711,
     "testId": 69
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1792621548662,
+    "success": false,
+    "testId": 70
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1792621857461,
+    "success": true,
+    "testId": 70
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): pasar a la siguiente foto ampliada",
+    "commitTimestamp": 1792621858731,
+    "testId": 70
   }
 ]

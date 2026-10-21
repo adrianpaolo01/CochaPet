@@ -1,4 +1,4 @@
-import { fotoAmpliada } from "./galeria.js";
+import { fotoAmpliada, siguienteIndice } from "./galeria.js";
 
 describe("Galeria", () => {
   it("deberia mostrar ampliada la primera foto al abrirla", () => {
@@ -11,5 +11,9 @@ describe("Galeria", () => {
 
   it("deberia no mostrar foto si la posicion no existe", () => {
     expect(fotoAmpliada(["frente.jpg"], 5)).toBeNull();
+  });
+
+  it("deberia pasar a la siguiente foto", () => {
+    expect(siguienteIndice(0, 3)).toEqual(1);
   });
 });
