@@ -974,9 +974,31 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "34c602429b1686ddc35dbe9c4de1feaf451c8ed1",
     "commitName": "feat(HU28): devolver el detalle de una publicacion",
     "commitTimestamp": 1792586195203,
     "testId": 48
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1792586232502,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1792586548187,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): devolver null si la publicacion no existe",
+    "commitTimestamp": 1792586550245,
+    "testId": 49
   }
 ]

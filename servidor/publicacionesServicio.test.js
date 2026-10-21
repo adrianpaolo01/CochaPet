@@ -22,4 +22,12 @@ describe("Publicaciones servicio", () => {
 
     expect(resultado).toEqual({ id: 1, estado: "ACTIVA" });
   });
+
+  it("deberia devolver null si la publicacion no existe", async () => {
+    const repositorio = { obtenerPorId: async () => undefined };
+
+    const resultado = await detalleDePublicacion(repositorio, 99);
+
+    expect(resultado).toBeNull();
+  });
 });

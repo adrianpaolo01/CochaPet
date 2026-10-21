@@ -4,5 +4,5 @@ export async function publicacionesParaInicio(repositorio) {
 }
 
 export async function detalleDePublicacion(repositorio, id) {
-  return repositorio.obtenerPorId(id);
+  return (await repositorio.obtenerPorId(id)) ?? null;
 }
