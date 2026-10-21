@@ -1186,9 +1186,23 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c93a1f066ebd52a37cef5d9602796881da8f44e6",
     "commitName": "feat(HU28): consultar el detalle de una publicacion en la base",
     "commitTimestamp": 1792588033933,
     "testId": 58
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588060263,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): exponer el detalle como funcion de Vercel",
+    "commitTimestamp": 1792588067879,
+    "testId": 59
   }
 ]
