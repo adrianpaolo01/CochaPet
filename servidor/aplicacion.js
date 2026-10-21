@@ -20,9 +20,14 @@ export function crearManejador(repositorio, barriosRepositorio) {
     }
     const detalle = ruta.match(/^\/api\/publicaciones\/(\d+)$/);
     if (req.method === "GET" && detalle) {
-      const publicacion = await detalleDePublicacion(repositorio, Number(detalle[1]));
-      if (publicacion) responderJson(res, 200, publicacion);
-      else responderJson(res, 404, { error: "No encontrado" });
+      try {
+        const publicacion = await detalleDePublicacion(repositorio, Number(detalle[1]));
+        if (publicacion) responderJson(res, 200, publicacion);
+        else responderJson(res, 404, { error: "No encontrado" });
+      } catch (error) {
+        console.error(error);
+        responderJson(res, 500, { error: "No se pudo cargar la publicacion" });
+      }
       return;
     }
     if (req.method === "GET" && ruta === "/api/barrios") {

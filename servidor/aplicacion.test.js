@@ -66,6 +66,20 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No encontrado" });
   });
 
+  it("devuelve un error 500 al cargar el detalle sin revelar detalles de la base de datos", async () => {
+    const repositorio = { obtenerPorId: async () => { throw new Error("detalle privado de conexion"); } };
+    const respuesta = crearRespuesta();
+    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
+    try {
+      await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones/3" }, respuesta);
+
+      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudo cargar la publicacion" });
+    } finally {
+      registro.mockRestore();
+    }
+  });
+
   it("devuelve la lista de barrios ordenada como JSON", async () => {
     const barriosRepositorio = { listar: async () => [{ id: 1, nombre: "Sarco" }, { id: 2, nombre: "Aranjuez" }] };
     const respuesta = crearRespuesta();

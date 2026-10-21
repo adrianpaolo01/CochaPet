@@ -1007,12 +1007,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T12:59:30.000Z",
       "message": "feat(HU28): responder 404 si el detalle no esta disponible",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9"
     },
     "stats": {
       "total": 14,
@@ -1022,6 +1022,25 @@
     },
     "coverage": 100,
     "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:04:28.000Z",
+      "message": "feat(HU28): responder 500 si falla la carga del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

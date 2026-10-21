@@ -1062,9 +1062,31 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c60d243c7d6ee26a7e643e1a0dc7f9c35e6d0f9",
     "commitName": "feat(HU28): responder 404 si el detalle no esta disponible",
     "commitTimestamp": 1792587570637,
     "testId": 52
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1792587594576,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792587866852,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): responder 500 si falla la carga del detalle",
+    "commitTimestamp": 1792587868950,
+    "testId": 53
   }
 ]
