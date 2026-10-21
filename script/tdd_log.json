@@ -752,9 +752,23 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cdab61789e0df06513576557a4eeccfa6f908ae6",
     "commitName": "feat(HU12): filtrar mascotas por barrio",
     "commitTimestamp": 1792564185236,
     "testId": 39
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1792564539696,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar todas las mascotas si no se elige barrio",
+    "commitTimestamp": 1792564698657,
+    "testId": 40
   }
 ]

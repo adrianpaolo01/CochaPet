@@ -41,6 +41,11 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorBarrio(publicaciones, "cala cala")).toEqual([publicaciones[0]]);
   });
 
+  it("deberia mostrar todas las mascotas si no se elige barrio", () => {
+    const publicaciones = [{ barrio: "Cala Cala" }, { barrio: null }];
+    expect(filtrarPorBarrio(publicaciones, "")).toEqual(publicaciones);
+  });
+
   it("deberia listar las razas sin repetir, sin vacios y en orden", () => {
     const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }, { raza: "Mestizo" }];
     expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
