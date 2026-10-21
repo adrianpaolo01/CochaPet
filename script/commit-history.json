@@ -1368,12 +1368,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "367c65597039cd530c050ed743ac0cec4e05a448",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T23:33:27.000Z",
       "message": "feat(HU16): mensaje de WhatsApp avisa que encontre a la mascota por su nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/367c65597039cd530c050ed743ac0cec4e05a448"
     },
     "stats": {
       "total": 6,
@@ -1383,6 +1383,25 @@
     },
     "coverage": 100,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T23:39:17.000Z",
+      "message": "feat(HU16): mencionar tu perro o tu gato en el WhatsApp si la mascota no tiene nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }
