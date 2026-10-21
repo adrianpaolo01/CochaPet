@@ -57,3 +57,4 @@ label[for="buscar-mascotas"], label[for="filtro-raza"], label[for="filtro-color"
 .boton-whatsapp:hover { background: #166534; }
 .boton-llamar { background: var(--superficie); color: var(--primario); box-shadow: inset 0 0 0 2px var(--primario); }
 .boton-llamar:hover { background: var(--primario); color: #fff; }
+.icono { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }

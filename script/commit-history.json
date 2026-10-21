@@ -1311,16 +1311,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "84853bd6e9b0944bf80c1862fc4bc36133449ff8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:31:44.000Z",
       "message": "style(HU28): colores y estados de los botones de WhatsApp y llamada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/84853bd6e9b0944bf80c1862fc4bc36133449ff8"
     },
     "stats": {
       "total": 14,
       "additions": 12,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-10-21T22:31:53.000Z",
+      "message": "style(HU28): iconos en los botones de contacto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
       "deletions": 2,
       "date": "2026-10-21"
     },
