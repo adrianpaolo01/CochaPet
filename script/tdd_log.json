@@ -1270,9 +1270,23 @@
     "testId": 64
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ec682ae9cbb19baad4eac6fee484b68942df7592",
     "commitName": "feat(HU28): mostrar los botones de WhatsApp y llamada",
     "commitTimestamp": 1792588205143,
     "testId": 64
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588226476,
+    "success": true,
+    "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU28): estilos de las fotos y los botones del detalle",
+    "commitTimestamp": 1792588227915,
+    "testId": 65
   }
 ]
