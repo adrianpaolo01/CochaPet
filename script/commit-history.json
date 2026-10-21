@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1be2eca39a60448e8101affb6e1ea774ae62e103",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T03:53:43.000Z",
       "message": "feat(HU27): filtrar mascotas por raza",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1be2eca39a60448e8101affb6e1ea774ae62e103"
     },
     "stats": {
       "total": 11,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T03:59:02.000Z",
+      "message": "feat(HU27): mostrar todas las mascotas si no se elige raza",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

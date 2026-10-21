@@ -20,4 +20,9 @@ describe("Busqueda de mascotas", () => {
     const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }];
     expect(filtrarPorRaza(publicaciones, "mestizo")).toEqual([publicaciones[0]]);
   });
+
+  it("deberia mostrar todas las mascotas si no se elige raza", () => {
+    const publicaciones = [{ raza: "Husky" }, { raza: null }];
+    expect(filtrarPorRaza(publicaciones, "")).toEqual(publicaciones);
+  });
 });

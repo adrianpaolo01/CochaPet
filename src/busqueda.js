@@ -9,5 +9,6 @@ export function mensajeBusqueda(publicaciones) {
 }
 
 export function filtrarPorRaza(publicaciones, raza) {
+  if (raza === "") return publicaciones;
   return publicaciones.filter((p) => p.raza && p.raza.toLowerCase() === raza.toLowerCase());
 }

@@ -564,9 +564,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1be2eca39a60448e8101affb6e1ea774ae62e103",
     "commitName": "feat(HU27): filtrar mascotas por raza",
     "commitTimestamp": 1792554823937,
     "testId": 29
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1792554833233,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1792555138619,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): mostrar todas las mascotas si no se elige raza",
+    "commitTimestamp": 1792555143088,
+    "testId": 30
   }
 ]
