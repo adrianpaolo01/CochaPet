@@ -1200,9 +1200,23 @@
     "testId": 59
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e00f67db1d004f4a005cba58bcd33a9f28675477",
     "commitName": "feat(HU28): exponer el detalle como funcion de Vercel",
     "commitTimestamp": 1792588067879,
     "testId": 59
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792588090213,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): enlazar cada tarjeta con su detalle",
+    "commitTimestamp": 1792588091668,
+    "testId": 60
   }
 ]

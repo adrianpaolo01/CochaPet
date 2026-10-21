@@ -1140,16 +1140,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e00f67db1d004f4a005cba58bcd33a9f28675477",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:07:47.000Z",
       "message": "feat(HU28): exponer el detalle como funcion de Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e00f67db1d004f4a005cba58bcd33a9f28675477"
     },
     "stats": {
       "total": 4,
       "additions": 4,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:08:11.000Z",
+      "message": "feat(HU28): enlazar cada tarjeta con su detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
       "deletions": 0,
       "date": "2026-10-21"
     },
