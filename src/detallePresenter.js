@@ -1,5 +1,5 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
-import { fotoAmpliada, siguienteIndice } from "./galeria.js";
+import { anteriorIndice, fotoAmpliada, siguienteIndice } from "./galeria.js";
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
@@ -19,6 +19,9 @@ function mostrarEnVisor(indice) {
 fotos.addEventListener("click", (evento) => mostrarEnVisor([...fotos.children].indexOf(evento.target)));
 document.querySelector("#visor-siguiente").addEventListener("click", () =>
   mostrarEnVisor(siguienteIndice(indiceVisor, fotos.children.length))
+);
+document.querySelector("#visor-anterior").addEventListener("click", () =>
+  mostrarEnVisor(anteriorIndice(indiceVisor, fotos.children.length))
 );
 
 async function mostrarVista() {

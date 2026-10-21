@@ -1425,17 +1425,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79e2906aa7da1c226e6cad6ad3ce24498ca21604",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:47:10.000Z",
       "message": "feat(HU29): ir a la ultima foto antes de la primera",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/79e2906aa7da1c226e6cad6ad3ce24498ca21604"
     },
     "stats": {
       "total": 8,
       "additions": 6,
       "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:47:25.000Z",
+      "message": "feat(HU29): boton para volver a la foto anterior en el visor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-10-21"
     },
     "coverage": 100,
