@@ -738,9 +738,23 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e60f5a5273db3f60b50b4a0c360024cfb72feac",
     "commitName": "chore(HU12): iniciar rama de busqueda por barrio",
     "commitTimestamp": 1792560669387,
     "testId": 38
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1792563943845,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU12): filtrar mascotas por barrio",
+    "commitTimestamp": 1792564185236,
+    "testId": 39
   }
 ]

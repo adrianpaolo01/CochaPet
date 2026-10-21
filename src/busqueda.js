@@ -21,6 +21,10 @@ export function filtrarPorColor(publicaciones, color) {
   return filtrarPorCampo(publicaciones, "color", color);
 }
 
+export function filtrarPorBarrio(publicaciones, barrio) {
+  return filtrarPorCampo(publicaciones, "barrio", barrio);
+}
+
 export function opcionesDe(publicaciones, campo) {
   const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));

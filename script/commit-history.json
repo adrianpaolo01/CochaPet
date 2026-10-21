@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e60f5a5273db3f60b50b4a0c360024cfb72feac",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T05:31:08.000Z",
       "message": "chore(HU12): iniciar rama de busqueda por barrio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4e60f5a5273db3f60b50b4a0c360024cfb72feac"
     },
     "stats": {
       "total": 0,
@@ -756,6 +756,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:29:43.000Z",
+      "message": "feat(HU12): filtrar mascotas por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
