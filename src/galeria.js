@@ -2,6 +2,6 @@ export function fotoAmpliada(fotos, indice) {
   return fotos[indice] ?? null;
 }
 
-export function siguienteIndice(indice) {
-  return indice + 1;
+export function siguienteIndice(indice, total) {
+  return (indice + 1) % total;
 }

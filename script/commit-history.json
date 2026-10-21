@@ -1349,12 +1349,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b554acd7fef4caf7f60fdf6cdb2293084179fefe",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:30:58.000Z",
       "message": "feat(HU29): pasar a la siguiente foto ampliada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b554acd7fef4caf7f60fdf6cdb2293084179fefe"
     },
     "stats": {
       "total": 10,
@@ -1364,6 +1364,25 @@
     },
     "coverage": 100,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:36:15.000Z",
+      "message": "feat(HU29): volver a la primera foto despues de la ultima",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }
