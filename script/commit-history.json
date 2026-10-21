@@ -1330,17 +1330,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "41664d3784adcae64d7a545c9a70087c52fe1cd3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-10-21T22:31:53.000Z",
       "message": "style(HU28): iconos en los botones de contacto",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/41664d3784adcae64d7a545c9a70087c52fe1cd3"
     },
     "stats": {
       "total": 5,
       "additions": 3,
       "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-10-21T22:32:02.000Z",
+      "message": "style(HU28): boton ver detalle y ajuste del detalle en celular",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-10-21"
     },
     "coverage": 100,
