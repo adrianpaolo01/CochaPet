@@ -1,4 +1,4 @@
-import { buscarPorNombre, filtrarPorRaza, mensajeBusqueda } from "./busqueda.js";
+import { buscarPorNombre, filtrarPorColor, filtrarPorRaza, mensajeBusqueda } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -24,5 +24,10 @@ describe("Busqueda de mascotas", () => {
   it("deberia mostrar todas las mascotas si no se elige raza", () => {
     const publicaciones = [{ raza: "Husky" }, { raza: null }];
     expect(filtrarPorRaza(publicaciones, "")).toEqual(publicaciones);
+  });
+
+  it("deberia filtrar por color sin distinguir mayusculas", () => {
+    const publicaciones = [{ color: "negro" }, { color: "Blanco" }, { color: null }];
+    expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);
   });
 });

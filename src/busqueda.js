@@ -12,3 +12,7 @@ export function filtrarPorRaza(publicaciones, raza) {
   if (raza === "") return publicaciones;
   return publicaciones.filter((p) => p.raza && p.raza.toLowerCase() === raza.toLowerCase());
 }
+
+export function filtrarPorColor(publicaciones, color) {
+  return publicaciones.filter((p) => p.color && p.color.toLowerCase() === color.toLowerCase());
+}
