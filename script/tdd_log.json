@@ -818,9 +818,23 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d7ac096c62171b376aa6838c6a911a491b9315d",
     "commitName": "feat: mostrar: combinar filtros con barrio",
     "commitTimestamp": 1792565500590,
     "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792565582169,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: front para filtrado por barrio",
+    "commitTimestamp": 1792565913427,
+    "testId": 43
   }
 ]

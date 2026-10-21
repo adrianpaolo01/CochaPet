@@ -817,17 +817,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d7ac096c62171b376aa6838c6a911a491b9315d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T06:51:38.000Z",
       "message": "feat: mostrar: combinar filtros con barrio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5d7ac096c62171b376aa6838c6a911a491b9315d"
     },
     "stats": {
       "total": 13,
       "additions": 11,
       "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-10-21T06:58:31.000Z",
+      "message": "feat: front para filtrado por barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
       "date": "2026-10-21"
     },
     "coverage": 100,

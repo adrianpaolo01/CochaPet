@@ -7,6 +7,7 @@ const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
 const filtroRaza = document.querySelector("#filtro-raza");
 const filtroColor = document.querySelector("#filtro-color");
+const filtroBarrio = document.querySelector("#filtro-barrio");
 
 function crearTarjeta(publicacion) {
   const tarjeta = plantilla.content.cloneNode(true);
@@ -35,8 +36,10 @@ async function mostrarPublicaciones() {
     filtroRaza.disabled = false;
     filtroColor.append(...opcionesDe(publicaciones, "color").map((color) => new Option(color, color)));
     filtroColor.disabled = false;
+    filtroBarrio.append(...opcionesDe(publicaciones, "barrio").map((barrio) => new Option(barrio, barrio)));
+    filtroBarrio.disabled = false;
     const aplicarFiltros = () => {
-      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value };
+      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value };
       const filtradas = filtrarMascotas(publicaciones, filtros);
       lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
       mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(filtradas) ?? "";
@@ -45,6 +48,7 @@ async function mostrarPublicaciones() {
     buscador.addEventListener("input", aplicarFiltros);
     filtroRaza.addEventListener("change", aplicarFiltros);
     filtroColor.addEventListener("change", aplicarFiltros);
+    filtroBarrio.addEventListener("change", aplicarFiltros);
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;
