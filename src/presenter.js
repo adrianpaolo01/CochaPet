@@ -23,6 +23,16 @@ function crearTarjeta(publicacion) {
   return tarjeta;
 }
 
+async function cargarBarrios(publicaciones) {
+  try {
+    const respuesta = await fetch("/api/barrios");
+    if (!respuesta.ok) throw new Error("No se pudieron cargar los barrios");
+    return await respuesta.json();
+  } catch {
+    return opcionesDe(publicaciones, "barrio");
+  }
+}
+
 async function mostrarPublicaciones() {
   try {
     const respuesta = await fetch("/api/publicaciones");
@@ -36,7 +46,7 @@ async function mostrarPublicaciones() {
     filtroRaza.disabled = false;
     filtroColor.append(...opcionesDe(publicaciones, "color").map((color) => new Option(color, color)));
     filtroColor.disabled = false;
-    filtroBarrio.append(...opcionesDe(publicaciones, "barrio").map((barrio) => new Option(barrio, barrio)));
+    filtroBarrio.append(...(await cargarBarrios(publicaciones)).map((barrio) => new Option(barrio, barrio)));
     filtroBarrio.disabled = false;
     const aplicarFiltros = () => {
       const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value };

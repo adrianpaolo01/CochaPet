@@ -930,9 +930,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7bda40b3edacb53ac0b8b5bd09244ce5bc9669a8",
     "commitName": "feat(HU12): responder error 500 si falla la carga de barrios",
     "commitTimestamp": 1792567291703,
     "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567363741,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792567483553,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU12): cargar los barrios del selector desde la api",
+    "commitTimestamp": 1792567645516,
+    "testId": 47
   }
 ]
