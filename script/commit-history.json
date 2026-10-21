@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4941edd4c3c8cc8df6142659bdf874c7f6863445",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-20T04:41:27.000Z",
       "message": "style(HU10): dar espacio y foco al campo de busqueda",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4941edd4c3c8cc8df6142659bdf874c7f6863445"
     },
     "stats": {
       "total": 3,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T03:53:43.000Z",
+      "message": "feat(HU27): filtrar mascotas por raza",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

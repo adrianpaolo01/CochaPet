@@ -7,3 +7,7 @@ export function buscarPorNombre(publicaciones, texto) {
 export function mensajeBusqueda(publicaciones) {
   return publicaciones.length === 0 ? "No se encontraron mascotas." : null;
 }
+
+export function filtrarPorRaza(publicaciones, raza) {
+  return publicaciones.filter((p) => p.raza && p.raza.toLowerCase() === raza.toLowerCase());
+}

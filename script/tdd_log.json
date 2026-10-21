@@ -534,9 +534,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4941edd4c3c8cc8df6142659bdf874c7f6863445",
     "commitName": "style(HU10): dar espacio y foco al campo de busqueda",
     "commitTimestamp": 1792471288961,
     "testId": 28
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792554486808,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1792554507279,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792554818233,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): filtrar mascotas por raza",
+    "commitTimestamp": 1792554823937,
+    "testId": 29
   }
 ]

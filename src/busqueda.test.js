@@ -1,4 +1,4 @@
-import { buscarPorNombre, mensajeBusqueda } from "./busqueda.js";
+import { buscarPorNombre, filtrarPorRaza, mensajeBusqueda } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
@@ -14,5 +14,10 @@ describe("Busqueda de mascotas", () => {
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
     expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
     expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();
+  });
+
+  it("deberia filtrar por raza sin distinguir mayusculas", () => {
+    const publicaciones = [{ raza: "Mestizo" }, { raza: "Husky" }, { raza: null }];
+    expect(filtrarPorRaza(publicaciones, "mestizo")).toEqual([publicaciones[0]]);
   });
 });
