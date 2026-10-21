@@ -1546,9 +1546,31 @@
     "testId": 78
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d268619b2cb9fe19d5f4f464b5e74d169df1a66",
     "commitName": "feat(HU29): ocultar los botones del visor si hay una sola foto",
     "commitTimestamp": 1792623498182,
     "testId": 78
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 1,
+    "numTotalTests": 57,
+    "timestamp": 1792623505841,
+    "success": false,
+    "testId": 79
+  },
+  {
+    "numPassedTests": 57,
+    "failedTests": 0,
+    "numTotalTests": 57,
+    "timestamp": 1792623818581,
+    "success": true,
+    "testId": 79
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): indicar que foto ampliada se esta viendo",
+    "commitTimestamp": 1792623819824,
+    "testId": 79
   }
 ]

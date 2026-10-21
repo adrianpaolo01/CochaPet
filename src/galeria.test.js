@@ -1,4 +1,4 @@
-import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice } from "./galeria.js";
+import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 
 describe("Galeria", () => {
   it("deberia mostrar ampliada la primera foto al abrirla", () => {
@@ -35,5 +35,9 @@ describe("Galeria", () => {
 
   it("deberia no permitir pasar de foto cuando hay una sola", () => {
     expect(hayVariasFotos(["frente.jpg"])).toBe(false);
+  });
+
+  it("deberia indicar que foto se esta viendo", () => {
+    expect(textoContador(0, 3)).toEqual("1 de 3");
   });
 });

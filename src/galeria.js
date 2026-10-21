@@ -13,3 +13,7 @@ export function anteriorIndice(indice, total) {
 export function hayVariasFotos(fotos) {
   return fotos.length > 1;
 }
+
+export function textoContador(indice, total) {
+  return `${indice + 1} de ${total}`;
+}

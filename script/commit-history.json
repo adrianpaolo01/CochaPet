@@ -1501,12 +1501,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d268619b2cb9fe19d5f4f464b5e74d169df1a66",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T22:58:17.000Z",
       "message": "feat(HU29): ocultar los botones del visor si hay una sola foto",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3d268619b2cb9fe19d5f4f464b5e74d169df1a66"
     },
     "stats": {
       "total": 3,
@@ -1516,6 +1516,25 @@
     },
     "coverage": 100,
     "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T23:03:39.000Z",
+      "message": "feat(HU29): indicar que foto ampliada se esta viendo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 57,
     "failed_tests": 0,
     "conclusion": "success"
   }
