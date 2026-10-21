@@ -20,3 +20,8 @@ export function filtrarPorRaza(publicaciones, raza) {
 export function filtrarPorColor(publicaciones, color) {
   return filtrarPorCampo(publicaciones, "color", color);
 }
+
+export function opcionesDe(publicaciones, campo) {
+  const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
+  return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+}
