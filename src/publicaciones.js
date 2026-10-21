@@ -33,5 +33,6 @@ export function mensajeInicio(publicaciones) {
 }
 
 export function idDesdeHash(hash) {
-  return Number(hash.split("/")[2]);
+  const coincidencia = hash.match(/^#\/mascota\/(\d+)$/);
+  return coincidencia ? Number(coincidencia[1]) : null;
 }

@@ -46,4 +46,8 @@ describe("Publicaciones", () => {
   it("deberia sacar el id de la publicacion desde el hash", () => {
     expect(idDesdeHash("#/mascota/3")).toEqual(3);
   });
+
+  it.each(["", "#/", "#/mascota/", "#/mascota/abc", "#/otra/3"])("deberia dar null si el hash %p no es de una mascota", (hash) => {
+    expect(idDesdeHash(hash)).toBeNull();
+  });
 });

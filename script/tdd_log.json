@@ -1106,9 +1106,31 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bf88ca5e9db1edcece27e2079c258a6d04de2c13",
     "commitName": "feat(HU28): sacar el id de la publicacion desde el hash",
     "commitTimestamp": 1792587905264,
     "testId": 54
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 5,
+    "numTotalTests": 45,
+    "timestamp": 1792587926484,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1792587936898,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): dar null si el hash no es de una mascota",
+    "commitTimestamp": 1792587938887,
+    "testId": 55
   }
 ]

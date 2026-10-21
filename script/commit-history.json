@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bf88ca5e9db1edcece27e2079c258a6d04de2c13",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:05:04.000Z",
       "message": "feat(HU28): sacar el id de la publicacion desde el hash",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bf88ca5e9db1edcece27e2079c258a6d04de2c13"
     },
     "stats": {
       "total": 10,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 100,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:05:38.000Z",
+      "message": "feat(HU28): dar null si el hash no es de una mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }
