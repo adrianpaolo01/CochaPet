@@ -8,4 +8,8 @@ describe("Galeria", () => {
   it("deberia mostrar ampliada la foto elegida al abrirla", () => {
     expect(fotoAmpliada(["frente.jpg", "perfil.jpg", "cola.jpg"], 2)).toEqual("cola.jpg");
   });
+
+  it("deberia no mostrar foto si la posicion no existe", () => {
+    expect(fotoAmpliada(["frente.jpg"], 5)).toBeNull();
+  });
 });

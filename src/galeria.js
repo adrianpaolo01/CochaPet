@@ -1,3 +1,3 @@
 export function fotoAmpliada(fotos, indice) {
-  return fotos[indice];
+  return fotos[indice] ?? null;
 }

@@ -1328,9 +1328,31 @@
     "testId": 67
   },
   {
-    "commitId": "HEAD",
+    "commitId": "14029a0bc66e87ce6975b3ac9e6ac10e4267ee32",
     "commitName": "feat(HU29): ampliar la foto elegida segun su posicion",
     "commitTimestamp": 1792621194074,
     "testId": 67
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1792621202870,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1792621511866,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): no ampliar foto si la posicion no existe",
+    "commitTimestamp": 1792621513100,
+    "testId": 68
   }
 ]
