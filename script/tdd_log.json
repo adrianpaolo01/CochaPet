@@ -682,9 +682,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dd560aa87548e423bb3410e237addcdb27921c0c",
     "commitName": "feat(HU27): combinar los filtros de nombre, raza y color",
     "commitTimestamp": 1792556433145,
     "testId": 34
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556460993,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556480741,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): elegir la raza en la pagina y combinarla con la busqueda",
+    "commitTimestamp": 1792556482542,
+    "testId": 35
   }
 ]
