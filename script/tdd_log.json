@@ -1416,9 +1416,23 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f6a833f284269ab013c585c1875d9ab6303388e8",
     "commitName": "feat(HU29): volver a la primera foto despues de la ultima",
     "commitTimestamp": 1792622175668,
     "testId": 71
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1792622195596,
+    "success": true,
+    "testId": 72
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): boton para pasar a la siguiente foto en el visor",
+    "commitTimestamp": 1792622196834,
+    "testId": 72
   }
 ]
