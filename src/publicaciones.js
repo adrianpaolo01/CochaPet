@@ -36,3 +36,8 @@ export function idDesdeHash(hash) {
   const coincidencia = hash.match(/^#\/mascota\/(\d+)$/);
   return coincidencia ? Number(coincidencia[1]) : null;
 }
+
+export function enlaceWhatsApp(publicacion) {
+  const mensaje = `Hola, vi la publicación de ${tituloPublicacion(publicacion)} en CochaPet.`;
+  return `https://wa.me/591${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
+}

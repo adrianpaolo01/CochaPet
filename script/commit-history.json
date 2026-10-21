@@ -1064,12 +1064,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "438a2072acb2a4c88ff98ff288a69ecddbd046b2",
     "author": "BerniUCB",
     "commit": {
       "date": "2026-10-21T13:05:38.000Z",
       "message": "feat(HU28): dar null si el hash no es de una mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/438a2072acb2a4c88ff98ff288a69ecddbd046b2"
     },
     "stats": {
       "total": 7,
@@ -1079,6 +1079,25 @@
     },
     "coverage": 100,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:06:11.000Z",
+      "message": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

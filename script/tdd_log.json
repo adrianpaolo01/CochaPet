@@ -1128,9 +1128,31 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "438a2072acb2a4c88ff98ff288a69ecddbd046b2",
     "commitName": "feat(HU28): dar null si el hash no es de una mascota",
     "commitTimestamp": 1792587938887,
     "testId": 55
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1792587961602,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1792587970115,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): armar el enlace de WhatsApp de la publicacion",
+    "commitTimestamp": 1792587971637,
+    "testId": 56
   }
 ]
