@@ -704,9 +704,23 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "073709fe37932acb0d9383874addc5b3ca687a11",
     "commitName": "feat(HU27): elegir la raza en la pagina y combinarla con la busqueda",
     "commitTimestamp": 1792556482542,
     "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556503233,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU27): elegir el color en la pagina y combinarlo con los demas filtros",
+    "commitTimestamp": 1792556507345,
+    "testId": 36
   }
 ]

@@ -684,17 +684,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "073709fe37932acb0d9383874addc5b3ca687a11",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T04:21:21.000Z",
       "message": "feat(HU27): elegir la raza en la pagina y combinarla con la busqueda",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/073709fe37932acb0d9383874addc5b3ca687a11"
     },
     "stats": {
       "total": 15,
       "additions": 11,
       "deletions": 4,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T04:21:46.000Z",
+      "message": "feat(HU27): elegir el color en la pagina y combinarlo con los demas filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-10-21"
     },
     "coverage": 100,
