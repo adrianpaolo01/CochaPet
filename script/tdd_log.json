@@ -718,9 +718,23 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c50aad24928f9ea17a7909da42d8e14e8f8c4b1d",
     "commitName": "feat(HU27): elegir el color en la pagina y combinarlo con los demas filtros",
     "commitTimestamp": 1792556507345,
     "testId": 36
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792556529198,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU27): dar a los filtros de raza y color el estilo del buscador",
+    "commitTimestamp": 1792556531134,
+    "testId": 37
   }
 ]
