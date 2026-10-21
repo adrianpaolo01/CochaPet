@@ -1532,9 +1532,23 @@
     "testId": 77
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99d022e01d61ba4121a6acf0860c403e8fed8f90",
     "commitName": "feat(HU29): no permitir pasar de foto cuando hay una sola",
     "commitTimestamp": 1792623484894,
     "testId": 77
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1792623496869,
+    "success": true,
+    "testId": 78
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU29): ocultar los botones del visor si hay una sola foto",
+    "commitTimestamp": 1792623498182,
+    "testId": 78
   }
 ]
