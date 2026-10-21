@@ -952,9 +952,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b3f194e4f9422d7f5831a83fb4288809fd437da7",
     "commitName": "feat(HU12): cargar los barrios del selector desde la api",
     "commitTimestamp": 1792567645516,
     "testId": 47
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1792585876137,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1792586188648,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU28): devolver el detalle de una publicacion",
+    "commitTimestamp": 1792586195203,
+    "testId": 48
   }
 ]
