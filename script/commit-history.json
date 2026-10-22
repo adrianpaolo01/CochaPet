@@ -1805,12 +1805,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5848ffbc29ab9e8830e8cd118b953352bd7db86f",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-22T02:43:57.000Z",
       "message": "feat(HU11): conectar el selector de especie en la lista",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5848ffbc29ab9e8830e8cd118b953352bd7db86f"
     },
     "stats": {
       "total": 7,
@@ -1820,6 +1820,25 @@
     },
     "coverage": 100,
     "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:50:15.000Z",
+      "message": "fix(HU11): limitar las razas a la especie seleccionada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 61,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1840,9 +1840,31 @@
     "testId": 95
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5848ffbc29ab9e8830e8cd118b953352bd7db86f",
     "commitName": "feat(HU11): conectar el selector de especie en la lista",
     "commitTimestamp": 1792637038360,
     "testId": 95
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 1,
+    "numTotalTests": 61,
+    "timestamp": 1792637066299,
+    "success": false,
+    "testId": 96
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637398508,
+    "success": true,
+    "testId": 96
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU11): limitar las razas a la especie seleccionada",
+    "commitTimestamp": 1792637416321,
+    "testId": 96
   }
 ]

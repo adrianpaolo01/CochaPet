@@ -29,8 +29,8 @@ export function filtrarPorEspecie(publicaciones, especie) {
   return filtrarPorCampo(publicaciones, "especie", especie);
 }
 
-export function opcionesDe(publicaciones, campo) {
-  const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
+export function opcionesDe(publicaciones, campo, especie = "") {
+  const valores = filtrarPorEspecie(publicaciones, especie).map((p) => p[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 

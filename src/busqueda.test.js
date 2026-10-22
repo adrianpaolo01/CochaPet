@@ -6,6 +6,12 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorEspecie(publicaciones, "PERRO")).toEqual([publicaciones[0]]);
   });
 
+  it("deberia limitar las opciones de raza a la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO", raza: "Labrador" }, { especie: "GATO", raza: "Siames" },
+      { especie: "OTRO", raza: "Loro" }, { especie: "OTRO", raza: "Conejo" }];
+    expect(opcionesDe(publicaciones, "raza", "OTRO")).toEqual(["Conejo", "Loro"]);
+  });
+
   it("deberia combinar especie con texto y barrio", () => {
     const base = { nombre: "Michi", barrio: "Sarco" };
     const publicaciones = [{ ...base, especie: "GATO" }, { ...base, especie: "PERRO" },
