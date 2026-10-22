@@ -1876,9 +1876,23 @@
     "testId": 97
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3ef8b9a9d39a6c2ba7832c1a7a1baccd20fc4e09",
     "commitName": "fix(HU11): actualizar raza al cambiar de especie",
     "commitTimestamp": 1792637480809,
     "testId": 97
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637504963,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU11): integrar el selector de especie con los filtros",
+    "commitTimestamp": 1792637555760,
+    "testId": 98
   }
 ]
