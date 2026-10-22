@@ -62,7 +62,10 @@ async function mostrarPublicaciones() {
     filtroRaza.addEventListener("change", aplicarFiltros);
     filtroColor.addEventListener("change", aplicarFiltros);
     filtroBarrio.addEventListener("change", aplicarFiltros);
-    filtroEspecie.addEventListener("change", aplicarFiltros);
+    filtroEspecie.addEventListener("change", () => {
+      filtroRaza.replaceChildren(new Option("Todas", ""), ...opcionesDe(publicaciones, "raza", filtroEspecie.value).map((raza) => new Option(raza, raza)));
+      aplicarFiltros();
+    });
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;

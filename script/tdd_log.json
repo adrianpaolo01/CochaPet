@@ -1862,9 +1862,23 @@
     "testId": 96
   },
   {
-    "commitId": "HEAD",
+    "commitId": "88b2ef252179589b6b2451df8343edfcaeab37f1",
     "commitName": "fix(HU11): limitar las razas a la especie seleccionada",
     "commitTimestamp": 1792637416321,
     "testId": 96
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637437816,
+    "success": true,
+    "testId": 97
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU11): actualizar raza al cambiar de especie",
+    "commitTimestamp": 1792637480809,
+    "testId": 97
   }
 ]
