@@ -1,6 +1,11 @@
-import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorEspecie, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
+  it("deberia mostrar solo las mascotas de la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO" }, { especie: "GATO" }, { especie: "OTRO" }];
+    expect(filtrarPorEspecie(publicaciones, "PERRO")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: "Luna" }, { nombre: null }];
     expect(buscarPorNombre(publicaciones, "FIRU")).toEqual([publicaciones[0]]);

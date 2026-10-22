@@ -1774,9 +1774,39 @@
     "testId": 92
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e477c36a74ef065438a5888e68045a5f4a4abe1d",
     "commitName": "chore(HU29): fusionar main con HU16 y resolver conflictos de los logs",
     "commitTimestamp": 1792627146807,
     "testId": 92
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 0,
+    "numTotalTests": 58,
+    "timestamp": 1792636197081,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 1,
+    "numTotalTests": 59,
+    "timestamp": 1792636242336,
+    "success": false,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 0,
+    "numTotalTests": 59,
+    "timestamp": 1792636562500,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU11): filtrar mascotas por especie",
+    "commitTimestamp": 1792636576312,
+    "testId": 93
   }
 ]
