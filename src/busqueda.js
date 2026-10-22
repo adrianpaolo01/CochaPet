@@ -25,11 +25,16 @@ export function filtrarPorBarrio(publicaciones, barrio) {
   return filtrarPorCampo(publicaciones, "barrio", barrio);
 }
 
-export function opcionesDe(publicaciones, campo) {
-  const valores = publicaciones.map((p) => p[campo]).filter(Boolean);
+export function filtrarPorEspecie(publicaciones, especie) {
+  return filtrarPorCampo(publicaciones, "especie", especie);
+}
+
+export function opcionesDe(publicaciones, campo, especie = "") {
+  const valores = filtrarPorEspecie(publicaciones, especie).map((p) => p[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "" }) {
-  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color), barrio);
+export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {
+  const porEspecie = filtrarPorEspecie(publicaciones, especie);
+  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(porEspecie, texto), raza), color), barrio);
 }

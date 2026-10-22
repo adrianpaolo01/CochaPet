@@ -1,6 +1,24 @@
-import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorEspecie, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
+  it("deberia mostrar solo las mascotas de la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO" }, { especie: "GATO" }, { especie: "OTRO" }];
+    expect(filtrarPorEspecie(publicaciones, "PERRO")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia limitar las opciones de raza a la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO", raza: "Labrador" }, { especie: "GATO", raza: "Siames" },
+      { especie: "OTRO", raza: "Loro" }, { especie: "OTRO", raza: "Conejo" }];
+    expect(opcionesDe(publicaciones, "raza", "OTRO")).toEqual(["Conejo", "Loro"]);
+  });
+
+  it("deberia combinar especie con texto y barrio", () => {
+    const base = { nombre: "Michi", barrio: "Sarco" };
+    const publicaciones = [{ ...base, especie: "GATO" }, { ...base, especie: "PERRO" },
+      { ...base, especie: "GATO", barrio: "Cala Cala" }, { ...base, especie: "GATO", nombre: "Luna" }];
+    expect(filtrarMascotas(publicaciones, { texto: "mi", raza: "", color: "", barrio: "Sarco", especie: "GATO" })).toEqual([publicaciones[0]]);
+  });
+
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: "Luna" }, { nombre: null }];
     expect(buscarPorNombre(publicaciones, "FIRU")).toEqual([publicaciones[0]]);

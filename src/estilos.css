@@ -21,9 +21,9 @@ body {
 .marca-acento { color: var(--primario); }
 .contenedor { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
 .subtitulo { color: var(--tinta-suave); }
-label[for="buscar-mascotas"], label[for="filtro-raza"], label[for="filtro-color"], label[for="filtro-barrio"] { display: block; margin: 20px 0 8px; font-weight: 700; }
-#buscar-mascotas, #filtro-raza, #filtro-color, #filtro-barrio { box-sizing: border-box; width: 100%; max-width: 420px; margin-bottom: 20px; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; color: var(--tinta); background: var(--superficie); }
-#buscar-mascotas:focus-visible, #filtro-raza:focus-visible, #filtro-color:focus-visible, #filtro-barrio:focus-visible { outline: 2px solid var(--primario); outline-offset: 2px; }
+label[for="buscar-mascotas"], label[for="filtro-especie"], label[for="filtro-raza"], label[for="filtro-color"], label[for="filtro-barrio"] { display: block; margin: 20px 0 8px; font-weight: 700; }
+#buscar-mascotas, #filtro-especie, #filtro-raza, #filtro-color, #filtro-barrio { box-sizing: border-box; width: 100%; max-width: 420px; margin-bottom: 20px; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; color: var(--tinta); background: var(--superficie); }
+#buscar-mascotas:focus-visible, #filtro-especie:focus-visible, #filtro-raza:focus-visible, #filtro-color:focus-visible, #filtro-barrio:focus-visible { outline: 2px solid var(--primario); outline-offset: 2px; }
 
 .grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
 .tarjeta { overflow: hidden; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); }

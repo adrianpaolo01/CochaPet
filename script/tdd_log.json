@@ -1774,9 +1774,125 @@
     "testId": 92
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e477c36a74ef065438a5888e68045a5f4a4abe1d",
     "commitName": "chore(HU29): fusionar main con HU16 y resolver conflictos de los logs",
     "commitTimestamp": 1792627146807,
     "testId": 92
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 0,
+    "numTotalTests": 58,
+    "timestamp": 1792636197081,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 1,
+    "numTotalTests": 59,
+    "timestamp": 1792636242336,
+    "success": false,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 0,
+    "numTotalTests": 59,
+    "timestamp": 1792636562500,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "commitId": "12fa79ab5b50e116736175a4018c11c6b188a589",
+    "commitName": "feat(HU11): filtrar mascotas por especie",
+    "commitTimestamp": 1792636576312,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 1,
+    "numTotalTests": 60,
+    "timestamp": 1792636612975,
+    "success": false,
+    "testId": 94
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792636948790,
+    "success": true,
+    "testId": 94
+  },
+  {
+    "commitId": "2bfc5125f12c5995236fcd5c2787414bb1c30808",
+    "commitName": "feat(HU11): combinar especie con texto y barrio",
+    "commitTimestamp": 1792636967895,
+    "testId": 94
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792637010375,
+    "success": true,
+    "testId": 95
+  },
+  {
+    "commitId": "5848ffbc29ab9e8830e8cd118b953352bd7db86f",
+    "commitName": "feat(HU11): conectar el selector de especie en la lista",
+    "commitTimestamp": 1792637038360,
+    "testId": 95
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 1,
+    "numTotalTests": 61,
+    "timestamp": 1792637066299,
+    "success": false,
+    "testId": 96
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637398508,
+    "success": true,
+    "testId": 96
+  },
+  {
+    "commitId": "88b2ef252179589b6b2451df8343edfcaeab37f1",
+    "commitName": "fix(HU11): limitar las razas a la especie seleccionada",
+    "commitTimestamp": 1792637416321,
+    "testId": 96
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637437816,
+    "success": true,
+    "testId": 97
+  },
+  {
+    "commitId": "3ef8b9a9d39a6c2ba7832c1a7a1baccd20fc4e09",
+    "commitName": "fix(HU11): actualizar raza al cambiar de especie",
+    "commitTimestamp": 1792637480809,
+    "testId": 97
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792637504963,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU11): integrar el selector de especie con los filtros",
+    "commitTimestamp": 1792637555760,
+    "testId": 98
   }
 ]

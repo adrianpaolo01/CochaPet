@@ -1748,12 +1748,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e477c36a74ef065438a5888e68045a5f4a4abe1d",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-10-21T23:59:05.000Z",
       "message": "chore(HU29): fusionar main con HU16 y resolver conflictos de los logs",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e477c36a74ef065438a5888e68045a5f4a4abe1d"
     },
     "stats": {
       "total": 14,
@@ -1763,6 +1763,120 @@
     },
     "coverage": 100,
     "test_count": 58,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "12fa79ab5b50e116736175a4018c11c6b188a589",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:36:15.000Z",
+      "message": "feat(HU11): filtrar mascotas por especie",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/12fa79ab5b50e116736175a4018c11c6b188a589"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 59,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2bfc5125f12c5995236fcd5c2787414bb1c30808",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:42:46.000Z",
+      "message": "feat(HU11): combinar especie con texto y barrio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2bfc5125f12c5995236fcd5c2787414bb1c30808"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5848ffbc29ab9e8830e8cd118b953352bd7db86f",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:43:57.000Z",
+      "message": "feat(HU11): conectar el selector de especie en la lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5848ffbc29ab9e8830e8cd118b953352bd7db86f"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "88b2ef252179589b6b2451df8343edfcaeab37f1",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:50:15.000Z",
+      "message": "fix(HU11): limitar las razas a la especie seleccionada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/88b2ef252179589b6b2451df8343edfcaeab37f1"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3ef8b9a9d39a6c2ba7832c1a7a1baccd20fc4e09",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:51:19.000Z",
+      "message": "fix(HU11): actualizar raza al cambiar de especie",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3ef8b9a9d39a6c2ba7832c1a7a1baccd20fc4e09"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:52:34.000Z",
+      "message": "style(HU11): integrar el selector de especie con los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 61,
     "failed_tests": 0,
     "conclusion": "success"
   }
