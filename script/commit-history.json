@@ -1786,17 +1786,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2bfc5125f12c5995236fcd5c2787414bb1c30808",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-22T02:42:46.000Z",
       "message": "feat(HU11): combinar especie con texto y barrio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2bfc5125f12c5995236fcd5c2787414bb1c30808"
     },
     "stats": {
       "total": 12,
       "additions": 10,
       "deletions": 2,
+      "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-10-22T02:43:57.000Z",
+      "message": "feat(HU11): conectar el selector de especie en la lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
       "date": "2026-10-22"
     },
     "coverage": 100,

@@ -1826,9 +1826,23 @@
     "testId": 94
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2bfc5125f12c5995236fcd5c2787414bb1c30808",
     "commitName": "feat(HU11): combinar especie con texto y barrio",
     "commitTimestamp": 1792636967895,
     "testId": 94
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792637010375,
+    "success": true,
+    "testId": 95
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU11): conectar el selector de especie en la lista",
+    "commitTimestamp": 1792637038360,
+    "testId": 95
   }
 ]

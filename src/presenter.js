@@ -5,6 +5,7 @@ const lista = document.querySelector("#lista-publicaciones");
 const plantilla = document.querySelector("#plantilla-tarjeta");
 const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
+const filtroEspecie = document.querySelector("#filtro-especie");
 const filtroRaza = document.querySelector("#filtro-raza");
 const filtroColor = document.querySelector("#filtro-color");
 const filtroBarrio = document.querySelector("#filtro-barrio");
@@ -49,8 +50,9 @@ async function mostrarPublicaciones() {
     filtroColor.disabled = false;
     filtroBarrio.append(...(await cargarBarrios(publicaciones)).map((barrio) => new Option(barrio, barrio)));
     filtroBarrio.disabled = false;
+    filtroEspecie.disabled = false;
     const aplicarFiltros = () => {
-      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value };
+      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
       const filtradas = filtrarMascotas(publicaciones, filtros);
       lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
       mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(filtradas) ?? "";
@@ -60,6 +62,7 @@ async function mostrarPublicaciones() {
     filtroRaza.addEventListener("change", aplicarFiltros);
     filtroColor.addEventListener("change", aplicarFiltros);
     filtroBarrio.addEventListener("change", aplicarFiltros);
+    filtroEspecie.addEventListener("change", aplicarFiltros);
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;
