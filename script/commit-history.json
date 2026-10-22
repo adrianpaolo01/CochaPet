@@ -1273,6 +1273,120 @@
     "conclusion": "success"
   },
   {
+    "sha": "e4815537f99bc2e69745b7b9908679bffa9ee374",
+    "author": "BerniUCB",
+    "commit": {
+      "date": "2026-10-21T13:10:27.000Z",
+      "message": "style(HU28): estilos de las fotos y los botones del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e4815537f99bc2e69745b7b9908679bffa9ee374"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "95e96994913d69bfbafcaecd09893c82a86cbe96",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:14:33.000Z",
+      "message": "feat(HU29): mostrar ampliada la foto que se abre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/95e96994913d69bfbafcaecd09893c82a86cbe96"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "14029a0bc66e87ce6975b3ac9e6ac10e4267ee32",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:19:53.000Z",
+      "message": "feat(HU29): ampliar la foto elegida segun su posicion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/14029a0bc66e87ce6975b3ac9e6ac10e4267ee32"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "acdd2416d7a3b8c132860a351b5442acf7311a06",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:25:12.000Z",
+      "message": "feat(HU29): no ampliar foto si la posicion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/acdd2416d7a3b8c132860a351b5442acf7311a06"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9000d96af64540cc9da8b8dfc82bfa510b42cd14",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:25:40.000Z",
+      "message": "feat(HU29): abrir la foto ampliada al hacer clic en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9000d96af64540cc9da8b8dfc82bfa510b42cd14"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b554acd7fef4caf7f60fdf6cdb2293084179fefe",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:30:58.000Z",
+      "message": "feat(HU29): pasar a la siguiente foto ampliada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b554acd7fef4caf7f60fdf6cdb2293084179fefe"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "06f59fd8b9d777c7e6172866be34dd60eb3e36a8",
     "author": "BerniUCb",
     "commit": {
@@ -1368,6 +1482,196 @@
     "conclusion": "success"
   },
   {
+    "sha": "f6a833f284269ab013c585c1875d9ab6303388e8",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:36:15.000Z",
+      "message": "feat(HU29): volver a la primera foto despues de la ultima",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f6a833f284269ab013c585c1875d9ab6303388e8"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5fbfcfcbfa981d5b265456a8e6401fbbaf1a06e2",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:36:36.000Z",
+      "message": "feat(HU29): boton para pasar a la siguiente foto en el visor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5fbfcfcbfa981d5b265456a8e6401fbbaf1a06e2"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3789a4f16ecd397d75daf5f50aed2f18c8f13be5",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:41:53.000Z",
+      "message": "feat(HU29): volver a la foto anterior ampliada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3789a4f16ecd397d75daf5f50aed2f18c8f13be5"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "79e2906aa7da1c226e6cad6ad3ce24498ca21604",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:47:10.000Z",
+      "message": "feat(HU29): ir a la ultima foto antes de la primera",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/79e2906aa7da1c226e6cad6ad3ce24498ca21604"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "088be91c85cc2d5e716ce0df5d3f530c5f3043a4",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:47:25.000Z",
+      "message": "feat(HU29): boton para volver a la foto anterior en el visor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/088be91c85cc2d5e716ce0df5d3f530c5f3043a4"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "db5e177514d0a12d57512e14d770bd0fb2fbfeda",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:52:46.000Z",
+      "message": "feat(HU29): permitir pasar de foto cuando hay varias",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/db5e177514d0a12d57512e14d770bd0fb2fbfeda"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "99d022e01d61ba4121a6acf0860c403e8fed8f90",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:58:04.000Z",
+      "message": "feat(HU29): no permitir pasar de foto cuando hay una sola",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/99d022e01d61ba4121a6acf0860c403e8fed8f90"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3d268619b2cb9fe19d5f4f464b5e74d169df1a66",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T22:58:17.000Z",
+      "message": "feat(HU29): ocultar los botones del visor si hay una sola foto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3d268619b2cb9fe19d5f4f464b5e74d169df1a66"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c7d820c5a598987c90eaf9915dfdd087c60fbdb9",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T23:03:39.000Z",
+      "message": "feat(HU29): indicar que foto ampliada se esta viendo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c7d820c5a598987c90eaf9915dfdd087c60fbdb9"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 57,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8216f547bedde2b060a168dd386375b282ef6b4f",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T23:03:54.000Z",
+      "message": "feat(HU29): mostrar contador y boton para cerrar el visor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8216f547bedde2b060a168dd386375b282ef6b4f"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 57,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "367c65597039cd530c050ed743ac0cec4e05a448",
     "author": "Mateo Quintanilla",
     "commit": {
@@ -1425,12 +1729,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a18f72801c53291f0b97a5f0d148b73633276f4",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-10-21T23:40:03.000Z",
       "message": "style(HU16): estilos del aviso de seguridad contra estafas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a18f72801c53291f0b97a5f0d148b73633276f4"
     },
     "stats": {
       "total": 1,
@@ -1440,6 +1744,25 @@
     },
     "coverage": 100,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-10-21T23:59:05.000Z",
+      "message": "chore(HU29): fusionar main con HU16 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-10-21"
+    },
+    "coverage": 100,
+    "test_count": 58,
     "failed_tests": 0,
     "conclusion": "success"
   }

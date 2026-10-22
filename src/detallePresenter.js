@@ -1,8 +1,30 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
+import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
 const fotos = document.querySelector("#detalle-fotos");
+const visor = document.querySelector("#visor");
+let indiceVisor = 0;
+
+function mostrarEnVisor(indice) {
+  const urls = [...fotos.children].map((img) => img.src);
+  const foto = fotoAmpliada(urls, indice);
+  if (!foto) return;
+  indiceVisor = indice;
+  document.querySelector("#visor-foto").src = foto;
+  document.querySelector("#visor-contador").textContent = textoContador(indice, urls.length);
+  for (const boton of visor.querySelectorAll("#visor-anterior, #visor-siguiente")) boton.hidden = !hayVariasFotos(urls);
+  if (!visor.open) visor.showModal();
+}
+
+fotos.addEventListener("click", (evento) => mostrarEnVisor([...fotos.children].indexOf(evento.target)));
+document.querySelector("#visor-siguiente").addEventListener("click", () =>
+  mostrarEnVisor(siguienteIndice(indiceVisor, fotos.children.length))
+);
+document.querySelector("#visor-anterior").addEventListener("click", () =>
+  mostrarEnVisor(anteriorIndice(indiceVisor, fotos.children.length))
+);
 
 async function mostrarVista() {
   const id = idDesdeHash(location.hash);
