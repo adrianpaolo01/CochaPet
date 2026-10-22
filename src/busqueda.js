@@ -34,6 +34,7 @@ export function opcionesDe(publicaciones, campo) {
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "" }) {
-  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(publicaciones, texto), raza), color), barrio);
+export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {
+  const porEspecie = filtrarPorEspecie(publicaciones, especie);
+  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(porEspecie, texto), raza), color), barrio);
 }

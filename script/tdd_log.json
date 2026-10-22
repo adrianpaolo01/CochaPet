@@ -1804,9 +1804,31 @@
     "testId": 93
   },
   {
-    "commitId": "HEAD",
+    "commitId": "12fa79ab5b50e116736175a4018c11c6b188a589",
     "commitName": "feat(HU11): filtrar mascotas por especie",
     "commitTimestamp": 1792636576312,
     "testId": 93
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 1,
+    "numTotalTests": 60,
+    "timestamp": 1792636612975,
+    "success": false,
+    "testId": 94
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792636948790,
+    "success": true,
+    "testId": 94
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU11): combinar especie con texto y barrio",
+    "commitTimestamp": 1792636967895,
+    "testId": 94
   }
 ]
