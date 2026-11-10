@@ -1952,9 +1952,23 @@
     "testId": 103
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f15fbeaace3e51da7c0deb7806ee60b5d8401084",
     "commitName": "fix: refactor presenter lista publicaciones",
     "commitTimestamp": 1794319985853,
     "testId": 103
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794320443346,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: refactor detalle presenter",
+    "commitTimestamp": 1794320527614,
+    "testId": 104
   }
 ]

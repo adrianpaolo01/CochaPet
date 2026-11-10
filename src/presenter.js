@@ -2,7 +2,7 @@ import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarPa
 import { filtrarMascotas, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 const listaPublicaciones = document.querySelector("#lista-publicaciones");
-const plantilla = document.querySelector("#plantilla-tarjeta");
+const plantillaTarjeta = document.querySelector("#plantilla-tarjeta");
 const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
 const filtroEspecie = document.querySelector("#filtro-especie");
@@ -40,7 +40,7 @@ async function mostrarPublicaciones() {
     const respuesta = await fetch("/api/publicaciones");
     if (!respuesta.ok) throw new Error("No se pudieron cargar las publicaciones");
     const publicaciones = await respuesta.json();
-    lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
+    listaPublicaciones.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
     mensaje.textContent = mensajeInicio(publicaciones) ?? "";
     mensaje.hidden = !mensaje.textContent;
     buscador.disabled = false;
