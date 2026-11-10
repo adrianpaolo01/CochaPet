@@ -1932,9 +1932,43 @@
     "testId": 101
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b30dfb9662b0e07cbc62375701914655f77fad66",
     "commitName": "fix: varios cambios en publicaciones",
     "commitTimestamp": 1794319480986,
     "testId": 101
+  },
+  {
+    "commitId": "2b2240013b34074a95b1f614b0f18b39609a1086",
+    "commitName": "fix: refactor presenter",
+    "commitTimestamp": 1794319782835,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794319964162,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "commitId": "f15fbeaace3e51da7c0deb7806ee60b5d8401084",
+    "commitName": "fix: refactor presenter lista publicaciones",
+    "commitTimestamp": 1794319985853,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794320443346,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: refactor detalle presenter",
+    "commitTimestamp": 1794320527614,
+    "testId": 104
   }
 ]
