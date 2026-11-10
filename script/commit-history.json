@@ -1938,17 +1938,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2b2240013b34074a95b1f614b0f18b39609a1086",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-10T14:09:41.000Z",
       "message": "fix: refactor presenter",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2b2240013b34074a95b1f614b0f18b39609a1086"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-11-10"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-10T14:13:04.000Z",
+      "message": "fix: refactor presenter lista publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-10"
     },
     "coverage": 100,

@@ -1,7 +1,7 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 import { filtrarMascotas, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
-const lista = document.querySelector("#lista-publicaciones");
+const listaPublicaciones = document.querySelector("#lista-publicaciones");
 const plantilla = document.querySelector("#plantilla-tarjeta");
 const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
@@ -54,7 +54,7 @@ async function mostrarPublicaciones() {
     const aplicarFiltros = () => {
       const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
       const publicacionesFiltradas = filtrarMascotas(publicaciones, filtros);
-      lista.replaceChildren(...ordenarParaInicio(publicacionesFiltradas).map(crearTarjeta));
+      listaPublicaciones.replaceChildren(...ordenarParaInicio(publicacionesFiltradas).map(crearTarjeta));
       mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(publicacionesFiltradas) ?? "";
       mensaje.hidden = !mensaje.textContent;
     };
