@@ -1900,17 +1900,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d69d558ca8f58d3e6c29855ccfb3f0407ad9e6fe",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-10T14:01:58.000Z",
       "message": "fix: cambios en publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d69d558ca8f58d3e6c29855ccfb3f0407ad9e6fe"
     },
     "stats": {
       "total": 8,
       "additions": 4,
       "deletions": 4,
+      "date": "2026-11-10"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-10T14:04:39.000Z",
+      "message": "fix: varios cambios en publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-10"
     },
     "coverage": 100,
