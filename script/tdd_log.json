@@ -1932,9 +1932,15 @@
     "testId": 101
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b30dfb9662b0e07cbc62375701914655f77fad66",
     "commitName": "fix: varios cambios en publicaciones",
     "commitTimestamp": 1794319480986,
     "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: refactor presenter",
+    "commitTimestamp": 1794319782835,
+    "testId": 102
   }
 ]

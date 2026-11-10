@@ -53,9 +53,9 @@ async function mostrarPublicaciones() {
     filtroEspecie.disabled = false;
     const aplicarFiltros = () => {
       const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
-      const filtradas = filtrarMascotas(publicaciones, filtros);
-      lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
-      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(filtradas) ?? "";
+      const publicacionesFiltradas = filtrarMascotas(publicaciones, filtros);
+      lista.replaceChildren(...ordenarParaInicio(publicacionesFiltradas).map(crearTarjeta));
+      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(publicacionesFiltradas) ?? "";
       mensaje.hidden = !mensaje.textContent;
     };
     buscador.addEventListener("input", aplicarFiltros);
