@@ -1890,9 +1890,23 @@
     "testId": 98
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d94e67399c2ce8dae41eb4524b681c4c14f0dcbf",
     "commitName": "style(HU11): integrar el selector de especie con los filtros",
     "commitTimestamp": 1792637555760,
     "testId": 98
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794318921882,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: Haciendo refactoring",
+    "commitTimestamp": 1794318979491,
+    "testId": 99
   }
 ]

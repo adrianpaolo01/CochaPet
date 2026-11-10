@@ -1862,18 +1862,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d94e67399c2ce8dae41eb4524b681c4c14f0dcbf",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-10-22T02:52:34.000Z",
       "message": "style(HU11): integrar el selector de especie con los filtros",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d94e67399c2ce8dae41eb4524b681c4c14f0dcbf"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
       "date": "2026-10-22"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-10T13:56:18.000Z",
+      "message": "fix: Haciendo refactoring",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-11-10"
     },
     "coverage": 100,
     "test_count": 61,

@@ -1,7 +1,7 @@
 export function buscarPorNombre(publicaciones, texto) {
   if (texto === "") return publicaciones;
   const termino = texto.toLowerCase();
-  return publicaciones.filter((p) => p.nombre && p.nombre.toLowerCase().includes(termino));
+  return publicaciones.filter((publicacion) => publicacion.nombre && publicacion.nombre.toLowerCase().includes(termino));
 }
 
 export function mensajeBusqueda(publicaciones) {
@@ -10,7 +10,7 @@ export function mensajeBusqueda(publicaciones) {
 
 function filtrarPorCampo(publicaciones, campo, valor) {
   if (valor === "") return publicaciones;
-  return publicaciones.filter((p) => p[campo] && p[campo].toLowerCase() === valor.toLowerCase());
+  return publicaciones.filter((publicacion) => publicacion[campo] && publicacion[campo].toLowerCase() === valor.toLowerCase());
 }
 
 export function filtrarPorRaza(publicaciones, raza) {
@@ -30,7 +30,7 @@ export function filtrarPorEspecie(publicaciones, especie) {
 }
 
 export function opcionesDe(publicaciones, campo, especie = "") {
-  const valores = filtrarPorEspecie(publicaciones, especie).map((p) => p[campo]).filter(Boolean);
+  const valores = filtrarPorEspecie(publicaciones, especie).map((publicacion) => publicacion[campo]).filter(Boolean);
   return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
 }
 
