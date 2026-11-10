@@ -14,10 +14,10 @@ export function etiquetaEstado(publicacion) {
 }
 
 export function formatearFecha(fecha) {
-  const f = new Date(fecha);
-  const dia = String(f.getDate()).padStart(2, "0");
-  const mes = String(f.getMonth() + 1).padStart(2, "0");
-  return `${dia}/${mes}/${f.getFullYear()}`;
+  const fechaConvertida = new Date(fecha);
+  const dia = String(fechaConvertida.getDate()).padStart(2, "0");
+  const mes = String(fechaConvertida.getMonth() + 1).padStart(2, "0");
+  return `${dia}/${mes}/${fechaConvertida.getFullYear()}`;
 }
 
 export function fotoPrincipal(publicacion) {
