@@ -17,3 +17,9 @@ export function htmlFiltros() {
     <label for="filtro-barrio">Barrio</label>
     <select id="filtro-barrio" disabled><option value="">Todos</option></select>`;
 }
+
+export function htmlVistaLista() {
+  return `${htmlEncabezadoLista()}${htmlFiltros()}
+    <p id="mensaje-inicio" class="mensaje-vacio" hidden></p>
+    <div id="lista-publicaciones" class="grilla"></div>`;
+}

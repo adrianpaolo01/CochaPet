@@ -2033,12 +2033,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2bd98dc923fe4ade6f3b10164023da655cdb5885",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:38:41.000Z",
       "message": "feat(vistas): generar el buscador y los filtros de la lista",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2bd98dc923fe4ade6f3b10164023da655cdb5885"
     },
     "stats": {
       "total": 22,
@@ -2048,6 +2048,25 @@
     },
     "coverage": 100,
     "test_count": 63,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:38:52.000Z",
+      "message": "feat(vistas): armar la vista lista completa",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 64,
     "failed_tests": 0,
     "conclusion": "success"
   }

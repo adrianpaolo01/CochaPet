@@ -2032,9 +2032,31 @@
     "testId": 107
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2bd98dc923fe4ade6f3b10164023da655cdb5885",
     "commitName": "feat(vistas): generar el buscador y los filtros de la lista",
     "commitTimestamp": 1794490721835,
     "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 1,
+    "numTotalTests": 64,
+    "timestamp": 1794490728076,
+    "success": false,
+    "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490732305,
+    "success": true,
+    "testId": 108
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): armar la vista lista completa",
+    "commitTimestamp": 1794490732725,
+    "testId": 108
   }
 ]

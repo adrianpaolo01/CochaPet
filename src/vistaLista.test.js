@@ -1,4 +1,4 @@
-import { htmlEncabezadoLista, htmlFiltros } from "./vistaLista.js";
+import { htmlEncabezadoLista, htmlFiltros, htmlVistaLista } from "./vistaLista.js";
 
 describe("Vista lista", () => {
   it("deberia mostrar el titulo de la lista", () => {
@@ -9,5 +9,10 @@ describe("Vista lista", () => {
     for (const id of ["buscar-mascotas", "filtro-especie", "filtro-raza", "filtro-color", "filtro-barrio"]) {
       expect(htmlFiltros()).toMatch(new RegExp(`id="${id}"[^>]* disabled`));
     }
+  });
+
+  it("deberia armar la vista lista con filtros, mensaje y grilla", () => {
+    expect(htmlVistaLista()).toContain(htmlFiltros());
+    expect(htmlVistaLista()).toContain('<div id="lista-publicaciones" class="grilla"></div>');
   });
 });
