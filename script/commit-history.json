@@ -1976,18 +1976,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cac26de73903ab08c036ca39575ab681497e7860",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-10T14:22:06.000Z",
       "message": "fix: refactor detalle presenter",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cac26de73903ab08c036ca39575ab681497e7860"
     },
     "stats": {
       "total": 16,
       "additions": 8,
       "deletions": 8,
       "date": "2026-11-10"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:37:05.000Z",
+      "message": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-12"
     },
     "coverage": 100,
     "test_count": 61,

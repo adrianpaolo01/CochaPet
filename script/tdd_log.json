@@ -1966,9 +1966,31 @@
     "testId": 104
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cac26de73903ab08c036ca39575ab681497e7860",
     "commitName": "fix: refactor detalle presenter",
     "commitTimestamp": 1794320527614,
     "testId": 104
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490594343,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490625592,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
+    "commitTimestamp": 1794490626050,
+    "testId": 105
   }
 ]
