@@ -2109,17 +2109,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "778fe425bfbf00ada9bf6ea573a206229c0a36b4",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:39:21.000Z",
       "message": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/778fe425bfbf00ada9bf6ea573a206229c0a36b4"
     },
     "stats": {
       "total": 18,
       "additions": 3,
       "deletions": 15,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:43.000Z",
+      "message": "refactor(vistas): mover los iconos svg a archivos aparte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
       "date": "2026-11-12"
     },
     "coverage": 100,

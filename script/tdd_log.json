@@ -2104,9 +2104,23 @@
     "testId": 111
   },
   {
-    "commitId": "HEAD",
+    "commitId": "778fe425bfbf00ada9bf6ea573a206229c0a36b4",
     "commitName": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
     "commitTimestamp": 1794490761603,
     "testId": 111
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490777855,
+    "success": true,
+    "testId": 112
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): mover los iconos svg a archivos aparte",
+    "commitTimestamp": 1794490783714,
+    "testId": 112
   }
 ]
