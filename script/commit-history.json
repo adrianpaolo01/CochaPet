@@ -1995,12 +1995,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:37:05.000Z",
       "message": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0114ca6f55f814621bc6cc4c3f632dad7cc303a6"
     },
     "stats": {
       "total": 2,
@@ -2010,6 +2010,25 @@
     },
     "coverage": 100,
     "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:38:29.000Z",
+      "message": "feat(vistas): generar el encabezado de la vista lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 62,
     "failed_tests": 0,
     "conclusion": "success"
   }

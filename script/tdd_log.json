@@ -1988,9 +1988,31 @@
     "testId": 105
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
     "commitName": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
     "commitTimestamp": 1794490626050,
     "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 1,
+    "numTotalTests": 62,
+    "timestamp": 1794490631417,
+    "success": false,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 0,
+    "numTotalTests": 62,
+    "timestamp": 1794490709502,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): generar el encabezado de la vista lista",
+    "commitTimestamp": 1794490710014,
+    "testId": 106
   }
 ]
