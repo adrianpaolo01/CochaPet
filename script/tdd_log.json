@@ -1904,9 +1904,23 @@
     "testId": 99
   },
   {
-    "commitId": "HEAD",
+    "commitId": "907cb265174e6f294de6db451a0e4a00749fa639",
     "commitName": "fix: Haciendo refactoring",
     "commitTimestamp": 1794318979491,
     "testId": 99
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490254340,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar variables para revelar su intención",
+    "commitTimestamp": 1794490311972,
+    "testId": 100
   }
 ]

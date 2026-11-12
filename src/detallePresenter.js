@@ -8,13 +8,13 @@ const visor = document.querySelector("#visor");
 let indiceVisor = 0;
 
 function mostrarEnVisor(indice) {
-  const urls = [...fotos.children].map((img) => img.src);
-  const foto = fotoAmpliada(urls, indice);
+  const urlsFotos = [...fotos.children].map((img) => img.src);
+  const foto = fotoAmpliada(urlsFotos, indice);
   if (!foto) return;
   indiceVisor = indice;
   document.querySelector("#visor-foto").src = foto;
-  document.querySelector("#visor-contador").textContent = textoContador(indice, urls.length);
-  for (const boton of visor.querySelectorAll("#visor-anterior, #visor-siguiente")) boton.hidden = !hayVariasFotos(urls);
+  document.querySelector("#visor-contador").textContent = textoContador(indice, urlsFotos.length);
+  for (const boton of visor.querySelectorAll("#visor-anterior, #visor-siguiente")) boton.hidden = !hayVariasFotos(urlsFotos);
   if (!visor.open) visor.showModal();
 }
 

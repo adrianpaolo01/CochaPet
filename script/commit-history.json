@@ -1881,18 +1881,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "907cb265174e6f294de6db451a0e4a00749fa639",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-10T13:56:18.000Z",
       "message": "fix: Haciendo refactoring",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/907cb265174e6f294de6db451a0e4a00749fa639"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
       "date": "2026-11-10"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:31:51.000Z",
+      "message": "refactor: renombrar variables para revelar su intención",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-12"
     },
     "coverage": 100,
     "test_count": 61,
