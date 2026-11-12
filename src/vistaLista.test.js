@@ -1,4 +1,4 @@
-import { htmlEncabezadoLista, htmlFiltros, htmlVistaLista } from "./vistaLista.js";
+import { htmlEncabezadoLista, htmlFiltros, htmlTarjeta, htmlVistaLista } from "./vistaLista.js";
 
 describe("Vista lista", () => {
   it("deberia mostrar el titulo de la lista", () => {
@@ -14,5 +14,9 @@ describe("Vista lista", () => {
   it("deberia armar la vista lista con filtros, mensaje y grilla", () => {
     expect(htmlVistaLista()).toContain(htmlFiltros());
     expect(htmlVistaLista()).toContain('<div id="lista-publicaciones" class="grilla"></div>');
+  });
+
+  it("deberia generar la tarjeta con el badge de destacada oculto", () => {
+    expect(htmlTarjeta()).toContain('<span class="badge badge-destacada" hidden>Destacada</span>');
   });
 });

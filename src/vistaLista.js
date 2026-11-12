@@ -23,3 +23,17 @@ export function htmlVistaLista() {
     <p id="mensaje-inicio" class="mensaje-vacio" hidden></p>
     <div id="lista-publicaciones" class="grilla"></div>`;
 }
+
+export function htmlTarjeta() {
+  return `
+    <article class="tarjeta">
+      <img class="tarjeta-foto" alt="" loading="lazy" />
+      <div class="tarjeta-cuerpo">
+        <span class="badge"></span>
+        <span class="badge badge-destacada" hidden>Destacada</span>
+        <h3 class="tarjeta-titulo"></h3>
+        <p class="tarjeta-datos"></p>
+        <a class="tarjeta-enlace">Ver detalle</a>
+      </div>
+    </article>`;
+}

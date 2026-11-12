@@ -2068,9 +2068,31 @@
     "testId": 109
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0ddcfc2039d07871d76dbad8338bdcd8d9584b7c",
     "commitName": "refactor(vistas): renderizar la vista lista desde su modulo",
     "commitTimestamp": 1794490745114,
     "testId": 109
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 1,
+    "numTotalTests": 65,
+    "timestamp": 1794490750187,
+    "success": false,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490754859,
+    "success": true,
+    "testId": 110
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): generar la plantilla de tarjeta",
+    "commitTimestamp": 1794490755286,
+    "testId": 110
   }
 ]

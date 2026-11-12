@@ -2071,12 +2071,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0ddcfc2039d07871d76dbad8338bdcd8d9584b7c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:39:04.000Z",
       "message": "refactor(vistas): renderizar la vista lista desde su modulo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0ddcfc2039d07871d76dbad8338bdcd8d9584b7c"
     },
     "stats": {
       "total": 20,
@@ -2086,6 +2086,25 @@
     },
     "coverage": 100,
     "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:15.000Z",
+      "message": "feat(vistas): generar la plantilla de tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
     "failed_tests": 0,
     "conclusion": "success"
   }
