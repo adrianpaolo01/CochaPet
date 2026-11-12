@@ -2054,9 +2054,23 @@
     "testId": 108
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aa2526da98d11fd6f3700068734311881db73adf",
     "commitName": "feat(vistas): armar la vista lista completa",
     "commitTimestamp": 1794490732725,
     "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490740163,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): renderizar la vista lista desde su modulo",
+    "commitTimestamp": 1794490745114,
+    "testId": 109
   }
 ]

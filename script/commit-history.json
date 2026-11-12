@@ -2052,17 +2052,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aa2526da98d11fd6f3700068734311881db73adf",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:38:52.000Z",
       "message": "feat(vistas): armar la vista lista completa",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/aa2526da98d11fd6f3700068734311881db73adf"
     },
     "stats": {
       "total": 13,
       "additions": 12,
       "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:04.000Z",
+      "message": "refactor(vistas): renderizar la vista lista desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 4,
+      "deletions": 16,
       "date": "2026-11-12"
     },
     "coverage": 100,

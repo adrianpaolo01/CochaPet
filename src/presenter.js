@@ -1,5 +1,8 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 import { filtrarMascotas, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { htmlVistaLista } from "./vistaLista.js";
+
+document.querySelector("#vista-lista").innerHTML = htmlVistaLista();
 
 const listaPublicaciones = document.querySelector("#lista-publicaciones");
 const plantillaTarjeta = document.querySelector("#plantilla-tarjeta");
