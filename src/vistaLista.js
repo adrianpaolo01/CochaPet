@@ -1,0 +1,39 @@
+export function htmlEncabezadoLista() {
+  return `
+    <h1>Mascotas perdidas y encontradas</h1>
+    <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>`;
+}
+
+export function htmlFiltros() {
+  return `
+    <label for="buscar-mascotas">Buscar por nombre</label>
+    <input id="buscar-mascotas" type="search" placeholder="Ej.: Firulais" disabled />
+    <label for="filtro-especie">Especie</label>
+    <select id="filtro-especie" disabled><option value="">Todas</option><option value="PERRO">Perro</option><option value="GATO">Gato</option><option value="OTRO">Otro</option></select>
+    <label for="filtro-raza">Raza</label>
+    <select id="filtro-raza" disabled><option value="">Todas</option></select>
+    <label for="filtro-color">Color</label>
+    <select id="filtro-color" disabled><option value="">Todos</option></select>
+    <label for="filtro-barrio">Barrio</label>
+    <select id="filtro-barrio" disabled><option value="">Todos</option></select>`;
+}
+
+export function htmlVistaLista() {
+  return `${htmlEncabezadoLista()}${htmlFiltros()}
+    <p id="mensaje-inicio" class="mensaje-vacio" hidden></p>
+    <div id="lista-publicaciones" class="grilla"></div>`;
+}
+
+export function htmlTarjeta() {
+  return `
+    <article class="tarjeta">
+      <img class="tarjeta-foto" alt="" loading="lazy" />
+      <div class="tarjeta-cuerpo">
+        <span class="badge"></span>
+        <span class="badge badge-destacada" hidden>Destacada</span>
+        <h3 class="tarjeta-titulo"></h3>
+        <p class="tarjeta-datos"></p>
+        <a class="tarjeta-enlace">Ver detalle</a>
+      </div>
+    </article>`;
+}

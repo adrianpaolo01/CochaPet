@@ -1976,12 +1976,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cac26de73903ab08c036ca39575ab681497e7860",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-10T14:22:06.000Z",
       "message": "fix: refactor detalle presenter",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cac26de73903ab08c036ca39575ab681497e7860"
     },
     "stats": {
       "total": 16,
@@ -1991,6 +1991,253 @@
     },
     "coverage": 100,
     "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:37:05.000Z",
+      "message": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0114ca6f55f814621bc6cc4c3f632dad7cc303a6"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d375992ad6037729e5673dbde7bf76ecf3c29af1",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:38:29.000Z",
+      "message": "feat(vistas): generar el encabezado de la vista lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d375992ad6037729e5673dbde7bf76ecf3c29af1"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 62,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2bd98dc923fe4ade6f3b10164023da655cdb5885",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:38:41.000Z",
+      "message": "feat(vistas): generar el buscador y los filtros de la lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2bd98dc923fe4ade6f3b10164023da655cdb5885"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 21,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 63,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "aa2526da98d11fd6f3700068734311881db73adf",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:38:52.000Z",
+      "message": "feat(vistas): armar la vista lista completa",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/aa2526da98d11fd6f3700068734311881db73adf"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0ddcfc2039d07871d76dbad8338bdcd8d9584b7c",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:04.000Z",
+      "message": "refactor(vistas): renderizar la vista lista desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0ddcfc2039d07871d76dbad8338bdcd8d9584b7c"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 4,
+      "deletions": 16,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8cc6044a2120a69b4170a7e7ba4e832f360f3687",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:15.000Z",
+      "message": "feat(vistas): generar la plantilla de tarjeta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8cc6044a2120a69b4170a7e7ba4e832f360f3687"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "778fe425bfbf00ada9bf6ea573a206229c0a36b4",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:21.000Z",
+      "message": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/778fe425bfbf00ada9bf6ea573a206229c0a36b4"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 3,
+      "deletions": 15,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f19cef17486ac49e2b2c4e501a4fb18ac82ca637",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:43.000Z",
+      "message": "refactor(vistas): mover los iconos svg a archivos aparte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f19cef17486ac49e2b2c4e501a4fb18ac82ca637"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "57bb9cb205a996f4eef1e533102ba20c33a242b6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:53.000Z",
+      "message": "feat(vistas): generar los botones de contacto del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/57bb9cb205a996f4eef1e533102ba20c33a242b6"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "74b9208f5dba021519e1cfee37927ae84d853335",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:05.000Z",
+      "message": "feat(vistas): armar la vista detalle completa",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/74b9208f5dba021519e1cfee37927ae84d853335"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 67,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5c682be859d172a941b8ac93f52631ee8d1167ee",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:11.000Z",
+      "message": "refactor(vistas): renderizar la vista detalle desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5c682be859d172a941b8ac93f52631ee8d1167ee"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 4,
+      "deletions": 14,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 67,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "06830076b3268313b65d8551938440e86939ca8c",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:21.000Z",
+      "message": "feat(vistas): generar el visor de fotos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/06830076b3268313b65d8551938440e86939ca8c"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:28.000Z",
+      "message": "refactor(vistas): renderizar el visor desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 3,
+      "deletions": 8,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 68,
     "failed_tests": 0,
     "conclusion": "success"
   }
