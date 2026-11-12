@@ -2204,17 +2204,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06830076b3268313b65d8551938440e86939ca8c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:40:21.000Z",
       "message": "feat(vistas): generar el visor de fotos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/06830076b3268313b65d8551938440e86939ca8c"
     },
     "stats": {
       "total": 16,
       "additions": 15,
       "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:28.000Z",
+      "message": "refactor(vistas): renderizar el visor desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 3,
+      "deletions": 8,
       "date": "2026-11-12"
     },
     "coverage": 100,

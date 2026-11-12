@@ -2198,9 +2198,23 @@
     "testId": 116
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06830076b3268313b65d8551938440e86939ca8c",
     "commitName": "feat(vistas): generar el visor de fotos",
     "commitTimestamp": 1794490821885,
     "testId": 116
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490828498,
+    "success": true,
+    "testId": 117
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
   }
 ]
