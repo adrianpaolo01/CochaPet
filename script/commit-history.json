@@ -2128,12 +2128,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f19cef17486ac49e2b2c4e501a4fb18ac82ca637",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:39:43.000Z",
       "message": "refactor(vistas): mover los iconos svg a archivos aparte",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f19cef17486ac49e2b2c4e501a4fb18ac82ca637"
     },
     "stats": {
       "total": 10,
@@ -2143,6 +2143,25 @@
     },
     "coverage": 100,
     "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:53.000Z",
+      "message": "feat(vistas): generar los botones de contacto del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 66,
     "failed_tests": 0,
     "conclusion": "success"
   }

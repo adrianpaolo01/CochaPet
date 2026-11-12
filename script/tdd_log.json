@@ -2118,9 +2118,31 @@
     "testId": 112
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f19cef17486ac49e2b2c4e501a4fb18ac82ca637",
     "commitName": "refactor(vistas): mover los iconos svg a archivos aparte",
     "commitTimestamp": 1794490783714,
     "testId": 112
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 1,
+    "numTotalTests": 66,
+    "timestamp": 1794490788682,
+    "success": false,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1794490793474,
+    "success": true,
+    "testId": 113
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): generar los botones de contacto del detalle",
+    "commitTimestamp": 1794490793899,
+    "testId": 113
   }
 ]
