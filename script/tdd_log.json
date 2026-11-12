@@ -2010,9 +2010,31 @@
     "testId": 106
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d375992ad6037729e5673dbde7bf76ecf3c29af1",
     "commitName": "feat(vistas): generar el encabezado de la vista lista",
     "commitTimestamp": 1794490710014,
     "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 1,
+    "numTotalTests": 63,
+    "timestamp": 1794490715539,
+    "success": false,
+    "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 0,
+    "numTotalTests": 63,
+    "timestamp": 1794490721412,
+    "success": true,
+    "testId": 107
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): generar el buscador y los filtros de la lista",
+    "commitTimestamp": 1794490721835,
+    "testId": 107
   }
 ]
