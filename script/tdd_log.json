@@ -2140,9 +2140,31 @@
     "testId": 113
   },
   {
-    "commitId": "HEAD",
+    "commitId": "57bb9cb205a996f4eef1e533102ba20c33a242b6",
     "commitName": "feat(vistas): generar los botones de contacto del detalle",
     "commitTimestamp": 1794490793899,
     "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 1,
+    "numTotalTests": 67,
+    "timestamp": 1794490799314,
+    "success": false,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490804723,
+    "success": true,
+    "testId": 114
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(vistas): armar la vista detalle completa",
+    "commitTimestamp": 1794490805142,
+    "testId": 114
   }
 ]

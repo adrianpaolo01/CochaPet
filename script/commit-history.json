@@ -2147,12 +2147,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "57bb9cb205a996f4eef1e533102ba20c33a242b6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:39:53.000Z",
       "message": "feat(vistas): generar los botones de contacto del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/57bb9cb205a996f4eef1e533102ba20c33a242b6"
     },
     "stats": {
       "total": 15,
@@ -2162,6 +2162,25 @@
     },
     "coverage": 100,
     "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:05.000Z",
+      "message": "feat(vistas): armar la vista detalle completa",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 67,
     "failed_tests": 0,
     "conclusion": "success"
   }
