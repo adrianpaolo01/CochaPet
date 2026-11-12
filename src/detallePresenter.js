@@ -1,5 +1,8 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
+import { htmlVistaDetalle } from "./vistaDetalle.js";
+
+document.querySelector("#vista-detalle").innerHTML = htmlVistaDetalle();
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");

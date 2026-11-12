@@ -2162,9 +2162,23 @@
     "testId": 114
   },
   {
-    "commitId": "HEAD",
+    "commitId": "74b9208f5dba021519e1cfee37927ae84d853335",
     "commitName": "feat(vistas): armar la vista detalle completa",
     "commitTimestamp": 1794490805142,
     "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490810957,
+    "success": true,
+    "testId": 115
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): renderizar la vista detalle desde su modulo",
+    "commitTimestamp": 1794490811377,
+    "testId": 115
   }
 ]
