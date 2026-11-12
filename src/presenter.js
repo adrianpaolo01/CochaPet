@@ -1,11 +1,12 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 import { filtrarMascotas, mensajeBusqueda, opcionesDe } from "./busqueda.js";
-import { htmlVistaLista } from "./vistaLista.js";
+import { htmlTarjeta, htmlVistaLista } from "./vistaLista.js";
 
 document.querySelector("#vista-lista").innerHTML = htmlVistaLista();
 
 const listaPublicaciones = document.querySelector("#lista-publicaciones");
-const plantillaTarjeta = document.querySelector("#plantilla-tarjeta");
+const plantillaTarjeta = document.createElement("template");
+plantillaTarjeta.innerHTML = htmlTarjeta();
 const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
 const filtroEspecie = document.querySelector("#filtro-especie");

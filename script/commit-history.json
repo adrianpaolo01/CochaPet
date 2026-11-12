@@ -2090,17 +2090,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8cc6044a2120a69b4170a7e7ba4e832f360f3687",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:39:15.000Z",
       "message": "feat(vistas): generar la plantilla de tarjeta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8cc6044a2120a69b4170a7e7ba4e832f360f3687"
     },
     "stats": {
       "total": 20,
       "additions": 19,
       "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:39:21.000Z",
+      "message": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 3,
+      "deletions": 15,
       "date": "2026-11-12"
     },
     "coverage": 100,

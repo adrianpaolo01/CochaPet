@@ -2090,9 +2090,23 @@
     "testId": 110
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8cc6044a2120a69b4170a7e7ba4e832f360f3687",
     "commitName": "feat(vistas): generar la plantilla de tarjeta",
     "commitTimestamp": 1794490755286,
     "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490761206,
+    "success": true,
+    "testId": 111
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
+    "commitTimestamp": 1794490761603,
+    "testId": 111
   }
 ]
