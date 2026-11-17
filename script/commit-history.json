@@ -2812,12 +2812,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "14bc4e657a24cc58184a6b79cc38a6fa74bf6d9d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:04.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/14bc4e657a24cc58184a6b79cc38a6fa74bf6d9d"
     },
     "stats": {
       "total": 8,
@@ -2941,6 +2941,25 @@
     },
     "coverage": 100,
     "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T03:31:39.000Z",
+      "message": "feat(detalle): mostrar especie raza y color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
     "failed_tests": 0,
     "conclusion": "success"
   }

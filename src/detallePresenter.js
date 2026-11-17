@@ -1,4 +1,4 @@
-import { badgeEstado, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
+import { badgeEstado, caracteristicasMascota, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 import { htmlVisor, htmlVistaDetalle } from "./vistaDetalle.js";
 
@@ -43,6 +43,7 @@ async function mostrarVista() {
   estado.textContent = texto;
   estado.className = clase;
   document.querySelector("#detalle-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
+  document.querySelector("#detalle-caracteristicas").textContent = caracteristicasMascota(publicacion);
   document.querySelector("#detalle-descripcion").textContent = publicacion.descripcion;
   document.querySelector("#detalle-whatsapp").href = enlaceWhatsApp(publicacion);
   document.querySelector("#detalle-llamar").href = enlaceLlamada(publicacion);

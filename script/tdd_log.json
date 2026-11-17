@@ -2684,7 +2684,7 @@
     "testId": 131
   },
   {
-    "commitId": "HEAD",
+    "commitId": "14bc4e657a24cc58184a6b79cc38a6fa74bf6d9d",
     "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
     "commitTimestamp": 1794884336782,
     "testId": 132
@@ -2758,5 +2758,27 @@
     "commitName": "feat(detalle): mostrar si la mascota esta perdida o encontrada",
     "commitTimestamp": 1794886247271,
     "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 1,
+    "numTotalTests": 76,
+    "timestamp": 1794886270053,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794886290169,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(detalle): mostrar especie raza y color",
+    "commitTimestamp": 1794886300210,
+    "testId": 138
   }
 ]
