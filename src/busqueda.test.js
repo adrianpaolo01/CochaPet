@@ -1,4 +1,4 @@
-import { buscarPorNombre, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorEspecie, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { buscarPorTexto, filtrarMascotas, filtrarPorBarrio, filtrarPorColor, filtrarPorEspecie, filtrarPorRaza, mensajeBusqueda, opcionesDe } from "./busqueda.js";
 
 describe("Busqueda de mascotas", () => {
   it("deberia mostrar solo las mascotas de la especie elegida", () => {
@@ -21,12 +21,27 @@ describe("Busqueda de mascotas", () => {
 
   it("deberia buscar por parte del nombre sin distinguir mayusculas", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: "Luna" }, { nombre: null }];
-    expect(buscarPorNombre(publicaciones, "FIRU")).toEqual([publicaciones[0]]);
+    expect(buscarPorTexto(publicaciones, "FIRU")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia encontrar al gato siames sin nombre buscando por su raza", () => {
+    const publicaciones = [{ nombre: null, raza: "Siamés", barrio: "Queru Queru" }, { nombre: "Luna", raza: "Husky" }];
+    expect(buscarPorTexto(publicaciones, "siamés")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia encontrar mascotas sin nombre buscando por su color", () => {
+    const publicaciones = [{ nombre: null, color: "Crema" }, { nombre: "Luna", color: "negro" }];
+    expect(buscarPorTexto(publicaciones, "crem")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia encontrar mascotas sin nombre buscando en su descripcion", () => {
+    const publicaciones = [{ nombre: null, descripcion: "Perro con collar azul" }, { nombre: "Luna", descripcion: "Muy jugueton" }];
+    expect(buscarPorTexto(publicaciones, "collar")).toEqual([publicaciones[0]]);
   });
 
   it("deberia mostrar todas las mascotas al borrar el texto", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: null }];
-    expect(buscarPorNombre(publicaciones, "")).toEqual(publicaciones);
+    expect(buscarPorTexto(publicaciones, "")).toEqual(publicaciones);
   });
 
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {

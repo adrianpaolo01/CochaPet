@@ -2260,7 +2260,7 @@
     "testId": 103
   },
   {
-    "commitId": "6bb341bb216a72baf122363f2c555a4b7e4df215",
+    "commitId": "3c41ebe9fb014dcc1c80dc4d439c3b502d0e49a6",
     "commitName": "refactor(demo): separar las publicaciones del seed",
     "commitTimestamp": 1794882846749,
     "testId": 103
@@ -2282,10 +2282,330 @@
     "testId": 104
   },
   {
-    "commitId": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
+    "commitId": "5e80c021daf6137350c66603fe645949f4cf9e68",
     "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
     "commitTimestamp": 1794883204587,
     "testId": 104
+  },
+  {
+    "commitId": "53f37a342b95aaf823f9eb07e821c37a16682f09",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "commitTimestamp": 1794882175873,
+    "testId": 101
+  },
+  {
+    "commitId": "d413d23e666484db1f23a01e2dd2141f44d183b1",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+    "commitTimestamp": 1794882230599,
+    "testId": 102
+  },
+  {
+    "commitId": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490853626,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 1,
+    "numTotalTests": 69,
+    "timestamp": 1794882720462,
+    "success": false,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794882726198,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "commitId": "52f5f0f9bb38073c955d52956eb11b625c53836d",
+    "commitName": "feat(busqueda): buscar tambien por raza",
+    "commitTimestamp": 1794882729613,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 1,
+    "numTotalTests": 70,
+    "timestamp": 1794882735677,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794882740321,
+    "success": true,
+    "testId": 119
+  },
+  {
+    "commitId": "b86a707ef2d1b6b821cbd93477e366a499bb1b1f",
+    "commitName": "feat(busqueda): buscar tambien por color",
+    "commitTimestamp": 1794882742971,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 1,
+    "numTotalTests": 71,
+    "timestamp": 1794882749157,
+    "success": false,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882755764,
+    "success": true,
+    "testId": 120
+  },
+  {
+    "commitId": "5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d",
+    "commitName": "feat(busqueda): buscar tambien en la descripcion",
+    "commitTimestamp": 1794882758362,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882764028,
+    "success": true,
+    "testId": 121
+  },
+  {
+    "commitId": "71c9a7f7c4dfbfef659eb9a203ea92c7b1461538",
+    "commitName": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
+    "commitTimestamp": 1794882766774,
+    "testId": 121
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882775448,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e",
+    "commitName": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
+    "commitTimestamp": 1794882778490,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882977530,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "07efe124ba2502811bbced40756f6153767cdc66",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794882978038,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794883943815,
+    "success": true,
+    "testId": 124
+  },
+  {
+    "commitId": "ba8b78e614e8117320440c9f53dab38c9ae8f9c3",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794883946738,
+    "testId": 124
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884240724,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884260864,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "commitId": "535a9ace015429ad395ef74dba98b77641e52c4e",
+    "commitName": "refactor(api): silenciar console.error una sola vez en los tests de la aplicacion",
+    "commitTimestamp": 1794884263580,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884271874,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "commitId": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
+    "commitName": "refactor(api): quitar el try finally del test de error de publicaciones",
+    "commitTimestamp": 1794884272361,
+    "testId": 126
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884279820,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
+    "commitName": "refactor(api): quitar el try finally del test de error del detalle",
+    "commitTimestamp": 1794884280292,
+    "testId": 127
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884288306,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
+    "commitName": "refactor(api): quitar el try finally del test de error de barrios",
+    "commitTimestamp": 1794884288776,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 1,
+    "numTotalTests": 73,
+    "timestamp": 1794884299408,
+    "success": false,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 0,
+    "numTotalTests": 73,
+    "timestamp": 1794884304703,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
+    "commitName": "feat(api): crear manejarErrores que ejecuta la accion",
+    "commitTimestamp": 1794884305163,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 1,
+    "numTotalTests": 74,
+    "timestamp": 1794884311422,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794884316746,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
+    "commitName": "feat(api): responder 500 con el mensaje cuando la accion falla",
+    "commitTimestamp": 1794884317223,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794884323409,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884328730,
+    "success": true,
+    "testId": 131
+  },
+  {
+    "commitId": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
+    "commitName": "feat(api): registrar en consola el error de la accion",
+    "commitTimestamp": 1794884329205,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884336314,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+    "commitTimestamp": 1794884336782,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884343561,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "commitId": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
+    "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
+    "commitTimestamp": 1794884344288,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884351088,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "9242aa55942fefcc6be45d0769c66b061c8992ba",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
+    "commitTimestamp": 1794884351558,
+    "testId": 134
   },
   {
     "numPassedTests": 69,
@@ -2293,7 +2613,7 @@
     "numTotalTests": 69,
     "timestamp": 1794884125752,
     "success": true,
-    "testId": 105
+    "testId": 135
   },
   {
     "numPassedTests": 69,
@@ -2301,13 +2621,13 @@
     "numTotalTests": 69,
     "timestamp": 1794884153060,
     "success": true,
-    "testId": 105
+    "testId": 135
   },
   {
-    "commitId": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
+    "commitId": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
     "commitName": "refactor(presenter): extraer la carga de opciones de filtros",
     "commitTimestamp": 1794884159954,
-    "testId": 105
+    "testId": 135
   },
   {
     "numPassedTests": 69,
@@ -2315,13 +2635,13 @@
     "numTotalTests": 69,
     "timestamp": 1794884181357,
     "success": true,
-    "testId": 106
+    "testId": 136
   },
   {
-    "commitId": "HEAD",
+    "commitId": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
     "commitName": "refactor(presenter): unificar el renderizado de la lista",
     "commitTimestamp": 1794884187636,
-    "testId": 106
+    "testId": 136
   },
   {
     "numPassedTests": 69,
@@ -2329,12 +2649,26 @@
     "numTotalTests": 69,
     "timestamp": 1794884221982,
     "success": true,
-    "testId": 107
+    "testId": 137
+  },
+  {
+    "commitId": "9a3748ca55f818476ca86f0e33ad893377d9947d",
+    "commitName": "refactor(presenter): extraer el registro de los filtros",
+    "commitTimestamp": 1794884228473,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884824918,
+    "success": true,
+    "testId": 138
   },
   {
     "commitId": "HEAD",
-    "commitName": "refactor(presenter): extraer el registro de los filtros",
-    "commitTimestamp": 1794884228473,
-    "testId": 107
+    "commitName": "chore(presenter): integrar main y resolver los historiales TDD",
+    "commitTimestamp": 1794884839696,
+    "testId": 138
   }
 ]
