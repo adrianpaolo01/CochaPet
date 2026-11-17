@@ -50,6 +50,22 @@ function renderLista(publicaciones, resultados = publicaciones) {
   mensaje.hidden = !mensaje.textContent;
 }
 
+function registrarFiltros(publicaciones) {
+  const aplicarFiltros = () => {
+    const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
+    renderLista(publicaciones, filtrarMascotas(publicaciones, filtros));
+  };
+  buscador.addEventListener("input", aplicarFiltros);
+  filtroRaza.addEventListener("change", aplicarFiltros);
+  filtroColor.addEventListener("change", aplicarFiltros);
+  filtroBarrio.addEventListener("change", aplicarFiltros);
+  filtroEspecie.addEventListener("change", () => {
+    filtroRaza.replaceChildren(new Option("Todas", ""));
+    llenarSelect(filtroRaza, opcionesDe(publicaciones, "raza", filtroEspecie.value));
+    aplicarFiltros();
+  });
+}
+
 async function mostrarPublicaciones() {
   try {
     const respuesta = await fetch("/api/publicaciones");
@@ -61,19 +77,7 @@ async function mostrarPublicaciones() {
     llenarSelect(filtroColor, opcionesDe(publicaciones, "color"));
     llenarSelect(filtroBarrio, await cargarBarrios(publicaciones));
     filtroEspecie.disabled = false;
-    const aplicarFiltros = () => {
-      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
-      const publicacionesFiltradas = filtrarMascotas(publicaciones, filtros);
-      renderLista(publicaciones, publicacionesFiltradas);
-    };
-    buscador.addEventListener("input", aplicarFiltros);
-    filtroRaza.addEventListener("change", aplicarFiltros);
-    filtroColor.addEventListener("change", aplicarFiltros);
-    filtroBarrio.addEventListener("change", aplicarFiltros);
-    filtroEspecie.addEventListener("change", () => {
-      filtroRaza.replaceChildren(new Option("Todas", ""), ...opcionesDe(publicaciones, "raza", filtroEspecie.value).map((raza) => new Option(raza, raza)));
-      aplicarFiltros();
-    });
+    registrarFiltros(publicaciones);
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;

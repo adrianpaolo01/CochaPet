@@ -2304,7 +2304,7 @@
     "testId": 105
   },
   {
-    "commitId": "HEAD",
+    "commitId": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
     "commitName": "refactor(presenter): extraer la carga de opciones de filtros",
     "commitTimestamp": 1794884159954,
     "testId": 105
@@ -2322,5 +2322,19 @@
     "commitName": "refactor(presenter): unificar el renderizado de la lista",
     "commitTimestamp": 1794884187636,
     "testId": 106
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884221982,
+    "success": true,
+    "testId": 107
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(presenter): extraer el registro de los filtros",
+    "commitTimestamp": 1794884228473,
+    "testId": 107
   }
 ]

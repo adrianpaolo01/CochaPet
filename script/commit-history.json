@@ -2337,12 +2337,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:55:59.000Z",
       "message": "refactor(presenter): extraer la carga de opciones de filtros",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/678b1dd555b47e77d48cf3e79695f4498fe40f99"
     },
     "stats": {
       "total": 14,
@@ -2367,6 +2367,25 @@
       "total": 14,
       "additions": 8,
       "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:57:07.000Z",
+      "message": "refactor(presenter): extraer el registro de los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 17,
+      "deletions": 13,
       "date": "2026-11-17"
     },
     "coverage": 100,
