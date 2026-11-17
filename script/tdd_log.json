@@ -2416,7 +2416,7 @@
     "testId": 123
   },
   {
-    "commitId": "HEAD",
+    "commitId": "07efe124ba2502811bbced40756f6153767cdc66",
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794882978038,
     "testId": 123
@@ -2484,5 +2484,19 @@
     "commitName": "refactor(api): quitar el try finally del test de error del detalle",
     "commitTimestamp": 1794884280292,
     "testId": 127
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884288306,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): quitar el try finally del test de error de barrios",
+    "commitTimestamp": 1794884288776,
+    "testId": 128
   }
 ]

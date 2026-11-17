@@ -2489,12 +2489,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "07efe124ba2502811bbced40756f6153767cdc66",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:40:03.000Z",
       "message": "fix(demo): nombrar a las tres mascotas encontradas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/07efe124ba2502811bbced40756f6153767cdc66"
     },
     "stats": {
       "total": 16,
@@ -2576,6 +2576,25 @@
       "total": 12,
       "additions": 4,
       "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:08.000Z",
+      "message": "refactor(api): quitar el try finally del test de error de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 5,
+      "deletions": 9,
       "date": "2026-11-17"
     },
     "coverage": 100,
