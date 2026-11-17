@@ -2768,7 +2768,7 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f0f3fb8ed47314e18770adef23f6da40d1ff7aba",
     "commitName": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
     "commitTimestamp": 1794885927712,
     "testId": 138
@@ -2842,5 +2842,19 @@
     "commitName": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
     "commitTimestamp": 1794885969082,
     "testId": 143
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885978713,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el fondo del aviso a la variable --aviso-fondo",
+    "commitTimestamp": 1794885979112,
+    "testId": 144
   }
 ]

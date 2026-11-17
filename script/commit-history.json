@@ -2945,12 +2945,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f0f3fb8ed47314e18770adef23f6da40d1ff7aba",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:25:27.000Z",
       "message": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f0f3fb8ed47314e18770adef23f6da40d1ff7aba"
     },
     "stats": {
       "total": 14,
@@ -3045,6 +3045,25 @@
     "commit": {
       "date": "2026-11-17T03:26:08.000Z",
       "message": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:26:19.000Z",
+      "message": "style(estilos): pasar el fondo del aviso a la variable --aviso-fondo",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {
