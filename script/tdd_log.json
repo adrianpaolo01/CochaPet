@@ -2696,7 +2696,7 @@
     "testId": 133
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7c9dd98072752a046ff414c54cf27746595ec55",
     "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
     "commitTimestamp": 1794884351558,
     "testId": 134
@@ -2810,5 +2810,27 @@
     "commitName": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
     "commitTimestamp": 1794887715531,
     "testId": 139
+  },
+  {
+    "numPassedTests": 77,
+    "failedTests": 1,
+    "numTotalTests": 78,
+    "timestamp": 1794888165259,
+    "success": false,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 78,
+    "failedTests": 0,
+    "numTotalTests": 78,
+    "timestamp": 1794888360366,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): ignorar espacios al inicio y al final de la busqueda",
+    "commitTimestamp": 1794888373380,
+    "testId": 140
   }
 ]
