@@ -2690,7 +2690,7 @@
     "testId": 132
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98e5bcd3508fb859cfd534e0562e68b79a647a9a",
     "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
     "commitTimestamp": 1794884344288,
     "testId": 133
@@ -2772,5 +2772,19 @@
     "commitName": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
     "commitTimestamp": 1794885927712,
     "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885939518,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(filtros): usar la clase campo-filtro en lugar de la lista de ids",
+    "commitTimestamp": 1794885940066,
+    "testId": 139
   }
 ]

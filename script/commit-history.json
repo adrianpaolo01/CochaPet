@@ -2850,12 +2850,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "98e5bcd3508fb859cfd534e0562e68b79a647a9a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:11.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta de barrios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/98e5bcd3508fb859cfd534e0562e68b79a647a9a"
     },
     "stats": {
       "total": 9,
@@ -2956,6 +2956,25 @@
       "total": 14,
       "additions": 9,
       "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:39.000Z",
+      "message": "style(filtros): usar la clase campo-filtro en lugar de la lista de ids",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-17"
     },
     "coverage": 100,
