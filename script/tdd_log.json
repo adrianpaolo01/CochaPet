@@ -1966,9 +1966,255 @@
     "testId": 104
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cac26de73903ab08c036ca39575ab681497e7860",
     "commitName": "fix: refactor detalle presenter",
     "commitTimestamp": 1794320527614,
     "testId": 104
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490594343,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490625592,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "commitId": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
+    "commitName": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
+    "commitTimestamp": 1794490626050,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 1,
+    "numTotalTests": 62,
+    "timestamp": 1794490631417,
+    "success": false,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 0,
+    "numTotalTests": 62,
+    "timestamp": 1794490709502,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "commitId": "d375992ad6037729e5673dbde7bf76ecf3c29af1",
+    "commitName": "feat(vistas): generar el encabezado de la vista lista",
+    "commitTimestamp": 1794490710014,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 1,
+    "numTotalTests": 63,
+    "timestamp": 1794490715539,
+    "success": false,
+    "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 0,
+    "numTotalTests": 63,
+    "timestamp": 1794490721412,
+    "success": true,
+    "testId": 107
+  },
+  {
+    "commitId": "2bd98dc923fe4ade6f3b10164023da655cdb5885",
+    "commitName": "feat(vistas): generar el buscador y los filtros de la lista",
+    "commitTimestamp": 1794490721835,
+    "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 1,
+    "numTotalTests": 64,
+    "timestamp": 1794490728076,
+    "success": false,
+    "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490732305,
+    "success": true,
+    "testId": 108
+  },
+  {
+    "commitId": "aa2526da98d11fd6f3700068734311881db73adf",
+    "commitName": "feat(vistas): armar la vista lista completa",
+    "commitTimestamp": 1794490732725,
+    "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490740163,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "0ddcfc2039d07871d76dbad8338bdcd8d9584b7c",
+    "commitName": "refactor(vistas): renderizar la vista lista desde su modulo",
+    "commitTimestamp": 1794490745114,
+    "testId": 109
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 1,
+    "numTotalTests": 65,
+    "timestamp": 1794490750187,
+    "success": false,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490754859,
+    "success": true,
+    "testId": 110
+  },
+  {
+    "commitId": "8cc6044a2120a69b4170a7e7ba4e832f360f3687",
+    "commitName": "feat(vistas): generar la plantilla de tarjeta",
+    "commitTimestamp": 1794490755286,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490761206,
+    "success": true,
+    "testId": 111
+  },
+  {
+    "commitId": "778fe425bfbf00ada9bf6ea573a206229c0a36b4",
+    "commitName": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
+    "commitTimestamp": 1794490761603,
+    "testId": 111
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490777855,
+    "success": true,
+    "testId": 112
+  },
+  {
+    "commitId": "f19cef17486ac49e2b2c4e501a4fb18ac82ca637",
+    "commitName": "refactor(vistas): mover los iconos svg a archivos aparte",
+    "commitTimestamp": 1794490783714,
+    "testId": 112
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 1,
+    "numTotalTests": 66,
+    "timestamp": 1794490788682,
+    "success": false,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1794490793474,
+    "success": true,
+    "testId": 113
+  },
+  {
+    "commitId": "57bb9cb205a996f4eef1e533102ba20c33a242b6",
+    "commitName": "feat(vistas): generar los botones de contacto del detalle",
+    "commitTimestamp": 1794490793899,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 1,
+    "numTotalTests": 67,
+    "timestamp": 1794490799314,
+    "success": false,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490804723,
+    "success": true,
+    "testId": 114
+  },
+  {
+    "commitId": "74b9208f5dba021519e1cfee37927ae84d853335",
+    "commitName": "feat(vistas): armar la vista detalle completa",
+    "commitTimestamp": 1794490805142,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490810957,
+    "success": true,
+    "testId": 115
+  },
+  {
+    "commitId": "5c682be859d172a941b8ac93f52631ee8d1167ee",
+    "commitName": "refactor(vistas): renderizar la vista detalle desde su modulo",
+    "commitTimestamp": 1794490811377,
+    "testId": 115
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 1,
+    "numTotalTests": 68,
+    "timestamp": 1794490816797,
+    "success": false,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490821463,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "commitId": "06830076b3268313b65d8551938440e86939ca8c",
+    "commitName": "feat(vistas): generar el visor de fotos",
+    "commitTimestamp": 1794490821885,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490828498,
+    "success": true,
+    "testId": 117
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
   }
 ]
