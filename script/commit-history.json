@@ -2869,12 +2869,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d1db0ee014738300fc7e57f952cd34c048ca66f6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:04:46.000Z",
       "message": "chore: eliminar holaMundo del template que no se usa en la app",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d1db0ee014738300fc7e57f952cd34c048ca66f6"
     },
     "stats": {
       "total": 12,
@@ -2969,6 +2969,25 @@
     "commit": {
       "date": "2026-11-17T03:25:39.000Z",
       "message": "style(filtros): usar la clase campo-filtro en lugar de la lista de ids",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:46.000Z",
+      "message": "style(filtros): usar campo-filtro en el foco de los campos",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {
