@@ -2754,7 +2754,7 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56085adebae52f9040912a20ffd549b04074a0a9",
     "commitName": "feat(detalle): mostrar si la mascota esta perdida o encontrada",
     "commitTimestamp": 1794886247271,
     "testId": 137
@@ -2776,7 +2776,7 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e586b51f5e550a3d4f197d14b7d60f52a7126171",
     "commitName": "feat(detalle): mostrar especie raza y color",
     "commitTimestamp": 1794886300210,
     "testId": 138
@@ -2806,7 +2806,7 @@
     "testId": 139
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52667f02e9dff73c372e316c43d2d53c49de3c91",
     "commitName": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
     "commitTimestamp": 1794887715531,
     "testId": 139
@@ -2828,7 +2828,7 @@
     "testId": 140
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a7d39eae92bbf1920c7afc7dcc32f693b1d23a73",
     "commitName": "fix(busqueda): ignorar espacios al inicio y al final de la busqueda",
     "commitTimestamp": 1794888373380,
     "testId": 140
@@ -2860,5 +2860,69 @@
     "commitName": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
     "commitTimestamp": 1794888431966,
     "testId": 142
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 1,
+    "numTotalTests": 81,
+    "timestamp": 1794890177432,
+    "success": false,
+    "testId": 143
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 0,
+    "numTotalTests": 81,
+    "timestamp": 1794890307887,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
+    "commitTimestamp": 1794890315052,
+    "testId": 143
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 0,
+    "numTotalTests": 82,
+    "timestamp": 1794890329101,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
+    "commitTimestamp": 1794890335489,
+    "testId": 144
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 0,
+    "numTotalTests": 83,
+    "timestamp": 1794890348653,
+    "success": true,
+    "testId": 145
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): limitar las opciones de color a la especie elegida",
+    "commitTimestamp": 1794890356177,
+    "testId": 145
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 0,
+    "numTotalTests": 83,
+    "timestamp": 1794890374401,
+    "success": true,
+    "testId": 146
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
+    "commitTimestamp": 1794890381533,
+    "testId": 146
   }
 ]

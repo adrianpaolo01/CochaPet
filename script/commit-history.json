@@ -2926,12 +2926,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56085adebae52f9040912a20ffd549b04074a0a9",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T03:30:46.000Z",
       "message": "feat(detalle): mostrar si la mascota esta perdida o encontrada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/56085adebae52f9040912a20ffd549b04074a0a9"
     },
     "stats": {
       "total": 21,
@@ -2945,12 +2945,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e586b51f5e550a3d4f197d14b7d60f52a7126171",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T03:31:39.000Z",
       "message": "feat(detalle): mostrar especie raza y color",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e586b51f5e550a3d4f197d14b7d60f52a7126171"
     },
     "stats": {
       "total": 19,
@@ -2964,12 +2964,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52667f02e9dff73c372e316c43d2d53c49de3c91",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T03:55:13.000Z",
       "message": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/52667f02e9dff73c372e316c43d2d53c49de3c91"
     },
     "stats": {
       "total": 13,
@@ -2983,12 +2983,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a7d39eae92bbf1920c7afc7dcc32f693b1d23a73",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:06:12.000Z",
       "message": "fix(busqueda): ignorar espacios al inicio y al final de la busqueda",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a7d39eae92bbf1920c7afc7dcc32f693b1d23a73"
     },
     "stats": {
       "total": 7,
@@ -3036,6 +3036,82 @@
     },
     "coverage": 100,
     "test_count": 80,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:38:34.000Z",
+      "message": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 81,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:38:54.000Z",
+      "message": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:39:15.000Z",
+      "message": "test(busqueda): limitar las opciones de color a la especie elegida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 83,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:39:40.000Z",
+      "message": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 83,
     "failed_tests": 0,
     "conclusion": "success"
   }

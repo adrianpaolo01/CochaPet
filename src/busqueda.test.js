@@ -12,6 +12,12 @@ describe("Busqueda de mascotas", () => {
     expect(opcionesDe(publicaciones, "raza", "OTRO")).toEqual(["Conejo", "Loro"]);
   });
 
+  it("deberia limitar las opciones de color a la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO", color: "Negro" }, { especie: "GATO", color: "Naranja" },
+      { especie: "GATO", color: "Blanco" }];
+    expect(opcionesDe(publicaciones, "color", "GATO")).toEqual(["Blanco", "Naranja"]);
+  });
+
   it("deberia combinar especie con texto y barrio", () => {
     const base = { nombre: "Michi", barrio: "Sarco" };
     const publicaciones = [{ ...base, especie: "GATO" }, { ...base, especie: "PERRO" },
@@ -79,9 +85,19 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorRaza(publicaciones, "")).toEqual(publicaciones);
   });
 
+  it("deberia filtrar por raza sin tildes y sin espacios sobrantes", () => {
+    const publicaciones = [{ raza: "Siamés" }, { raza: "Husky" }];
+    expect(filtrarPorRaza(publicaciones, " siames ")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia filtrar por color sin distinguir mayusculas", () => {
     const publicaciones = [{ color: "negro" }, { color: "Blanco" }, { color: null }];
     expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);
+  });
+
+  it("deberia filtrar por color con tilde al escribirlo sin tilde", () => {
+    const publicaciones = [{ color: "Café" }, { color: "Negro" }];
+    expect(filtrarPorColor(publicaciones, "cafe")).toEqual([publicaciones[0]]);
   });
 
   it("deberia mostrar todas las mascotas si no se elige color", () => {
