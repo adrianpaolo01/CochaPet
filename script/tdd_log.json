@@ -2710,7 +2710,7 @@
     "testId": 135
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cb0caaaf8f42f0c28b3785d20940087609d79902",
     "commitName": "chore: eliminar holaMundo del template que no se usa en la app",
     "commitTimestamp": 1794884686291,
     "testId": 135
@@ -2800,5 +2800,19 @@
     "commitName": "style(filtros): usar campo-filtro en el foco de los campos",
     "commitTimestamp": 1794885946278,
     "testId": 140
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885951986,
+    "success": true,
+    "testId": 141
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(filtros): usar la clase etiqueta-filtro en las etiquetas",
+    "commitTimestamp": 1794885952395,
+    "testId": 141
   }
 ]
