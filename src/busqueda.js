@@ -5,8 +5,8 @@ function normalizar(texto) {
 }
 
 export function buscarPorTexto(publicaciones, texto) {
-  if (texto === "") return publicaciones;
   const termino = normalizar(texto);
+  if (termino === "") return publicaciones;
   const contiene = (valor) => Boolean(valor) && normalizar(valor).includes(termino);
   return publicaciones.filter((publicacion) => CAMPOS_BUSCABLES.some((campo) => contiene(publicacion[campo])));
 }

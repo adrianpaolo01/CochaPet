@@ -2842,7 +2842,7 @@
     "testId": 141
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ed099f068ece06e3aee5027348fe1ea5241d4c4f",
     "commitName": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
     "commitTimestamp": 1794888408221,
     "testId": 141
@@ -2924,5 +2924,35 @@
     "commitName": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
     "commitTimestamp": 1794890381533,
     "testId": 146
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 0,
+    "numTotalTests": 83,
+    "timestamp": 1794890722872,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 1,
+    "numTotalTests": 84,
+    "timestamp": 1794891063607,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 0,
+    "numTotalTests": 84,
+    "timestamp": 1794891254856,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
+    "commitTimestamp": 1794891262588,
+    "testId": 147
   }
 ]
