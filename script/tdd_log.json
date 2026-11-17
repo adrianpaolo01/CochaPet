@@ -2906,7 +2906,7 @@
     "testId": 145
   },
   {
-    "commitId": "HEAD",
+    "commitId": "321acb53747f260766e9743b1739e6439e1cb7e7",
     "commitName": "test(busqueda): limitar las opciones de color a la especie elegida",
     "commitTimestamp": 1794890356177,
     "testId": 145
@@ -3020,5 +3020,27 @@
     "commitName": "fix(busqueda): no fallar si el texto buscado no esta definido",
     "commitTimestamp": 1794891793361,
     "testId": 150
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 1,
+    "numTotalTests": 89,
+    "timestamp": 1794891812839,
+    "success": false,
+    "testId": 151
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 0,
+    "numTotalTests": 89,
+    "timestamp": 1794892009256,
+    "success": true,
+    "testId": 151
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
+    "commitTimestamp": 1794892020208,
+    "testId": 151
   }
 ]

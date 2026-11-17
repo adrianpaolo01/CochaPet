@@ -43,7 +43,7 @@ export function opcionesDe(publicaciones, campo, especie = "") {
   return [...unicos.values()].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {
+export function filtrarMascotas(publicaciones, { texto, raza = "", color = "", barrio = "", especie = "" }) {
   const porEspecie = filtrarPorEspecie(publicaciones, especie);
   return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorTexto(porEspecie, texto), raza), color), barrio);
 }

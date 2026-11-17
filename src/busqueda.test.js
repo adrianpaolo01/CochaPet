@@ -155,6 +155,11 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarMascotas(publicaciones, { texto: "lu", raza: "Husky", color: "gris" })).toEqual([publicaciones[0]]);
   });
 
+  it("deberia filtrar solo por texto si no se indican raza ni color", () => {
+    const publicaciones = [{ nombre: "Luna", raza: "Husky" }, { nombre: "Firulais", raza: "Mestizo" }];
+    expect(filtrarMascotas(publicaciones, { texto: "lun" })).toEqual([publicaciones[0]]);
+  });
+
   it("deberia filtrar por barrio al combinar los filtros", () => {
     const publicaciones = [
       { barrio: "Cala Cala" },

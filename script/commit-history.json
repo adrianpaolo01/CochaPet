@@ -3078,12 +3078,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "321acb53747f260766e9743b1739e6439e1cb7e7",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:39:15.000Z",
       "message": "test(busqueda): limitar las opciones de color a la especie elegida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/321acb53747f260766e9743b1739e6439e1cb7e7"
     },
     "stats": {
       "total": 6,
@@ -3188,6 +3188,25 @@
     },
     "coverage": 100,
     "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:06:58.000Z",
+      "message": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 89,
     "failed_tests": 0,
     "conclusion": "success"
   }
