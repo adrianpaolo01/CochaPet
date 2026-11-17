@@ -1,9 +1,13 @@
 const CAMPOS_BUSCABLES = ["nombre", "raza", "color", "descripcion"];
 
+function normalizar(texto) {
+  return texto.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+}
+
 export function buscarPorTexto(publicaciones, texto) {
   if (texto === "") return publicaciones;
-  const termino = texto.toLowerCase();
-  const contiene = (valor) => Boolean(valor) && valor.toLowerCase().includes(termino);
+  const termino = normalizar(texto);
+  const contiene = (valor) => Boolean(valor) && normalizar(valor).includes(termino);
   return publicaciones.filter((publicacion) => CAMPOS_BUSCABLES.some((campo) => contiene(publicacion[campo])));
 }
 
