@@ -2856,7 +2856,7 @@
     "testId": 142
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d",
     "commitName": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
     "commitTimestamp": 1794888431966,
     "testId": 142
@@ -2954,5 +2954,27 @@
     "commitName": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
     "commitTimestamp": 1794891262588,
     "testId": 147
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 2,
+    "numTotalTests": 86,
+    "timestamp": 1794891279675,
+    "success": false,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794891411410,
+    "success": true,
+    "testId": 148
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
+    "commitTimestamp": 1794891419477,
+    "testId": 148
   }
 ]

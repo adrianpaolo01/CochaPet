@@ -75,6 +75,11 @@ describe("Busqueda de mascotas", () => {
     expect(buscarPorTexto(publicaciones, "   ")).toEqual(publicaciones);
   });
 
+  it.each(["collar  azul", "collar\tazul"])("deberia encontrar collar azul aunque se escriba %p", (texto) => {
+    const publicaciones = [{ nombre: null, descripcion: "Perro con Collar azul" }, { nombre: "Luna", descripcion: "Muy jugueton" }];
+    expect(buscarPorTexto(publicaciones, texto)).toEqual([publicaciones[0]]);
+  });
+
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
     expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
     expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();

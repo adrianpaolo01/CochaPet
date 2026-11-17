@@ -3021,12 +3021,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:07:11.000Z",
       "message": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d"
     },
     "stats": {
       "total": 5,
@@ -3131,6 +3131,25 @@
     },
     "coverage": 100,
     "test_count": 84,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:56:58.000Z",
+      "message": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 86,
     "failed_tests": 0,
     "conclusion": "success"
   }
