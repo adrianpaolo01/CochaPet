@@ -2318,12 +2318,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:40:03.000Z",
       "message": "fix(demo): nombrar a las tres mascotas encontradas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a378eba381f83d6addf9d78cf8e1da0bb3dc709b"
     },
     "stats": {
       "total": 16,
@@ -2342,6 +2342,25 @@
     "commit": {
       "date": "2026-11-17T02:55:59.000Z",
       "message": "refactor(presenter): extraer la carga de opciones de filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 8,
+      "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:56:26.000Z",
+      "message": "refactor(presenter): unificar el renderizado de la lista",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {

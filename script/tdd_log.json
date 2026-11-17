@@ -2282,7 +2282,7 @@
     "testId": 104
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
     "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
     "commitTimestamp": 1794883204587,
     "testId": 104
@@ -2308,5 +2308,19 @@
     "commitName": "refactor(presenter): extraer la carga de opciones de filtros",
     "commitTimestamp": 1794884159954,
     "testId": 105
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884181357,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(presenter): unificar el renderizado de la lista",
+    "commitTimestamp": 1794884187636,
+    "testId": 106
   }
 ]
