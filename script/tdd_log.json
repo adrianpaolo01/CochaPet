@@ -2724,7 +2724,7 @@
     "testId": 136
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8b820f4bd4a87e02fcd098fd17243b7c5a922ae5",
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794885588575,
     "testId": 136
@@ -2814,5 +2814,19 @@
     "commitName": "style(filtros): usar la clase etiqueta-filtro en las etiquetas",
     "commitTimestamp": 1794885952395,
     "testId": 141
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885960666,
+    "success": true,
+    "testId": 142
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el color del borde a la variable --borde",
+    "commitTimestamp": 1794885961258,
+    "testId": 142
   }
 ]
