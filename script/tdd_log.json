@@ -2232,6 +2232,62 @@
     "testId": 100
   },
   {
+    "commitId": "7fbca6514df39b4f117625d676876689d9f3dce1",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "commitTimestamp": 1794882175873,
+    "testId": 101
+  },
+  {
+    "commitId": "a31e83edf16bcdb97e91758953aa87c179616e81",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+    "commitTimestamp": 1794882230599,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794882803726,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794882833795,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "commitId": "3c41ebe9fb014dcc1c80dc4d439c3b502d0e49a6",
+    "commitName": "refactor(demo): separar las publicaciones del seed",
+    "commitTimestamp": 1794882846749,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 1,
+    "numTotalTests": 69,
+    "timestamp": 1794882866809,
+    "success": false,
+    "testId": 104
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794883191042,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
+    "commitTimestamp": 1794883204587,
+    "testId": 104
+  },
+  {
     "commitId": "53f37a342b95aaf823f9eb07e821c37a16682f09",
     "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
     "commitTimestamp": 1794882175873,
@@ -2364,5 +2420,19 @@
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794882978038,
     "testId": 123
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794883943815,
+    "success": true,
+    "testId": 124
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794883946738,
+    "testId": 124
   }
 ]
