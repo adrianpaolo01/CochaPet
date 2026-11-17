@@ -12,7 +12,9 @@ export function htmlVistaDetalle() {
     <div class="detalle-tarjeta">
       <div id="detalle-fotos"></div>
       <h2 id="detalle-titulo"></h2>
+      <span id="detalle-estado"></span>
       <p id="detalle-datos"></p>
+      <p id="detalle-caracteristicas"></p>
       <p id="detalle-descripcion"></p>${htmlAccionesDetalle()}
       <p id="aviso-seguridad" class="aviso-seguridad" role="note"><strong>⚠️ Cuidado con las estafas:</strong> nunca pagues recompensas ni envíes dinero por adelantado. Entrega o recibe la recompensa solo cuando veas a la mascota en persona.</p>
     </div>`;

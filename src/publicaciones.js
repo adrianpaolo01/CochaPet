@@ -13,6 +13,17 @@ export function etiquetaEstado(publicacion) {
   return capitalizar(publicacion.tipo);
 }
 
+export function badgeEstado(publicacion) {
+  return { texto: etiquetaEstado(publicacion), clase: `badge badge-${publicacion.tipo.toLowerCase()}` };
+}
+
+export function caracteristicasMascota({ especie, raza, color }) {
+  const datos = [`Especie: ${capitalizar(especie)}`];
+  if (raza) datos.push(`Raza: ${raza}`);
+  if (color) datos.push(`Color: ${color}`);
+  return datos.join(" · ");
+}
+
 export function formatearFecha(fecha) {
   const fechaConvertida = new Date(fecha);
   const dia = String(fechaConvertida.getDate()).padStart(2, "0");
