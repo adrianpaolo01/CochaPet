@@ -17,7 +17,7 @@ export function mensajeBusqueda(publicaciones) {
 
 function filtrarPorCampo(publicaciones, campo, valor) {
   if (valor === "") return publicaciones;
-  return publicaciones.filter((publicacion) => publicacion[campo] && publicacion[campo].toLowerCase() === valor.toLowerCase());
+  return publicaciones.filter((publicacion) => publicacion[campo] && normalizar(publicacion[campo]) === normalizar(valor));
 }
 
 export function filtrarPorRaza(publicaciones, raza) {

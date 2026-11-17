@@ -79,6 +79,11 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorRaza(publicaciones, "")).toEqual(publicaciones);
   });
 
+  it("deberia filtrar por raza sin tildes y sin espacios sobrantes", () => {
+    const publicaciones = [{ raza: "Siamés" }, { raza: "Husky" }];
+    expect(filtrarPorRaza(publicaciones, " siames ")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia filtrar por color sin distinguir mayusculas", () => {
     const publicaciones = [{ color: "negro" }, { color: "Blanco" }, { color: null }];
     expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);

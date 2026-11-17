@@ -2754,7 +2754,7 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56085adebae52f9040912a20ffd549b04074a0a9",
     "commitName": "feat(detalle): mostrar si la mascota esta perdida o encontrada",
     "commitTimestamp": 1794886247271,
     "testId": 137
@@ -2860,5 +2860,27 @@
     "commitName": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
     "commitTimestamp": 1794888431966,
     "testId": 142
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 1,
+    "numTotalTests": 81,
+    "timestamp": 1794890177432,
+    "success": false,
+    "testId": 143
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 0,
+    "numTotalTests": 81,
+    "timestamp": 1794890307887,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
+    "commitTimestamp": 1794890315052,
+    "testId": 143
   }
 ]
