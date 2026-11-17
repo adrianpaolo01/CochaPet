@@ -38,7 +38,9 @@ export function filtrarPorEspecie(publicaciones, especie) {
 
 export function opcionesDe(publicaciones, campo, especie = "") {
   const valores = filtrarPorEspecie(publicaciones, especie).map((publicacion) => publicacion[campo]).filter(Boolean);
-  return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+  const unicos = new Map();
+  valores.forEach((valor) => unicos.has(normalizar(valor)) || unicos.set(normalizar(valor), valor.trim()));
+  return [...unicos.values()].sort((a, b) => a.localeCompare(b, "es"));
 }
 
 export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {

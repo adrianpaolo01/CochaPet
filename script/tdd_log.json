@@ -2878,7 +2878,7 @@
     "testId": 143
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f84f7146bc0decfe6b43e6752e491f882d54243a",
     "commitName": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
     "commitTimestamp": 1794890315052,
     "testId": 143
@@ -2976,5 +2976,27 @@
     "commitName": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
     "commitTimestamp": 1794891419477,
     "testId": 148
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 1,
+    "numTotalTests": 87,
+    "timestamp": 1794891435125,
+    "success": false,
+    "testId": 149
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794891627316,
+    "success": true,
+    "testId": 149
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
+    "commitTimestamp": 1794891635592,
+    "testId": 149
   }
 ]

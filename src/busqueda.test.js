@@ -136,6 +136,11 @@ describe("Busqueda de mascotas", () => {
     expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
   });
 
+  it("deberia listar una sola vez las opciones que solo difieren en mayusculas, tildes o espacios", () => {
+    const publicaciones = [{ color: "Negro" }, { color: "negro" }, { color: "Negro " }, { color: "Café" }, { color: "Cafe" }];
+    expect(opcionesDe(publicaciones, "color")).toEqual(["Café", "Negro"]);
+  });
+
   it("deberia combinar los filtros de nombre, raza y color", () => {
     const publicaciones = [
       { nombre: "Luna", raza: "Husky", color: "gris" },

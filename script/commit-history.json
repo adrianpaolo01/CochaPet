@@ -3040,12 +3040,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f84f7146bc0decfe6b43e6752e491f882d54243a",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:38:34.000Z",
       "message": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f84f7146bc0decfe6b43e6752e491f882d54243a"
     },
     "stats": {
       "total": 7,
@@ -3150,6 +3150,25 @@
     },
     "coverage": 100,
     "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:00:34.000Z",
+      "message": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 87,
     "failed_tests": 0,
     "conclusion": "success"
   }
