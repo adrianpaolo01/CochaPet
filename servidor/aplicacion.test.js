@@ -14,6 +14,12 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(accion).toHaveBeenCalled();
   });
 
+  it("manejarErrores responde 500 con el mensaje si la accion falla", async () => {
+    const respuesta = crearRespuesta();
+    await manejarErrores(respuesta, "Fallo", async () => { throw new Error("privado"); });
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "Fallo" });
+  });
+
   it("devuelve las publicaciones activas como JSON incluso con parametros de consulta", async () => {
     const activa = { id: 1, estado: "ACTIVA", fotos: ["https://ejemplo.com/perro.jpg"] };
     const repositorio = { listar: async () => [activa, { id: 2, estado: "OCULTA" }] };

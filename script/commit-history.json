@@ -2527,12 +2527,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "535a9ace015429ad395ef74dba98b77641e52c4e",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:57:43.000Z",
       "message": "refactor(api): silenciar console.error una sola vez en los tests de la aplicacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/535a9ace015429ad395ef74dba98b77641e52c4e"
     },
     "stats": {
       "total": 3,
@@ -2618,6 +2618,25 @@
     },
     "coverage": 100,
     "test_count": 73,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:37.000Z",
+      "message": "feat(api): responder 500 con el mensaje cuando la accion falla",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 74,
     "failed_tests": 0,
     "conclusion": "success"
   }

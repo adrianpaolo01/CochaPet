@@ -7,7 +7,11 @@ function responderJson(res, estado, datos) {
 }
 
 export async function manejarErrores(res, mensaje, accion) {
-  await accion();
+  try {
+    await accion();
+  } catch {
+    responderJson(res, 500, { error: mensaje });
+  }
 }
 
 export function crearManejador(repositorio, barriosRepositorio) {
