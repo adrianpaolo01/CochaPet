@@ -3059,12 +3059,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "98edb2d02c681f5107e1c0c233c7acd94ba289ac",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:38:54.000Z",
       "message": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/98edb2d02c681f5107e1c0c233c7acd94ba289ac"
     },
     "stats": {
       "total": 5,
@@ -3169,6 +3169,25 @@
     },
     "coverage": 100,
     "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:03:12.000Z",
+      "message": "fix(busqueda): no fallar si el texto buscado no esta definido",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 88,
     "failed_tests": 0,
     "conclusion": "success"
   }

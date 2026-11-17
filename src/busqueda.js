@@ -1,7 +1,7 @@
 const CAMPOS_BUSCABLES = ["nombre", "raza", "color", "descripcion"];
 
 function normalizar(texto) {
-  return texto.trim().replace(/\s+/g, " ").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  return String(texto ?? "").trim().replace(/\s+/g, " ").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
 export function buscarPorTexto(publicaciones, texto) {

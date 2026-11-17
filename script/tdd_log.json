@@ -2892,7 +2892,7 @@
     "testId": 144
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98edb2d02c681f5107e1c0c233c7acd94ba289ac",
     "commitName": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
     "commitTimestamp": 1794890335489,
     "testId": 144
@@ -2998,5 +2998,27 @@
     "commitName": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
     "commitTimestamp": 1794891635592,
     "testId": 149
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 1,
+    "numTotalTests": 88,
+    "timestamp": 1794891652421,
+    "success": false,
+    "testId": 150
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794891783589,
+    "success": true,
+    "testId": 150
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): no fallar si el texto buscado no esta definido",
+    "commitTimestamp": 1794891793361,
+    "testId": 150
   }
 ]
