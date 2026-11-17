@@ -1995,6 +1995,25 @@
     "conclusion": "success"
   },
   {
+    "sha": "b29bb7303dab65aca5c5b84f6913087f1137e591",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:31:51.000Z",
+      "message": "refactor: renombrar variables para revelar su intención",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b29bb7303dab65aca5c5b84f6913087f1137e591"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
     "author": "BerniUCb",
     "commit": {
@@ -2223,18 +2242,56 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b29bb7303dab65aca5c5b84f6913087f1137e591",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:40:28.000Z",
       "message": "refactor(vistas): renderizar el visor desde su modulo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b29bb7303dab65aca5c5b84f6913087f1137e591"
     },
     "stats": {
       "total": 11,
       "additions": 3,
       "deletions": 8,
       "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:22:55.000Z",
+      "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 213,
+      "additions": 143,
+      "deletions": 70,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:23:50.000Z",
+      "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 213,
+      "additions": 143,
+      "deletions": 70,
+      "date": "2026-11-17"
     },
     "coverage": 100,
     "test_count": 68,
