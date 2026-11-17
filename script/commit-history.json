@@ -2280,12 +2280,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a31e83edf16bcdb97e91758953aa87c179616e81",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:23:50.000Z",
       "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a31e83edf16bcdb97e91758953aa87c179616e81"
     },
     "stats": {
       "total": 213,
@@ -2314,6 +2314,25 @@
     },
     "coverage": 100,
     "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:40:03.000Z",
+      "message": "fix(demo): nombrar a las tres mascotas encontradas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
     "failed_tests": 0,
     "conclusion": "success"
   }
