@@ -5,6 +5,9 @@ function crearRespuesta() {
 }
 
 describe("API compartida entre desarrollo y Vercel", () => {
+  beforeEach(() => jest.spyOn(console, "error").mockImplementation(() => {}));
+  afterEach(() => jest.restoreAllMocks());
+
   it("devuelve las publicaciones activas como JSON incluso con parametros de consulta", async () => {
     const activa = { id: 1, estado: "ACTIVA", fotos: ["https://ejemplo.com/perro.jpg"] };
     const repositorio = { listar: async () => [activa, { id: 2, estado: "OCULTA" }] };

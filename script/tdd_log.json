@@ -2282,7 +2282,7 @@
     "testId": 104
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e80c021daf6137350c66603fe645949f4cf9e68",
     "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
     "commitTimestamp": 1794883204587,
     "testId": 104
@@ -2434,5 +2434,27 @@
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794883946738,
     "testId": 124
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884240724,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884260864,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): silenciar console.error una sola vez en los tests de la aplicacion",
+    "commitTimestamp": 1794884263580,
+    "testId": 125
   }
 ]
