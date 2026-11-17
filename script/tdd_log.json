@@ -2494,7 +2494,7 @@
     "testId": 128
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
     "commitName": "refactor(api): quitar el try finally del test de error de barrios",
     "commitTimestamp": 1794884288776,
     "testId": 128
@@ -2578,5 +2578,19 @@
     "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
     "commitTimestamp": 1794884336782,
     "testId": 132
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884343561,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
+    "commitTimestamp": 1794884344288,
+    "testId": 133
   }
 ]

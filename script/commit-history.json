@@ -2584,12 +2584,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:08.000Z",
       "message": "refactor(api): quitar el try finally del test de error de barrios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5f8596788e7faf2f55bfff131ec48b169a3a983"
     },
     "stats": {
       "total": 14,
@@ -2671,6 +2671,25 @@
       "total": 9,
       "additions": 2,
       "deletions": 7,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:04.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 2,
+      "deletions": 6,
       "date": "2026-11-17"
     },
     "coverage": 100,
