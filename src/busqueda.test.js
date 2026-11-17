@@ -34,6 +34,21 @@ describe("Busqueda de mascotas", () => {
     expect(buscarPorTexto(publicaciones, "siames")).toEqual([publicaciones[0]]);
   });
 
+  it("deberia encontrar a firulais al escribir firu con un espacio al final", () => {
+    const publicaciones = [{ nombre: "Firulais" }, { nombre: "Luna" }];
+    expect(buscarPorTexto(publicaciones, "firu ")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia encontrar siamés al escribir SIAMÉS en mayusculas", () => {
+    const publicaciones = [{ nombre: null, raza: "Siamés" }, { nombre: "Luna", raza: "Husky" }];
+    expect(buscarPorTexto(publicaciones, "SIAMÉS")).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia encontrar siamés al escribir siamés con espacios alrededor", () => {
+    const publicaciones = [{ nombre: null, raza: "Siamés" }, { nombre: "Luna", raza: "Husky" }];
+    expect(buscarPorTexto(publicaciones, " siamés ")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia encontrar mascotas sin nombre buscando por su color", () => {
     const publicaciones = [{ nombre: null, color: "Crema" }, { nombre: "Luna", color: "negro" }];
     expect(buscarPorTexto(publicaciones, "crem")).toEqual([publicaciones[0]]);

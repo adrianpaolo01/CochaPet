@@ -2869,12 +2869,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7c9dd98072752a046ff414c54cf27746595ec55",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:04:46.000Z",
       "message": "chore: eliminar holaMundo del template que no se usa en la app",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d7c9dd98072752a046ff414c54cf27746595ec55"
     },
     "stats": {
       "total": 12,
@@ -2888,12 +2888,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4c12b7d82d1efa99d87416493593f9f51d2108fb",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T03:07:18.000Z",
       "message": "chore(presenter): integrar main y resolver los historiales TDD",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4c12b7d82d1efa99d87416493593f9f51d2108fb"
     },
     "stats": {
       "total": 134,
@@ -2907,12 +2907,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0bbc30b8829b3f3990a1db100da06d5e80d65e92",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:19:48.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0bbc30b8829b3f3990a1db100da06d5e80d65e92"
     },
     "stats": {
       "total": 56,
@@ -2979,6 +2979,63 @@
     },
     "coverage": 100,
     "test_count": 77,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:06:12.000Z",
+      "message": "fix(busqueda): ignorar espacios al inicio y al final de la busqueda",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 78,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:06:47.000Z",
+      "message": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 79,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:07:11.000Z",
+      "message": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 80,
     "failed_tests": 0,
     "conclusion": "success"
   }
