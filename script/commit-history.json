@@ -2850,12 +2850,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8bc46311c3fcaa147374b96a17db4beeb8067ff3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:11.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta de barrios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8bc46311c3fcaa147374b96a17db4beeb8067ff3"
     },
     "stats": {
       "total": 9,
@@ -2960,6 +2960,25 @@
     },
     "coverage": 100,
     "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T03:55:13.000Z",
+      "message": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 77,
     "failed_tests": 0,
     "conclusion": "success"
   }

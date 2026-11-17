@@ -2690,7 +2690,7 @@
     "testId": 132
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8bc46311c3fcaa147374b96a17db4beeb8067ff3",
     "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
     "commitTimestamp": 1794884344288,
     "testId": 133
@@ -2780,5 +2780,35 @@
     "commitName": "feat(detalle): mostrar especie raza y color",
     "commitTimestamp": 1794886300210,
     "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794886962436,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 1,
+    "numTotalTests": 77,
+    "timestamp": 1794887367032,
+    "success": false,
+    "testId": 139
+  },
+  {
+    "numPassedTests": 77,
+    "failedTests": 0,
+    "numTotalTests": 77,
+    "timestamp": 1794887564014,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
+    "commitTimestamp": 1794887715531,
+    "testId": 139
   }
 ]
