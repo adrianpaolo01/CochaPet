@@ -2666,9 +2666,67 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2cf5bc14ed62c271b5751636e6e8c11736e360bc",
     "commitName": "chore(presenter): integrar main y resolver los historiales TDD",
     "commitTimestamp": 1794884839696,
     "testId": 138
+  },
+  {
+    "commitId": "28b320f2bb86dc19109bdb8aa041b93aef42a750",
+    "commitName": "feat(api): responder 500 con el mensaje cuando la accion falla",
+    "commitTimestamp": 1794884317223,
+    "testId": 130
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(api): registrar en consola el error de la accion",
+    "commitTimestamp": 1794884329205,
+    "testId": 131
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+    "commitTimestamp": 1794884336782,
+    "testId": 132
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
+    "commitTimestamp": 1794884344288,
+    "testId": 133
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
+    "commitTimestamp": 1794884351558,
+    "testId": 134
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794884677553,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: eliminar holaMundo del template que no se usa en la app",
+    "commitTimestamp": 1794884686291,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794885585507,
+    "success": true,
+    "testId": 136
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794885588575,
+    "testId": 136
   }
 ]
