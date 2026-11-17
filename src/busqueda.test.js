@@ -89,6 +89,11 @@ describe("Busqueda de mascotas", () => {
     expect(filtrarPorColor(publicaciones, "blanco")).toEqual([publicaciones[1]]);
   });
 
+  it("deberia filtrar por color con tilde al escribirlo sin tilde", () => {
+    const publicaciones = [{ color: "Café" }, { color: "Negro" }];
+    expect(filtrarPorColor(publicaciones, "cafe")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia mostrar todas las mascotas si no se elige color", () => {
     const publicaciones = [{ color: "negro" }, { color: null }];
     expect(filtrarPorColor(publicaciones, "")).toEqual(publicaciones);

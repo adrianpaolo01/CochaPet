@@ -2945,12 +2945,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e586b51f5e550a3d4f197d14b7d60f52a7126171",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T03:31:39.000Z",
       "message": "feat(detalle): mostrar especie raza y color",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e586b51f5e550a3d4f197d14b7d60f52a7126171"
     },
     "stats": {
       "total": 19,
@@ -3055,6 +3055,25 @@
     },
     "coverage": 100,
     "test_count": 81,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:38:54.000Z",
+      "message": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 82,
     "failed_tests": 0,
     "conclusion": "success"
   }

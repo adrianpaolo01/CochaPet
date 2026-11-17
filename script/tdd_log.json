@@ -2776,7 +2776,7 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e586b51f5e550a3d4f197d14b7d60f52a7126171",
     "commitName": "feat(detalle): mostrar especie raza y color",
     "commitTimestamp": 1794886300210,
     "testId": 138
@@ -2882,5 +2882,19 @@
     "commitName": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
     "commitTimestamp": 1794890315052,
     "testId": 143
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 0,
+    "numTotalTests": 82,
+    "timestamp": 1794890329101,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
+    "commitTimestamp": 1794890335489,
+    "testId": 144
   }
 ]
