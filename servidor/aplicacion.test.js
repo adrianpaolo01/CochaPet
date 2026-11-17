@@ -23,15 +23,11 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const errorInterno = new Error("detalle privado de conexion");
     const repositorio = { listar: async () => { throw errorInterno; } };
     const respuesta = crearRespuesta();
-    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
-    try {
-      await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones" }, respuesta);
 
-      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
-      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar las publicaciones" });
-    } finally {
-      registro.mockRestore();
-    }
+    await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones" }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar las publicaciones" });
   });
 
   it.each([

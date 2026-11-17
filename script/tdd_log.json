@@ -2294,7 +2294,7 @@
     "testId": 101
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d413d23e666484db1f23a01e2dd2141f44d183b1",
     "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
     "commitTimestamp": 1794882230599,
     "testId": 102
@@ -2456,5 +2456,19 @@
     "commitName": "refactor(api): silenciar console.error una sola vez en los tests de la aplicacion",
     "commitTimestamp": 1794884263580,
     "testId": 125
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884271874,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): quitar el try finally del test de error de publicaciones",
+    "commitTimestamp": 1794884272361,
+    "testId": 126
   }
 ]

@@ -2451,12 +2451,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d413d23e666484db1f23a01e2dd2141f44d183b1",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:34:05.000Z",
       "message": "refactor(demo): separar las publicaciones del seed",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d413d23e666484db1f23a01e2dd2141f44d183b1"
     },
     "stats": {
       "total": 64,
@@ -2538,6 +2538,25 @@
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:57:52.000Z",
+      "message": "refactor(api): quitar el try finally del test de error de publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 4,
+      "deletions": 8,
       "date": "2026-11-17"
     },
     "coverage": 100,
