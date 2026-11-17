@@ -2622,12 +2622,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "28b320f2bb86dc19109bdb8aa041b93aef42a750",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:37.000Z",
       "message": "feat(api): responder 500 con el mensaje cuando la accion falla",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/28b320f2bb86dc19109bdb8aa041b93aef42a750"
     },
     "stats": {
       "total": 12,
@@ -2713,6 +2713,25 @@
     },
     "coverage": 100,
     "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:04:46.000Z",
+      "message": "chore: eliminar holaMundo del template que no se usa en la app",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 0,
+      "deletions": 12,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 74,
     "failed_tests": 0,
     "conclusion": "success"
   }

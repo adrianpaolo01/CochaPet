@@ -2538,7 +2538,7 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "28b320f2bb86dc19109bdb8aa041b93aef42a750",
     "commitName": "feat(api): responder 500 con el mensaje cuando la accion falla",
     "commitTimestamp": 1794884317223,
     "testId": 130
@@ -2606,5 +2606,19 @@
     "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
     "commitTimestamp": 1794884351558,
     "testId": 134
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794884677553,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: eliminar holaMundo del template que no se usa en la app",
+    "commitTimestamp": 1794884686291,
+    "testId": 135
   }
 ]
