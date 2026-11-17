@@ -2300,9 +2300,23 @@
     "testId": 121
   },
   {
-    "commitId": "HEAD",
+    "commitId": "71c9a7f7c4dfbfef659eb9a203ea92c7b1461538",
     "commitName": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
     "commitTimestamp": 1794882766774,
     "testId": 121
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882775448,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
+    "commitTimestamp": 1794882778490,
+    "testId": 122
   }
 ]

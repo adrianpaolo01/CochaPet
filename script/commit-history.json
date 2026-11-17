@@ -2299,17 +2299,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "71c9a7f7c4dfbfef659eb9a203ea92c7b1461538",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:32:46.000Z",
       "message": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/71c9a7f7c4dfbfef659eb9a203ea92c7b1461538"
     },
     "stats": {
       "total": 16,
       "additions": 8,
       "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:58.000Z",
+      "message": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-17"
     },
     "coverage": 100,
