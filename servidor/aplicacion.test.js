@@ -1,10 +1,31 @@
-import { crearManejador } from "./aplicacion.js";
+import { crearManejador, manejarErrores } from "./aplicacion.js";
 
 function crearRespuesta() {
   return { writeHead: jest.fn(), end: jest.fn() };
 }
 
 describe("API compartida entre desarrollo y Vercel", () => {
+  beforeEach(() => jest.spyOn(console, "error").mockImplementation(() => {}));
+  afterEach(() => jest.restoreAllMocks());
+
+  it("manejarErrores ejecuta la accion cuando no falla", async () => {
+    const accion = jest.fn(async () => {});
+    await manejarErrores(crearRespuesta(), "Fallo", accion);
+    expect(accion).toHaveBeenCalled();
+  });
+
+  it("manejarErrores responde 500 con el mensaje si la accion falla", async () => {
+    const respuesta = crearRespuesta();
+    await manejarErrores(respuesta, "Fallo", async () => { throw new Error("privado"); });
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "Fallo" });
+  });
+
+  it("manejarErrores registra el error en la consola", async () => {
+    const error = new Error("privado");
+    await manejarErrores(crearRespuesta(), "Fallo", async () => { throw error; });
+    expect(console.error).toHaveBeenCalledWith(error);
+  });
+
   it("devuelve las publicaciones activas como JSON incluso con parametros de consulta", async () => {
     const activa = { id: 1, estado: "ACTIVA", fotos: ["https://ejemplo.com/perro.jpg"] };
     const repositorio = { listar: async () => [activa, { id: 2, estado: "OCULTA" }] };
@@ -20,15 +41,11 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const errorInterno = new Error("detalle privado de conexion");
     const repositorio = { listar: async () => { throw errorInterno; } };
     const respuesta = crearRespuesta();
-    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
-    try {
-      await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones" }, respuesta);
 
-      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
-      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar las publicaciones" });
-    } finally {
-      registro.mockRestore();
-    }
+    await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones" }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar las publicaciones" });
   });
 
   it.each([
@@ -69,15 +86,11 @@ describe("API compartida entre desarrollo y Vercel", () => {
   it("devuelve un error 500 al cargar el detalle sin revelar detalles de la base de datos", async () => {
     const repositorio = { obtenerPorId: async () => { throw new Error("detalle privado de conexion"); } };
     const respuesta = crearRespuesta();
-    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
-    try {
-      await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones/3" }, respuesta);
 
-      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
-      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudo cargar la publicacion" });
-    } finally {
-      registro.mockRestore();
-    }
+    await crearManejador(repositorio)({ method: "GET", url: "/api/publicaciones/3" }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudo cargar la publicacion" });
   });
 
   it("devuelve la lista de barrios ordenada como JSON", async () => {
@@ -93,14 +106,10 @@ describe("API compartida entre desarrollo y Vercel", () => {
   it("devuelve un error 500 al cargar los barrios sin revelar detalles de la base de datos", async () => {
     const barriosRepositorio = { listar: async () => { throw new Error("detalle privado de conexion"); } };
     const respuesta = crearRespuesta();
-    const registro = jest.spyOn(console, "error").mockImplementation(() => {});
-    try {
-      await crearManejador({ listar: jest.fn() }, barriosRepositorio)({ method: "GET", url: "/api/barrios" }, respuesta);
 
-      expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
-      expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar los barrios" });
-    } finally {
-      registro.mockRestore();
-    }
+    await crearManejador({ listar: jest.fn() }, barriosRepositorio)({ method: "GET", url: "/api/barrios" }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar los barrios" });
   });
 });

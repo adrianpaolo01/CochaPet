@@ -2432,12 +2432,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e80c021daf6137350c66603fe645949f4cf9e68",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:32:58.000Z",
       "message": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5e80c021daf6137350c66603fe645949f4cf9e68"
     },
     "stats": {
       "total": 4,
@@ -2451,12 +2451,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d413d23e666484db1f23a01e2dd2141f44d183b1",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:34:05.000Z",
       "message": "refactor(demo): separar las publicaciones del seed",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d413d23e666484db1f23a01e2dd2141f44d183b1"
     },
     "stats": {
       "total": 64,
@@ -2470,12 +2470,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:36:17.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e"
     },
     "stats": {
       "total": 8,
@@ -2489,12 +2489,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "07efe124ba2502811bbced40756f6153767cdc66",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:40:03.000Z",
       "message": "fix(demo): nombrar a las tres mascotas encontradas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/07efe124ba2502811bbced40756f6153767cdc66"
     },
     "stats": {
       "total": 16,
@@ -2508,12 +2508,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ba8b78e614e8117320440c9f53dab38c9ae8f9c3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:52:26.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ba8b78e614e8117320440c9f53dab38c9ae8f9c3"
     },
     "stats": {
       "total": 74,
@@ -2523,6 +2523,196 @@
     },
     "coverage": 100,
     "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "535a9ace015429ad395ef74dba98b77641e52c4e",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:57:43.000Z",
+      "message": "refactor(api): silenciar console.error una sola vez en los tests de la aplicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/535a9ace015429ad395ef74dba98b77641e52c4e"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:57:52.000Z",
+      "message": "refactor(api): quitar el try finally del test de error de publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/18a4aca06da6cd82a7ebd4d18829980bac61af9a"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 4,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:00.000Z",
+      "message": "refactor(api): quitar el try finally del test de error del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 4,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:08.000Z",
+      "message": "refactor(api): quitar el try finally del test de error de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5f8596788e7faf2f55bfff131ec48b169a3a983"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 5,
+      "deletions": 9,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:25.000Z",
+      "message": "feat(api): crear manejarErrores que ejecuta la accion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 73,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:37.000Z",
+      "message": "feat(api): responder 500 con el mensaje cuando la accion falla",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:49.000Z",
+      "message": "feat(api): registrar en consola el error de la accion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:56.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 2,
+      "deletions": 7,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:04.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 2,
+      "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:11.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 2,
+      "deletions": 7,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
     "failed_tests": 0,
     "conclusion": "success"
   }
