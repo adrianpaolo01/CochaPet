@@ -2212,6 +2212,38 @@
     "testId": 117
   },
   {
+    "commitId": "b29bb7303dab65aca5c5b84f6913087f1137e591",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490254340,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "b29bb7303dab65aca5c5b84f6913087f1137e591",
+    "commitName": "refactor: renombrar variables para revelar su intención",
+    "commitTimestamp": 1794490311972,
+    "testId": 100
+  },
+  {
+    "commitId": "53f37a342b95aaf823f9eb07e821c37a16682f09",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "commitTimestamp": 1794882175873,
+    "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+    "commitTimestamp": 1794882230599,
+    "testId": 102
+  },
+  {
     "commitId": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
     "commitName": "refactor(vistas): renderizar el visor desde su modulo",
     "commitTimestamp": 1794490828904,
@@ -2318,5 +2350,19 @@
     "commitName": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
     "commitTimestamp": 1794882778490,
     "testId": 122
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882977530,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794882978038,
+    "testId": 123
   }
 ]
