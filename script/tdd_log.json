@@ -2232,7 +2232,7 @@
     "testId": 100
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7fbca6514df39b4f117625d676876689d9f3dce1",
     "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
     "commitTimestamp": 1794882175873,
     "testId": 101
@@ -2242,5 +2242,27 @@
     "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
     "commitTimestamp": 1794882230599,
     "testId": 102
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794882803726,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794882833795,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(demo): separar las publicaciones del seed",
+    "commitTimestamp": 1794882846749,
+    "testId": 103
   }
 ]

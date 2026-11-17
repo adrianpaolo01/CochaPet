@@ -2261,12 +2261,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fbca6514df39b4f117625d676876689d9f3dce1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:22:55.000Z",
       "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7fbca6514df39b4f117625d676876689d9f3dce1"
     },
     "stats": {
       "total": 213,
@@ -2291,6 +2291,25 @@
       "total": 213,
       "additions": 143,
       "deletions": 70,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:34:05.000Z",
+      "message": "refactor(demo): separar las publicaciones del seed",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 64,
+      "additions": 32,
+      "deletions": 32,
       "date": "2026-11-17"
     },
     "coverage": 100,
