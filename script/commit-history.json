@@ -2546,12 +2546,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:57:52.000Z",
       "message": "refactor(api): quitar el try finally del test de error de publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/18a4aca06da6cd82a7ebd4d18829980bac61af9a"
     },
     "stats": {
       "total": 12,
@@ -2637,6 +2637,25 @@
     },
     "coverage": 100,
     "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:49.000Z",
+      "message": "feat(api): registrar en consola el error de la accion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
     "failed_tests": 0,
     "conclusion": "success"
   }

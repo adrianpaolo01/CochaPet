@@ -9,7 +9,8 @@ function responderJson(res, estado, datos) {
 export async function manejarErrores(res, mensaje, accion) {
   try {
     await accion();
-  } catch {
+  } catch (error) {
+    console.error(error);
     responderJson(res, 500, { error: mensaje });
   }
 }
