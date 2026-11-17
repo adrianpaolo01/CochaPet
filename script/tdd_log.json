@@ -2402,7 +2402,7 @@
     "testId": 122
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e",
     "commitName": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
     "commitTimestamp": 1794882778490,
     "testId": 122
@@ -2470,5 +2470,19 @@
     "commitName": "refactor(api): quitar el try finally del test de error de publicaciones",
     "commitTimestamp": 1794884272361,
     "testId": 126
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794884279820,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): quitar el try finally del test de error del detalle",
+    "commitTimestamp": 1794884280292,
+    "testId": 127
   }
 ]

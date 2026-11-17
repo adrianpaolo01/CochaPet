@@ -2470,12 +2470,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:36:17.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e8301d08cd3b12fe0b226f4c47d4027aa90d4e3e"
     },
     "stats": {
       "total": 8,
@@ -2551,6 +2551,25 @@
     "commit": {
       "date": "2026-11-17T02:57:52.000Z",
       "message": "refactor(api): quitar el try finally del test de error de publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 4,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:00.000Z",
+      "message": "refactor(api): quitar el try finally del test de error del detalle",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {
