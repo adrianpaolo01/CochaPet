@@ -2242,12 +2242,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52f5f0f9bb38073c955d52956eb11b625c53836d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:32:09.000Z",
       "message": "feat(busqueda): buscar tambien por raza",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/52f5f0f9bb38073c955d52956eb11b625c53836d"
     },
     "stats": {
       "total": 8,
@@ -2257,6 +2257,25 @@
     },
     "coverage": 100,
     "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:22.000Z",
+      "message": "feat(busqueda): buscar tambien por color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
   }
