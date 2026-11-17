@@ -2684,7 +2684,7 @@
     "testId": 131
   },
   {
-    "commitId": "HEAD",
+    "commitId": "17a13ba248217e01f1dd2e9070ba42a8e2050a09",
     "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
     "commitTimestamp": 1794884336782,
     "testId": 132
@@ -2750,5 +2750,27 @@
     "commitName": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
     "commitTimestamp": 1794885917488,
     "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 1,
+    "numTotalTests": 76,
+    "timestamp": 1794885923633,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885927154,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
+    "commitTimestamp": 1794885927712,
+    "testId": 138
   }
 ]

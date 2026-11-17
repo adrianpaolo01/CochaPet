@@ -2812,12 +2812,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "17a13ba248217e01f1dd2e9070ba42a8e2050a09",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:04.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/17a13ba248217e01f1dd2e9070ba42a8e2050a09"
     },
     "stats": {
       "total": 8,
@@ -2941,6 +2941,25 @@
     },
     "coverage": 100,
     "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:27.000Z",
+      "message": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
     "failed_tests": 0,
     "conclusion": "success"
   }

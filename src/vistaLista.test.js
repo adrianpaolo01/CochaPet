@@ -15,6 +15,10 @@ describe("Vista lista", () => {
     expect(htmlFiltros().match(/id="[\w-]+" class="campo-filtro"/g)).toHaveLength(5);
   });
 
+  it("deberia dar la clase etiqueta-filtro a las 5 etiquetas", () => {
+    expect(htmlFiltros().match(/<label class="etiqueta-filtro"/g)).toHaveLength(5);
+  });
+
   it("deberia armar la vista lista con filtros, mensaje y grilla", () => {
     expect(htmlVistaLista()).toContain(htmlFiltros());
     expect(htmlVistaLista()).toContain('<div id="lista-publicaciones" class="grilla"></div>');
