@@ -1,8 +1,10 @@
+const CAMPOS_BUSCABLES = ["nombre", "raza", "color", "descripcion"];
+
 export function buscarPorNombre(publicaciones, texto) {
   if (texto === "") return publicaciones;
   const termino = texto.toLowerCase();
   const contiene = (valor) => Boolean(valor) && valor.toLowerCase().includes(termino);
-  return publicaciones.filter((publicacion) => contiene(publicacion.nombre) || contiene(publicacion.raza) || contiene(publicacion.color));
+  return publicaciones.filter((publicacion) => CAMPOS_BUSCABLES.some((campo) => contiene(publicacion[campo])));
 }
 
 export function mensajeBusqueda(publicaciones) {

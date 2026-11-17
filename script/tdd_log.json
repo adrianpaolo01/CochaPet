@@ -2264,9 +2264,31 @@
     "testId": 119
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b86a707ef2d1b6b821cbd93477e366a499bb1b1f",
     "commitName": "feat(busqueda): buscar tambien por color",
     "commitTimestamp": 1794882742971,
     "testId": 119
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 1,
+    "numTotalTests": 71,
+    "timestamp": 1794882749157,
+    "success": false,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882755764,
+    "success": true,
+    "testId": 120
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(busqueda): buscar tambien en la descripcion",
+    "commitTimestamp": 1794882758362,
+    "testId": 120
   }
 ]

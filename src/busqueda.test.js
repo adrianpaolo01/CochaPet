@@ -34,6 +34,11 @@ describe("Busqueda de mascotas", () => {
     expect(buscarPorNombre(publicaciones, "crem")).toEqual([publicaciones[0]]);
   });
 
+  it("deberia encontrar mascotas sin nombre buscando en su descripcion", () => {
+    const publicaciones = [{ nombre: null, descripcion: "Perro con collar azul" }, { nombre: "Luna", descripcion: "Muy jugueton" }];
+    expect(buscarPorNombre(publicaciones, "collar")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia mostrar todas las mascotas al borrar el texto", () => {
     const publicaciones = [{ nombre: "Firulais" }, { nombre: null }];
     expect(buscarPorNombre(publicaciones, "")).toEqual(publicaciones);
