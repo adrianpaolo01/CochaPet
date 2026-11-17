@@ -70,6 +70,26 @@ describe("Busqueda de mascotas", () => {
     expect(buscarPorTexto(publicaciones, "")).toEqual(publicaciones);
   });
 
+  it("deberia mostrar todas las mascotas al buscar solo espacios", () => {
+    const publicaciones = [{ nombre: "Firulais" }, { nombre: null, descripcion: "" }];
+    expect(buscarPorTexto(publicaciones, "   ")).toEqual(publicaciones);
+  });
+
+  it.each(["collar  azul", "collar\tazul"])("deberia encontrar collar azul aunque se escriba %p", (texto) => {
+    const publicaciones = [{ nombre: null, descripcion: "Perro con Collar azul" }, { nombre: "Luna", descripcion: "Muy jugueton" }];
+    expect(buscarPorTexto(publicaciones, texto)).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia mostrar todas las mascotas si el texto no esta definido", () => {
+    const publicaciones = [{ nombre: "Firulais" }, { nombre: "Luna" }];
+    expect(buscarPorTexto(publicaciones, undefined)).toEqual(publicaciones);
+  });
+
+  it("deberia buscar sin fallar en un dato que no es texto", () => {
+    const publicaciones = [{ nombre: 5 }, { nombre: "Luna" }];
+    expect(buscarPorTexto(publicaciones, "5")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
     expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
     expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();
@@ -126,6 +146,11 @@ describe("Busqueda de mascotas", () => {
     expect(opcionesDe(publicaciones, "raza")).toEqual(["Husky", "Mestizo"]);
   });
 
+  it("deberia listar una sola vez las opciones que solo difieren en mayusculas, tildes o espacios", () => {
+    const publicaciones = [{ color: "Negro" }, { color: "negro" }, { color: "Negro " }, { color: "Café" }, { color: "Cafe" }];
+    expect(opcionesDe(publicaciones, "color")).toEqual(["Café", "Negro"]);
+  });
+
   it("deberia combinar los filtros de nombre, raza y color", () => {
     const publicaciones = [
       { nombre: "Luna", raza: "Husky", color: "gris" },
@@ -133,6 +158,11 @@ describe("Busqueda de mascotas", () => {
       { nombre: "Lucas", raza: "Mestizo", color: "gris" },
     ];
     expect(filtrarMascotas(publicaciones, { texto: "lu", raza: "Husky", color: "gris" })).toEqual([publicaciones[0]]);
+  });
+
+  it("deberia filtrar solo por texto si no se indican raza ni color", () => {
+    const publicaciones = [{ nombre: "Luna", raza: "Husky" }, { nombre: "Firulais", raza: "Mestizo" }];
+    expect(filtrarMascotas(publicaciones, { texto: "lun" })).toEqual([publicaciones[0]]);
   });
 
   it("deberia filtrar por barrio al combinar los filtros", () => {

@@ -1,12 +1,12 @@
 const CAMPOS_BUSCABLES = ["nombre", "raza", "color", "descripcion"];
 
 function normalizar(texto) {
-  return texto.trim().normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  return String(texto ?? "").trim().replace(/\s+/g, " ").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
 export function buscarPorTexto(publicaciones, texto) {
-  if (texto === "") return publicaciones;
   const termino = normalizar(texto);
+  if (termino === "") return publicaciones;
   const contiene = (valor) => Boolean(valor) && normalizar(valor).includes(termino);
   return publicaciones.filter((publicacion) => CAMPOS_BUSCABLES.some((campo) => contiene(publicacion[campo])));
 }
@@ -38,10 +38,12 @@ export function filtrarPorEspecie(publicaciones, especie) {
 
 export function opcionesDe(publicaciones, campo, especie = "") {
   const valores = filtrarPorEspecie(publicaciones, especie).map((publicacion) => publicacion[campo]).filter(Boolean);
-  return [...new Set(valores)].sort((a, b) => a.localeCompare(b, "es"));
+  const unicos = new Map();
+  valores.forEach((valor) => unicos.has(normalizar(valor)) || unicos.set(normalizar(valor), valor.trim()));
+  return [...unicos.values()].sort((a, b) => a.localeCompare(b, "es"));
 }
 
-export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {
+export function filtrarMascotas(publicaciones, { texto, raza = "", color = "", barrio = "", especie = "" }) {
   const porEspecie = filtrarPorEspecie(publicaciones, especie);
   return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorTexto(porEspecie, texto), raza), color), barrio);
 }

@@ -3002,12 +3002,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed099f068ece06e3aee5027348fe1ea5241d4c4f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:06:47.000Z",
       "message": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ed099f068ece06e3aee5027348fe1ea5241d4c4f"
     },
     "stats": {
       "total": 5,
@@ -3021,12 +3021,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:07:11.000Z",
       "message": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d"
     },
     "stats": {
       "total": 5,
@@ -3040,12 +3040,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f84f7146bc0decfe6b43e6752e491f882d54243a",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:38:34.000Z",
       "message": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f84f7146bc0decfe6b43e6752e491f882d54243a"
     },
     "stats": {
       "total": 7,
@@ -3059,12 +3059,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "98edb2d02c681f5107e1c0c233c7acd94ba289ac",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:38:54.000Z",
       "message": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/98edb2d02c681f5107e1c0c233c7acd94ba289ac"
     },
     "stats": {
       "total": 5,
@@ -3078,12 +3078,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "321acb53747f260766e9743b1739e6439e1cb7e7",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:39:15.000Z",
       "message": "test(busqueda): limitar las opciones de color a la especie elegida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/321acb53747f260766e9743b1739e6439e1cb7e7"
     },
     "stats": {
       "total": 6,
@@ -3097,12 +3097,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e07a24a5151dfd8606d16008ccab65ee8737df1b",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:39:40.000Z",
       "message": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e07a24a5151dfd8606d16008ccab65ee8737df1b"
     },
     "stats": {
       "total": 2,
@@ -3112,6 +3112,120 @@
     },
     "coverage": 100,
     "test_count": 83,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:54:21.000Z",
+      "message": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 84,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:56:58.000Z",
+      "message": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:00:34.000Z",
+      "message": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:03:12.000Z",
+      "message": "fix(busqueda): no fallar si el texto buscado no esta definido",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:06:58.000Z",
+      "message": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 89,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:07:26.000Z",
+      "message": "test(busqueda): buscar en un dato que no es texto sin fallar",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -2842,7 +2842,7 @@
     "testId": 141
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ed099f068ece06e3aee5027348fe1ea5241d4c4f",
     "commitName": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
     "commitTimestamp": 1794888408221,
     "testId": 141
@@ -2856,7 +2856,7 @@
     "testId": 142
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fcf2e2e1cdd411b889ebc5540ee86d7a97ccf14d",
     "commitName": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
     "commitTimestamp": 1794888431966,
     "testId": 142
@@ -2878,7 +2878,7 @@
     "testId": 143
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f84f7146bc0decfe6b43e6752e491f882d54243a",
     "commitName": "fix(busqueda): filtrar raza, color y barrio sin tildes ni espacios sobrantes",
     "commitTimestamp": 1794890315052,
     "testId": 143
@@ -2892,7 +2892,7 @@
     "testId": 144
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98edb2d02c681f5107e1c0c233c7acd94ba289ac",
     "commitName": "test(busqueda): filtrar color con tilde escribiendo sin tilde",
     "commitTimestamp": 1794890335489,
     "testId": 144
@@ -2906,7 +2906,7 @@
     "testId": 145
   },
   {
-    "commitId": "HEAD",
+    "commitId": "321acb53747f260766e9743b1739e6439e1cb7e7",
     "commitName": "test(busqueda): limitar las opciones de color a la especie elegida",
     "commitTimestamp": 1794890356177,
     "testId": 145
@@ -2920,9 +2920,141 @@
     "testId": 146
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e07a24a5151dfd8606d16008ccab65ee8737df1b",
     "commitName": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
     "commitTimestamp": 1794890381533,
     "testId": 146
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 0,
+    "numTotalTests": 83,
+    "timestamp": 1794890722872,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 1,
+    "numTotalTests": 84,
+    "timestamp": 1794891063607,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 0,
+    "numTotalTests": 84,
+    "timestamp": 1794891254856,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
+    "commitTimestamp": 1794891262588,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 2,
+    "numTotalTests": 86,
+    "timestamp": 1794891279675,
+    "success": false,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794891411410,
+    "success": true,
+    "testId": 148
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
+    "commitTimestamp": 1794891419477,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 1,
+    "numTotalTests": 87,
+    "timestamp": 1794891435125,
+    "success": false,
+    "testId": 149
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794891627316,
+    "success": true,
+    "testId": 149
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
+    "commitTimestamp": 1794891635592,
+    "testId": 149
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 1,
+    "numTotalTests": 88,
+    "timestamp": 1794891652421,
+    "success": false,
+    "testId": 150
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794891783589,
+    "success": true,
+    "testId": 150
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): no fallar si el texto buscado no esta definido",
+    "commitTimestamp": 1794891793361,
+    "testId": 150
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 1,
+    "numTotalTests": 89,
+    "timestamp": 1794891812839,
+    "success": false,
+    "testId": 151
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 0,
+    "numTotalTests": 89,
+    "timestamp": 1794892009256,
+    "success": true,
+    "testId": 151
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
+    "commitTimestamp": 1794892020208,
+    "testId": 151
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794892038977,
+    "success": true,
+    "testId": 152
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
+    "commitTimestamp": 1794892047898,
+    "testId": 152
   }
 ]
