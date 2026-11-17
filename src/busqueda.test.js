@@ -12,6 +12,12 @@ describe("Busqueda de mascotas", () => {
     expect(opcionesDe(publicaciones, "raza", "OTRO")).toEqual(["Conejo", "Loro"]);
   });
 
+  it("deberia limitar las opciones de color a la especie elegida", () => {
+    const publicaciones = [{ especie: "PERRO", color: "Negro" }, { especie: "GATO", color: "Naranja" },
+      { especie: "GATO", color: "Blanco" }];
+    expect(opcionesDe(publicaciones, "color", "GATO")).toEqual(["Blanco", "Naranja"]);
+  });
+
   it("deberia combinar especie con texto y barrio", () => {
     const base = { nombre: "Michi", barrio: "Sarco" };
     const publicaciones = [{ ...base, especie: "GATO" }, { ...base, especie: "PERRO" },

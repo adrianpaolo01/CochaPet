@@ -2964,12 +2964,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52667f02e9dff73c372e316c43d2d53c49de3c91",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T03:55:13.000Z",
       "message": "fix(busqueda): encontrar siamés al escribir siames sin tilde",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/52667f02e9dff73c372e316c43d2d53c49de3c91"
     },
     "stats": {
       "total": 13,
@@ -3074,6 +3074,25 @@
     },
     "coverage": 100,
     "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:39:15.000Z",
+      "message": "test(busqueda): limitar las opciones de color a la especie elegida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 83,
     "failed_tests": 0,
     "conclusion": "success"
   }
