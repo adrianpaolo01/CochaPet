@@ -2286,9 +2286,23 @@
     "testId": 120
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d",
     "commitName": "feat(busqueda): buscar tambien en la descripcion",
     "commitTimestamp": 1794882758362,
     "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882764028,
+    "success": true,
+    "testId": 121
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
+    "commitTimestamp": 1794882766774,
+    "testId": 121
   }
 ]

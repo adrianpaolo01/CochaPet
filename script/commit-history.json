@@ -2280,17 +2280,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:32:38.000Z",
       "message": "feat(busqueda): buscar tambien en la descripcion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d"
     },
     "stats": {
       "total": 9,
       "additions": 8,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:46.000Z",
+      "message": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
       "date": "2026-11-17"
     },
     "coverage": 100,

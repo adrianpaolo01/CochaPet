@@ -1,6 +1,6 @@
 const CAMPOS_BUSCABLES = ["nombre", "raza", "color", "descripcion"];
 
-export function buscarPorNombre(publicaciones, texto) {
+export function buscarPorTexto(publicaciones, texto) {
   if (texto === "") return publicaciones;
   const termino = texto.toLowerCase();
   const contiene = (valor) => Boolean(valor) && valor.toLowerCase().includes(termino);
@@ -39,5 +39,5 @@ export function opcionesDe(publicaciones, campo, especie = "") {
 
 export function filtrarMascotas(publicaciones, { texto, raza, color, barrio = "", especie = "" }) {
   const porEspecie = filtrarPorEspecie(publicaciones, especie);
-  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorNombre(porEspecie, texto), raza), color), barrio);
+  return filtrarPorBarrio(filtrarPorColor(filtrarPorRaza(buscarPorTexto(porEspecie, texto), raza), color), barrio);
 }
