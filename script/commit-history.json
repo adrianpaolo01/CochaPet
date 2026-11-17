@@ -2907,12 +2907,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0bbc30b8829b3f3990a1db100da06d5e80d65e92",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:19:48.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0bbc30b8829b3f3990a1db100da06d5e80d65e92"
     },
     "stats": {
       "total": 56,
@@ -3017,6 +3017,25 @@
     },
     "coverage": 100,
     "test_count": 79,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:07:11.000Z",
+      "message": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 80,
     "failed_tests": 0,
     "conclusion": "success"
   }

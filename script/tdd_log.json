@@ -2724,7 +2724,7 @@
     "testId": 136
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0bbc30b8829b3f3990a1db100da06d5e80d65e92",
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794885588575,
     "testId": 136
@@ -2846,5 +2846,19 @@
     "commitName": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
     "commitTimestamp": 1794888408221,
     "testId": 141
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 0,
+    "numTotalTests": 80,
+    "timestamp": 1794888428775,
+    "success": true,
+    "testId": 142
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): encontrar siamés al escribir con espacios alrededor",
+    "commitTimestamp": 1794888431966,
+    "testId": 142
   }
 ]
