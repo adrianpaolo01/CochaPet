@@ -2888,12 +2888,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4c12b7d82d1efa99d87416493593f9f51d2108fb",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T03:07:18.000Z",
       "message": "chore(presenter): integrar main y resolver los historiales TDD",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4c12b7d82d1efa99d87416493593f9f51d2108fb"
     },
     "stats": {
       "total": 134,
@@ -2998,6 +2998,25 @@
     },
     "coverage": 100,
     "test_count": 78,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T04:06:47.000Z",
+      "message": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 79,
     "failed_tests": 0,
     "conclusion": "success"
   }

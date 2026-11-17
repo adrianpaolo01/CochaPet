@@ -2710,7 +2710,7 @@
     "testId": 135
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c12b7d82d1efa99d87416493593f9f51d2108fb",
     "commitName": "chore: eliminar holaMundo del template que no se usa en la app",
     "commitTimestamp": 1794884686291,
     "testId": 135
@@ -2832,5 +2832,19 @@
     "commitName": "fix(busqueda): ignorar espacios al inicio y al final de la busqueda",
     "commitTimestamp": 1794888373380,
     "testId": 140
+  },
+  {
+    "numPassedTests": 79,
+    "failedTests": 0,
+    "numTotalTests": 79,
+    "timestamp": 1794888397859,
+    "success": true,
+    "testId": 141
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): encontrar siamés al escribir SIAMÉS en mayúsculas",
+    "commitTimestamp": 1794888408221,
+    "testId": 141
   }
 ]
