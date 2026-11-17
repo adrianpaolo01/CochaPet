@@ -1,8 +1,12 @@
 import { etiquetaEstado, formatearFecha, fotoPrincipal, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 import { filtrarMascotas, mensajeBusqueda, opcionesDe } from "./busqueda.js";
+import { htmlTarjeta, htmlVistaLista } from "./vistaLista.js";
 
-const lista = document.querySelector("#lista-publicaciones");
-const plantilla = document.querySelector("#plantilla-tarjeta");
+document.querySelector("#vista-lista").innerHTML = htmlVistaLista();
+
+const listaPublicaciones = document.querySelector("#lista-publicaciones");
+const plantillaTarjeta = document.createElement("template");
+plantillaTarjeta.innerHTML = htmlTarjeta();
 const mensaje = document.querySelector("#mensaje-inicio");
 const buscador = document.querySelector("#buscar-mascotas");
 const filtroEspecie = document.querySelector("#filtro-especie");
@@ -11,7 +15,7 @@ const filtroColor = document.querySelector("#filtro-color");
 const filtroBarrio = document.querySelector("#filtro-barrio");
 
 function crearTarjeta(publicacion) {
-  const tarjeta = plantilla.content.cloneNode(true);
+  const tarjeta = plantillaTarjeta.content.cloneNode(true);
   tarjeta.querySelector(".tarjeta-foto").src = fotoPrincipal(publicacion);
   tarjeta.querySelector(".badge").textContent = etiquetaEstado(publicacion);
   tarjeta.querySelector(".badge").classList.add(`badge-${publicacion.tipo.toLowerCase()}`);
@@ -40,7 +44,7 @@ async function mostrarPublicaciones() {
     const respuesta = await fetch("/api/publicaciones");
     if (!respuesta.ok) throw new Error("No se pudieron cargar las publicaciones");
     const publicaciones = await respuesta.json();
-    lista.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
+    listaPublicaciones.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
     mensaje.textContent = mensajeInicio(publicaciones) ?? "";
     mensaje.hidden = !mensaje.textContent;
     buscador.disabled = false;
@@ -53,9 +57,9 @@ async function mostrarPublicaciones() {
     filtroEspecie.disabled = false;
     const aplicarFiltros = () => {
       const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
-      const filtradas = filtrarMascotas(publicaciones, filtros);
-      lista.replaceChildren(...ordenarParaInicio(filtradas).map(crearTarjeta));
-      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(filtradas) ?? "";
+      const publicacionesFiltradas = filtrarMascotas(publicaciones, filtros);
+      listaPublicaciones.replaceChildren(...ordenarParaInicio(publicacionesFiltradas).map(crearTarjeta));
+      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(publicacionesFiltradas) ?? "";
       mensaje.hidden = !mensaje.textContent;
     };
     buscador.addEventListener("input", aplicarFiltros);

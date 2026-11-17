@@ -14,10 +14,10 @@ export function etiquetaEstado(publicacion) {
 }
 
 export function formatearFecha(fecha) {
-  const f = new Date(fecha);
-  const dia = String(f.getDate()).padStart(2, "0");
-  const mes = String(f.getMonth() + 1).padStart(2, "0");
-  return `${dia}/${mes}/${f.getFullYear()}`;
+  const fechaConvertida = new Date(fecha);
+  const dia = String(fechaConvertida.getDate()).padStart(2, "0");
+  const mes = String(fechaConvertida.getMonth() + 1).padStart(2, "0");
+  return `${dia}/${mes}/${fechaConvertida.getFullYear()}`;
 }
 
 export function fotoPrincipal(publicacion) {
@@ -40,8 +40,8 @@ export function idDesdeHash(hash) {
 }
 
 export function enlaceWhatsApp(publicacion) {
-  const mascota = publicacion.nombre ?? `tu ${publicacion.especie.toLowerCase()}`;
-  const mensaje = `Hola, creo que encontré a ${mascota}, la mascota que publicaste en CochaPet.`;
+  const nombreMascota = publicacion.nombre ?? `tu ${publicacion.especie.toLowerCase()}`;
+  const mensaje = `Hola, creo que encontré a ${nombreMascota}, la mascota que publicaste en CochaPet.`;
   return `https://wa.me/${PREFIJO_BOLIVIA}${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
 }
 

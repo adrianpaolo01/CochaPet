@@ -1,14 +1,18 @@
 import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
+import { htmlVisor, htmlVistaDetalle } from "./vistaDetalle.js";
+
+document.querySelector("#vista-detalle").innerHTML = htmlVistaDetalle();
+document.querySelector("#visor").innerHTML = htmlVisor();
 
 const vistaLista = document.querySelector("#vista-lista");
 const vistaDetalle = document.querySelector("#vista-detalle");
-const fotos = document.querySelector("#detalle-fotos");
+const contenedorFotos = document.querySelector("#detalle-fotos");
 const visor = document.querySelector("#visor");
 let indiceVisor = 0;
 
 function mostrarEnVisor(indice) {
-  const urlsFotos = [...fotos.children].map((img) => img.src);
+  const urlsFotos = [...contenedorFotos.children].map((img) => img.src);
   const foto = fotoAmpliada(urlsFotos, indice);
   if (!foto) return;
   indiceVisor = indice;
@@ -18,12 +22,12 @@ function mostrarEnVisor(indice) {
   if (!visor.open) visor.showModal();
 }
 
-fotos.addEventListener("click", (evento) => mostrarEnVisor([...fotos.children].indexOf(evento.target)));
+contenedorFotos.addEventListener("click", (evento) => mostrarEnVisor([...contenedorFotos.children].indexOf(evento.target)));
 document.querySelector("#visor-siguiente").addEventListener("click", () =>
-  mostrarEnVisor(siguienteIndice(indiceVisor, fotos.children.length))
+  mostrarEnVisor(siguienteIndice(indiceVisor, contenedorFotos.children.length))
 );
 document.querySelector("#visor-anterior").addEventListener("click", () =>
-  mostrarEnVisor(anteriorIndice(indiceVisor, fotos.children.length))
+  mostrarEnVisor(anteriorIndice(indiceVisor, contenedorFotos.children.length))
 );
 
 async function mostrarVista() {
@@ -38,7 +42,7 @@ async function mostrarVista() {
   document.querySelector("#detalle-descripcion").textContent = publicacion.descripcion;
   document.querySelector("#detalle-whatsapp").href = enlaceWhatsApp(publicacion);
   document.querySelector("#detalle-llamar").href = enlaceLlamada(publicacion);
-  fotos.replaceChildren(...publicacion.fotos.map((url) => Object.assign(new Image(), { src: url, alt: "" })));
+  contenedorFotos.replaceChildren(...publicacion.fotos.map((url) => Object.assign(new Image(), { src: url, alt: "" })));
 }
 
 window.addEventListener("hashchange", mostrarVista);

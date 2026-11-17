@@ -1913,14 +1913,334 @@
     "numPassedTests": 61,
     "failedTests": 0,
     "numTotalTests": 61,
+    "timestamp": 1794319266720,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "d69d558ca8f58d3e6c29855ccfb3f0407ad9e6fe",
+    "commitName": "fix: cambios en publicaciones",
+    "commitTimestamp": 1794319319684,
+    "testId": 100
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794319454045,
+    "success": true,
+    "testId": 101
+  },
+  {
+    "commitId": "b30dfb9662b0e07cbc62375701914655f77fad66",
+    "commitName": "fix: varios cambios en publicaciones",
+    "commitTimestamp": 1794319480986,
+    "testId": 101
+  },
+  {
+    "commitId": "2b2240013b34074a95b1f614b0f18b39609a1086",
+    "commitName": "fix: refactor presenter",
+    "commitTimestamp": 1794319782835,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794319964162,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "commitId": "f15fbeaace3e51da7c0deb7806ee60b5d8401084",
+    "commitName": "fix: refactor presenter lista publicaciones",
+    "commitTimestamp": 1794319985853,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794320443346,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "cac26de73903ab08c036ca39575ab681497e7860",
+    "commitName": "fix: refactor detalle presenter",
+    "commitTimestamp": 1794320527614,
+    "testId": 104
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490594343,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1794490625592,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "commitId": "0114ca6f55f814621bc6cc4c3f632dad7cc303a6",
+    "commitName": "fix(vistas): usar plantillaTarjeta al crear la tarjeta",
+    "commitTimestamp": 1794490626050,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 1,
+    "numTotalTests": 62,
+    "timestamp": 1794490631417,
+    "success": false,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 0,
+    "numTotalTests": 62,
+    "timestamp": 1794490709502,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "commitId": "d375992ad6037729e5673dbde7bf76ecf3c29af1",
+    "commitName": "feat(vistas): generar el encabezado de la vista lista",
+    "commitTimestamp": 1794490710014,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 1,
+    "numTotalTests": 63,
+    "timestamp": 1794490715539,
+    "success": false,
+    "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 0,
+    "numTotalTests": 63,
+    "timestamp": 1794490721412,
+    "success": true,
+    "testId": 107
+  },
+  {
+    "commitId": "2bd98dc923fe4ade6f3b10164023da655cdb5885",
+    "commitName": "feat(vistas): generar el buscador y los filtros de la lista",
+    "commitTimestamp": 1794490721835,
+    "testId": 107
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 1,
+    "numTotalTests": 64,
+    "timestamp": 1794490728076,
+    "success": false,
+    "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490732305,
+    "success": true,
+    "testId": 108
+  },
+  {
+    "commitId": "aa2526da98d11fd6f3700068734311881db73adf",
+    "commitName": "feat(vistas): armar la vista lista completa",
+    "commitTimestamp": 1794490732725,
+    "testId": 108
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1794490740163,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "0ddcfc2039d07871d76dbad8338bdcd8d9584b7c",
+    "commitName": "refactor(vistas): renderizar la vista lista desde su modulo",
+    "commitTimestamp": 1794490745114,
+    "testId": 109
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 1,
+    "numTotalTests": 65,
+    "timestamp": 1794490750187,
+    "success": false,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490754859,
+    "success": true,
+    "testId": 110
+  },
+  {
+    "commitId": "8cc6044a2120a69b4170a7e7ba4e832f360f3687",
+    "commitName": "feat(vistas): generar la plantilla de tarjeta",
+    "commitTimestamp": 1794490755286,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490761206,
+    "success": true,
+    "testId": 111
+  },
+  {
+    "commitId": "778fe425bfbf00ada9bf6ea573a206229c0a36b4",
+    "commitName": "refactor(vistas): crear la plantilla de tarjeta desde su modulo",
+    "commitTimestamp": 1794490761603,
+    "testId": 111
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1794490777855,
+    "success": true,
+    "testId": 112
+  },
+  {
+    "commitId": "f19cef17486ac49e2b2c4e501a4fb18ac82ca637",
+    "commitName": "refactor(vistas): mover los iconos svg a archivos aparte",
+    "commitTimestamp": 1794490783714,
+    "testId": 112
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 1,
+    "numTotalTests": 66,
+    "timestamp": 1794490788682,
+    "success": false,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1794490793474,
+    "success": true,
+    "testId": 113
+  },
+  {
+    "commitId": "57bb9cb205a996f4eef1e533102ba20c33a242b6",
+    "commitName": "feat(vistas): generar los botones de contacto del detalle",
+    "commitTimestamp": 1794490793899,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 1,
+    "numTotalTests": 67,
+    "timestamp": 1794490799314,
+    "success": false,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490804723,
+    "success": true,
+    "testId": 114
+  },
+  {
+    "commitId": "74b9208f5dba021519e1cfee37927ae84d853335",
+    "commitName": "feat(vistas): armar la vista detalle completa",
+    "commitTimestamp": 1794490805142,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1794490810957,
+    "success": true,
+    "testId": 115
+  },
+  {
+    "commitId": "5c682be859d172a941b8ac93f52631ee8d1167ee",
+    "commitName": "refactor(vistas): renderizar la vista detalle desde su modulo",
+    "commitTimestamp": 1794490811377,
+    "testId": 115
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 1,
+    "numTotalTests": 68,
+    "timestamp": 1794490816797,
+    "success": false,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490821463,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "commitId": "06830076b3268313b65d8551938440e86939ca8c",
+    "commitName": "feat(vistas): generar el visor de fotos",
+    "commitTimestamp": 1794490821885,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490828498,
+    "success": true,
+    "testId": 117
+  },
+  {
+    "commitId": "b29bb7303dab65aca5c5b84f6913087f1137e591",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
     "timestamp": 1794490254340,
     "success": true,
     "testId": 100
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b29bb7303dab65aca5c5b84f6913087f1137e591",
     "commitName": "refactor: renombrar variables para revelar su intención",
     "commitTimestamp": 1794490311972,
     "testId": 100
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "commitTimestamp": 1794882175873,
+    "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+    "commitTimestamp": 1794882230599,
+    "testId": 102
   }
 ]
