@@ -2212,9 +2212,39 @@
     "testId": 117
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
     "commitName": "refactor(vistas): renderizar el visor desde su modulo",
     "commitTimestamp": 1794490828904,
     "testId": 117
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490853626,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 1,
+    "numTotalTests": 69,
+    "timestamp": 1794882720462,
+    "success": false,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794882726198,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(busqueda): buscar tambien por raza",
+    "commitTimestamp": 1794882729613,
+    "testId": 118
   }
 ]

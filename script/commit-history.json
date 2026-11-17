@@ -2223,12 +2223,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-12T13:40:28.000Z",
       "message": "refactor(vistas): renderizar el visor desde su modulo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4096c69f0b6400c6c3701c40fdfaaeee0a15c157"
     },
     "stats": {
       "total": 11,
@@ -2238,6 +2238,25 @@
     },
     "coverage": 100,
     "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:09.000Z",
+      "message": "feat(busqueda): buscar tambien por raza",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
     "failed_tests": 0,
     "conclusion": "success"
   }

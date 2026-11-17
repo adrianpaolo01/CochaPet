@@ -1,7 +1,8 @@
 export function buscarPorNombre(publicaciones, texto) {
   if (texto === "") return publicaciones;
   const termino = texto.toLowerCase();
-  return publicaciones.filter((publicacion) => publicacion.nombre && publicacion.nombre.toLowerCase().includes(termino));
+  const contiene = (valor) => Boolean(valor) && valor.toLowerCase().includes(termino);
+  return publicaciones.filter((publicacion) => contiene(publicacion.nombre) || contiene(publicacion.raza));
 }
 
 export function mensajeBusqueda(publicaciones) {
