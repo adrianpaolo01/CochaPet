@@ -39,37 +39,45 @@ async function cargarBarrios(publicaciones) {
   }
 }
 
+function llenarSelect(select, valores) {
+  select.append(...valores.map((valor) => new Option(valor, valor)));
+  select.disabled = false;
+}
+
+function renderLista(publicaciones, resultados = publicaciones) {
+  listaPublicaciones.replaceChildren(...ordenarParaInicio(resultados).map(crearTarjeta));
+  mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(resultados) ?? "";
+  mensaje.hidden = !mensaje.textContent;
+}
+
+function registrarFiltros(publicaciones) {
+  const aplicarFiltros = () => {
+    const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
+    renderLista(publicaciones, filtrarMascotas(publicaciones, filtros));
+  };
+  buscador.addEventListener("input", aplicarFiltros);
+  filtroRaza.addEventListener("change", aplicarFiltros);
+  filtroColor.addEventListener("change", aplicarFiltros);
+  filtroBarrio.addEventListener("change", aplicarFiltros);
+  filtroEspecie.addEventListener("change", () => {
+    filtroRaza.replaceChildren(new Option("Todas", ""));
+    llenarSelect(filtroRaza, opcionesDe(publicaciones, "raza", filtroEspecie.value));
+    aplicarFiltros();
+  });
+}
+
 async function mostrarPublicaciones() {
   try {
     const respuesta = await fetch("/api/publicaciones");
     if (!respuesta.ok) throw new Error("No se pudieron cargar las publicaciones");
     const publicaciones = await respuesta.json();
-    listaPublicaciones.replaceChildren(...ordenarParaInicio(publicaciones).map(crearTarjeta));
-    mensaje.textContent = mensajeInicio(publicaciones) ?? "";
-    mensaje.hidden = !mensaje.textContent;
+    renderLista(publicaciones);
     buscador.disabled = false;
-    filtroRaza.append(...opcionesDe(publicaciones, "raza").map((raza) => new Option(raza, raza)));
-    filtroRaza.disabled = false;
-    filtroColor.append(...opcionesDe(publicaciones, "color").map((color) => new Option(color, color)));
-    filtroColor.disabled = false;
-    filtroBarrio.append(...(await cargarBarrios(publicaciones)).map((barrio) => new Option(barrio, barrio)));
-    filtroBarrio.disabled = false;
+    llenarSelect(filtroRaza, opcionesDe(publicaciones, "raza"));
+    llenarSelect(filtroColor, opcionesDe(publicaciones, "color"));
+    llenarSelect(filtroBarrio, await cargarBarrios(publicaciones));
     filtroEspecie.disabled = false;
-    const aplicarFiltros = () => {
-      const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
-      const publicacionesFiltradas = filtrarMascotas(publicaciones, filtros);
-      listaPublicaciones.replaceChildren(...ordenarParaInicio(publicacionesFiltradas).map(crearTarjeta));
-      mensaje.textContent = mensajeInicio(publicaciones) ?? mensajeBusqueda(publicacionesFiltradas) ?? "";
-      mensaje.hidden = !mensaje.textContent;
-    };
-    buscador.addEventListener("input", aplicarFiltros);
-    filtroRaza.addEventListener("change", aplicarFiltros);
-    filtroColor.addEventListener("change", aplicarFiltros);
-    filtroBarrio.addEventListener("change", aplicarFiltros);
-    filtroEspecie.addEventListener("change", () => {
-      filtroRaza.replaceChildren(new Option("Todas", ""), ...opcionesDe(publicaciones, "raza", filtroEspecie.value).map((raza) => new Option(raza, raza)));
-      aplicarFiltros();
-    });
+    registrarFiltros(publicaciones);
   } catch {
     mensaje.textContent = "No se pudieron cargar las publicaciones. Intenta nuevamente más tarde.";
     mensaje.hidden = false;
