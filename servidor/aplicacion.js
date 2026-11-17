@@ -19,13 +19,8 @@ export function crearManejador(repositorio, barriosRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
     if (req.method === "GET" && ruta === "/api/publicaciones") {
-      try {
-        responderJson(res, 200, await publicacionesParaInicio(repositorio));
-      } catch (error) {
-        console.error(error);
-        responderJson(res, 500, { error: "No se pudieron cargar las publicaciones" });
-      }
-      return;
+      return manejarErrores(res, "No se pudieron cargar las publicaciones", async () =>
+        responderJson(res, 200, await publicacionesParaInicio(repositorio)));
     }
     const detalle = ruta.match(/^\/api\/publicaciones\/(\d+)$/);
     if (req.method === "GET" && detalle) {

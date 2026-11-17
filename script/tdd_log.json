@@ -2480,7 +2480,7 @@
     "testId": 127
   },
   {
-    "commitId": "HEAD",
+    "commitId": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
     "commitName": "refactor(api): quitar el try finally del test de error del detalle",
     "commitTimestamp": 1794884280292,
     "testId": 127
@@ -2564,5 +2564,19 @@
     "commitName": "feat(api): registrar en consola el error de la accion",
     "commitTimestamp": 1794884329205,
     "testId": 131
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884336314,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+    "commitTimestamp": 1794884336782,
+    "testId": 132
   }
 ]

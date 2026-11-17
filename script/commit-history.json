@@ -2565,12 +2565,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:00.000Z",
       "message": "refactor(api): quitar el try finally del test de error del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0"
     },
     "stats": {
       "total": 12,
@@ -2652,6 +2652,25 @@
       "total": 9,
       "additions": 8,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:56.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 2,
+      "deletions": 7,
       "date": "2026-11-17"
     },
     "coverage": 100,
