@@ -6,6 +6,10 @@ function responderJson(res, estado, datos) {
   res.end(JSON.stringify(datos));
 }
 
+export async function manejarErrores(res, mensaje, accion) {
+  await accion();
+}
+
 export function crearManejador(repositorio, barriosRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;

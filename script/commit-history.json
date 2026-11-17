@@ -2508,12 +2508,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ba8b78e614e8117320440c9f53dab38c9ae8f9c3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:52:26.000Z",
       "message": "merge: resolver conflictos de logs con main",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ba8b78e614e8117320440c9f53dab38c9ae8f9c3"
     },
     "stats": {
       "total": 74,
@@ -2599,6 +2599,25 @@
     },
     "coverage": 100,
     "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:58:25.000Z",
+      "message": "feat(api): crear manejarErrores que ejecuta la accion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 73,
     "failed_tests": 0,
     "conclusion": "success"
   }

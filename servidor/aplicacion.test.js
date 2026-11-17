@@ -1,4 +1,4 @@
-import { crearManejador } from "./aplicacion.js";
+import { crearManejador, manejarErrores } from "./aplicacion.js";
 
 function crearRespuesta() {
   return { writeHead: jest.fn(), end: jest.fn() };
@@ -7,6 +7,12 @@ function crearRespuesta() {
 describe("API compartida entre desarrollo y Vercel", () => {
   beforeEach(() => jest.spyOn(console, "error").mockImplementation(() => {}));
   afterEach(() => jest.restoreAllMocks());
+
+  it("manejarErrores ejecuta la accion cuando no falla", async () => {
+    const accion = jest.fn(async () => {});
+    await manejarErrores(crearRespuesta(), "Fallo", accion);
+    expect(accion).toHaveBeenCalled();
+  });
 
   it("devuelve las publicaciones activas como JSON incluso con parametros de consulta", async () => {
     const activa = { id: 1, estado: "ACTIVA", fotos: ["https://ejemplo.com/perro.jpg"] };

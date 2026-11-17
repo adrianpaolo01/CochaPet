@@ -2430,7 +2430,7 @@
     "testId": 124
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ba8b78e614e8117320440c9f53dab38c9ae8f9c3",
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794883946738,
     "testId": 124
@@ -2498,5 +2498,27 @@
     "commitName": "refactor(api): quitar el try finally del test de error de barrios",
     "commitTimestamp": 1794884288776,
     "testId": 128
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 1,
+    "numTotalTests": 73,
+    "timestamp": 1794884299408,
+    "success": false,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 0,
+    "numTotalTests": 73,
+    "timestamp": 1794884304703,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(api): crear manejarErrores que ejecuta la accion",
+    "commitTimestamp": 1794884305163,
+    "testId": 129
   }
 ]
