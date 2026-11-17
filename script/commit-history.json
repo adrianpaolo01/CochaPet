@@ -3097,12 +3097,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e07a24a5151dfd8606d16008ccab65ee8737df1b",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:39:40.000Z",
       "message": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e07a24a5151dfd8606d16008ccab65ee8737df1b"
     },
     "stats": {
       "total": 2,
@@ -3207,6 +3207,25 @@
     },
     "coverage": 100,
     "test_count": 89,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-17T05:07:26.000Z",
+      "message": "test(busqueda): buscar en un dato que no es texto sin fallar",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -2920,7 +2920,7 @@
     "testId": 146
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e07a24a5151dfd8606d16008ccab65ee8737df1b",
     "commitName": "fix(busqueda): actualizar el filtro de color al cambiar de especie",
     "commitTimestamp": 1794890381533,
     "testId": 146
@@ -3042,5 +3042,19 @@
     "commitName": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
     "commitTimestamp": 1794892020208,
     "testId": 151
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794892038977,
+    "success": true,
+    "testId": 152
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
+    "commitTimestamp": 1794892047898,
+    "testId": 152
   }
 ]

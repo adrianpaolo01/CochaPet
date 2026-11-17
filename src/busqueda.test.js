@@ -85,6 +85,11 @@ describe("Busqueda de mascotas", () => {
     expect(buscarPorTexto(publicaciones, undefined)).toEqual(publicaciones);
   });
 
+  it("deberia buscar sin fallar en un dato que no es texto", () => {
+    const publicaciones = [{ nombre: 5 }, { nombre: "Luna" }];
+    expect(buscarPorTexto(publicaciones, "5")).toEqual([publicaciones[0]]);
+  });
+
   it("deberia dar un mensaje solo cuando no hay coincidencias", () => {
     expect(mensajeBusqueda([])).toEqual("No se encontraron mascotas.");
     expect(mensajeBusqueda([{ nombre: "Luna" }])).toBeNull();
