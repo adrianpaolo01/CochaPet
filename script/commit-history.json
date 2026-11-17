@@ -2527,6 +2527,63 @@
     "conclusion": "success"
   },
   {
+    "sha": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:55:59.000Z",
+      "message": "refactor(presenter): extraer la carga de opciones de filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a378eba381f83d6addf9d78cf8e1da0bb3dc709b"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 8,
+      "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:56:26.000Z",
+      "message": "refactor(presenter): unificar el renderizado de la lista",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/678b1dd555b47e77d48cf3e79695f4498fe40f99"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 8,
+      "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9a3748ca55f818476ca86f0e33ad893377d9947d",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:57:07.000Z",
+      "message": "refactor(presenter): extraer el registro de los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a3748ca55f818476ca86f0e33ad893377d9947d"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 17,
+      "deletions": 13,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "535a9ace015429ad395ef74dba98b77641e52c4e",
     "author": "BerniUCb",
     "commit": {
@@ -2622,12 +2679,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:37.000Z",
       "message": "feat(api): responder 500 con el mensaje cuando la accion falla",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/18a4aca06da6cd82a7ebd4d18829980bac61af9a"
     },
     "stats": {
       "total": 12,
@@ -2641,12 +2698,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:49.000Z",
       "message": "feat(api): registrar en consola el error de la accion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0"
     },
     "stats": {
       "total": 9,
@@ -2660,12 +2717,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:56.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta de publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5f8596788e7faf2f55bfff131ec48b169a3a983"
     },
     "stats": {
       "total": 9,
@@ -2679,12 +2736,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:04.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta del detalle",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1"
     },
     "stats": {
       "total": 8,
@@ -2698,17 +2755,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9242aa55942fefcc6be45d0769c66b061c8992ba",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:59:11.000Z",
       "message": "refactor(api): usar manejarErrores en la ruta de barrios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9242aa55942fefcc6be45d0769c66b061c8992ba"
     },
     "stats": {
       "total": 9,
       "additions": 2,
       "deletions": 7,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T03:07:18.000Z",
+      "message": "chore(presenter): integrar main y resolver los historiales TDD",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 134,
+      "additions": 78,
+      "deletions": 56,
       "date": "2026-11-17"
     },
     "coverage": 100,

@@ -2538,7 +2538,7 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "18a4aca06da6cd82a7ebd4d18829980bac61af9a",
     "commitName": "feat(api): responder 500 con el mensaje cuando la accion falla",
     "commitTimestamp": 1794884317223,
     "testId": 130
@@ -2560,7 +2560,7 @@
     "testId": 131
   },
   {
-    "commitId": "HEAD",
+    "commitId": "132fde9f3ae780c66a2e7e4f8929d0aca9a4b4c0",
     "commitName": "feat(api): registrar en consola el error de la accion",
     "commitTimestamp": 1794884329205,
     "testId": 131
@@ -2574,7 +2574,7 @@
     "testId": 132
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5f8596788e7faf2f55bfff131ec48b169a3a983",
     "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
     "commitTimestamp": 1794884336782,
     "testId": 132
@@ -2588,7 +2588,7 @@
     "testId": 133
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
     "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
     "commitTimestamp": 1794884344288,
     "testId": 133
@@ -2602,9 +2602,73 @@
     "testId": 134
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9242aa55942fefcc6be45d0769c66b061c8992ba",
     "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
     "commitTimestamp": 1794884351558,
     "testId": 134
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884125752,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884153060,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "a378eba381f83d6addf9d78cf8e1da0bb3dc709b",
+    "commitName": "refactor(presenter): extraer la carga de opciones de filtros",
+    "commitTimestamp": 1794884159954,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884181357,
+    "success": true,
+    "testId": 136
+  },
+  {
+    "commitId": "678b1dd555b47e77d48cf3e79695f4498fe40f99",
+    "commitName": "refactor(presenter): unificar el renderizado de la lista",
+    "commitTimestamp": 1794884187636,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884221982,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "9a3748ca55f818476ca86f0e33ad893377d9947d",
+    "commitName": "refactor(presenter): extraer el registro de los filtros",
+    "commitTimestamp": 1794884228473,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884824918,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(presenter): integrar main y resolver los historiales TDD",
+    "commitTimestamp": 1794884839696,
+    "testId": 138
   }
 ]
