@@ -6,6 +6,7 @@
   --tinta: #111c2d;
   --tinta-suave: #4b5568;
   --borde: #d1d5db;
+  --whatsapp: #15803d;
   --sombra: 0 1px 2px rgba(17, 28, 45, 0.06), 0 4px 16px rgba(17, 28, 45, 0.06);
 }
 
@@ -54,7 +55,7 @@ body {
 .detalle-acciones .boton { flex: 1 1 200px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin: 0; padding: 14px 20px; font-size: 16px; transition: transform 0.15s, box-shadow 0.15s, background 0.15s; }
 .boton:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(17, 28, 45, 0.18); }
 .boton:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
-.boton-whatsapp { background: #15803d; }
+.boton-whatsapp { background: var(--whatsapp); }
 .boton-whatsapp:hover { background: #166534; }
 .boton-llamar { background: var(--superficie); color: var(--primario); box-shadow: inset 0 0 0 2px var(--primario); }
 .boton-llamar:hover { background: var(--primario); color: #fff; }

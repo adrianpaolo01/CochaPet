@@ -2746,7 +2746,7 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5c803c539dec40c6e98f38b46b3f7b7501b1ea46",
     "commitName": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
     "commitTimestamp": 1794885917488,
     "testId": 137
@@ -2828,5 +2828,19 @@
     "commitName": "style(estilos): pasar el color del borde a la variable --borde",
     "commitTimestamp": 1794885961258,
     "testId": 142
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885968684,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
+    "commitTimestamp": 1794885969082,
+    "testId": 143
   }
 ]

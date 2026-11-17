@@ -2926,12 +2926,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5c803c539dec40c6e98f38b46b3f7b7501b1ea46",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:25:17.000Z",
       "message": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5c803c539dec40c6e98f38b46b3f7b7501b1ea46"
     },
     "stats": {
       "total": 14,
@@ -3026,6 +3026,25 @@
     "commit": {
       "date": "2026-11-17T03:26:01.000Z",
       "message": "style(estilos): pasar el color del borde a la variable --borde",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:26:08.000Z",
+      "message": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {
