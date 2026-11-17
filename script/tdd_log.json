@@ -2678,7 +2678,7 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5f22180bbf9c80acee5008ea8bc99d18fd773c4b",
     "commitName": "feat(api): registrar en consola el error de la accion",
     "commitTimestamp": 1794884329205,
     "testId": 131
@@ -2728,5 +2728,27 @@
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794885588575,
     "testId": 136
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794885911201,
+    "success": false,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794885914825,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
+    "commitTimestamp": 1794885917488,
+    "testId": 137
   }
 ]
