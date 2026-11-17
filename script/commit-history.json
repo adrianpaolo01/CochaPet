@@ -2299,12 +2299,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6bb341bb216a72baf122363f2c555a4b7e4df215",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:34:05.000Z",
       "message": "refactor(demo): separar las publicaciones del seed",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6bb341bb216a72baf122363f2c555a4b7e4df215"
     },
     "stats": {
       "total": 64,
@@ -2329,6 +2329,25 @@
       "total": 16,
       "additions": 13,
       "deletions": 3,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T02:55:59.000Z",
+      "message": "refactor(presenter): extraer la carga de opciones de filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 8,
+      "deletions": 6,
       "date": "2026-11-17"
     },
     "coverage": 100,

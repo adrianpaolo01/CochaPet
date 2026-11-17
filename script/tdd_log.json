@@ -2260,7 +2260,7 @@
     "testId": 103
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6bb341bb216a72baf122363f2c555a4b7e4df215",
     "commitName": "refactor(demo): separar las publicaciones del seed",
     "commitTimestamp": 1794882846749,
     "testId": 103
@@ -2286,5 +2286,27 @@
     "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
     "commitTimestamp": 1794883204587,
     "testId": 104
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884125752,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794884153060,
+    "success": true,
+    "testId": 105
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(presenter): extraer la carga de opciones de filtros",
+    "commitTimestamp": 1794884159954,
+    "testId": 105
   }
 ]

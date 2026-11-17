@@ -39,6 +39,11 @@ async function cargarBarrios(publicaciones) {
   }
 }
 
+function llenarSelect(select, valores) {
+  select.append(...valores.map((valor) => new Option(valor, valor)));
+  select.disabled = false;
+}
+
 async function mostrarPublicaciones() {
   try {
     const respuesta = await fetch("/api/publicaciones");
@@ -48,12 +53,9 @@ async function mostrarPublicaciones() {
     mensaje.textContent = mensajeInicio(publicaciones) ?? "";
     mensaje.hidden = !mensaje.textContent;
     buscador.disabled = false;
-    filtroRaza.append(...opcionesDe(publicaciones, "raza").map((raza) => new Option(raza, raza)));
-    filtroRaza.disabled = false;
-    filtroColor.append(...opcionesDe(publicaciones, "color").map((color) => new Option(color, color)));
-    filtroColor.disabled = false;
-    filtroBarrio.append(...(await cargarBarrios(publicaciones)).map((barrio) => new Option(barrio, barrio)));
-    filtroBarrio.disabled = false;
+    llenarSelect(filtroRaza, opcionesDe(publicaciones, "raza"));
+    llenarSelect(filtroColor, opcionesDe(publicaciones, "color"));
+    llenarSelect(filtroBarrio, await cargarBarrios(publicaciones));
     filtroEspecie.disabled = false;
     const aplicarFiltros = () => {
       const filtros = { texto: buscador.value, raza: filtroRaza.value, color: filtroColor.value, barrio: filtroBarrio.value, especie: filtroEspecie.value };
