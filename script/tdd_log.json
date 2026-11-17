@@ -2260,7 +2260,7 @@
     "testId": 103
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c41ebe9fb014dcc1c80dc4d439c3b502d0e49a6",
     "commitName": "refactor(demo): separar las publicaciones del seed",
     "commitTimestamp": 1794882846749,
     "testId": 103
@@ -2286,5 +2286,153 @@
     "commitName": "fix(demo): nombrar a las tres mascotas encontradas",
     "commitTimestamp": 1794883204587,
     "testId": 104
+  },
+  {
+    "commitId": "53f37a342b95aaf823f9eb07e821c37a16682f09",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+    "commitTimestamp": 1794882175873,
+    "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+    "commitTimestamp": 1794882230599,
+    "testId": 102
+  },
+  {
+    "commitId": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
+    "commitName": "refactor(vistas): renderizar el visor desde su modulo",
+    "commitTimestamp": 1794490828904,
+    "testId": 117
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1794490853626,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 1,
+    "numTotalTests": 69,
+    "timestamp": 1794882720462,
+    "success": false,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1794882726198,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "commitId": "52f5f0f9bb38073c955d52956eb11b625c53836d",
+    "commitName": "feat(busqueda): buscar tambien por raza",
+    "commitTimestamp": 1794882729613,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 1,
+    "numTotalTests": 70,
+    "timestamp": 1794882735677,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794882740321,
+    "success": true,
+    "testId": 119
+  },
+  {
+    "commitId": "b86a707ef2d1b6b821cbd93477e366a499bb1b1f",
+    "commitName": "feat(busqueda): buscar tambien por color",
+    "commitTimestamp": 1794882742971,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 1,
+    "numTotalTests": 71,
+    "timestamp": 1794882749157,
+    "success": false,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882755764,
+    "success": true,
+    "testId": 120
+  },
+  {
+    "commitId": "5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d",
+    "commitName": "feat(busqueda): buscar tambien en la descripcion",
+    "commitTimestamp": 1794882758362,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882764028,
+    "success": true,
+    "testId": 121
+  },
+  {
+    "commitId": "71c9a7f7c4dfbfef659eb9a203ea92c7b1461538",
+    "commitName": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
+    "commitTimestamp": 1794882766774,
+    "testId": 121
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882775448,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
+    "commitTimestamp": 1794882778490,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794882977530,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794882978038,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 0,
+    "numTotalTests": 72,
+    "timestamp": 1794883943815,
+    "success": true,
+    "testId": 124
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794883946738,
+    "testId": 124
   }
 ]

@@ -2261,12 +2261,50 @@
     "conclusion": "success"
   },
   {
+    "sha": "4096c69f0b6400c6c3701c40fdfaaeee0a15c157",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-12T13:40:28.000Z",
+      "message": "refactor(vistas): renderizar el visor desde su modulo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4096c69f0b6400c6c3701c40fdfaaeee0a15c157"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 3,
+      "deletions": 8,
+      "date": "2026-11-12"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "7fbca6514df39b4f117625d676876689d9f3dce1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:22:55.000Z",
       "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/7fbca6514df39b4f117625d676876689d9f3dce1"
+    },
+    "stats": {
+      "total": 213,
+      "additions": 143,
+      "deletions": 70,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "53f37a342b95aaf823f9eb07e821c37a16682f09",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:22:55.000Z",
+      "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/53f37a342b95aaf823f9eb07e821c37a16682f09"
     },
     "stats": {
       "total": 213,
@@ -2299,6 +2337,120 @@
     "conclusion": "success"
   },
   {
+    "sha": "3c41ebe9fb014dcc1c80dc4d439c3b502d0e49a6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:23:50.000Z",
+      "message": "merge: resolver conflictos con main\n\nCombina el renombre fotos -> contenedorFotos (main) con urls -> urlsFotos (PR #61)\ny une las entradas de tdd_log.json y commit-history.json de ambas ramas.",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3c41ebe9fb014dcc1c80dc4d439c3b502d0e49a6"
+    },
+    "stats": {
+      "total": 213,
+      "additions": 143,
+      "deletions": 70,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "52f5f0f9bb38073c955d52956eb11b625c53836d",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:09.000Z",
+      "message": "feat(busqueda): buscar tambien por raza",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/52f5f0f9bb38073c955d52956eb11b625c53836d"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b86a707ef2d1b6b821cbd93477e366a499bb1b1f",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:22.000Z",
+      "message": "feat(busqueda): buscar tambien por color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b86a707ef2d1b6b821cbd93477e366a499bb1b1f"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:38.000Z",
+      "message": "feat(busqueda): buscar tambien en la descripcion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5ed8228ccdfebbeac5dae0bd7ca9d1e4cfebd35d"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "71c9a7f7c4dfbfef659eb9a203ea92c7b1461538",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:46.000Z",
+      "message": "refactor(busqueda): renombrar buscarPorNombre a buscarPorTexto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/71c9a7f7c4dfbfef659eb9a203ea92c7b1461538"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:32:58.000Z",
+      "message": "feat(busqueda): indicar en el buscador que busca por nombre, raza, color y descripcion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "HEAD",
     "author": "Adrian Paolo",
     "commit": {
@@ -2319,6 +2471,25 @@
   },
   {
     "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:36:17.000Z",
+      "message": "merge: resolver conflictos de logs con main",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-17T02:40:03.000Z",
@@ -2333,6 +2504,25 @@
     },
     "coverage": 100,
     "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:52:26.000Z",
+      "message": "merge: resolver conflictos de logs con main",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 74,
+      "additions": 42,
+      "deletions": 32,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 72,
     "failed_tests": 0,
     "conclusion": "success"
   }

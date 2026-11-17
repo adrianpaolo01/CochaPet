@@ -6,8 +6,8 @@ export function htmlEncabezadoLista() {
 
 export function htmlFiltros() {
   return `
-    <label for="buscar-mascotas">Buscar por nombre</label>
-    <input id="buscar-mascotas" type="search" placeholder="Ej.: Firulais" disabled />
+    <label for="buscar-mascotas">Buscar mascotas</label>
+    <input id="buscar-mascotas" type="search" placeholder="Ej.: Firulais, siamés, collar azul" disabled />
     <label for="filtro-especie">Especie</label>
     <select id="filtro-especie" disabled><option value="">Todas</option><option value="PERRO">Perro</option><option value="GATO">Gato</option><option value="OTRO">Otro</option></select>
     <label for="filtro-raza">Raza</label>
