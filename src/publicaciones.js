@@ -13,6 +13,10 @@ export function etiquetaEstado(publicacion) {
   return capitalizar(publicacion.tipo);
 }
 
+export function badgeEstado(publicacion) {
+  return { texto: etiquetaEstado(publicacion), clase: `badge badge-${publicacion.tipo.toLowerCase()}` };
+}
+
 export function formatearFecha(fecha) {
   const fechaConvertida = new Date(fecha);
   const dia = String(fechaConvertida.getDate()).padStart(2, "0");

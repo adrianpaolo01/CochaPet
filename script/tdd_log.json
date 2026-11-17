@@ -2678,7 +2678,7 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5f22180bbf9c80acee5008ea8bc99d18fd773c4b",
     "commitName": "feat(api): registrar en consola el error de la accion",
     "commitTimestamp": 1794884329205,
     "testId": 131
@@ -2728,5 +2728,35 @@
     "commitName": "merge: resolver conflictos de logs con main",
     "commitTimestamp": 1794885588575,
     "testId": 136
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794886193310,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794886213014,
+    "success": false,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794886232787,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(detalle): mostrar si la mascota esta perdida o encontrada",
+    "commitTimestamp": 1794886247271,
+    "testId": 137
   }
 ]

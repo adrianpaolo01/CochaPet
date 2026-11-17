@@ -1,4 +1,4 @@
-import { enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
+import { badgeEstado, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 import { htmlVisor, htmlVistaDetalle } from "./vistaDetalle.js";
 
@@ -38,6 +38,10 @@ async function mostrarVista() {
   const respuesta = await fetch(`/api/publicaciones/${id}`);
   const publicacion = await respuesta.json();
   document.querySelector("#detalle-titulo").textContent = tituloPublicacion(publicacion);
+  const estado = document.querySelector("#detalle-estado");
+  const { texto, clase } = badgeEstado(publicacion);
+  estado.textContent = texto;
+  estado.className = clase;
   document.querySelector("#detalle-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
   document.querySelector("#detalle-descripcion").textContent = publicacion.descripcion;
   document.querySelector("#detalle-whatsapp").href = enlaceWhatsApp(publicacion);
