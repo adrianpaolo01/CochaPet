@@ -31,13 +31,8 @@ export function crearManejador(repositorio, barriosRepositorio) {
       });
     }
     if (req.method === "GET" && ruta === "/api/barrios") {
-      try {
-        responderJson(res, 200, await barriosParaLista(barriosRepositorio));
-      } catch (error) {
-        console.error(error);
-        responderJson(res, 500, { error: "No se pudieron cargar los barrios" });
-      }
-      return;
+      return manejarErrores(res, "No se pudieron cargar los barrios", async () =>
+        responderJson(res, 200, await barriosParaLista(barriosRepositorio)));
     }
     responderJson(res, 404, { error: "No encontrado" });
   };

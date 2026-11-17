@@ -2603,12 +2603,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T02:58:25.000Z",
       "message": "feat(api): crear manejarErrores que ejecuta la accion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1"
     },
     "stats": {
       "total": 12,
@@ -2690,6 +2690,25 @@
       "total": 8,
       "additions": 2,
       "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:11.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 2,
+      "deletions": 7,
       "date": "2026-11-17"
     },
     "coverage": 100,

@@ -2516,7 +2516,7 @@
     "testId": 129
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5e5e7890d3b51e7019c7c79961ed3d11b7fcfd1",
     "commitName": "feat(api): crear manejarErrores que ejecuta la accion",
     "commitTimestamp": 1794884305163,
     "testId": 129
@@ -2592,5 +2592,19 @@
     "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
     "commitTimestamp": 1794884344288,
     "testId": 133
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794884351088,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
+    "commitTimestamp": 1794884351558,
+    "testId": 134
   }
 ]
