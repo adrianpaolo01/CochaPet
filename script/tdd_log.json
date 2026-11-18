@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc16ef92a9578974ffe849198aa5125ed2e7dbd4",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -5978,5 +5978,27 @@
     "commitName": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
     "commitTimestamp": 1795044183083,
     "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795044194604,
+    "success": false,
+    "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795044200542,
+    "success": true,
+    "testId": 256
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): pedir iniciar sesion y volver a la ruta del reporte actual",
+    "commitTimestamp": 1795044201747,
+    "testId": 256
   }
 ]

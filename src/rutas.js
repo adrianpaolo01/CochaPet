@@ -14,6 +14,10 @@ export function tipoDeReporte(hash) {
   return hash === RUTA_REPORTE_ENCONTRADA ? "ENCONTRADA" : "PERDIDA";
 }
 
+export function enlaceIngresarDesde(hash) {
+  return `#/ingresar?volver=${hash.slice(1)}`;
+}
+
 export function destinoTrasIngresar(hash) {
   const consulta = new URLSearchParams(hash.split("?")[1]);
   return `#${consulta.get("volver") ?? "/"}`;
