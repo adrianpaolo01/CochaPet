@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c31826853b2d398075fa8718abcdc5d7af2234aa",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -4696,5 +4696,19 @@
     "commitName": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
     "commitTimestamp": 1795040311273,
     "testId": 196
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040327561,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar mis datos en el perfil",
+    "commitTimestamp": 1795040330611,
+    "testId": 197
   }
 ]
