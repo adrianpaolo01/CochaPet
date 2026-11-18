@@ -4123,12 +4123,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "797bb2bca86684f54e35d05025304f9ec5c36dfe",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:10:21.000Z",
       "message": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/797bb2bca86684f54e35d05025304f9ec5c36dfe"
     },
     "stats": {
       "total": 94,
@@ -4727,6 +4727,25 @@
     },
     "coverage": 100,
     "test_count": 189,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:58:04.000Z",
+      "message": "feat(HU04): pedir una descripcion de la mascota perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 190,
     "failed_tests": 0,
     "conclusion": "success"
   }

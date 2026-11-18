@@ -3884,7 +3884,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "797bb2bca86684f54e35d05025304f9ec5c36dfe",
     "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
     "commitTimestamp": 1795032623524,
     "testId": 182
@@ -4522,5 +4522,27 @@
     "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota",
     "commitTimestamp": 1795035471118,
     "testId": 187
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 1,
+    "numTotalTests": 190,
+    "timestamp": 1795035477214,
+    "success": false,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 0,
+    "numTotalTests": 190,
+    "timestamp": 1795035483929,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir una descripcion de la mascota perdida",
+    "commitTimestamp": 1795035485059,
+    "testId": 188
   }
 ]

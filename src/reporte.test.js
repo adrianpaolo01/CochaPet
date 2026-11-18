@@ -14,4 +14,8 @@ describe("Reporte", () => {
   it("deberia pedir la fecha en que se perdio", () => {
     expect(validarReporte({ ...datosValidos, fecha: "" })).toBe("Indica la fecha en que se perdió");
   });
+
+  it("deberia pedir una descripcion de la mascota", () => {
+    expect(validarReporte({ ...datosValidos, descripcion: "  " })).toBe("Describe a tu mascota para que la reconozcan");
+  });
 });
