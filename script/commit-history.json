@@ -3192,12 +3192,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e4d65abd13f934d21290b8518452d792d97dab2f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:06:58.000Z",
       "message": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e4d65abd13f934d21290b8518452d792d97dab2f"
     },
     "stats": {
       "total": 7,
@@ -3302,6 +3302,25 @@
     },
     "coverage": 100,
     "test_count": 93,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:46:18.000Z",
+      "message": "feat(HU32): verificar una clave contra su hash guardado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 94,
     "failed_tests": 0,
     "conclusion": "success"
   }

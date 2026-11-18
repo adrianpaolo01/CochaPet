@@ -3038,7 +3038,7 @@
     "testId": 151
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e4d65abd13f934d21290b8518452d792d97dab2f",
     "commitName": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
     "commitTimestamp": 1794892020208,
     "testId": 151
@@ -3144,5 +3144,27 @@
     "commitName": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
     "commitTimestamp": 1794974157326,
     "testId": 156
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1795023649721,
+    "success": false,
+    "testId": 157
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 0,
+    "numTotalTests": 94,
+    "timestamp": 1795023967413,
+    "success": true,
+    "testId": 157
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): verificar una clave contra su hash guardado",
+    "commitTimestamp": 1795023980232,
+    "testId": 157
   }
 ]
