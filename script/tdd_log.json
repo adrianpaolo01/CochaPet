@@ -4650,7 +4650,7 @@
     "testId": 193
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b0c358683598795c95a4f8bfc4b76b133a56bd4c",
     "commitName": "feat(HU04): abrir la vista de reporte con la ruta reportar perdida",
     "commitTimestamp": 1795035556093,
     "testId": 193
@@ -5028,5 +5028,19 @@
     "commitName": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
     "commitTimestamp": 1795035881660,
     "testId": 210
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035893787,
+    "success": true,
+    "testId": 211
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU04): ocultar la foto de la tarjeta segun la foto principal y no segun src",
+    "commitTimestamp": 1795035894882,
+    "testId": 211
   }
 ]

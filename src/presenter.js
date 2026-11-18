@@ -16,9 +16,9 @@ const filtroBarrio = document.querySelector("#filtro-barrio");
 
 function crearTarjeta(publicacion) {
   const tarjeta = plantillaTarjeta.content.cloneNode(true);
-  const foto = tarjeta.querySelector(".tarjeta-foto");
-  foto.src = fotoPrincipal(publicacion) ?? "";
-  foto.hidden = !foto.src;
+  const foto = fotoPrincipal(publicacion);
+  if (foto) tarjeta.querySelector(".tarjeta-foto").src = foto;
+  tarjeta.querySelector(".tarjeta-foto").hidden = !foto;
   tarjeta.querySelector(".badge").textContent = etiquetaEstado(publicacion);
   tarjeta.querySelector(".badge").classList.add(`badge-${publicacion.tipo.toLowerCase()}`);
   tarjeta.querySelector(".tarjeta-titulo").textContent = tituloPublicacion(publicacion);
