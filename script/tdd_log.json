@@ -3396,7 +3396,7 @@
     "testId": 168
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a73c065d22b2b9dcf4a734e5388100bece728f57",
     "commitName": "feat(HU32): dar 7 dias de vigencia a la sesion",
     "commitTimestamp": 1795028278661,
     "testId": 168
@@ -3510,5 +3510,27 @@
     "commitName": "feat(HU32): leer el valor de una cookie por su nombre",
     "commitTimestamp": 1795030019549,
     "testId": 173
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 4,
+    "numTotalTests": 127,
+    "timestamp": 1795030041885,
+    "success": false,
+    "testId": 174
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 0,
+    "numTotalTests": 127,
+    "timestamp": 1795030359850,
+    "success": true,
+    "testId": 174
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): devolver null si la cookie no esta en la cabecera",
+    "commitTimestamp": 1795030365559,
+    "testId": 174
   }
 ]

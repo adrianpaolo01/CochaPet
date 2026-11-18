@@ -3515,12 +3515,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a73c065d22b2b9dcf4a734e5388100bece728f57",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:57:57.000Z",
       "message": "feat(HU32): dar 7 dias de vigencia a la sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a73c065d22b2b9dcf4a734e5388100bece728f57"
     },
     "stats": {
       "total": 16,
@@ -3625,6 +3625,25 @@
     },
     "coverage": 100,
     "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:32:44.000Z",
+      "message": "feat(HU32): devolver null si la cookie no esta en la cabecera",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 127,
     "failed_tests": 0,
     "conclusion": "success"
   }
