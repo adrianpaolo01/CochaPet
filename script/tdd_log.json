@@ -3826,7 +3826,7 @@
     "testId": 179
   },
   {
-    "commitId": "3b5a9dd4f011dba84657d9f749a08f73c9c1d053",
+    "commitId": "404bf3c6ec68ac721d3cdf44ed23b54b92da4f14",
     "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
     "commitTimestamp": 1795032217589,
     "testId": 179
@@ -3840,7 +3840,7 @@
     "testId": 180
   },
   {
-    "commitId": "9e8df70df9ced6cbfec2e73dfa02dd89647845e6",
+    "commitId": "ac252a802b3c25040abea895c6c70e1be816d94a",
     "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
     "commitTimestamp": 1795032266678,
     "testId": 180
@@ -3870,7 +3870,7 @@
     "testId": 181
   },
   {
-    "commitId": "4f92583340298821f90da6314b2751cc07a48452",
+    "commitId": "HEAD",
     "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
     "commitTimestamp": 1795032534548,
     "testId": 181
@@ -3884,7 +3884,7 @@
     "testId": 182
   },
   {
-    "commitId": "797bb2bca86684f54e35d05025304f9ec5c36dfe",
+    "commitId": "HEAD",
     "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
     "commitTimestamp": 1795032623524,
     "testId": 182
@@ -4206,7 +4206,7 @@
     "testId": 171
   },
   {
-    "commitId": "e35d7a14e21fde179cf1538b6daff26762ee81bb",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
     "commitTimestamp": 1795033830492,
     "testId": 171
@@ -4220,7 +4220,7 @@
     "testId": 172
   },
   {
-    "commitId": "4bab4b2fcf1a1038fef603db186aa3ab153efbe1",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
     "commitTimestamp": 1795033846722,
     "testId": 172
@@ -4234,7 +4234,7 @@
     "testId": 173
   },
   {
-    "commitId": "b834151f076ab4fef862f7dfb8937e45cdc7fef5",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
     "commitTimestamp": 1795033853866,
     "testId": 173
@@ -4248,7 +4248,7 @@
     "testId": 174
   },
   {
-    "commitId": "78c3cb6ad79c3da2c84df5dedd48ecd5bf4795fb",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
@@ -4262,7 +4262,7 @@
     "testId": 175
   },
   {
-    "commitId": "df254e3732119062f2792a8a0c9023f9ae69fcfa",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
     "commitTimestamp": 1795033868169,
     "testId": 175
@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "1a17014f94ceab7972bee8aa7b36682298b12b90",
+    "commitId": "HEAD",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "7e16627064a1fe2ecef5b57c5eb704c31778525f",
+    "commitId": "HEAD",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "16cbffeee425f48ecbe65f6841420544c9e51382",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "334a3cd8bef367fe8cdefc155f75d44bbdf7503f",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "0966a74fc9ece99dd2834eb6cc4087d7da587698",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "ab0bbcb747c481754c4118a4ca20e26628542838",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "83a7744fa4776e393b1b1cebb24207bf35d0e1ec",
+    "commitId": "HEAD",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "c5f919b1f92303d5febc848e24454d524e64d1ec",
+    "commitId": "HEAD",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -4436,10 +4436,98 @@
     "testId": 184
   },
   {
-    "commitId": "9f3af59c5722b55c377b6183a1b30e993e6afbb1",
+    "commitId": "HEAD",
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794976597733,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976608395,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976703424,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 0,
+    "numTotalTests": 94,
+    "timestamp": 1794977014506,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
+    "commitTimestamp": 1794977016735,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977030041,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
+    "commitTimestamp": 1794977032184,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977041589,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+    "commitTimestamp": 1794977043745,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037009473,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037030361,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
+    "commitTimestamp": 1795037033419,
+    "testId": 188
   },
   {
     "numPassedTests": 186,
@@ -5444,5 +5532,27 @@
     "commitName": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
     "commitTimestamp": 1795036213932,
     "testId": 234
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036250532,
+    "success": true,
+    "testId": 235
+  },
+  {
+    "numPassedTests": 221,
+    "failedTests": 0,
+    "numTotalTests": 221,
+    "timestamp": 1795037486019,
+    "success": true,
+    "testId": 235
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
+    "commitTimestamp": 1795037487189,
+    "testId": 235
   }
 ]
