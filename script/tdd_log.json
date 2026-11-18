@@ -5140,7 +5140,7 @@
     "testId": 216
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b0ab32aec7fad855477114bcb9f1f283a0ae599",
     "commitName": "feat(HU04): avisar en el formulario que hay que iniciar sesion o registrarse",
     "commitTimestamp": 1795035977498,
     "testId": 216
@@ -5430,5 +5430,19 @@
     "commitName": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
     "commitTimestamp": 1795036210979,
     "testId": 233
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036212898,
+    "success": true,
+    "testId": 234
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
+    "commitTimestamp": 1795036213932,
+    "testId": 234
   }
 ]
