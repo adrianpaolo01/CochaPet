@@ -1,5 +1,5 @@
-import { fechaDelDia, leerBorrador, validarReporte } from "./reporte.js";
-import { vistaParaHash } from "./rutas.js";
+import { fechaDelDia, leerBorrador, textosReporte, validarReporte } from "./reporte.js";
+import { tipoDeReporte, vistaParaHash } from "./rutas.js";
 import { htmlVistaReporte } from "./vistaReporte.js";
 
 const vistaReporte = document.querySelector("#vista-reporte");
@@ -60,8 +60,16 @@ async function cargarBarrios() {
   }
 }
 
+function pintarTipoDeReporte() {
+  const textos = textosReporte(tipoDeReporte(location.hash));
+  document.querySelector("#reporte-titulo").textContent = textos.titulo;
+  document.querySelector("#reporte-subtitulo").textContent = textos.subtitulo;
+  document.querySelector("#reporte-pregunta-fecha").textContent = textos.preguntaFecha;
+}
+
 function mostrarVista() {
   vistaReporte.hidden = vistaParaHash(location.hash) !== "reporte";
+  if (!vistaReporte.hidden) pintarTipoDeReporte();
   if (!vistaReporte.hidden) mostrarAvisoSesion();
 }
 

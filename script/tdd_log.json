@@ -4502,7 +4502,7 @@
     "testId": 187
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4511b45208e3c4486613960f9b174fa01c06d61",
     "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
     "commitTimestamp": 1794977043745,
     "testId": 187
@@ -6176,5 +6176,27 @@
     "commitName": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
     "commitTimestamp": 1795044375129,
     "testId": 264
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044393354,
+    "success": true,
+    "testId": 265
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044402295,
+    "success": true,
+    "testId": 265
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): mostrar el titulo, el subtitulo y la pregunta de fecha segun el tipo de reporte",
+    "commitTimestamp": 1795044403504,
+    "testId": 265
   }
 ]
