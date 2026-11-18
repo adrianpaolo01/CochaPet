@@ -10,7 +10,7 @@ export function validarCredenciales({ correo, clave }) {
 
 export function estadoEncabezado(usuario) {
   const conSesion = Boolean(usuario);
-  return { texto: textoSesion(usuario), href: conSesion ? "#/" : "#/ingresar", mostrarCerrar: conSesion, mostrarRegistro: !conSesion };
+  return { texto: textoSesion(usuario), href: conSesion ? "#/perfil" : "#/ingresar", mostrarCerrar: conSesion, mostrarRegistro: !conSesion };
 }
 
 export function textoSesion(usuario) {

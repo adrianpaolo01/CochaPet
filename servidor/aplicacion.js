@@ -1,7 +1,7 @@
 import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
-import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
+import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -62,6 +62,13 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const seguro = req.headers?.["x-forwarded-proto"] === "https";
         const cookie = cookieDeSesion(resultado.token, resultado.expiraEn, { seguro });
         responderJson(res, 200, { usuario: resultado.usuario }, { "Set-Cookie": cookie });
+      });
+    }
+    if (req.method === "GET" && ruta === "/api/mis-publicaciones") {
+      return manejarErrores(res, "No se pudieron cargar tus publicaciones", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para ver tus publicaciones" });
+        responderJson(res, 200, await misPublicaciones(repositorio, usuario.id));
       });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {

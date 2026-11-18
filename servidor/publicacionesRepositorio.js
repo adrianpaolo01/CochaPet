@@ -14,6 +14,19 @@ export const publicacionesRepositorio = {
     return rows;
   },
 
+  async listarPorAutor(autorId) {
+    const { rows } = await db.query(`
+      SELECT p.id, p.tipo, p.especie, p.nombre, p.fecha, p.estado, b.nombre AS barrio,
+             coalesce(array_agg(f.url ORDER BY f.orden) FILTER (WHERE f.id IS NOT NULL), '{}') AS fotos
+      FROM publicacion p
+      JOIN barrio b ON b.id = p.barrio_id
+      LEFT JOIN foto f ON f.publicacion_id = p.id
+      WHERE p.autor_id = $1
+      GROUP BY p.id, b.nombre
+      ORDER BY p.fecha DESC`, [autorId]);
+    return rows;
+  },
+
   async obtenerPorId(id) {
     const { rows } = await db.query(`
       SELECT p.id, p.tipo, p.especie, p.nombre, p.raza, p.color, p.descripcion, p.fecha, p.estado,

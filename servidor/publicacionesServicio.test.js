@@ -1,4 +1,4 @@
-import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
+import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
   const reporte = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
@@ -38,6 +38,20 @@ describe("Publicaciones servicio", () => {
     const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
 
     expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
+  });
+
+  it("deberia devolver las publicaciones del autor sin las ocultas", async () => {
+    const repositorio = {
+      listarPorAutor: async (autorId) => [
+        { id: 1, autorId, estado: "ACTIVA" },
+        { id: 2, autorId, estado: "VOLVIO_A_CASA" },
+        { id: 3, autorId, estado: "OCULTA" },
+      ],
+    };
+
+    const resultado = await misPublicaciones(repositorio, 7);
+
+    expect(resultado).toEqual([{ id: 1, autorId: 7, estado: "ACTIVA" }, { id: 2, autorId: 7, estado: "VOLVIO_A_CASA" }]);
   });
 
   it("deberia rechazar un reporte de perdida sin los datos obligatorios", async () => {

@@ -4234,7 +4234,7 @@
     "testId": 173
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e98311bcf4f026a0808e05e66bc5a1b22d1aef5",
     "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
     "commitTimestamp": 1795033853866,
     "testId": 173
@@ -4248,7 +4248,7 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b6aa87e4046b3dc1c4e17d610473d23873b2bce6",
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
@@ -5642,5 +5642,251 @@
     "commitName": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
     "commitTimestamp": 1795039908384,
     "testId": 239
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795038320065,
+    "success": true,
+    "testId": 240
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 1,
+    "numTotalTests": 189,
+    "timestamp": 1795038332314,
+    "success": false,
+    "testId": 240
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 0,
+    "numTotalTests": 189,
+    "timestamp": 1795038643266,
+    "success": true,
+    "testId": 240
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
+    "commitTimestamp": 1795038646417,
+    "testId": 240
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 1,
+    "numTotalTests": 190,
+    "timestamp": 1795038659299,
+    "success": false,
+    "testId": 241
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 0,
+    "numTotalTests": 190,
+    "timestamp": 1795038971444,
+    "success": true,
+    "testId": 241
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
+    "commitTimestamp": 1795038974578,
+    "testId": 241
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 1,
+    "numTotalTests": 191,
+    "timestamp": 1795038987858,
+    "success": false,
+    "testId": 242
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795039301171,
+    "success": true,
+    "testId": 242
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): responder mis publicaciones si hay sesion",
+    "commitTimestamp": 1795039304360,
+    "testId": 242
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795039319635,
+    "success": true,
+    "testId": 243
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
+    "commitTimestamp": 1795039322642,
+    "testId": 243
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 1,
+    "numTotalTests": 192,
+    "timestamp": 1795039332016,
+    "success": false,
+    "testId": 244
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 0,
+    "numTotalTests": 192,
+    "timestamp": 1795039642015,
+    "success": true,
+    "testId": 244
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): abrir el perfil desde su ruta",
+    "commitTimestamp": 1795039644990,
+    "testId": 244
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 1,
+    "numTotalTests": 193,
+    "timestamp": 1795039653991,
+    "success": false,
+    "testId": 245
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 0,
+    "numTotalTests": 193,
+    "timestamp": 1795039963417,
+    "success": true,
+    "testId": 245
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar Activa como estado de mi publicacion",
+    "commitTimestamp": 1795039966371,
+    "testId": 245
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 1,
+    "numTotalTests": 194,
+    "timestamp": 1795039975191,
+    "success": false,
+    "testId": 246
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040285437,
+    "success": true,
+    "testId": 246
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
+    "commitTimestamp": 1795040288376,
+    "testId": 246
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040308321,
+    "success": true,
+    "testId": 247
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
+    "commitTimestamp": 1795040311273,
+    "testId": 247
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040327561,
+    "success": true,
+    "testId": 248
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar mis datos en el perfil",
+    "commitTimestamp": 1795040330611,
+    "testId": 248
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040348059,
+    "success": true,
+    "testId": 249
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
+    "commitTimestamp": 1795040351194,
+    "testId": 249
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040362189,
+    "success": true,
+    "testId": 250
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU03): estilos del perfil y de mis publicaciones",
+    "commitTimestamp": 1795040365181,
+    "testId": 250
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795041314928,
+    "success": true,
+    "testId": 251
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU03): fusionar main con HU04 y HU02 y resolver conflictos",
+    "commitTimestamp": 1795041322741,
+    "testId": 251
+  },
+  {
+    "numPassedTests": 242,
+    "failedTests": 1,
+    "numTotalTests": 243,
+    "timestamp": 1795041334311,
+    "success": false,
+    "testId": 252
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795041644894,
+    "success": true,
+    "testId": 252
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): llevar el saludo del encabezado a mi perfil",
+    "commitTimestamp": 1795041647862,
+    "testId": 252
   }
 ]

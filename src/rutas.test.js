@@ -3,6 +3,7 @@ import { destinoTrasIngresar, vistaParaHash } from "./rutas.js";
 describe("Rutas", () => {
   it.each([
     ["#/ingresar", "login"],
+    ["#/perfil", "perfil"],
     ["#/reportar/perdida", "reporte"],
     ["#/ingresar?volver=/reportar/perdida", "login"],
     ["#/mascota/3", "detalle"],

@@ -10,6 +10,11 @@ export async function detalleDePublicacion(repositorio, id) {
   return publicacion?.estado === "ACTIVA" ? publicacion : null;
 }
 
+export async function misPublicaciones(repositorio, autorId) {
+  const publicaciones = await repositorio.listarPorAutor(autorId);
+  return publicaciones.filter((p) => p.estado !== "OCULTA");
+}
+
 export async function reportarPerdida(repositorios, usuario, datos) {
   const error = validarReporte(datos);
   if (error) return { error };
