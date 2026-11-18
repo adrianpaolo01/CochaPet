@@ -3211,12 +3211,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8ec9ae523fa236a8a98262fca9db388fb88fe25",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:07:26.000Z",
       "message": "test(busqueda): buscar en un dato que no es texto sin fallar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e8ec9ae523fa236a8a98262fca9db388fb88fe25"
     },
     "stats": {
       "total": 5,
@@ -3321,6 +3321,25 @@
     },
     "coverage": 100,
     "test_count": 94,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:21:45.000Z",
+      "message": "feat(HU01): rechazar contrasena de menos de 8 caracteres",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
     "failed_tests": 0,
     "conclusion": "success"
   }

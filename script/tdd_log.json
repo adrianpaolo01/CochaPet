@@ -3052,7 +3052,7 @@
     "testId": 152
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8ec9ae523fa236a8a98262fca9db388fb88fe25",
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
@@ -3174,5 +3174,27 @@
     "commitName": "feat(HU01): aceptar datos de registro validos sin error",
     "commitTimestamp": 1795033144169,
     "testId": 157
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 1,
+    "numTotalTests": 95,
+    "timestamp": 1795033151352,
+    "success": false,
+    "testId": 158
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1795033304689,
+    "success": true,
+    "testId": 158
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): rechazar contrasena de menos de 8 caracteres",
+    "commitTimestamp": 1795033305312,
+    "testId": 158
   }
 ]
