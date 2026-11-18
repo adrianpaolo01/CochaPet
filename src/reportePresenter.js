@@ -1,5 +1,5 @@
 import { fechaDelDia, leerBorrador, textosReporte, validarReporte } from "./reporte.js";
-import { tipoDeReporte, vistaParaHash } from "./rutas.js";
+import { enlaceIngresarDesde, tipoDeReporte, vistaParaHash } from "./rutas.js";
 import { htmlVistaReporte } from "./vistaReporte.js";
 
 const vistaReporte = document.querySelector("#vista-reporte");
@@ -65,6 +65,7 @@ function pintarTipoDeReporte() {
   document.querySelector("#reporte-titulo").textContent = textos.titulo;
   document.querySelector("#reporte-subtitulo").textContent = textos.subtitulo;
   document.querySelector("#reporte-pregunta-fecha").textContent = textos.preguntaFecha;
+  document.querySelector("#reporte-ingresar").href = enlaceIngresarDesde(location.hash);
 }
 
 function mostrarVista() {

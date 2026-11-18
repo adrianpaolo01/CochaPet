@@ -5358,12 +5358,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:06:49.000Z",
       "message": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4"
     },
     "stats": {
       "total": 11,
@@ -6300,6 +6300,25 @@
       "total": 5,
       "additions": 3,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:27:09.000Z",
+      "message": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

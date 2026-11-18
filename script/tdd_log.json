@@ -5250,7 +5250,7 @@
     "testId": 217
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
     "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
     "commitTimestamp": 1795035993894,
     "testId": 217
@@ -6212,5 +6212,19 @@
     "commitName": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
     "commitTimestamp": 1795044417469,
     "testId": 266
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044428152,
+    "success": true,
+    "testId": 267
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
+    "commitTimestamp": 1795044430135,
+    "testId": 267
   }
 ]
