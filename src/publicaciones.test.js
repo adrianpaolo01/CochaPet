@@ -68,4 +68,8 @@ describe("Publicaciones", () => {
   it("deberia avisar que la publicacion no existe si la respuesta falla", () => {
     expect(mensajeDetalle({ ok: false })).toEqual("Esta publicación no existe o ya no está disponible");
   });
+
+  it("deberia no dar mensaje si la publicacion se cargo bien", () => {
+    expect(mensajeDetalle({ ok: true })).toBeNull();
+  });
 });

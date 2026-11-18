@@ -3135,12 +3135,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f965b3e640e0176c6b519fa7f1ed674fd2a18e4b",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:56:58.000Z",
       "message": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f965b3e640e0176c6b519fa7f1ed674fd2a18e4b"
     },
     "stats": {
       "total": 7,
@@ -3245,6 +3245,25 @@
     },
     "coverage": 100,
     "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T03:50:15.000Z",
+      "message": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 92,
     "failed_tests": 0,
     "conclusion": "success"
   }

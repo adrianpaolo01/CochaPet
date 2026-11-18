@@ -2972,7 +2972,7 @@
     "testId": 148
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f965b3e640e0176c6b519fa7f1ed674fd2a18e4b",
     "commitName": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
     "commitTimestamp": 1794891419477,
     "testId": 148
@@ -3086,5 +3086,27 @@
     "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
     "commitTimestamp": 1794973497749,
     "testId": 153
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 1,
+    "numTotalTests": 92,
+    "timestamp": 1794973505746,
+    "success": false,
+    "testId": 154
+  },
+  {
+    "numPassedTests": 92,
+    "failedTests": 0,
+    "numTotalTests": 92,
+    "timestamp": 1794973814071,
+    "success": true,
+    "testId": 154
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
+    "commitTimestamp": 1794973816236,
+    "testId": 154
   }
 ]

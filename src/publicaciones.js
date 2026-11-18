@@ -45,8 +45,8 @@ export function mensajeInicio(publicaciones) {
   return publicaciones.length === 0 ? "Todavía no hay mascotas publicadas." : null;
 }
 
-export function mensajeDetalle() {
-  return "Esta publicación no existe o ya no está disponible";
+export function mensajeDetalle(respuesta) {
+  return respuesta.ok ? null : "Esta publicación no existe o ya no está disponible";
 }
 
 export function idDesdeHash(hash) {
