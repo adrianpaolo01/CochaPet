@@ -3458,12 +3458,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c464726b983555a8c2a7c1ab7cfdeab9e1330a2",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:29:27.000Z",
       "message": "feat(HU01): leer el cuerpo de la peticion ya parseado por Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1c464726b983555a8c2a7c1ab7cfdeab9e1330a2"
     },
     "stats": {
       "total": 10,
@@ -3568,6 +3568,25 @@
     },
     "coverage": 100,
     "test_count": 107,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:30:30.000Z",
+      "message": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 108,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -3346,7 +3346,7 @@
     "testId": 165
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c464726b983555a8c2a7c1ab7cfdeab9e1330a2",
     "commitName": "feat(HU01): leer el cuerpo de la peticion ya parseado por Vercel",
     "commitTimestamp": 1795033767939,
     "testId": 165
@@ -3444,5 +3444,27 @@
     "commitName": "feat(HU01): conectar la ruta de registro en el servidor local y en Vercel",
     "commitTimestamp": 1795033820223,
     "testId": 170
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 1,
+    "numTotalTests": 108,
+    "timestamp": 1795033825838,
+    "success": false,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1795033829950,
+    "success": true,
+    "testId": 171
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
+    "commitTimestamp": 1795033830492,
+    "testId": 171
   }
 ]
