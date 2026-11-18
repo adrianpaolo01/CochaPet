@@ -3515,12 +3515,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c19205955a422b10e62045a2e69fd50117e3e19a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:04.000Z",
       "message": "feat(HU01): responder 400 con el error cuando el registro no es valido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c19205955a422b10e62045a2e69fd50117e3e19a"
     },
     "stats": {
       "total": 16,
@@ -3621,6 +3621,25 @@
       "total": 20,
       "additions": 20,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:31:02.000Z",
+      "message": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
       "date": "2026-11-18"
     },
     "coverage": 100,

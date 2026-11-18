@@ -3412,7 +3412,7 @@
     "testId": 168
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c19205955a422b10e62045a2e69fd50117e3e19a",
     "commitName": "feat(HU01): responder 400 con el error cuando el registro no es valido",
     "commitTimestamp": 1795033804365,
     "testId": 168
@@ -3494,5 +3494,19 @@
     "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
     "commitTimestamp": 1795033853866,
     "testId": 173
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1795033862068,
+    "success": true,
+    "testId": 174
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
+    "commitTimestamp": 1795033862593,
+    "testId": 174
   }
 ]
