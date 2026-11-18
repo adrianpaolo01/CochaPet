@@ -3308,7 +3308,7 @@
     "testId": 164
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8a99316aee473de5e69179f5f28638658b057a6d",
     "commitName": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
     "commitTimestamp": 1795026241946,
     "testId": 164
@@ -3422,5 +3422,27 @@
     "commitName": "feat(HU32): obtener el usuario de una sesion vigente",
     "commitTimestamp": 1795028631597,
     "testId": 169
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 1,
+    "numTotalTests": 117,
+    "timestamp": 1795028653475,
+    "success": false,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1795028971145,
+    "success": true,
+    "testId": 170
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): no dar usuario si la sesion ya vencio",
+    "commitTimestamp": 1795028976799,
+    "testId": 170
   }
 ]

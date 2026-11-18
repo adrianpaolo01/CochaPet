@@ -3439,12 +3439,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a99316aee473de5e69179f5f28638658b057a6d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:24:00.000Z",
       "message": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8a99316aee473de5e69179f5f28638658b057a6d"
     },
     "stats": {
       "total": 8,
@@ -3549,6 +3549,25 @@
     },
     "coverage": 100,
     "test_count": 116,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:09:35.000Z",
+      "message": "feat(HU32): no dar usuario si la sesion ya vencio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 117,
     "failed_tests": 0,
     "conclusion": "success"
   }

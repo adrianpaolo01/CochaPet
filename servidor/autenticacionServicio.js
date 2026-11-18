@@ -9,9 +9,9 @@ export function hashDeToken(token) {
   return createHash("sha256").update(token).digest("hex");
 }
 
-export async function usuarioDeSesion(repositorio, token) {
+export async function usuarioDeSesion(repositorio, token, ahora = new Date()) {
   const sesion = await repositorio.obtenerSesion(hashDeToken(token));
-  return sesion.usuario;
+  return sesion.expiraEn > ahora ? sesion.usuario : null;
 }
 
 export async function iniciarSesion(repositorio, { correo, clave }, { generarToken = () => randomBytes(32).toString("hex"), ahora = new Date() } = {}) {

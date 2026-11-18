@@ -14,6 +14,12 @@ describe("Autenticacion servicio", () => {
     expect(obtenerSesion).toHaveBeenCalledWith(hashDeToken("token-fijo"));
   });
 
+  it("deberia devolver null si la sesion ya vencio", async () => {
+    const obtenerSesion = async () => ({ expiraEn: new Date("2026-11-20T10:00:00Z"), usuario: { id: 1 } });
+    const resultado = await usuarioDeSesion({ obtenerSesion }, "token-fijo", new Date("2026-11-20T10:00:00Z"));
+    expect(resultado).toBeNull();
+  });
+
   it("deberia calcular el hash sha256 de un token", () => {
     expect(hashDeToken("abc")).toBe("ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad");
   });
