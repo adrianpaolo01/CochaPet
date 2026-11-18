@@ -3258,7 +3258,7 @@
     "testId": 161
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc195fac586f76be8d03742829bbe8da5e191cf0",
     "commitName": "feat(HU01): crear la cuenta del usuario con datos validos",
     "commitTimestamp": 1795033662644,
     "testId": 161
@@ -3372,5 +3372,27 @@
     "commitName": "feat(HU01): leer el cuerpo JSON de la peticion en el servidor local",
     "commitTimestamp": 1795033778777,
     "testId": 166
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 1,
+    "numTotalTests": 106,
+    "timestamp": 1795033785249,
+    "success": false,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 0,
+    "numTotalTests": 106,
+    "timestamp": 1795033791978,
+    "success": true,
+    "testId": 167
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): registrar usuario con POST /api/usuarios y responder 201",
+    "commitTimestamp": 1795033792576,
+    "testId": 167
   }
 ]

@@ -1,5 +1,6 @@
 import { barriosParaLista } from "./barriosServicio.js";
 import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { registrarUsuario } from "./usuariosServicio.js";
 
 function responderJson(res, estado, datos) {
   res.writeHead(estado, { "Content-Type": "application/json; charset=utf-8" });
@@ -15,7 +16,7 @@ export async function manejarErrores(res, mensaje, accion) {
   }
 }
 
-export function crearManejador(repositorio, barriosRepositorio) {
+export function crearManejador(repositorio, barriosRepositorio, usuariosRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
     if (req.method === "GET" && ruta === "/api/publicaciones") {
@@ -33,6 +34,12 @@ export function crearManejador(repositorio, barriosRepositorio) {
     if (req.method === "GET" && ruta === "/api/barrios") {
       return manejarErrores(res, "No se pudieron cargar los barrios", async () =>
         responderJson(res, 200, await barriosParaLista(barriosRepositorio)));
+    }
+    if (req.method === "POST" && ruta === "/api/usuarios") {
+      return manejarErrores(res, "No se pudo crear la cuenta", async () => {
+        const { usuario } = await registrarUsuario(usuariosRepositorio, await leerCuerpo(req));
+        responderJson(res, 201, usuario);
+      });
     }
     responderJson(res, 404, { error: "No encontrado" });
   };

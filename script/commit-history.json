@@ -3382,12 +3382,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc195fac586f76be8d03742829bbe8da5e191cf0",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:27:42.000Z",
       "message": "feat(HU01): crear la cuenta del usuario con datos validos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cc195fac586f76be8d03742829bbe8da5e191cf0"
     },
     "stats": {
       "total": 18,
@@ -3492,6 +3492,25 @@
     },
     "coverage": 100,
     "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:29:52.000Z",
+      "message": "feat(HU01): registrar usuario con POST /api/usuarios y responder 201",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 106,
     "failed_tests": 0,
     "conclusion": "success"
   }

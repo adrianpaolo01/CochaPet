@@ -121,4 +121,15 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const req = (async function* () { yield Buffer.from('{"correo":'); yield Buffer.from('"ana@correo.com"}'); })();
     expect(await leerCuerpo(req)).toEqual({ correo: "ana@correo.com" });
   });
+
+  it("registra un usuario y responde 201 con la cuenta creada", async () => {
+    const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
+    const usuariosRepositorio = { buscarPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }) };
+    const respuesta = crearRespuesta();
+
+    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(201);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ id: 5, nombre: "Ana", correo: "ana@correo.com", telefono: "71234567" });
+  });
 });
