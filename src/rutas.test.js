@@ -17,4 +17,8 @@ describe("Rutas", () => {
   it("deberia volver a la ruta indicada despues de iniciar sesion", () => {
     expect(destinoTrasIngresar("#/ingresar?volver=/reportar/perdida")).toBe("#/reportar/perdida");
   });
+
+  it("deberia volver al inicio si no se indico a donde volver", () => {
+    expect(destinoTrasIngresar("#/ingresar")).toBe("#/");
+  });
 });
