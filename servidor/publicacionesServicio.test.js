@@ -1,4 +1,4 @@
-import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
   it("deberia devolver solo las publicaciones activas", async () => {
@@ -35,5 +35,19 @@ describe("Publicaciones servicio", () => {
     const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
 
     expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
+  });
+
+  it("deberia devolver las publicaciones del autor sin las ocultas", async () => {
+    const repositorio = {
+      listarPorAutor: async (autorId) => [
+        { id: 1, autorId, estado: "ACTIVA" },
+        { id: 2, autorId, estado: "VOLVIO_A_CASA" },
+        { id: 3, autorId, estado: "OCULTA" },
+      ],
+    };
+
+    const resultado = await misPublicaciones(repositorio, 7);
+
+    expect(resultado).toEqual([{ id: 1, autorId: 7, estado: "ACTIVA" }, { id: 2, autorId: 7, estado: "VOLVIO_A_CASA" }]);
   });
 });

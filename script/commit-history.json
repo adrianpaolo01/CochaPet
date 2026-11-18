@@ -3648,12 +3648,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "482986f649c3ea992a3e25a92151e7ad08744678",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:43:36.000Z",
       "message": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/482986f649c3ea992a3e25a92151e7ad08744678"
     },
     "stats": {
       "total": 14,
@@ -4746,6 +4746,25 @@
     },
     "coverage": 100,
     "test_count": 188,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T21:50:45.000Z",
+      "message": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 189,
     "failed_tests": 0,
     "conclusion": "success"
   }

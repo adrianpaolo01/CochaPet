@@ -7,3 +7,8 @@ export async function detalleDePublicacion(repositorio, id) {
   const publicacion = await repositorio.obtenerPorId(id);
   return publicacion?.estado === "ACTIVA" ? publicacion : null;
 }
+
+export async function misPublicaciones(repositorio, autorId) {
+  const publicaciones = await repositorio.listarPorAutor(autorId);
+  return publicaciones.filter((p) => p.estado !== "OCULTA");
+}
