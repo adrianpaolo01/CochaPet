@@ -3082,7 +3082,7 @@
     "testId": 153
   },
   {
-    "commitId": "HEAD",
+    "commitId": "97d4f90793837e6c83f9f400a38a6d57de3606ca",
     "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
     "commitTimestamp": 1794973497749,
     "testId": 153
@@ -3196,5 +3196,19 @@
     "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
     "commitTimestamp": 1794977032184,
     "testId": 158
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977041589,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+    "commitTimestamp": 1794977043745,
+    "testId": 159
   }
 ]

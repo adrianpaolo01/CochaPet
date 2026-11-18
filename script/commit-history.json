@@ -3230,12 +3230,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "97d4f90793837e6c83f9f400a38a6d57de3606ca",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:44:57.000Z",
       "message": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/97d4f90793837e6c83f9f400a38a6d57de3606ca"
     },
     "stats": {
       "total": 10,
@@ -3336,6 +3336,25 @@
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T04:44:03.000Z",
+      "message": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-18"
     },
     "coverage": 100,

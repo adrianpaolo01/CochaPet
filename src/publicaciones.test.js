@@ -49,12 +49,12 @@ describe("Publicaciones", () => {
 
   it("deberia armar el enlace de WhatsApp avisando que encontre a la mascota por su nombre", () => {
     const mensaje = encodeURIComponent("Hola, creo que encontré a Firulais, la mascota que publicaste en CochaPet.");
-    expect(enlaceWhatsApp({ telefono: "70000001", nombre: "Firulais", especie: "PERRO" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
+    expect(enlaceWhatsApp({ telefono: "70000001", nombre: "Firulais", especie: "PERRO", tipo: "PERDIDA" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
   });
 
   it("deberia mencionar a tu perro en el WhatsApp cuando la mascota no tiene nombre", () => {
     const mensaje = encodeURIComponent("Hola, creo que encontré a tu perro, la mascota que publicaste en CochaPet.");
-    expect(enlaceWhatsApp({ telefono: "70000001", nombre: null, especie: "PERRO" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
+    expect(enlaceWhatsApp({ telefono: "70000001", nombre: null, especie: "PERRO", tipo: "PERDIDA" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
   });
 
   it("deberia escribir como dueño en el WhatsApp de una mascota encontrada", () => {
