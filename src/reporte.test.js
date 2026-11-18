@@ -4,7 +4,7 @@ describe("Reporte", () => {
   const datosValidos = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
 
   it("deberia pedir la especie si no es perro, gato u otro", () => {
-    expect(validarReporte({ ...datosValidos, especie: "" })).toBe("Elige la especie de tu mascota");
+    expect(validarReporte({ ...datosValidos, especie: "" })).toBe("Elige la especie de la mascota");
   });
 
   it("deberia pedir el barrio sin importar si la mascota se perdio o se encontro", () => {
@@ -16,7 +16,7 @@ describe("Reporte", () => {
   });
 
   it("deberia pedir una descripcion de la mascota", () => {
-    expect(validarReporte({ ...datosValidos, descripcion: "  " })).toBe("Describe a tu mascota para que la reconozcan");
+    expect(validarReporte({ ...datosValidos, descripcion: "  " })).toBe("Describe a la mascota para que la reconozcan");
   });
 
   it("deberia rechazar un reporte que no es de mascota perdida ni encontrada", () => {

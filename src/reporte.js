@@ -3,10 +3,10 @@ const TIPOS_REPORTE = ["PERDIDA", "ENCONTRADA"];
 
 export function validarReporte(datos) {
   if (datos.tipo && !TIPOS_REPORTE.includes(datos.tipo)) return "Elige si la mascota se perdió o la encontraste";
-  if (!ESPECIES.includes(datos.especie)) return "Elige la especie de tu mascota";
+  if (!ESPECIES.includes(datos.especie)) return "Elige la especie de la mascota";
   if (!datos.barrio?.trim()) return "Elige el barrio de Cochabamba";
   if (!datos.fecha) return "Indica la fecha";
-  if (!datos.descripcion?.trim()) return "Describe a tu mascota para que la reconozcan";
+  if (!datos.descripcion?.trim()) return "Describe a la mascota para que la reconozcan";
   return null;
 }
 

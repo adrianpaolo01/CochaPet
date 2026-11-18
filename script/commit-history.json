@@ -5453,12 +5453,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab28fec56f2ee31002692766e8927652f99b1fa8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:03.000Z",
       "message": "feat(HU04): mostrar el formulario de mascota perdida al tocar Perdi mi mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ab28fec56f2ee31002692766e8927652f99b1fa8"
     },
     "stats": {
       "total": 14,
@@ -6389,6 +6389,25 @@
     "commit": {
       "date": "2026-11-18T23:28:39.000Z",
       "message": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:28:53.000Z",
+      "message": "fix(HU05): pedir especie y descripcion de la mascota sin asumir que es del autor",
       "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
     },
     "stats": {

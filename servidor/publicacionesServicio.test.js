@@ -57,7 +57,7 @@ describe("Publicaciones servicio", () => {
   it("deberia rechazar un reporte de perdida sin los datos obligatorios", async () => {
     const resultado = await reportarPerdida({}, { id: 7 }, { especie: "" });
 
-    expect(resultado).toEqual({ error: "Elige la especie de tu mascota" });
+    expect(resultado).toEqual({ error: "Elige la especie de la mascota" });
   });
 
   it("deberia rechazar un barrio que no es de Cochabamba", async () => {
