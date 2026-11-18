@@ -3506,7 +3506,7 @@
     "testId": 173
   },
   {
-    "commitId": "HEAD",
+    "commitId": "20ae68b6198c9c627f8c84ae5f480c0abefc2005",
     "commitName": "feat(HU32): leer el valor de una cookie por su nombre",
     "commitTimestamp": 1795030019549,
     "testId": 173
@@ -3620,5 +3620,27 @@
     "commitName": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
     "commitTimestamp": 1795031967930,
     "testId": 178
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 6,
+    "numTotalTests": 146,
+    "timestamp": 1795032004977,
+    "success": false,
+    "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1795032204627,
+    "success": true,
+    "testId": 179
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
+    "commitTimestamp": 1795032217589,
+    "testId": 179
   }
 ]

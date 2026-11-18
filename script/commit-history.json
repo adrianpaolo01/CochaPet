@@ -3610,12 +3610,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "20ae68b6198c9c627f8c84ae5f480c0abefc2005",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:26:58.000Z",
       "message": "feat(HU32): leer el valor de una cookie por su nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/20ae68b6198c9c627f8c84ae5f480c0abefc2005"
     },
     "stats": {
       "total": 11,
@@ -3720,6 +3720,25 @@
     },
     "coverage": 100,
     "test_count": 140,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:03:36.000Z",
+      "message": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 49,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 146,
     "failed_tests": 0,
     "conclusion": "success"
   }

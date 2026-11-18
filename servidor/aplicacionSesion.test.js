@@ -1,6 +1,7 @@
 import { scryptSync } from "node:crypto";
 import { Readable } from "node:stream";
 import { crearManejador } from "./aplicacion.js";
+import { hashDeToken } from "./autenticacionServicio.js";
 
 const SAL = "00ff00ff00ff00ff00ff00ff00ff00ff";
 const claveHash = `${SAL}:${scryptSync("prueba123", SAL, 64).toString("hex")}`;
@@ -72,5 +73,45 @@ describe("POST /api/sesion", () => {
     const { estado, cuerpo } = await iniciar(credenciales, repositorio);
     expect(estado).toBe(500);
     expect(cuerpo).toEqual({ error: "No se pudo iniciar sesion" });
+  });
+});
+
+async function consultar(headers, repositorio = crearRepositorio()) {
+  const respuesta = { writeHead: jest.fn(), end: jest.fn() };
+  await crearManejador({}, {}, repositorio)({ method: "GET", url: "/api/sesion", headers }, respuesta);
+  return { estado: respuesta.writeHead.mock.calls[0][0], cuerpo: JSON.parse(respuesta.end.mock.calls[0][0]) };
+}
+
+describe("GET /api/sesion", () => {
+  beforeEach(() => jest.spyOn(console, "error").mockImplementation(() => {}));
+  afterEach(() => jest.restoreAllMocks());
+
+  it("devuelve el usuario de la sesion vigente indicada en la cookie", async () => {
+    const obtenerSesion = jest.fn(async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: usuarioPublico }));
+    const { estado, cuerpo } = await consultar({ cookie: "tema=oscuro; sesion=abc123" }, crearRepositorio({ obtenerSesion }));
+    expect(estado).toBe(200);
+    expect(cuerpo).toEqual({ usuario: usuarioPublico });
+    expect(obtenerSesion).toHaveBeenCalledWith(hashDeToken("abc123"));
+  });
+
+  it.each([undefined, { cookie: "tema=oscuro" }])("responde usuario null sin consultar la base si no hay cookie de sesion (%p)", async (headers) => {
+    const obtenerSesion = jest.fn();
+    const { estado, cuerpo } = await consultar(headers, crearRepositorio({ obtenerSesion }));
+    expect(estado).toBe(200);
+    expect(cuerpo).toEqual({ usuario: null });
+    expect(obtenerSesion).not.toHaveBeenCalled();
+  });
+
+  it.each([undefined, { expiraEn: new Date(Date.now() - 1000), usuario: usuarioPublico }])("responde usuario null si la sesion no existe o ya vencio (%p)", async (sesion) => {
+    const { estado, cuerpo } = await consultar({ cookie: "sesion=abc123" }, crearRepositorio({ obtenerSesion: async () => sesion }));
+    expect(estado).toBe(200);
+    expect(cuerpo).toEqual({ usuario: null });
+  });
+
+  it("responde 500 sin revelar detalles si falla la base de datos", async () => {
+    const obtenerSesion = async () => { throw new Error("detalle privado"); };
+    const { estado, cuerpo } = await consultar({ cookie: "sesion=abc123" }, crearRepositorio({ obtenerSesion }));
+    expect(estado).toBe(500);
+    expect(cuerpo).toEqual({ error: "No se pudo consultar la sesion" });
   });
 });

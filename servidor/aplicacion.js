@@ -1,6 +1,6 @@
-import { iniciarSesion } from "./autenticacionServicio.js";
+import { iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
-import { cookieDeSesion } from "./cookies.js";
+import { cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -39,6 +39,12 @@ export async function manejarErrores(res, mensaje, accion) {
 export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "GET" && ruta === "/api/sesion") {
+      return manejarErrores(res, "No se pudo consultar la sesion", async () => {
+        const token = leerCookie(req.headers?.cookie, "sesion");
+        responderJson(res, 200, { usuario: await usuarioDeSesion(autenticacionRepositorio, token) });
+      });
+    }
     if (req.method === "POST" && ruta === "/api/sesion") {
       return manejarErrores(res, "No se pudo iniciar sesion", async () => {
         const entrada = await leerCuerpoJson(req);
