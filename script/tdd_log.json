@@ -5316,7 +5316,7 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b463b531c95375e11338f9c1ae968f77d17bc650",
     "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036037621,
     "testId": 220
@@ -6262,5 +6262,27 @@
     "commitName": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
     "commitTimestamp": 1795044467854,
     "testId": 269
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 1,
+    "numTotalTests": 255,
+    "timestamp": 1795044479911,
+    "success": false,
+    "testId": 270
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044489529,
+    "success": true,
+    "testId": 270
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): rechazar un reporte que no es de mascota perdida ni encontrada",
+    "commitTimestamp": 1795044490780,
+    "testId": 270
   }
 ]

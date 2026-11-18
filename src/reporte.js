@@ -1,6 +1,8 @@
 const ESPECIES = ["PERRO", "GATO", "OTRO"];
+const TIPOS_REPORTE = ["PERDIDA", "ENCONTRADA"];
 
 export function validarReporte(datos) {
+  if (datos.tipo && !TIPOS_REPORTE.includes(datos.tipo)) return "Elige si la mascota se perdió o la encontraste";
   if (!ESPECIES.includes(datos.especie)) return "Elige la especie de tu mascota";
   if (!datos.barrio?.trim()) return "Elige el barrio donde se perdió";
   if (!datos.fecha) return "Indica la fecha en que se perdió";

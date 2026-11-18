@@ -19,6 +19,10 @@ describe("Reporte", () => {
     expect(validarReporte({ ...datosValidos, descripcion: "  " })).toBe("Describe a tu mascota para que la reconozcan");
   });
 
+  it("deberia rechazar un reporte que no es de mascota perdida ni encontrada", () => {
+    expect(validarReporte({ ...datosValidos, tipo: "ROBADA" })).toBe("Elige si la mascota se perdió o la encontraste");
+  });
+
   it("deberia aceptar un reporte con todos los datos obligatorios", () => {
     expect(validarReporte(datosValidos)).toBeNull();
   });
