@@ -3440,7 +3440,7 @@
     "testId": 170
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1881e127528d4fab010fbb987e900d1bcbcf98f7",
     "commitName": "feat(HU32): no dar usuario si la sesion ya vencio",
     "commitTimestamp": 1795028976799,
     "testId": 170
@@ -3554,5 +3554,27 @@
     "commitName": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
     "commitTimestamp": 1795030710386,
     "testId": 175
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 1,
+    "numTotalTests": 129,
+    "timestamp": 1795030738643,
+    "success": false,
+    "testId": 176
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 0,
+    "numTotalTests": 129,
+    "timestamp": 1795031054989,
+    "success": true,
+    "testId": 176
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
+    "commitTimestamp": 1795031060105,
+    "testId": 176
   }
 ]

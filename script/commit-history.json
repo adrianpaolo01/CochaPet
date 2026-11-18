@@ -3553,12 +3553,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1881e127528d4fab010fbb987e900d1bcbcf98f7",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:09:35.000Z",
       "message": "feat(HU32): no dar usuario si la sesion ya vencio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1881e127528d4fab010fbb987e900d1bcbcf98f7"
     },
     "stats": {
       "total": 10,
@@ -3663,6 +3663,25 @@
     },
     "coverage": 100,
     "test_count": 128,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:44:18.000Z",
+      "message": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 129,
     "failed_tests": 0,
     "conclusion": "success"
   }

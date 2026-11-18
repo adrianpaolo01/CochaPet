@@ -1,6 +1,12 @@
-import { leerCookie } from "./cookies.js";
+import { cookieDeSesion, leerCookie } from "./cookies.js";
 
 describe("Cookies", () => {
+  it("deberia armar la cookie de sesion con sus protecciones y su duracion", () => {
+    const ahora = new Date("2026-11-20T10:00:00Z");
+    const expiraEn = new Date("2026-11-27T10:00:00Z");
+    expect(cookieDeSesion("abc123", expiraEn, { ahora })).toBe("sesion=abc123; HttpOnly; SameSite=Lax; Path=/; Max-Age=604800");
+  });
+
   it("deberia leer el valor de una cookie por su nombre", () => {
     expect(leerCookie("tema=oscuro; sesion=abc123; idioma=es", "sesion")).toBe("abc123");
   });
