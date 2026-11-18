@@ -5149,12 +5149,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "796cea48ad187024ce52c9bf9d4e594fb2e49c08",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:04:41.000Z",
       "message": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/796cea48ad187024ce52c9bf9d4e594fb2e49c08"
     },
     "stats": {
       "total": 4,
@@ -5483,6 +5483,25 @@
       "total": 4,
       "additions": 4,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:09:05.000Z",
+      "message": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-11-18"
     },
     "coverage": 100,

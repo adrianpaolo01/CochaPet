@@ -5024,7 +5024,7 @@
     "testId": 210
   },
   {
-    "commitId": "HEAD",
+    "commitId": "796cea48ad187024ce52c9bf9d4e594fb2e49c08",
     "commitName": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
     "commitTimestamp": 1795035881660,
     "testId": 210
@@ -5346,5 +5346,19 @@
     "commitName": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
     "commitTimestamp": 1795036135247,
     "testId": 227
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036144277,
+    "success": true,
+    "testId": 228
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
+    "commitTimestamp": 1795036145319,
+    "testId": 228
   }
 ]
