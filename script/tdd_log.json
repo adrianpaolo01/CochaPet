@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "83a7744fa4776e393b1b1cebb24207bf35d0e1ec",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -4794,5 +4794,27 @@
     "commitName": "refactor(HU04): compartir los datos de prueba del reporte en el servicio",
     "commitTimestamp": 1795035654153,
     "testId": 199
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035659981,
+    "success": false,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035666562,
+    "success": true,
+    "testId": 200
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
+    "commitTimestamp": 1795035667566,
+    "testId": 200
   }
 ]

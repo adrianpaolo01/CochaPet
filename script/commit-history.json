@@ -4617,12 +4617,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "83a7744fa4776e393b1b1cebb24207bf35d0e1ec",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:32.000Z",
       "message": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/83a7744fa4776e393b1b1cebb24207bf35d0e1ec"
     },
     "stats": {
       "total": 42,
@@ -4955,6 +4955,25 @@
     },
     "coverage": 100,
     "test_count": 201,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:01:07.000Z",
+      "message": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 202,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -52,4 +52,12 @@ describe("Publicaciones servicio", () => {
     expect(await reportarPerdida({ barrios }, { id: 7 }, datos)).toEqual({ error: "Elige un barrio de Cochabamba" });
   });
 
+
+  it("deberia crear la publicacion como perdida con la cuenta y el telefono del autor", async () => {
+    const publicaciones = { crear: jest.fn(async () => ({ id: 30 })) };
+
+    await reportarPerdida({ publicaciones, barrios }, { id: 7, telefono: "70000000" }, reporte);
+
+    expect(publicaciones.crear).toHaveBeenCalledWith({ ...reporte, tipo: "PERDIDA", autorId: 7, telefono: "70000000" });
+  });
 });
