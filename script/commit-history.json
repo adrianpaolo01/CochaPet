@@ -5472,12 +5472,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "86eb78c13dd8b8e465151c60a707bff1fb706cf6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:16.000Z",
       "message": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/86eb78c13dd8b8e465151c60a707bff1fb706cf6"
     },
     "stats": {
       "total": 11,
@@ -6414,6 +6414,25 @@
       "total": 12,
       "additions": 6,
       "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:29:08.000Z",
+      "message": "refactor(HU05): nombrar el borrador como del reporte y no solo de la perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

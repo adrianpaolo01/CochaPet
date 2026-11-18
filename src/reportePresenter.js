@@ -7,7 +7,7 @@ vistaReporte.innerHTML = htmlVistaReporte();
 const formulario = document.querySelector("#formulario-reporte");
 const avisoSesion = document.querySelector("#reporte-aviso-sesion");
 const mensaje = document.querySelector("#reporte-mensaje");
-const CLAVE_BORRADOR = "borrador-reporte-perdida";
+const CLAVE_BORRADOR = "borrador-reporte";
 
 function mostrarError(texto) {
   mensaje.textContent = texto;
