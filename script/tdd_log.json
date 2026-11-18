@@ -3264,7 +3264,7 @@
     "testId": 162
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0d2ef7ef021671185aafa94e482a2eee532a2026",
     "commitName": "feat(HU32): rechazar un correo inexistente con el mismo mensaje general",
     "commitTimestamp": 1795025535257,
     "testId": 162
@@ -3378,5 +3378,27 @@
     "commitName": "feat(HU32): crear un token de sesion y guardar solo su hash",
     "commitTimestamp": 1795027921262,
     "testId": 167
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 1,
+    "numTotalTests": 115,
+    "timestamp": 1795027946454,
+    "success": false,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 0,
+    "numTotalTests": 115,
+    "timestamp": 1795028266795,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): dar 7 dias de vigencia a la sesion",
+    "commitTimestamp": 1795028278661,
+    "testId": 168
   }
 ]

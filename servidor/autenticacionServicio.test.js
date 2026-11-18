@@ -28,6 +28,14 @@ describe("Autenticacion servicio", () => {
     expect(crearSesion).toHaveBeenCalledWith(expect.objectContaining({ id: hashDeToken("token-fijo"), usuarioId: 1 }));
   });
 
+  it("deberia dar 7 dias de vigencia a la sesion", async () => {
+    const crearSesion = jest.fn(async () => {});
+    const ahora = new Date("2026-11-20T10:00:00Z");
+    const resultado = await iniciarSesion({ ...repositorio, crearSesion }, { correo: "prueba@cochapet.bo", clave: "prueba123" }, { ahora });
+    expect(crearSesion).toHaveBeenCalledWith(expect.objectContaining({ expiraEn: new Date("2026-11-27T10:00:00Z") }));
+    expect(resultado.expiraEn).toEqual(new Date("2026-11-27T10:00:00Z"));
+  });
+
   it("deberia rechazar una clave incorrecta con un mensaje general", async () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "equivocada" });
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
