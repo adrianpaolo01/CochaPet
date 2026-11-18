@@ -4694,7 +4694,7 @@
     "testId": 195
   },
   {
-    "commitId": "HEAD",
+    "commitId": "613faa727d81d3777f764e636ad4199ad4c2383f",
     "commitName": "feat(HU04): volver a la ruta indicada despues de iniciar sesion",
     "commitTimestamp": 1795035584420,
     "testId": 195
@@ -5064,5 +5064,27 @@
     "commitName": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
     "commitTimestamp": 1795035911888,
     "testId": 212
+  },
+  {
+    "numPassedTests": 208,
+    "failedTests": 1,
+    "numTotalTests": 209,
+    "timestamp": 1795035920874,
+    "success": false,
+    "testId": 213
+  },
+  {
+    "numPassedTests": 209,
+    "failedTests": 0,
+    "numTotalTests": 209,
+    "timestamp": 1795035928261,
+    "success": true,
+    "testId": 213
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
+    "commitTimestamp": 1795035929262,
+    "testId": 213
   }
 ]

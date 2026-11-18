@@ -4,6 +4,7 @@ export function htmlEncabezadoLista() {
     <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>
     <nav class="acciones-reporte">
       <a id="reportar-perdida" class="boton boton-grande" href="#/reportar/perdida">Perdí mi mascota</a>
+      <a id="reportar-encontrada" class="boton boton-grande" href="#/reportar/encontrada">Encontré una mascota</a>
     </nav>`;
 }
 

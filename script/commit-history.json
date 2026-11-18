@@ -4864,12 +4864,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "613faa727d81d3777f764e636ad4199ad4c2383f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:59:44.000Z",
       "message": "feat(HU04): volver a la ruta indicada despues de iniciar sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/613faa727d81d3777f764e636ad4199ad4c2383f"
     },
     "stats": {
       "total": 11,
@@ -5202,6 +5202,25 @@
     },
     "coverage": 100,
     "test_count": 208,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:05:29.000Z",
+      "message": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 209,
     "failed_tests": 0,
     "conclusion": "success"
   }
