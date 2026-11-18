@@ -84,6 +84,7 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         responderJson(res, 201, usuario, { "Set-Cookie": cookieDeSesion(token, expiraEn, { seguro }) });
       });
     }
+    if (req.method === "POST" && ruta === "/api/publicaciones") return responderJson(res, 401, { error: "Inicia sesión para publicar" });
     responderJson(res, 404, { error: "No encontrado" });
   };
 }

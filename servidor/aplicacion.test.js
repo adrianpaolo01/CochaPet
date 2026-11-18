@@ -55,7 +55,6 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
   it.each([
     ["GET", "/api/desconocida"],
-    ["POST", "/api/publicaciones"],
   ])("rechaza %s %s sin consultar la base", async (method, url) => {
     const repositorio = { listar: jest.fn() };
     const respuesta = crearRespuesta();
@@ -64,6 +63,12 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(404);
     expect(repositorio.listar).not.toHaveBeenCalled();
+  });
+
+  it("responde 401 al publicar un reporte sin sesion iniciada", async () => {
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, {})({ method: "POST", url: "/api/publicaciones", headers: {} }, respuesta);
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(401);
   });
 
   it("devuelve el detalle de una publicacion activa como JSON", async () => {

@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c5f919b1f92303d5febc848e24454d524e64d1ec",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -4816,5 +4816,35 @@
     "commitName": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
     "commitTimestamp": 1795035667566,
     "testId": 200
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035689008,
+    "success": false,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035695889,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035708627,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir sesion iniciada para publicar un reporte",
+    "commitTimestamp": 1795035709771,
+    "testId": 201
   }
 ]
