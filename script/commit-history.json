@@ -3667,12 +3667,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "606f2baf2404e36c633c0835b15eee2245b6116c",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:43:51.000Z",
       "message": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/606f2baf2404e36c633c0835b15eee2245b6116c"
     },
     "stats": {
       "total": 5,
@@ -4765,6 +4765,25 @@
     },
     "coverage": 100,
     "test_count": 189,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T21:56:14.000Z",
+      "message": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 190,
     "failed_tests": 0,
     "conclusion": "success"
   }

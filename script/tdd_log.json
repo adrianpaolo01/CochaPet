@@ -3870,7 +3870,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "606f2baf2404e36c633c0835b15eee2245b6116c",
     "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
     "commitTimestamp": 1795032534548,
     "testId": 181
@@ -4558,5 +4558,27 @@
     "commitName": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
     "commitTimestamp": 1795038646417,
     "testId": 189
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 1,
+    "numTotalTests": 190,
+    "timestamp": 1795038659299,
+    "success": false,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 0,
+    "numTotalTests": 190,
+    "timestamp": 1795038971444,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
+    "commitTimestamp": 1795038974578,
+    "testId": 190
   }
 ]
