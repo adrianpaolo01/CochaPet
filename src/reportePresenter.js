@@ -1,4 +1,4 @@
-import { leerBorrador } from "./reporte.js";
+import { leerBorrador, validarReporte } from "./reporte.js";
 import { vistaParaHash } from "./rutas.js";
 import { htmlVistaReporte } from "./vistaReporte.js";
 
@@ -6,7 +6,18 @@ const vistaReporte = document.querySelector("#vista-reporte");
 vistaReporte.innerHTML = htmlVistaReporte();
 const formulario = document.querySelector("#formulario-reporte");
 const avisoSesion = document.querySelector("#reporte-aviso-sesion");
+const mensaje = document.querySelector("#reporte-mensaje");
 const CLAVE_BORRADOR = "borrador-reporte-perdida";
+
+function mostrarError(texto) {
+  mensaje.textContent = texto;
+  mensaje.hidden = !texto;
+}
+
+function publicar(evento) {
+  evento.preventDefault();
+  mostrarError(validarReporte(Object.fromEntries(new FormData(formulario))));
+}
 
 async function mostrarAvisoSesion() {
   try {
@@ -43,6 +54,7 @@ function mostrarVista() {
 window.addEventListener("hashchange", mostrarVista);
 mostrarVista();
 formulario.addEventListener("input", guardarBorrador);
+formulario.addEventListener("submit", publicar);
 document.querySelector("#reporte-registrarse").addEventListener("click", () => document.querySelector("#abrir-registro").click());
 window.addEventListener("sesion-iniciada", () => {
   avisoSesion.hidden = true;

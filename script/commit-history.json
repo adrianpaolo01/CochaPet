@@ -5168,12 +5168,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d67f7feca21c48da61d39c4d40f609cfb10d0438",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:04:54.000Z",
       "message": "fix(HU04): ocultar la foto de la tarjeta segun la foto principal y no segun src",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d67f7feca21c48da61d39c4d40f609cfb10d0438"
     },
     "stats": {
       "total": 6,
@@ -5502,6 +5502,25 @@
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:09:17.000Z",
+      "message": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

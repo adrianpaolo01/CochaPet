@@ -5038,7 +5038,7 @@
     "testId": 211
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d67f7feca21c48da61d39c4d40f609cfb10d0438",
     "commitName": "fix(HU04): ocultar la foto de la tarjeta segun la foto principal y no segun src",
     "commitTimestamp": 1795035894882,
     "testId": 211
@@ -5360,5 +5360,19 @@
     "commitName": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
     "commitTimestamp": 1795036145319,
     "testId": 228
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036156275,
+    "success": true,
+    "testId": 229
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
+    "commitTimestamp": 1795036157384,
+    "testId": 229
   }
 ]
