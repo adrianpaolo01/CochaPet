@@ -4842,7 +4842,7 @@
     "testId": 201
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4173234d438eac7c086d36fec052617b75d8b705",
     "commitName": "feat(HU04): pedir sesion iniciada para publicar un reporte",
     "commitTimestamp": 1795035709771,
     "testId": 201
@@ -5188,5 +5188,27 @@
     "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
     "commitTimestamp": 1795036010099,
     "testId": 218
+  },
+  {
+    "numPassedTests": 215,
+    "failedTests": 1,
+    "numTotalTests": 216,
+    "timestamp": 1795036021369,
+    "success": false,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 216,
+    "failedTests": 0,
+    "numTotalTests": 216,
+    "timestamp": 1795036022653,
+    "success": true,
+    "testId": 219
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
+    "commitTimestamp": 1795036023692,
+    "testId": 219
   }
 ]

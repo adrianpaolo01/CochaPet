@@ -23,4 +23,8 @@ describe("Vista reporte", () => {
   ])("deberia tener el campo opcional %s", (campo, etiqueta) => {
     expect(htmlVistaReporte()).toContain(`<label for="reporte-${campo}">${etiqueta}</label><input id="reporte-${campo}" name="${campo}" />`);
   });
+
+  it("deberia pedir la fecha en que se perdio con un selector de fecha", () => {
+    expect(htmlVistaReporte()).toContain('<label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />');
+  });
 });

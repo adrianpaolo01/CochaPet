@@ -4978,12 +4978,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4173234d438eac7c086d36fec052617b75d8b705",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:01:49.000Z",
       "message": "feat(HU04): pedir sesion iniciada para publicar un reporte",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4173234d438eac7c086d36fec052617b75d8b705"
     },
     "stats": {
       "total": 8,
@@ -5316,6 +5316,25 @@
     },
     "coverage": 100,
     "test_count": 215,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:07:03.000Z",
+      "message": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 216,
     "failed_tests": 0,
     "conclusion": "success"
   }

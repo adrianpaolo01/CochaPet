@@ -16,6 +16,7 @@ export function htmlVistaReporte() {
         <label for="reporte-nombre">Nombre (opcional)</label><input id="reporte-nombre" name="nombre" />
         <label for="reporte-raza">Raza (opcional)</label><input id="reporte-raza" name="raza" />
         <label for="reporte-color">Color (opcional)</label><input id="reporte-color" name="color" />
+        <label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />
       </form>
     </div>`;
 }
