@@ -4628,7 +4628,7 @@
     "testId": 192
   },
   {
-    "commitId": "HEAD",
+    "commitId": "48450896f4053b2ffc2bd62376004904fb28ab7f",
     "commitName": "feat(HU04): empezar el reporte vacio si no hay borrador o esta danado",
     "commitTimestamp": 1795035543017,
     "testId": 192
@@ -5014,5 +5014,19 @@
     "commitName": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
     "commitTimestamp": 1795035871671,
     "testId": 209
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035880588,
+    "success": true,
+    "testId": 210
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
+    "commitTimestamp": 1795035881660,
+    "testId": 210
   }
 ]

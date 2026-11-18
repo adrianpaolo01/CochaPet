@@ -4807,12 +4807,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "48450896f4053b2ffc2bd62376004904fb28ab7f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:59:02.000Z",
       "message": "feat(HU04): empezar el reporte vacio si no hay borrador o esta danado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/48450896f4053b2ffc2bd62376004904fb28ab7f"
     },
     "stats": {
       "total": 10,
@@ -5140,6 +5140,25 @@
     "stats": {
       "total": 6,
       "additions": 5,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 207,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:04:41.000Z",
+      "message": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
       "deletions": 1,
       "date": "2026-11-18"
     },
