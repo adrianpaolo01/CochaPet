@@ -48,4 +48,11 @@ describe("Reporte", () => {
   ])("deberia preguntar la fecha del reporte de tipo %s", (tipo, pregunta) => {
     expect(textosReporte(tipo).preguntaFecha).toBe(pregunta);
   });
+
+  it.each([
+    ["PERDIDA", "Cuéntanos cómo es y dónde se perdió para que otras personas te ayuden a encontrarla."],
+    ["ENCONTRADA", "Cuéntanos cómo es y dónde la encontraste para que su dueño pueda recuperarla."],
+  ])("deberia explicar el reporte de tipo %s en el subtitulo", (tipo, subtitulo) => {
+    expect(textosReporte(tipo).subtitulo).toBe(subtitulo);
+  });
 });

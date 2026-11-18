@@ -11,10 +11,12 @@ export function validarReporte(datos) {
 const TEXTOS_REPORTE = {
   PERDIDA: {
     titulo: "Perdí mi mascota",
+    subtitulo: "Cuéntanos cómo es y dónde se perdió para que otras personas te ayuden a encontrarla.",
     preguntaFecha: "¿Cuándo se perdió?",
   },
   ENCONTRADA: {
     titulo: "Encontré una mascota",
+    subtitulo: "Cuéntanos cómo es y dónde la encontraste para que su dueño pueda recuperarla.",
     preguntaFecha: "¿Cuándo la encontraste?",
   },
 };

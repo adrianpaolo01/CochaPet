@@ -4655,12 +4655,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f4352409f7fc6c639789b173ac73c0d3819c797",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:09.000Z",
       "message": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9f4352409f7fc6c639789b173ac73c0d3819c797"
     },
     "stats": {
       "total": 21,
@@ -6209,6 +6209,25 @@
     },
     "coverage": 100,
     "test_count": 251,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:33.000Z",
+      "message": "feat(HU05): explicar el reporte segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
     "failed_tests": 0,
     "conclusion": "success"
   }

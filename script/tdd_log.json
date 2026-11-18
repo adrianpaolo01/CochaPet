@@ -4436,7 +4436,7 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f4352409f7fc6c639789b173ac73c0d3819c797",
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
@@ -6110,5 +6110,27 @@
     "commitName": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
     "commitTimestamp": 1795044315403,
     "testId": 261
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 2,
+    "numTotalTests": 253,
+    "timestamp": 1795044323196,
+    "success": false,
+    "testId": 262
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044331376,
+    "success": true,
+    "testId": 262
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): explicar el reporte segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044333264,
+    "testId": 262
   }
 ]
