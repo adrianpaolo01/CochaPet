@@ -3176,7 +3176,7 @@
     "testId": 158
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7845b129e6779ccb47967d1729da1897601a5eeb",
     "commitName": "test(HU32): rechazar una clave que no coincide con el hash",
     "commitTimestamp": 1795024016355,
     "testId": 158
@@ -3290,5 +3290,27 @@
     "commitName": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
     "commitTimestamp": 1795025892639,
     "testId": 163
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 1,
+    "numTotalTests": 111,
+    "timestamp": 1795025916107,
+    "success": false,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 0,
+    "numTotalTests": 111,
+    "timestamp": 1795026230642,
+    "success": true,
+    "testId": 164
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
+    "commitTimestamp": 1795026241946,
+    "testId": 164
   }
 ]

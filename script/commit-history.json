@@ -3325,12 +3325,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7845b129e6779ccb47967d1729da1897601a5eeb",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T17:46:54.000Z",
       "message": "test(HU32): rechazar una clave que no coincide con el hash",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7845b129e6779ccb47967d1729da1897601a5eeb"
     },
     "stats": {
       "total": 4,
@@ -3435,6 +3435,25 @@
     },
     "coverage": 100,
     "test_count": 110,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:24:00.000Z",
+      "message": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 111,
     "failed_tests": 0,
     "conclusion": "success"
   }

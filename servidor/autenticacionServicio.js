@@ -6,7 +6,7 @@ const CREDENCIALES_INCORRECTAS = { ok: false, estado: 401, error: "Correo o cont
 export async function iniciarSesion(repositorio, { correo, clave }) {
   const correoLimpio = typeof correo === "string" ? correo.trim() : "";
   if (!correoLimpio || typeof clave !== "string" || clave === "") return FALTAN_DATOS;
-  const usuario = await repositorio.buscarUsuarioPorCorreo(correo);
+  const usuario = await repositorio.buscarUsuarioPorCorreo(correoLimpio);
   if (!usuario || !verificarClave(clave, usuario.claveHash)) return CREDENCIALES_INCORRECTAS;
   return { ok: true };
 }

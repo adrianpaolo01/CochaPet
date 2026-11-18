@@ -27,6 +27,12 @@ describe("Autenticacion servicio", () => {
     }
   );
 
+  it("deberia buscar al usuario con el correo sin espacios sobrantes", async () => {
+    const buscarUsuarioPorCorreo = jest.fn(async () => usuario);
+    await iniciarSesion({ ...repositorio, buscarUsuarioPorCorreo }, { correo: "  prueba@cochapet.bo ", clave: "prueba123" });
+    expect(buscarUsuarioPorCorreo).toHaveBeenCalledWith("prueba@cochapet.bo");
+  });
+
   it("deberia rechazar un correo inexistente con el mismo mensaje general", async () => {
     const sinUsuario = { ...repositorio, buscarUsuarioPorCorreo: async () => undefined };
     const resultado = await iniciarSesion(sinUsuario, { correo: "nadie@cochapet.bo", clave: "prueba123" });
