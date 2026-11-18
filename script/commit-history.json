@@ -5434,12 +5434,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26c42d59f59935857d2c64f6c519b6385dc72973",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:42.000Z",
       "message": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/26c42d59f59935857d2c64f6c519b6385dc72973"
     },
     "stats": {
       "total": 7,
@@ -6376,6 +6376,25 @@
       "total": 6,
       "additions": 6,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:28:39.000Z",
+      "message": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
       "date": "2026-11-18"
     },
     "coverage": 100,

@@ -5338,7 +5338,7 @@
     "testId": 221
   },
   {
-    "commitId": "HEAD",
+    "commitId": "26c42d59f59935857d2c64f6c519b6385dc72973",
     "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
     "commitTimestamp": 1795036050476,
     "testId": 221
@@ -6284,5 +6284,27 @@
     "commitName": "feat(HU05): rechazar un reporte que no es de mascota perdida ni encontrada",
     "commitTimestamp": 1795044490780,
     "testId": 270
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 2,
+    "numTotalTests": 255,
+    "timestamp": 1795044510699,
+    "success": false,
+    "testId": 271
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044518190,
+    "success": true,
+    "testId": 271
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
+    "commitTimestamp": 1795044519464,
+    "testId": 271
   }
 ]

@@ -7,12 +7,12 @@ describe("Reporte", () => {
     expect(validarReporte({ ...datosValidos, especie: "" })).toBe("Elige la especie de tu mascota");
   });
 
-  it("deberia pedir el barrio donde se perdio", () => {
-    expect(validarReporte({ ...datosValidos, barrio: " " })).toBe("Elige el barrio donde se perdió");
+  it("deberia pedir el barrio sin importar si la mascota se perdio o se encontro", () => {
+    expect(validarReporte({ ...datosValidos, barrio: " " })).toBe("Elige el barrio de Cochabamba");
   });
 
-  it("deberia pedir la fecha en que se perdio", () => {
-    expect(validarReporte({ ...datosValidos, fecha: "" })).toBe("Indica la fecha en que se perdió");
+  it("deberia pedir la fecha sin importar si la mascota se perdio o se encontro", () => {
+    expect(validarReporte({ ...datosValidos, fecha: "" })).toBe("Indica la fecha");
   });
 
   it("deberia pedir una descripcion de la mascota", () => {
