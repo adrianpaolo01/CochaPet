@@ -10,12 +10,14 @@
   <body>
     <header class="encabezado">
       <span class="marca">Cocha<span class="marca-acento">Pet</span></span>
+      <a id="enlace-sesion" class="enlace-sesion" href="#/ingresar">Iniciar sesión</a>
       <button type="button" id="abrir-registro" class="boton">Registrarse</button>
       <span id="saludo-sesion" hidden></span>
     </header>
     <main class="contenedor">
       <div id="vista-lista"></div>
       <section id="vista-detalle" hidden></section>
+      <section id="vista-login" hidden></section>
       <dialog id="visor"></dialog>
       <dialog id="registro">
         <form id="formulario-registro" method="dialog" novalidate>
@@ -32,6 +34,7 @@
 
     <script type="module" src="./src/presenter.js"></script>
     <script type="module" src="./src/detallePresenter.js"></script>
+    <script type="module" src="./src/loginPresenter.js"></script>
     <script type="module" src="./src/registroPresenter.js"></script>
   </body>
 </html>

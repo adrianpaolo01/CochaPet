@@ -1,5 +1,5 @@
 import { validarRegistro } from "./registro.js";
-import { saludoSesion } from "./sesion.js";
+import { textoSesion } from "./sesion.js";
 
 const dialogo = document.querySelector("#registro");
 const formulario = document.querySelector("#formulario-registro");
@@ -21,7 +21,7 @@ function iniciarSesion(usuario) {
   localStorage.setItem("usuario", JSON.stringify(usuario));
   document.querySelector("#abrir-registro").hidden = true;
   const saludo = document.querySelector("#saludo-sesion");
-  saludo.textContent = saludoSesion(usuario);
+  saludo.textContent = textoSesion(usuario);
   saludo.hidden = false;
 }
 

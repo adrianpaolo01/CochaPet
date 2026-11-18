@@ -1,5 +1,6 @@
 import { badgeEstado, caracteristicasMascota, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, mensajeDetalle, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
+import { vistaParaHash } from "./rutas.js";
 import { htmlVisor, htmlVistaDetalle } from "./vistaDetalle.js";
 
 document.querySelector("#vista-detalle").innerHTML = htmlVistaDetalle();
@@ -31,10 +32,11 @@ document.querySelector("#visor-anterior").addEventListener("click", () =>
 );
 
 async function mostrarVista() {
+  const vista = vistaParaHash(location.hash);
+  vistaLista.hidden = vista !== "lista";
+  vistaDetalle.hidden = vista !== "detalle";
+  if (vista !== "detalle") return;
   const id = idDesdeHash(location.hash);
-  vistaLista.hidden = id !== null;
-  vistaDetalle.hidden = id === null;
-  if (id === null) return;
   const respuesta = await fetch(`/api/publicaciones/${id}`);
   const mensaje = document.querySelector("#detalle-mensaje");
   mensaje.textContent = mensajeDetalle(respuesta) ?? "";

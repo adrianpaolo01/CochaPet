@@ -124,7 +124,7 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
   it("registra un usuario y responde 201 con la cuenta creada", async () => {
     const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
-    const usuariosRepositorio = { buscarPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }) };
+    const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }) };
     const respuesta = crearRespuesta();
 
     await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
@@ -134,7 +134,7 @@ describe("API compartida entre desarrollo y Vercel", () => {
   });
 
   it("responde 400 con el error si el correo ya esta registrado", async () => {
-    const usuariosRepositorio = { buscarPorCorreo: async () => ({ id: 1 }), crear: jest.fn() };
+    const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => ({ id: 1 }), crear: jest.fn() };
     const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
     const respuesta = crearRespuesta();
 

@@ -1,4 +1,4 @@
 import { crearManejador } from "../servidor/aplicacion.js";
-import { usuariosRepositorio } from "../servidor/usuariosRepositorio.js";
+import { autenticacionRepositorio } from "../servidor/autenticacionRepositorio.js";
 
-export default crearManejador(null, null, usuariosRepositorio);
+export default crearManejador(null, null, autenticacionRepositorio);

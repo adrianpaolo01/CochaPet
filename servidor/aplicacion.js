@@ -1,10 +1,31 @@
+import { iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
+import { cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
-function responderJson(res, estado, datos) {
-  res.writeHead(estado, { "Content-Type": "application/json; charset=utf-8" });
+const LIMITE_CUERPO = 10000;
+
+function responderJson(res, estado, datos, cabeceras = {}) {
+  res.writeHead(estado, { "Content-Type": "application/json; charset=utf-8", ...cabeceras });
   res.end(JSON.stringify(datos));
+}
+
+async function leerCuerpoJson(req) {
+  const partes = [];
+  let total = 0;
+  for await (const parte of req) {
+    total += parte.length;
+    if (total > LIMITE_CUERPO) return { ok: false, estado: 413, error: "Los datos enviados son demasiado grandes" };
+    partes.push(Buffer.from(parte));
+  }
+  try {
+    const datos = JSON.parse(Buffer.concat(partes).toString("utf8"));
+    if (datos !== null && typeof datos === "object") return { ok: true, datos };
+  } catch {
+    // el cuerpo no es JSON: se responde igual que un objeto invalido
+  }
+  return { ok: false, estado: 400, error: "Los datos enviados no son validos" };
 }
 
 export async function manejarErrores(res, mensaje, accion) {
@@ -16,9 +37,26 @@ export async function manejarErrores(res, mensaje, accion) {
   }
 }
 
-export function crearManejador(repositorio, barriosRepositorio, usuariosRepositorio) {
+export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "GET" && ruta === "/api/sesion") {
+      return manejarErrores(res, "No se pudo consultar la sesion", async () => {
+        const token = leerCookie(req.headers?.cookie, "sesion");
+        responderJson(res, 200, { usuario: await usuarioDeSesion(autenticacionRepositorio, token) });
+      });
+    }
+    if (req.method === "POST" && ruta === "/api/sesion") {
+      return manejarErrores(res, "No se pudo iniciar sesion", async () => {
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const resultado = await iniciarSesion(autenticacionRepositorio, entrada.datos);
+        if (!resultado.ok) return responderJson(res, resultado.estado, { error: resultado.error });
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        const cookie = cookieDeSesion(resultado.token, resultado.expiraEn, { seguro });
+        responderJson(res, 200, { usuario: resultado.usuario }, { "Set-Cookie": cookie });
+      });
+    }
     if (req.method === "GET" && ruta === "/api/publicaciones") {
       return manejarErrores(res, "No se pudieron cargar las publicaciones", async () =>
         responderJson(res, 200, await publicacionesParaInicio(repositorio)));
@@ -37,7 +75,7 @@ export function crearManejador(repositorio, barriosRepositorio, usuariosReposito
     }
     if (req.method === "POST" && ruta === "/api/usuarios") {
       return manejarErrores(res, "No se pudo crear la cuenta", async () => {
-        const { usuario, error } = await registrarUsuario(usuariosRepositorio, await leerCuerpo(req));
+        const { usuario, error } = await registrarUsuario(autenticacionRepositorio, await leerCuerpo(req));
         if (error) responderJson(res, 400, { error });
         else responderJson(res, 201, usuario);
       });

@@ -4,7 +4,7 @@ const datos = { nombre: "Ana Perez", correo: "ana@correo.com", telefono: "712345
 
 describe("Usuarios servicio", () => {
   it("deberia crear la cuenta con datos validos", async () => {
-    const repositorio = { buscarPorCorreo: async () => undefined, crear: jest.fn(async () => ({ id: 1, ...datos })) };
+    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: jest.fn(async () => ({ id: 1, ...datos })) };
 
     const resultado = await registrarUsuario(repositorio, datos);
 
@@ -13,7 +13,7 @@ describe("Usuarios servicio", () => {
   });
 
   it("deberia devolver el usuario creado sin la contrasena", async () => {
-    const repositorio = { buscarPorCorreo: async () => undefined, crear: async () => ({ id: 1, ...datos }) };
+    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 1, ...datos }) };
 
     const { usuario } = await registrarUsuario(repositorio, datos);
 
@@ -21,7 +21,7 @@ describe("Usuarios servicio", () => {
   });
 
   it("deberia dar error y no crear la cuenta si el correo ya esta registrado", async () => {
-    const repositorio = { buscarPorCorreo: async () => ({ id: 7 }), crear: jest.fn() };
+    const repositorio = { buscarUsuarioPorCorreo: async () => ({ id: 7 }), crear: jest.fn() };
 
     const resultado = await registrarUsuario(repositorio, datos);
 
@@ -30,7 +30,7 @@ describe("Usuarios servicio", () => {
   });
 
   it("deberia dar error y no crear la cuenta si la contrasena es corta", async () => {
-    const repositorio = { buscarPorCorreo: async () => undefined, crear: jest.fn() };
+    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: jest.fn() };
 
     const resultado = await registrarUsuario(repositorio, { ...datos, clave: "corta" });
 
