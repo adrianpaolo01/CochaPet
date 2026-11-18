@@ -3550,7 +3550,7 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4022ea1d6cc7b24ca907f04410c087c9dd09123d",
     "commitName": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
     "commitTimestamp": 1795030710386,
     "testId": 175
@@ -3656,5 +3656,35 @@
     "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
     "commitTimestamp": 1795032266678,
     "testId": 180
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 21,
+    "numTotalTests": 167,
+    "timestamp": 1795032313891,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 21,
+    "numTotalTests": 167,
+    "timestamp": 1795032320131,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1795032523619,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
+    "commitTimestamp": 1795032534548,
+    "testId": 181
   }
 ]

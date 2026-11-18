@@ -3648,12 +3648,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4022ea1d6cc7b24ca907f04410c087c9dd09123d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:38:29.000Z",
       "message": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4022ea1d6cc7b24ca907f04410c087c9dd09123d"
     },
     "stats": {
       "total": 7,
@@ -3758,6 +3758,25 @@
     },
     "coverage": 100,
     "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:08:53.000Z",
+      "message": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 99,
+      "additions": 99,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 167,
     "failed_tests": 0,
     "conclusion": "success"
   }
