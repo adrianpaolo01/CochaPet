@@ -4560,12 +4560,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "334a3cd8bef367fe8cdefc155f75d44bbdf7503f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:28.000Z",
       "message": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/334a3cd8bef367fe8cdefc155f75d44bbdf7503f"
     },
     "stats": {
       "total": 25,
@@ -4898,6 +4898,25 @@
     },
     "coverage": 100,
     "test_count": 199,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:00:11.000Z",
+      "message": "feat(HU04): rechazar en el servidor el reporte de perdida sin datos obligatorios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 200,
     "failed_tests": 0,
     "conclusion": "success"
   }

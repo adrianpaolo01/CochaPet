@@ -1,4 +1,4 @@
-import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
   it("deberia devolver solo las publicaciones activas", async () => {
@@ -35,5 +35,11 @@ describe("Publicaciones servicio", () => {
     const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
 
     expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
+  });
+
+  it("deberia rechazar un reporte de perdida sin los datos obligatorios", async () => {
+    const resultado = await reportarPerdida({}, { id: 7 }, { especie: "" });
+
+    expect(resultado).toEqual({ error: "Elige la especie de tu mascota" });
   });
 });

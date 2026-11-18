@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "334a3cd8bef367fe8cdefc155f75d44bbdf7503f",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -4720,5 +4720,27 @@
     "commitName": "feat(HU04): volver al inicio tras iniciar sesion si no hay ruta de regreso",
     "commitTimestamp": 1795035596307,
     "testId": 196
+  },
+  {
+    "numPassedTests": 199,
+    "failedTests": 1,
+    "numTotalTests": 200,
+    "timestamp": 1795035603532,
+    "success": false,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 200,
+    "failedTests": 0,
+    "numTotalTests": 200,
+    "timestamp": 1795035610284,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): rechazar en el servidor el reporte de perdida sin datos obligatorios",
+    "commitTimestamp": 1795035611394,
+    "testId": 197
   }
 ]
