@@ -3418,7 +3418,7 @@
     "testId": 169
   },
   {
-    "commitId": "HEAD",
+    "commitId": "397df64b31da2cbf35a122e3cf40e3269c36e2c6",
     "commitName": "feat(HU32): obtener el usuario de una sesion vigente",
     "commitTimestamp": 1795028631597,
     "testId": 169
@@ -3532,5 +3532,27 @@
     "commitName": "feat(HU32): devolver null si la cookie no esta en la cabecera",
     "commitTimestamp": 1795030365559,
     "testId": 174
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 1,
+    "numTotalTests": 128,
+    "timestamp": 1795030387753,
+    "success": false,
+    "testId": 175
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 0,
+    "numTotalTests": 128,
+    "timestamp": 1795030705001,
+    "success": true,
+    "testId": 175
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
+    "commitTimestamp": 1795030710386,
+    "testId": 175
   }
 ]
