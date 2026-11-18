@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4b02e41365c548c834355474663339a759ed40d7",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -6000,5 +6000,43 @@
     "commitName": "feat(HU05): pedir iniciar sesion y volver a la ruta del reporte actual",
     "commitTimestamp": 1795044201747,
     "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795044224067,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795044232471,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795044249094,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795044254972,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): titular el formulario como Encontre una mascota",
+    "commitTimestamp": 1795044256234,
+    "testId": 257
   }
 ]

@@ -1,4 +1,4 @@
-import { fechaDelDia, leerBorrador, validarReporte } from "./reporte.js";
+import { fechaDelDia, leerBorrador, textosReporte, validarReporte } from "./reporte.js";
 
 describe("Reporte", () => {
   const datosValidos = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
@@ -33,5 +33,9 @@ describe("Reporte", () => {
 
   it.each([null, "{roto"])("deberia empezar sin datos si el borrador es %p", (texto) => {
     expect(leerBorrador(texto)).toEqual({});
+  });
+
+  it("deberia titular el reporte de una mascota encontrada", () => {
+    expect(textosReporte("ENCONTRADA").titulo).toBe("Encontré una mascota");
   });
 });
