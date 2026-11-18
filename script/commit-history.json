@@ -5244,12 +5244,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "48bc162446291ab8bf4e3fd1e275253af58a3858",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:05:59.000Z",
       "message": "feat(HU04): mostrar el titulo del formulario de mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/48bc162446291ab8bf4e3fd1e275253af58a3858"
     },
     "stats": {
       "total": 15,
@@ -5578,6 +5578,25 @@
       "total": 5,
       "additions": 3,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:10:10.000Z",
+      "message": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

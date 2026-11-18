@@ -5118,7 +5118,7 @@
     "testId": 215
   },
   {
-    "commitId": "HEAD",
+    "commitId": "48bc162446291ab8bf4e3fd1e275253af58a3858",
     "commitName": "feat(HU04): mostrar el titulo del formulario de mascota perdida",
     "commitTimestamp": 1795035959210,
     "testId": 215
@@ -5416,5 +5416,19 @@
     "commitName": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
     "commitTimestamp": 1795036193486,
     "testId": 232
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036209912,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
+    "commitTimestamp": 1795036210979,
+    "testId": 233
   }
 ]
