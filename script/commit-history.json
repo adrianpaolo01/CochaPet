@@ -3230,12 +3230,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dd7ee8d2d30a2dadd06f4bc7d7b62c6e2ddf2979",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:44:57.000Z",
       "message": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dd7ee8d2d30a2dadd06f4bc7d7b62c6e2ddf2979"
     },
     "stats": {
       "total": 10,
@@ -3340,6 +3340,25 @@
     },
     "coverage": 100,
     "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:24:20.000Z",
+      "message": "feat(HU01): pedir completar nombre, correo y telefono al registrarse",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 98,
     "failed_tests": 0,
     "conclusion": "success"
   }

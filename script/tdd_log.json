@@ -3082,7 +3082,7 @@
     "testId": 153
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dd7ee8d2d30a2dadd06f4bc7d7b62c6e2ddf2979",
     "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
     "commitTimestamp": 1794973497749,
     "testId": 153
@@ -3196,5 +3196,27 @@
     "commitName": "feat(HU01): rechazar contrasena de menos de 8 caracteres",
     "commitTimestamp": 1795033305312,
     "testId": 158
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 3,
+    "numTotalTests": 98,
+    "timestamp": 1795033311345,
+    "success": false,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 98,
+    "failedTests": 0,
+    "numTotalTests": 98,
+    "timestamp": 1795033459906,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): pedir completar nombre, correo y telefono al registrarse",
+    "commitTimestamp": 1795033460569,
+    "testId": 159
   }
 ]

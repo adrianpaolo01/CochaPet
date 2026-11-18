@@ -10,4 +10,8 @@ describe("Registro", () => {
   it("deberia rechazar una contrasena de menos de 8 caracteres", () => {
     expect(validarRegistro({ ...datosValidos, clave: "1234567" })).toEqual("La contraseña debe tener al menos 8 caracteres");
   });
+
+  it.each(["nombre", "correo", "telefono"])("deberia pedir completar los campos si falta el %s", (campo) => {
+    expect(validarRegistro({ ...datosValidos, [campo]: "  " })).toEqual("Completa todos los campos");
+  });
 });
