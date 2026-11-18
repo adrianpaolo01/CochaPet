@@ -3686,12 +3686,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2a2e35c55bf887efa8a15b793de83675f92143c0",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:44:03.000Z",
       "message": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2a2e35c55bf887efa8a15b793de83675f92143c0"
     },
     "stats": {
       "total": 4,
@@ -5734,6 +5734,25 @@
     },
     "coverage": 100,
     "test_count": 229,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:06:58.000Z",
+      "message": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 60,
+      "additions": 57,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 234,
     "failed_tests": 0,
     "conclusion": "success"
   }
