@@ -4790,7 +4790,7 @@
     "testId": 199
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cd664a8e4c99068d2a98135a4da4a2479530a484",
     "commitName": "refactor(HU04): compartir los datos de prueba del reporte en el servicio",
     "commitTimestamp": 1795035654153,
     "testId": 199
@@ -5144,5 +5144,27 @@
     "commitName": "feat(HU04): avisar en el formulario que hay que iniciar sesion o registrarse",
     "commitTimestamp": 1795035977498,
     "testId": 216
+  },
+  {
+    "numPassedTests": 211,
+    "failedTests": 1,
+    "numTotalTests": 212,
+    "timestamp": 1795035984540,
+    "success": false,
+    "testId": 217
+  },
+  {
+    "numPassedTests": 212,
+    "failedTests": 0,
+    "numTotalTests": 212,
+    "timestamp": 1795035992815,
+    "success": true,
+    "testId": 217
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
+    "commitTimestamp": 1795035993894,
+    "testId": 217
   }
 ]

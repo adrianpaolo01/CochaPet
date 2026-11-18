@@ -10,4 +10,9 @@ describe("Vista reporte", () => {
     expect(htmlVistaReporte()).toContain('<a href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>');
     expect(htmlVistaReporte()).toContain('<button type="button" id="reporte-registrarse" class="enlace-boton">regístrate</button>');
   });
+
+  it("deberia pedir la especie entre perro, gato u otro", () => {
+    expect(htmlVistaReporte()).toContain('<label for="reporte-especie">Especie</label>');
+    expect(htmlVistaReporte()).toMatch(/<select id="reporte-especie" name="especie">.*value="PERRO".*value="GATO".*value="OTRO"/s);
+  });
 });

@@ -8,5 +8,11 @@ export function htmlVistaReporte() {
         Para publicar necesitas una cuenta: <a href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>
         o <button type="button" id="reporte-registrarse" class="enlace-boton">regístrate</button>. Lo que escribas no se pierde.
       </p>
+      <form id="formulario-reporte" novalidate>
+        <label for="reporte-especie">Especie</label>
+        <select id="reporte-especie" name="especie">
+          <option value="">Elige una opción</option><option value="PERRO">Perro</option><option value="GATO">Gato</option><option value="OTRO">Otro</option>
+        </select>
+      </form>
     </div>`;
 }
