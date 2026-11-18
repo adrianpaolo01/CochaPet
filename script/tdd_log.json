@@ -3192,7 +3192,7 @@
     "testId": 158
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d39c5e9041e359610687fac216262d10c3f0a8bf",
     "commitName": "feat(HU01): rechazar contrasena de menos de 8 caracteres",
     "commitTimestamp": 1795033305312,
     "testId": 158
@@ -3306,5 +3306,27 @@
     "commitName": "feat(HU01): no crear la cuenta si los datos de registro no son validos",
     "commitTimestamp": 1795033733149,
     "testId": 163
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 1,
+    "numTotalTests": 103,
+    "timestamp": 1795033740246,
+    "success": false,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1795033745473,
+    "success": true,
+    "testId": 164
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): devolver el usuario registrado sin la contrasena",
+    "commitTimestamp": 1795033754186,
+    "testId": 164
   }
 ]

@@ -12,6 +12,14 @@ describe("Usuarios servicio", () => {
     expect(resultado.usuario.id).toEqual(1);
   });
 
+  it("deberia devolver el usuario creado sin la contrasena", async () => {
+    const repositorio = { buscarPorCorreo: async () => undefined, crear: async () => ({ id: 1, ...datos }) };
+
+    const { usuario } = await registrarUsuario(repositorio, datos);
+
+    expect(usuario).toEqual({ id: 1, nombre: "Ana Perez", correo: "ana@correo.com", telefono: "71234567" });
+  });
+
   it("deberia dar error y no crear la cuenta si el correo ya esta registrado", async () => {
     const repositorio = { buscarPorCorreo: async () => ({ id: 7 }), crear: jest.fn() };
 

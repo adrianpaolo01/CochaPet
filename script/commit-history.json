@@ -3325,12 +3325,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d39c5e9041e359610687fac216262d10c3f0a8bf",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:21:45.000Z",
       "message": "feat(HU01): rechazar contrasena de menos de 8 caracteres",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d39c5e9041e359610687fac216262d10c3f0a8bf"
     },
     "stats": {
       "total": 11,
@@ -3435,6 +3435,25 @@
     },
     "coverage": 100,
     "test_count": 102,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:29:14.000Z",
+      "message": "feat(HU01): devolver el usuario registrado sin la contrasena",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 103,
     "failed_tests": 0,
     "conclusion": "success"
   }
