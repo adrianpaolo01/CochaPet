@@ -4206,7 +4206,7 @@
     "testId": 171
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e35d7a14e21fde179cf1538b6daff26762ee81bb",
     "commitName": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
     "commitTimestamp": 1795033830492,
     "testId": 171
@@ -4544,5 +4544,27 @@
     "commitName": "feat(HU04): pedir una descripcion de la mascota perdida",
     "commitTimestamp": 1795035485059,
     "testId": 188
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 1,
+    "numTotalTests": 191,
+    "timestamp": 1795035491396,
+    "success": false,
+    "testId": 189
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795035497751,
+    "success": true,
+    "testId": 189
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
+    "commitTimestamp": 1795035498756,
+    "testId": 189
   }
 ]

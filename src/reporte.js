@@ -5,4 +5,5 @@ export function validarReporte(datos) {
   if (!datos.barrio?.trim()) return "Elige el barrio donde se perdió";
   if (!datos.fecha) return "Indica la fecha en que se perdió";
   if (!datos.descripcion?.trim()) return "Describe a tu mascota para que la reconozcan";
+  return null;
 }

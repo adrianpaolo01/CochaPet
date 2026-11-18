@@ -18,4 +18,8 @@ describe("Reporte", () => {
   it("deberia pedir una descripcion de la mascota", () => {
     expect(validarReporte({ ...datosValidos, descripcion: "  " })).toBe("Describe a tu mascota para que la reconozcan");
   });
+
+  it("deberia aceptar un reporte con todos los datos obligatorios", () => {
+    expect(validarReporte(datosValidos)).toBeNull();
+  });
 });

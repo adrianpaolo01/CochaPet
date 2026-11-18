@@ -4408,12 +4408,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e35d7a14e21fde179cf1538b6daff26762ee81bb",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:30.000Z",
       "message": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e35d7a14e21fde179cf1538b6daff26762ee81bb"
     },
     "stats": {
       "total": 10,
@@ -4746,6 +4746,25 @@
     },
     "coverage": 100,
     "test_count": 190,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:58:18.000Z",
+      "message": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 191,
     "failed_tests": 0,
     "conclusion": "success"
   }
