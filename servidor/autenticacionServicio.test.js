@@ -11,4 +11,9 @@ describe("Autenticacion servicio", () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "prueba123" });
     expect(resultado.ok).toBe(true);
   });
+
+  it("deberia rechazar una clave incorrecta con un mensaje general", async () => {
+    const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "equivocada" });
+    expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
+  });
 });

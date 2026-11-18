@@ -3268,12 +3268,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "72a80d530bbaafbb2460a5abc9d154f09db1c4bf",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:55:36.000Z",
       "message": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/72a80d530bbaafbb2460a5abc9d154f09db1c4bf"
     },
     "stats": {
       "total": 5,
@@ -3378,6 +3378,25 @@
     },
     "coverage": 100,
     "test_count": 103,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:04:19.000Z",
+      "message": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 104,
     "failed_tests": 0,
     "conclusion": "success"
   }

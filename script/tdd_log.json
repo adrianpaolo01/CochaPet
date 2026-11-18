@@ -3126,7 +3126,7 @@
     "testId": 155
   },
   {
-    "commitId": "HEAD",
+    "commitId": "72a80d530bbaafbb2460a5abc9d154f09db1c4bf",
     "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
     "commitTimestamp": 1794974136700,
     "testId": 155
@@ -3224,5 +3224,27 @@
     "commitName": "feat(HU32): iniciar sesion con el correo y la clave correctos",
     "commitTimestamp": 1795024716294,
     "testId": 160
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 1,
+    "numTotalTests": 104,
+    "timestamp": 1795024737978,
+    "success": false,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 0,
+    "numTotalTests": 104,
+    "timestamp": 1795025055621,
+    "success": true,
+    "testId": 161
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
+    "commitTimestamp": 1795025060768,
+    "testId": 161
   }
 ]
