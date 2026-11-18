@@ -4220,7 +4220,7 @@
     "testId": 172
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7817510386b9eecb93e4287aca749f841888ebf3",
     "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
     "commitTimestamp": 1795033846722,
     "testId": 172
@@ -5628,5 +5628,19 @@
     "commitName": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
     "commitTimestamp": 1795039855527,
     "testId": 238
+  },
+  {
+    "numPassedTests": 237,
+    "failedTests": 0,
+    "numTotalTests": 237,
+    "timestamp": 1795039898029,
+    "success": true,
+    "testId": 239
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
+    "commitTimestamp": 1795039908384,
+    "testId": 239
   }
 ]

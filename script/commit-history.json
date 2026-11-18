@@ -4161,12 +4161,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7817510386b9eecb93e4287aca749f841888ebf3",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:08:53.000Z",
       "message": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7817510386b9eecb93e4287aca749f841888ebf3"
     },
     "stats": {
       "total": 99,
@@ -5768,6 +5768,25 @@
       "total": 17,
       "additions": 16,
       "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 237,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:11:47.000Z",
+      "message": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 34,
+      "deletions": 6,
       "date": "2026-11-18"
     },
     "coverage": 100,
