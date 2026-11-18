@@ -3798,5 +3798,252 @@
     "test_count": 167,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "17a13ba248217e01f1dd2e9070ba42a8e2050a09",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:04.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta del detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/17a13ba248217e01f1dd2e9070ba42a8e2050a09"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 2,
+      "deletions": 6,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "98e5bcd3508fb859cfd534e0562e68b79a647a9a",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T02:59:11.000Z",
+      "message": "refactor(api): usar manejarErrores en la ruta de barrios",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/98e5bcd3508fb859cfd534e0562e68b79a647a9a"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 2,
+      "deletions": 7,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d1db0ee014738300fc7e57f952cd34c048ca66f6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:04:46.000Z",
+      "message": "chore: eliminar holaMundo del template que no se usa en la app",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d1db0ee014738300fc7e57f952cd34c048ca66f6"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 0,
+      "deletions": 12,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cb0caaaf8f42f0c28b3785d20940087609d79902",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-17T03:07:18.000Z",
+      "message": "chore(presenter): integrar main y resolver los historiales TDD",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cb0caaaf8f42f0c28b3785d20940087609d79902"
+    },
+    "stats": {
+      "total": 134,
+      "additions": 78,
+      "deletions": 56,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8b820f4bd4a87e02fcd098fd17243b7c5a922ae5",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:19:48.000Z",
+      "message": "merge: resolver conflictos de logs con main",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8b820f4bd4a87e02fcd098fd17243b7c5a922ae5"
+    },
+    "stats": {
+      "total": 56,
+      "additions": 32,
+      "deletions": 24,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5c803c539dec40c6e98f38b46b3f7b7501b1ea46",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:17.000Z",
+      "message": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5c803c539dec40c6e98f38b46b3f7b7501b1ea46"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f0f3fb8ed47314e18770adef23f6da40d1ff7aba",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:27.000Z",
+      "message": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f0f3fb8ed47314e18770adef23f6da40d1ff7aba"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 9,
+      "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:39.000Z",
+      "message": "style(filtros): usar la clase campo-filtro en lugar de la lista de ids",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:46.000Z",
+      "message": "style(filtros): usar campo-filtro en el foco de los campos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:25:52.000Z",
+      "message": "style(filtros): usar la clase etiqueta-filtro en las etiquetas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:26:01.000Z",
+      "message": "style(estilos): pasar el color del borde a la variable --borde",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:26:08.000Z",
+      "message": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-17T03:26:19.000Z",
+      "message": "style(estilos): pasar el fondo del aviso a la variable --aviso-fondo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 100,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

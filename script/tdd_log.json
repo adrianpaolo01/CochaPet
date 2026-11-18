@@ -3700,5 +3700,163 @@
     "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
     "commitTimestamp": 1795032623524,
     "testId": 182
+  },
+  {
+    "commitId": "17a13ba248217e01f1dd2e9070ba42a8e2050a09",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de publicaciones",
+    "commitTimestamp": 1794884336782,
+    "testId": 132
+  },
+  {
+    "commitId": "98e5bcd3508fb859cfd534e0562e68b79a647a9a",
+    "commitName": "refactor(api): usar manejarErrores en la ruta del detalle",
+    "commitTimestamp": 1794884344288,
+    "testId": 133
+  },
+  {
+    "commitId": "d1db0ee014738300fc7e57f952cd34c048ca66f6",
+    "commitName": "refactor(api): usar manejarErrores en la ruta de barrios",
+    "commitTimestamp": 1794884351558,
+    "testId": 134
+  },
+  {
+    "commitId": "cb0caaaf8f42f0c28b3785d20940087609d79902",
+    "commitName": "chore: eliminar holaMundo del template que no se usa en la app",
+    "commitTimestamp": 1794884686291,
+    "testId": 135
+  },
+  {
+    "commitId": "8b820f4bd4a87e02fcd098fd17243b7c5a922ae5",
+    "commitName": "merge: resolver conflictos de logs con main",
+    "commitTimestamp": 1794885588575,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794885911201,
+    "success": false,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794885914825,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "5c803c539dec40c6e98f38b46b3f7b7501b1ea46",
+    "commitName": "feat(filtros): dar la clase campo-filtro a los campos de busqueda y filtro",
+    "commitTimestamp": 1794885917488,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 1,
+    "numTotalTests": 76,
+    "timestamp": 1794885923633,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885927154,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "f0f3fb8ed47314e18770adef23f6da40d1ff7aba",
+    "commitName": "feat(filtros): dar la clase etiqueta-filtro a las etiquetas de los filtros",
+    "commitTimestamp": 1794885927712,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885939518,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(filtros): usar la clase campo-filtro en lugar de la lista de ids",
+    "commitTimestamp": 1794885940066,
+    "testId": 139
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885945857,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(filtros): usar campo-filtro en el foco de los campos",
+    "commitTimestamp": 1794885946278,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885951986,
+    "success": true,
+    "testId": 141
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(filtros): usar la clase etiqueta-filtro en las etiquetas",
+    "commitTimestamp": 1794885952395,
+    "testId": 141
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885960666,
+    "success": true,
+    "testId": 142
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el color del borde a la variable --borde",
+    "commitTimestamp": 1794885961258,
+    "testId": 142
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885968684,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
+    "commitTimestamp": 1794885969082,
+    "testId": 143
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794885978713,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(estilos): pasar el fondo del aviso a la variable --aviso-fondo",
+    "commitTimestamp": 1794885979112,
+    "testId": 144
   }
 ]
