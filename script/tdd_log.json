@@ -4248,7 +4248,7 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb",
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
@@ -4660,5 +4660,27 @@
     "commitName": "feat(HU03): mostrar Activa como estado de mi publicacion",
     "commitTimestamp": 1795039966371,
     "testId": 194
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 1,
+    "numTotalTests": 194,
+    "timestamp": 1795039975191,
+    "success": false,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040285437,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
+    "commitTimestamp": 1795040288376,
+    "testId": 195
   }
 ]

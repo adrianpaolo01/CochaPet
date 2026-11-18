@@ -4465,12 +4465,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:30.000Z",
       "message": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb"
     },
     "stats": {
       "total": 10,
@@ -4860,6 +4860,25 @@
     },
     "coverage": 100,
     "test_count": 193,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:18:07.000Z",
+      "message": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 194,
     "failed_tests": 0,
     "conclusion": "success"
   }
