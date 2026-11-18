@@ -4883,12 +4883,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dd8382f6fd74d43854a52531d3189d91ea7ba3e1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:59:56.000Z",
       "message": "feat(HU04): volver al inicio tras iniciar sesion si no hay ruta de regreso",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dd8382f6fd74d43854a52531d3189d91ea7ba3e1"
     },
     "stats": {
       "total": 6,
@@ -5217,6 +5217,25 @@
       "total": 8,
       "additions": 6,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 209,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:05:39.000Z",
+      "message": "style(HU04): estilos de los botones grandes para reportar en el inicio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

@@ -4716,7 +4716,7 @@
     "testId": 196
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dd8382f6fd74d43854a52531d3189d91ea7ba3e1",
     "commitName": "feat(HU04): volver al inicio tras iniciar sesion si no hay ruta de regreso",
     "commitTimestamp": 1795035596307,
     "testId": 196
@@ -5086,5 +5086,19 @@
     "commitName": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
     "commitTimestamp": 1795035929262,
     "testId": 213
+  },
+  {
+    "numPassedTests": 209,
+    "failedTests": 0,
+    "numTotalTests": 209,
+    "timestamp": 1795035939041,
+    "success": true,
+    "testId": 214
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU04): estilos de los botones grandes para reportar en el inicio",
+    "commitTimestamp": 1795035940075,
+    "testId": 214
   }
 ]
