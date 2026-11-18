@@ -4674,12 +4674,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:32.000Z",
       "message": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3"
     },
     "stats": {
       "total": 42,
@@ -6224,6 +6224,25 @@
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:56.000Z",
+      "message": "feat(HU05): identificar el titulo y el subtitulo del formulario de reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
       "date": "2026-11-18"
     },
     "coverage": 100,

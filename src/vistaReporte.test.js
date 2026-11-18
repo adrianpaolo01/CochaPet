@@ -1,8 +1,9 @@
 import { htmlVistaReporte } from "./vistaReporte.js";
 
 describe("Vista reporte", () => {
-  it("deberia mostrar el titulo del reporte de mascota perdida", () => {
-    expect(htmlVistaReporte()).toContain("<h1>Perdí mi mascota</h1>");
+  it("deberia tener un titulo y un subtitulo que cambian segun el tipo de reporte", () => {
+    expect(htmlVistaReporte()).toContain('<h1 id="reporte-titulo">Perdí mi mascota</h1>');
+    expect(htmlVistaReporte()).toContain('<p id="reporte-subtitulo" class="subtitulo">');
   });
 
   it("deberia tener un aviso oculto para iniciar sesion o registrarse y volver al formulario", () => {
