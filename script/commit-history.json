@@ -4142,12 +4142,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad4b8e65e0c946793fe8970ee5e16ef03ff93c54",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:04:25.000Z",
       "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ad4b8e65e0c946793fe8970ee5e16ef03ff93c54"
     },
     "stats": {
       "total": 36,
@@ -5753,6 +5753,25 @@
     },
     "coverage": 100,
     "test_count": 234,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:10:54.000Z",
+      "message": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 237,
     "failed_tests": 0,
     "conclusion": "success"
   }
