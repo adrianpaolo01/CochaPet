@@ -3082,7 +3082,7 @@
     "testId": 153
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8557a4b1c13efffad91ff2bd96c917af6b0de633",
     "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
     "commitTimestamp": 1794973497749,
     "testId": 153
@@ -3180,5 +3180,27 @@
     "commitName": "test(HU32): rechazar una clave que no coincide con el hash",
     "commitTimestamp": 1795024016355,
     "testId": 158
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 7,
+    "numTotalTests": 102,
+    "timestamp": 1795024037902,
+    "success": false,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 0,
+    "numTotalTests": 102,
+    "timestamp": 1795024354890,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
+    "commitTimestamp": 1795024364854,
+    "testId": 159
   }
 ]

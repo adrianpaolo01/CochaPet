@@ -15,4 +15,11 @@ describe("Claves", () => {
   it("deberia rechazar una clave que no coincide con el hash guardado", () => {
     expect(verificarClave("otraClave", hashDe("prueba123"))).toBe(false);
   });
+
+  it.each([undefined, null, "", "sinSeparador", `${SAL}:`, `${SAL}:zzzz`, `${SAL}:abcd`])(
+    "deberia rechazar sin fallar el hash mal formado %p",
+    (hashGuardado) => {
+      expect(verificarClave("prueba123", hashGuardado)).toBe(false);
+    }
+  );
 });
