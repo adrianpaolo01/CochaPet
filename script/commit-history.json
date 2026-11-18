@@ -3496,12 +3496,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94a2d750d9640a95c5add4c8c26487220d4a9433",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:51:59.000Z",
       "message": "feat(HU32): crear un token de sesion y guardar solo su hash",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/94a2d750d9640a95c5add4c8c26487220d4a9433"
     },
     "stats": {
       "total": 15,
@@ -3606,6 +3606,25 @@
     },
     "coverage": 100,
     "test_count": 122,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:26:58.000Z",
+      "message": "feat(HU32): leer el valor de una cookie por su nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 123,
     "failed_tests": 0,
     "conclusion": "success"
   }

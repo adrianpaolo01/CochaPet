@@ -3374,7 +3374,7 @@
     "testId": 167
   },
   {
-    "commitId": "HEAD",
+    "commitId": "94a2d750d9640a95c5add4c8c26487220d4a9433",
     "commitName": "feat(HU32): crear un token de sesion y guardar solo su hash",
     "commitTimestamp": 1795027921262,
     "testId": 167
@@ -3488,5 +3488,27 @@
     "commitName": "feat(HU32): no consultar la base si falta el token de sesion",
     "commitTimestamp": 1795029668935,
     "testId": 172
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 1,
+    "numTotalTests": 123,
+    "timestamp": 1795029698410,
+    "success": false,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 0,
+    "numTotalTests": 123,
+    "timestamp": 1795030014022,
+    "success": true,
+    "testId": 173
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): leer el valor de una cookie por su nombre",
+    "commitTimestamp": 1795030019549,
+    "testId": 173
   }
 ]
