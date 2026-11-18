@@ -5,6 +5,7 @@ describe("Rutas", () => {
     ["#/ingresar", "login"],
     ["#/perfil", "perfil"],
     ["#/reportar/perdida", "reporte"],
+    ["#/reportar/encontrada", "reporte"],
     ["#/ingresar?volver=/reportar/perdida", "login"],
     ["#/mascota/3", "detalle"],
     ["", "lista"],
