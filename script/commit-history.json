@@ -5187,12 +5187,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d01c5872ddabda7c7e28facc422e34809876db34",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:05:11.000Z",
       "message": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d01c5872ddabda7c7e28facc422e34809876db34"
     },
     "stats": {
       "total": 9,
@@ -5521,6 +5521,25 @@
       "total": 14,
       "additions": 13,
       "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:09:32.000Z",
+      "message": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
       "date": "2026-11-18"
     },
     "coverage": 100,

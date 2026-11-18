@@ -1,4 +1,4 @@
-import { leerBorrador, validarReporte } from "./reporte.js";
+import { fechaDelDia, leerBorrador, validarReporte } from "./reporte.js";
 import { vistaParaHash } from "./rutas.js";
 import { htmlVistaReporte } from "./vistaReporte.js";
 
@@ -14,9 +14,18 @@ function mostrarError(texto) {
   mensaje.hidden = !texto;
 }
 
-function publicar(evento) {
+async function publicar(evento) {
   evento.preventDefault();
-  mostrarError(validarReporte(Object.fromEntries(new FormData(formulario))));
+  const datos = Object.fromEntries(new FormData(formulario));
+  mostrarError(validarReporte(datos));
+  if (!mensaje.hidden) return;
+  try {
+    const cuerpo = JSON.stringify({ ...datos, fecha: fechaDelDia(datos.fecha) });
+    const respuesta = await fetch("/api/publicaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: cuerpo });
+    if (!respuesta.ok) return mostrarError((await respuesta.json()).error);
+  } catch {
+    mostrarError("No se pudo publicar el reporte. Intenta nuevamente más tarde.");
+  }
 }
 
 async function mostrarAvisoSesion() {

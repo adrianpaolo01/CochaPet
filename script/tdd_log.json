@@ -5060,7 +5060,7 @@
     "testId": 212
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d01c5872ddabda7c7e28facc422e34809876db34",
     "commitName": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
     "commitTimestamp": 1795035911888,
     "testId": 212
@@ -5374,5 +5374,19 @@
     "commitName": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
     "commitTimestamp": 1795036157384,
     "testId": 229
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036171219,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
+    "commitTimestamp": 1795036172286,
+    "testId": 230
   }
 ]
