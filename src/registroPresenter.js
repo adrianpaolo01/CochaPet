@@ -40,3 +40,6 @@ formulario.addEventListener("submit", async (evento) => {
     mostrarError("No se pudo crear la cuenta. Intenta nuevamente más tarde.");
   }
 });
+
+const usuarioGuardado = localStorage.getItem("usuario");
+if (usuarioGuardado) iniciarSesion(JSON.parse(usuarioGuardado));

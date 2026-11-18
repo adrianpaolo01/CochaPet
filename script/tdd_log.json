@@ -3426,7 +3426,7 @@
     "testId": 169
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc8d8e3548a0bc3889c6ca47f12e6b4fddaa08ad",
     "commitName": "feat(HU01): guardar el usuario registrado en la base de datos",
     "commitTimestamp": 1795033812764,
     "testId": 169
@@ -3508,5 +3508,19 @@
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1795033867659,
+    "success": true,
+    "testId": 175
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
+    "commitTimestamp": 1795033868169,
+    "testId": 175
   }
 ]

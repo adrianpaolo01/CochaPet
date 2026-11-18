@@ -3534,12 +3534,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc8d8e3548a0bc3889c6ca47f12e6b4fddaa08ad",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:12.000Z",
       "message": "feat(HU01): guardar el usuario registrado en la base de datos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cc8d8e3548a0bc3889c6ca47f12e6b4fddaa08ad"
     },
     "stats": {
       "total": 16,
@@ -3640,6 +3640,25 @@
       "total": 25,
       "additions": 22,
       "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:31:08.000Z",
+      "message": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,
