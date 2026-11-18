@@ -3016,7 +3016,7 @@
     "testId": 150
   },
   {
-    "commitId": "HEAD",
+    "commitId": "51b79c982faa1226180c79155e03d6359ed27776",
     "commitName": "fix(busqueda): no fallar si el texto buscado no esta definido",
     "commitTimestamp": 1794891793361,
     "testId": 150
@@ -3130,5 +3130,19 @@
     "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
     "commitTimestamp": 1794974136700,
     "testId": 155
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794974155319,
+    "success": true,
+    "testId": 156
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
+    "commitTimestamp": 1794974157326,
+    "testId": 156
   }
 ]
