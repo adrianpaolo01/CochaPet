@@ -8,5 +8,6 @@ export async function iniciarSesion(repositorio, { correo, clave }) {
   if (!correoLimpio || typeof clave !== "string" || clave === "") return FALTAN_DATOS;
   const usuario = await repositorio.buscarUsuarioPorCorreo(correoLimpio);
   if (!usuario || !verificarClave(clave, usuario.claveHash)) return CREDENCIALES_INCORRECTAS;
-  return { ok: true };
+  const { id, nombre, telefono, rol } = usuario;
+  return { ok: true, usuario: { id, nombre, correo: usuario.correo, telefono, rol } };
 }

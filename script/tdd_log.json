@@ -3198,7 +3198,7 @@
     "testId": 159
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9fe2614e69e02f5680ac65cab6331d99fccfabd5",
     "commitName": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
     "commitTimestamp": 1795024364854,
     "testId": 159
@@ -3312,5 +3312,27 @@
     "commitName": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
     "commitTimestamp": 1795026241946,
     "testId": 164
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 1,
+    "numTotalTests": 112,
+    "timestamp": 1795026268561,
+    "success": false,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 112,
+    "failedTests": 0,
+    "numTotalTests": 112,
+    "timestamp": 1795027186050,
+    "success": true,
+    "testId": 165
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
+    "commitTimestamp": 1795027200436,
+    "testId": 165
   }
 ]

@@ -12,6 +12,11 @@ describe("Autenticacion servicio", () => {
     expect(resultado.ok).toBe(true);
   });
 
+  it("deberia devolver solo los datos publicos del usuario sin la clave guardada", async () => {
+    const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "prueba123" });
+    expect(resultado.usuario).toEqual({ id: 1, nombre: "Usuario de Prueba", correo: "prueba@cochapet.bo", telefono: "70000001", rol: "USUARIO" });
+  });
+
   it("deberia rechazar una clave incorrecta con un mensaje general", async () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "equivocada" });
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });

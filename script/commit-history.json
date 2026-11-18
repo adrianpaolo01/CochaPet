@@ -3344,12 +3344,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9fe2614e69e02f5680ac65cab6331d99fccfabd5",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T17:52:43.000Z",
       "message": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9fe2614e69e02f5680ac65cab6331d99fccfabd5"
     },
     "stats": {
       "total": 14,
@@ -3454,6 +3454,25 @@
     },
     "coverage": 100,
     "test_count": 111,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:39:59.000Z",
+      "message": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 112,
     "failed_tests": 0,
     "conclusion": "success"
   }
