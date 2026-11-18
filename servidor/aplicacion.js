@@ -75,7 +75,9 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
     }
     if (req.method === "POST" && ruta === "/api/usuarios") {
       return manejarErrores(res, "No se pudo crear la cuenta", async () => {
-        const { usuario, error } = await registrarUsuario(autenticacionRepositorio, await leerCuerpo(req));
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const { usuario, error } = await registrarUsuario(autenticacionRepositorio, entrada.datos);
         if (error) return responderJson(res, 400, { error });
         const { token, expiraEn } = await abrirSesion(autenticacionRepositorio, usuario);
         const seguro = req.headers?.["x-forwarded-proto"] === "https";
@@ -84,11 +86,4 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
     }
     responderJson(res, 404, { error: "No encontrado" });
   };
-}
-
-export async function leerCuerpo(req) {
-  if (req.body) return req.body;
-  const partes = [];
-  for await (const parte of req) partes.push(parte);
-  return JSON.parse(Buffer.concat(partes).toString());
 }

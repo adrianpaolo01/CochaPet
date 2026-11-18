@@ -1,4 +1,9 @@
-import { crearManejador, leerCuerpo, manejarErrores } from "./aplicacion.js";
+import { Readable } from "node:stream";
+import { crearManejador, manejarErrores } from "./aplicacion.js";
+
+function peticionRegistro(datos) {
+  return Object.assign(Readable.from([JSON.stringify(datos)]), { method: "POST", url: "/api/usuarios" });
+}
 
 function crearRespuesta() {
   return { writeHead: jest.fn(), end: jest.fn() };
@@ -113,21 +118,12 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar los barrios" });
   });
 
-  it("leerCuerpo usa el cuerpo ya leido por Vercel", async () => {
-    expect(await leerCuerpo({ body: { correo: "ana@correo.com" } })).toEqual({ correo: "ana@correo.com" });
-  });
-
-  it("leerCuerpo lee el JSON que llega por partes en el servidor local", async () => {
-    const req = (async function* () { yield Buffer.from('{"correo":'); yield Buffer.from('"ana@correo.com"}'); })();
-    expect(await leerCuerpo(req)).toEqual({ correo: "ana@correo.com" });
-  });
-
   it("registra un usuario y responde 201 con la cuenta creada", async () => {
     const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
     const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }), crearSesion: async () => {} };
     const respuesta = crearRespuesta();
 
-    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+    await crearManejador({}, {}, usuariosRepositorio)(peticionRegistro(datos), respuesta);
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(201);
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ id: 5, nombre: "Ana", correo: "ana@correo.com", telefono: "71234567" });
@@ -138,7 +134,7 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
     const respuesta = crearRespuesta();
 
-    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+    await crearManejador({}, {}, usuariosRepositorio)(peticionRegistro(datos), respuesta);
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(400);
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "Ese correo ya está registrado" });
@@ -149,9 +145,18 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5 }), crearSesion: jest.fn(async () => {}) };
     const respuesta = crearRespuesta();
 
-    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+    await crearManejador({}, {}, usuariosRepositorio)(peticionRegistro(datos), respuesta);
 
     expect(usuariosRepositorio.crearSesion).toHaveBeenCalledWith(expect.objectContaining({ usuarioId: 5 }));
     expect(respuesta.writeHead.mock.calls[0][1]["Set-Cookie"]).toMatch(/^sesion=\w+; HttpOnly/);
+  });
+
+  it("responde 400 si el registro no trae un JSON valido", async () => {
+    const peticion = Object.assign(Readable.from(["no es json"]), { method: "POST", url: "/api/usuarios" });
+    const respuesta = crearRespuesta();
+
+    await crearManejador({}, {}, {})(peticion, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(400);
   });
 });

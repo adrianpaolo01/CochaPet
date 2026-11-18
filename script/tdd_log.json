@@ -2882,7 +2882,7 @@
     "testId": 144
   },
   {
-    "commitId": "HEAD",
+    "commitId": "22669785373cae4f7e83d323f620318a6ae7b281",
     "commitName": "style(estilos): pasar el fondo del aviso a la variable --aviso-fondo",
     "commitTimestamp": 1794885979112,
     "testId": 144
@@ -4390,5 +4390,27 @@
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 1,
+    "numTotalTests": 188,
+    "timestamp": 1795034358383,
+    "success": false,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795034367823,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
+    "commitTimestamp": 1795034372216,
+    "testId": 182
   }
 ]
