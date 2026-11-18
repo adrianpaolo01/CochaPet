@@ -3553,12 +3553,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1af9ad03e83c469c5adf10852e5600ab72c9bf88",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:20.000Z",
       "message": "feat(HU01): conectar la ruta de registro en el servidor local y en Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1af9ad03e83c469c5adf10852e5600ab72c9bf88"
     },
     "stats": {
       "total": 7,
@@ -3659,6 +3659,25 @@
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:31:16.000Z",
+      "message": "style(HU01): estilos del encabezado y del formulario de registro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,
