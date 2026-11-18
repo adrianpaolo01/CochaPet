@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab0bbcb747c481754c4118a4ca20e26628542838",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -4764,5 +4764,35 @@
     "commitName": "feat(HU04): rechazar el reporte si el barrio no es de Cochabamba",
     "commitTimestamp": 1795035625569,
     "testId": 198
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035637554,
+    "success": false,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035644074,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 0,
+    "numTotalTests": 201,
+    "timestamp": 1795035652958,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU04): compartir los datos de prueba del reporte en el servicio",
+    "commitTimestamp": 1795035654153,
+    "testId": 199
   }
 ]

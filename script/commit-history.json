@@ -4598,12 +4598,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab0bbcb747c481754c4118a4ca20e26628542838",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:09.000Z",
       "message": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ab0bbcb747c481754c4118a4ca20e26628542838"
     },
     "stats": {
       "total": 21,
@@ -4932,6 +4932,25 @@
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 201,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:00:54.000Z",
+      "message": "refactor(HU04): compartir los datos de prueba del reporte en el servicio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
       "date": "2026-11-18"
     },
     "coverage": 100,

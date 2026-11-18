@@ -1,6 +1,9 @@
 import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
+  const reporte = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
+  const barrios = { listar: async () => [{ id: 1, nombre: "Cala Cala" }] };
+
   it("deberia devolver solo las publicaciones activas", async () => {
     const repositorio = {
       listar: async () => [
@@ -44,9 +47,9 @@ describe("Publicaciones servicio", () => {
   });
 
   it("deberia rechazar un barrio que no es de Cochabamba", async () => {
-    const barrios = { listar: async () => [{ id: 1, nombre: "Cala Cala" }] };
-    const datos = { especie: "PERRO", barrio: "Miraflores", fecha: "2026-11-17", descripcion: "Collar rojo" };
+    const datos = { ...reporte, barrio: "Miraflores" };
 
     expect(await reportarPerdida({ barrios }, { id: 7 }, datos)).toEqual({ error: "Elige un barrio de Cochabamba" });
   });
+
 });
