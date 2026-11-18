@@ -54,9 +54,14 @@ export function idDesdeHash(hash) {
   return coincidencia ? Number(coincidencia[1]) : null;
 }
 
-export function enlaceWhatsApp(publicacion) {
+function mensajeWhatsApp(publicacion) {
+  if (publicacion.tipo === "ENCONTRADA") return "Hola, creo que la mascota que encontraste es mía, la vi en CochaPet.";
   const nombreMascota = publicacion.nombre ?? `tu ${publicacion.especie.toLowerCase()}`;
-  const mensaje = `Hola, creo que encontré a ${nombreMascota}, la mascota que publicaste en CochaPet.`;
+  return `Hola, creo que encontré a ${nombreMascota}, la mascota que publicaste en CochaPet.`;
+}
+
+export function enlaceWhatsApp(publicacion) {
+  const mensaje = mensajeWhatsApp(publicacion);
   return `https://wa.me/${PREFIJO_BOLIVIA}${publicacion.telefono}?text=${encodeURIComponent(mensaje)}`;
 }
 

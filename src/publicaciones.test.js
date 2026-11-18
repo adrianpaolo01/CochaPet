@@ -57,6 +57,11 @@ describe("Publicaciones", () => {
     expect(enlaceWhatsApp({ telefono: "70000001", nombre: null, especie: "PERRO" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
   });
 
+  it("deberia escribir como dueño en el WhatsApp de una mascota encontrada", () => {
+    const mensaje = encodeURIComponent("Hola, creo que la mascota que encontraste es mía, la vi en CochaPet.");
+    expect(enlaceWhatsApp({ telefono: "70000001", nombre: "Luna", especie: "GATO", tipo: "ENCONTRADA" })).toEqual(`https://wa.me/59170000001?text=${mensaje}`);
+  });
+
   it("deberia armar el enlace de llamada con el telefono de la publicacion", () => {
     expect(enlaceLlamada({ telefono: "70000001" })).toEqual("tel:+59170000001");
   });
