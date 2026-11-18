@@ -3368,7 +3368,7 @@
     "testId": 166
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f3853235b1667569684369657e4c0c612d36d8b6",
     "commitName": "feat(HU01): leer el cuerpo JSON de la peticion en el servidor local",
     "commitTimestamp": 1795033778777,
     "testId": 166
@@ -3466,5 +3466,19 @@
     "commitName": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
     "commitTimestamp": 1795033830492,
     "testId": 171
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1795033846115,
+    "success": true,
+    "testId": 172
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
+    "commitTimestamp": 1795033846722,
+    "testId": 172
   }
 ]
