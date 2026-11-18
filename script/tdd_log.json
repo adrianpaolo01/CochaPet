@@ -2950,7 +2950,7 @@
     "testId": 147
   },
   {
-    "commitId": "HEAD",
+    "commitId": "109b94e4e80b90058acd0afc996c8b6a1eb830ff",
     "commitName": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
     "commitTimestamp": 1794891262588,
     "testId": 147
@@ -3056,5 +3056,35 @@
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794973175118,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 1,
+    "numTotalTests": 91,
+    "timestamp": 1794973188089,
+    "success": false,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794973495579,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
+    "commitTimestamp": 1794973497749,
+    "testId": 153
   }
 ]

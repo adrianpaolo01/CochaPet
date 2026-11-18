@@ -1,4 +1,4 @@
-import { enlaceLlamada, enlaceWhatsApp, etiquetaEstado, formatearFecha, fotoPrincipal, idDesdeHash, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
+import { enlaceLlamada, enlaceWhatsApp, etiquetaEstado, formatearFecha, fotoPrincipal, idDesdeHash, mensajeDetalle, mensajeInicio, ordenarParaInicio, tituloPublicacion } from "./publicaciones.js";
 
 describe("Publicaciones", () => {
   it("deberia usar el nombre de la mascota como titulo", () => {
@@ -63,5 +63,9 @@ describe("Publicaciones", () => {
 
   it.each(["", "#/", "#/mascota/", "#/mascota/abc", "#/otra/3"])("deberia dar null si el hash %p no es de una mascota", (hash) => {
     expect(idDesdeHash(hash)).toBeNull();
+  });
+
+  it("deberia avisar que la publicacion no existe si la respuesta falla", () => {
+    expect(mensajeDetalle({ ok: false })).toEqual("Esta publicación no existe o ya no está disponible");
   });
 });
