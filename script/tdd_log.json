@@ -3462,7 +3462,7 @@
     "testId": 171
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7",
     "commitName": "feat(HU32): no dar usuario si la sesion no existe",
     "commitTimestamp": 1795029321133,
     "testId": 171
@@ -3576,5 +3576,27 @@
     "commitName": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
     "commitTimestamp": 1795031060105,
     "testId": 176
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 1,
+    "numTotalTests": 130,
+    "timestamp": 1795031081254,
+    "success": false,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 0,
+    "numTotalTests": 130,
+    "timestamp": 1795031399224,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
+    "commitTimestamp": 1795031404900,
+    "testId": 177
   }
 ]

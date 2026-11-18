@@ -1,6 +1,6 @@
-export function cookieDeSesion(token, expiraEn, { ahora = new Date() } = {}) {
+export function cookieDeSesion(token, expiraEn, { ahora = new Date(), seguro = false } = {}) {
   const segundos = Math.floor((expiraEn - ahora) / 1000);
-  return `sesion=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${segundos}`;
+  return `sesion=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${segundos}${seguro ? "; Secure" : ""}`;
 }
 
 export function leerCookie(cabecera, nombre) {

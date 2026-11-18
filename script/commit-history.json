@@ -3572,12 +3572,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:15:19.000Z",
       "message": "feat(HU32): no dar usuario si la sesion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7"
     },
     "stats": {
       "total": 7,
@@ -3682,6 +3682,25 @@
     },
     "coverage": 100,
     "test_count": 129,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:50:03.000Z",
+      "message": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 130,
     "failed_tests": 0,
     "conclusion": "success"
   }
