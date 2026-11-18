@@ -8,7 +8,7 @@ describe("Vista reporte", () => {
 
   it("deberia tener un aviso oculto para iniciar sesion o registrarse y volver al formulario", () => {
     expect(htmlVistaReporte()).toMatch(/<p id="reporte-aviso-sesion"[^>]*hidden>/);
-    expect(htmlVistaReporte()).toContain('<a href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>');
+    expect(htmlVistaReporte()).toContain('<a id="reporte-ingresar" href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>');
     expect(htmlVistaReporte()).toContain('<button type="button" id="reporte-registrarse" class="enlace-boton">regístrate</button>');
   });
 
@@ -26,7 +26,7 @@ describe("Vista reporte", () => {
   });
 
   it("deberia pedir la fecha en que se perdio con un selector de fecha", () => {
-    expect(htmlVistaReporte()).toContain('<label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />');
+    expect(htmlVistaReporte()).toContain('<label id="reporte-pregunta-fecha" for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />');
   });
 
   it("deberia pedir el barrio con una lista que se llena desde la API", () => {

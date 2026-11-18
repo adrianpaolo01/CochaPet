@@ -4488,7 +4488,7 @@
     "testId": 186
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
     "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
     "commitTimestamp": 1794977032184,
     "testId": 186
@@ -6154,5 +6154,27 @@
     "commitName": "feat(HU05): identificar el titulo y el subtitulo del formulario de reporte",
     "commitTimestamp": 1795044357118,
     "testId": 263
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 2,
+    "numTotalTests": 253,
+    "timestamp": 1795044366257,
+    "success": false,
+    "testId": 264
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044373920,
+    "success": true,
+    "testId": 264
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
+    "commitTimestamp": 1795044375129,
+    "testId": 264
   }
 ]

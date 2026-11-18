@@ -5,7 +5,7 @@ export function htmlVistaReporte() {
       <h1 id="reporte-titulo">Perdí mi mascota</h1>
       <p id="reporte-subtitulo" class="subtitulo">Cuéntanos cómo es y dónde se perdió para que otras personas te ayuden a encontrarla.</p>
       <p id="reporte-aviso-sesion" class="aviso-sesion" hidden>
-        Para publicar necesitas una cuenta: <a href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>
+        Para publicar necesitas una cuenta: <a id="reporte-ingresar" href="#/ingresar?volver=/reportar/perdida">inicia sesión</a>
         o <button type="button" id="reporte-registrarse" class="enlace-boton">regístrate</button>. Lo que escribas no se pierde.
       </p>
       <form id="formulario-reporte" novalidate>
@@ -16,7 +16,7 @@ export function htmlVistaReporte() {
         <label for="reporte-nombre">Nombre (opcional)</label><input id="reporte-nombre" name="nombre" />
         <label for="reporte-raza">Raza (opcional)</label><input id="reporte-raza" name="raza" />
         <label for="reporte-color">Color (opcional)</label><input id="reporte-color" name="color" />
-        <label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />
+        <label id="reporte-pregunta-fecha" for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />
         <label for="reporte-barrio">Barrio de Cochabamba</label>
         <select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>
         <label for="reporte-descripcion">Descripción</label>

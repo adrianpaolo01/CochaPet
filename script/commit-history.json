@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:49.000Z",
       "message": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6c275647949c7ef9d4eb33ac07ba519b29d41cc6"
     },
     "stats": {
       "total": 20,
@@ -6242,6 +6242,25 @@
     "stats": {
       "total": 9,
       "additions": 5,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:26:15.000Z",
+      "message": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
       "deletions": 4,
       "date": "2026-11-18"
     },
