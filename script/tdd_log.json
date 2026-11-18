@@ -5096,7 +5096,7 @@
     "testId": 214
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8",
     "commitName": "style(HU04): estilos de los botones grandes para reportar en el inicio",
     "commitTimestamp": 1795035940075,
     "testId": 214
@@ -5402,5 +5402,19 @@
     "commitName": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
     "commitTimestamp": 1795036184222,
     "testId": 231
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036192379,
+    "success": true,
+    "testId": 232
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
+    "commitTimestamp": 1795036193486,
+    "testId": 232
   }
 ]

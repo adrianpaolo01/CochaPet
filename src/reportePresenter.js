@@ -17,8 +17,9 @@ function mostrarError(texto) {
 async function publicar(evento) {
   evento.preventDefault();
   const datos = Object.fromEntries(new FormData(formulario));
-  mostrarError(validarReporte(datos));
-  if (!mensaje.hidden) return;
+  const error = validarReporte(datos);
+  mostrarError(error);
+  if (error) return;
   try {
     const cuerpo = JSON.stringify({ ...datos, fecha: fechaDelDia(datos.fecha) });
     const respuesta = await fetch("/api/publicaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: cuerpo });

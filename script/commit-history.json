@@ -5225,12 +5225,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:05:39.000Z",
       "message": "style(HU04): estilos de los botones grandes para reportar en el inicio",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8"
     },
     "stats": {
       "total": 3,
@@ -5559,6 +5559,25 @@
       "total": 4,
       "additions": 4,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:09:53.000Z",
+      "message": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
       "date": "2026-11-18"
     },
     "coverage": 100,
