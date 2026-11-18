@@ -2840,7 +2840,7 @@
     "testId": 141
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4926549234d4d181025b8daf0d712893a6ff25d5",
     "commitName": "style(filtros): usar la clase etiqueta-filtro en las etiquetas",
     "commitTimestamp": 1794885952395,
     "testId": 141
@@ -4316,5 +4316,35 @@
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
+  },
+  {
+    "numPassedTests": 184,
+    "failedTests": 1,
+    "numTotalTests": 185,
+    "timestamp": 1795034289180,
+    "success": false,
+    "testId": 179
+  },
+  {
+    "numPassedTests": 183,
+    "failedTests": 2,
+    "numTotalTests": 185,
+    "timestamp": 1795034297996,
+    "success": false,
+    "testId": 179
+  },
+  {
+    "numPassedTests": 185,
+    "failedTests": 0,
+    "numTotalTests": 185,
+    "timestamp": 1795034307134,
+    "success": true,
+    "testId": 179
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
+    "commitTimestamp": 1795034308224,
+    "testId": 179
   }
 ]

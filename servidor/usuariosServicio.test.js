@@ -1,3 +1,4 @@
+import { verificarClave } from "./claves.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
 const datos = { nombre: "Ana Perez", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
@@ -8,12 +9,12 @@ describe("Usuarios servicio", () => {
 
     const resultado = await registrarUsuario(repositorio, datos);
 
-    expect(repositorio.crear).toHaveBeenCalledWith(datos);
+    expect(repositorio.crear).toHaveBeenCalledWith(expect.objectContaining({ nombre: "Ana Perez", correo: "ana@correo.com", telefono: "71234567" }));
     expect(resultado.usuario.id).toEqual(1);
   });
 
   it("deberia devolver el usuario creado sin la contrasena", async () => {
-    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 1, ...datos }) };
+    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async (guardado) => ({ id: 1, ...guardado }) };
 
     const { usuario } = await registrarUsuario(repositorio, datos);
 
@@ -36,5 +37,15 @@ describe("Usuarios servicio", () => {
 
     expect(resultado).toEqual({ error: "La contraseña debe tener al menos 8 caracteres" });
     expect(repositorio.crear).not.toHaveBeenCalled();
+  });
+
+  it("deberia guardar la contrasena como hash y no en texto plano", async () => {
+    const repositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: jest.fn(async () => ({ id: 1 })) };
+
+    await registrarUsuario(repositorio, datos);
+
+    const guardado = repositorio.crear.mock.calls[0][0];
+    expect(guardado.clave).toBeUndefined();
+    expect(verificarClave("secreta123", guardado.claveHash)).toBe(true);
   });
 });
