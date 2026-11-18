@@ -3052,7 +3052,7 @@
     "testId": 152
   },
   {
-    "commitId": "HEAD",
+    "commitId": "29a55535dc9af33e412f445b0bfad55cc23d8da5",
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
@@ -3182,5 +3182,19 @@
     "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
     "commitTimestamp": 1794977016735,
     "testId": 157
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977030041,
+    "success": true,
+    "testId": 158
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
+    "commitTimestamp": 1794977032184,
+    "testId": 158
   }
 ]
