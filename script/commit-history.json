@@ -5339,12 +5339,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7c3017c796fbe8b759c6cf404d535415db54d918",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:06:33.000Z",
       "message": "feat(HU04): pedir la especie en el formulario de mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7c3017c796fbe8b759c6cf404d535415db54d918"
     },
     "stats": {
       "total": 11,
@@ -6280,6 +6280,25 @@
     "stats": {
       "total": 12,
       "additions": 10,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:26:57.000Z",
+      "message": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
       "deletions": 2,
       "date": "2026-11-18"
     },

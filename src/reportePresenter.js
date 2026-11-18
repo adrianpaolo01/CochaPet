@@ -69,8 +69,9 @@ function pintarTipoDeReporte() {
 
 function mostrarVista() {
   vistaReporte.hidden = vistaParaHash(location.hash) !== "reporte";
-  if (!vistaReporte.hidden) pintarTipoDeReporte();
-  if (!vistaReporte.hidden) mostrarAvisoSesion();
+  if (vistaReporte.hidden) return;
+  pintarTipoDeReporte();
+  mostrarAvisoSesion();
 }
 
 window.addEventListener("hashchange", mostrarVista);

@@ -4524,7 +4524,7 @@
     "testId": 188
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c3017c796fbe8b759c6cf404d535415db54d918",
     "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
     "commitTimestamp": 1795037033419,
     "testId": 188
@@ -6198,5 +6198,19 @@
     "commitName": "feat(HU05): mostrar el titulo, el subtitulo y la pregunta de fecha segun el tipo de reporte",
     "commitTimestamp": 1795044403504,
     "testId": 265
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044415014,
+    "success": true,
+    "testId": 266
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
+    "commitTimestamp": 1795044417469,
+    "testId": 266
   }
 ]
