@@ -4085,12 +4085,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e8df70df9ced6cbfec2e73dfa02dd89647845e6",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:04:25.000Z",
       "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9e8df70df9ced6cbfec2e73dfa02dd89647845e6"
     },
     "stats": {
       "total": 36,
@@ -4689,6 +4689,25 @@
     },
     "coverage": 100,
     "test_count": 187,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:57:35.000Z",
+      "message": "feat(HU04): pedir el barrio donde se perdio la mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 188,
     "failed_tests": 0,
     "conclusion": "success"
   }

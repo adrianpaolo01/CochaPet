@@ -6,4 +6,8 @@ describe("Reporte", () => {
   it("deberia pedir la especie si no es perro, gato u otro", () => {
     expect(validarReporte({ ...datosValidos, especie: "" })).toBe("Elige la especie de tu mascota");
   });
+
+  it("deberia pedir el barrio donde se perdio", () => {
+    expect(validarReporte({ ...datosValidos, barrio: " " })).toBe("Elige el barrio donde se perdió");
+  });
 });

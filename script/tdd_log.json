@@ -3840,7 +3840,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e8df70df9ced6cbfec2e73dfa02dd89647845e6",
     "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
     "commitTimestamp": 1795032266678,
     "testId": 180
@@ -4470,5 +4470,35 @@
     "commitName": "feat(HU04): pedir la especie al reportar una mascota perdida",
     "commitTimestamp": 1795035431291,
     "testId": 185
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 0,
+    "numTotalTests": 187,
+    "timestamp": 1795035440019,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 1,
+    "numTotalTests": 188,
+    "timestamp": 1795035448328,
+    "success": false,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795035454897,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir el barrio donde se perdio la mascota",
+    "commitTimestamp": 1795035456011,
+    "testId": 186
   }
 ]
