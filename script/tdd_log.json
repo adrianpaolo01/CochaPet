@@ -4974,7 +4974,7 @@
     "testId": 207
   },
   {
-    "commitId": "HEAD",
+    "commitId": "470bf2c0bfd563dc8d18412cd39b33ab1a204f64",
     "commitName": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
     "commitTimestamp": 1795035834572,
     "testId": 207
@@ -5304,5 +5304,19 @@
     "commitName": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036096610,
     "testId": 224
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036111344,
+    "success": true,
+    "testId": 225
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
+    "commitTimestamp": 1795036112440,
+    "testId": 225
   }
 ]

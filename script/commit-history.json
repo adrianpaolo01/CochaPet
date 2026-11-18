@@ -5092,12 +5092,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "470bf2c0bfd563dc8d18412cd39b33ab1a204f64",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:03:54.000Z",
       "message": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/470bf2c0bfd563dc8d18412cd39b33ab1a204f64"
     },
     "stats": {
       "total": 7,
@@ -5426,6 +5426,25 @@
       "total": 11,
       "additions": 11,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:08:32.000Z",
+      "message": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,
