@@ -3572,7 +3572,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42888ed16312ec025377120d38052ea7012302c6",
     "commitName": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
     "commitTimestamp": 1795031060105,
     "testId": 176
@@ -3686,5 +3686,19 @@
     "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
     "commitTimestamp": 1795032534548,
     "testId": 181
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1795032603900,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
+    "commitTimestamp": 1795032623524,
+    "testId": 182
   }
 ]

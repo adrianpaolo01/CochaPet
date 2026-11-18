@@ -3667,12 +3667,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "42888ed16312ec025377120d38052ea7012302c6",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:44:18.000Z",
       "message": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/42888ed16312ec025377120d38052ea7012302c6"
     },
     "stats": {
       "total": 13,
@@ -3773,6 +3773,25 @@
       "total": 99,
       "additions": 99,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 167,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:10:21.000Z",
+      "message": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 94,
+      "additions": 90,
+      "deletions": 4,
       "date": "2026-11-18"
     },
     "coverage": 100,
