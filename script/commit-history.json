@@ -4503,12 +4503,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "611a7132f18f34c37519ef4c4e23596c719617fc",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:53.000Z",
       "message": "feat(HU01): mostrar el error de validacion en el formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/611a7132f18f34c37519ef4c4e23596c719617fc"
     },
     "stats": {
       "total": 20,
@@ -6057,6 +6057,25 @@
     },
     "coverage": 100,
     "test_count": 244,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:22:47.000Z",
+      "message": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 245,
     "failed_tests": 0,
     "conclusion": "success"
   }

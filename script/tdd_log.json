@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "611a7132f18f34c37519ef4c4e23596c719617fc",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -5934,5 +5934,27 @@
     "commitName": "feat(HU05): abrir el formulario de reporte con la ruta reportar encontrada",
     "commitTimestamp": 1795044147287,
     "testId": 253
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 1,
+    "numTotalTests": 245,
+    "timestamp": 1795044159965,
+    "success": false,
+    "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 0,
+    "numTotalTests": 245,
+    "timestamp": 1795044166101,
+    "success": true,
+    "testId": 254
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
+    "commitTimestamp": 1795044167414,
+    "testId": 254
   }
 ]

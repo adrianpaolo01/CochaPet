@@ -10,6 +10,10 @@ export function vistaParaHash(hash) {
   return hash.split("?")[0] === "#/ingresar" ? "login" : "lista";
 }
 
+export function tipoDeReporte() {
+  return "PERDIDA";
+}
+
 export function destinoTrasIngresar(hash) {
   const consulta = new URLSearchParams(hash.split("?")[1]);
   return `#${consulta.get("volver") ?? "/"}`;

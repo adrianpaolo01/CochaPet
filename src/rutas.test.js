@@ -1,4 +1,4 @@
-import { destinoTrasIngresar, vistaParaHash } from "./rutas.js";
+import { destinoTrasIngresar, tipoDeReporte, vistaParaHash } from "./rutas.js";
 
 describe("Rutas", () => {
   it.each([
@@ -22,5 +22,9 @@ describe("Rutas", () => {
 
   it("deberia volver al inicio si no se indico a donde volver", () => {
     expect(destinoTrasIngresar("#/ingresar")).toBe("#/");
+  });
+
+  it("deberia reportar una mascota perdida desde la ruta reportar perdida", () => {
+    expect(tipoDeReporte("#/reportar/perdida")).toBe("PERDIDA");
   });
 });
