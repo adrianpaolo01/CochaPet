@@ -3242,7 +3242,7 @@
     "testId": 161
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7ff733adfb6f85c8e1418fa896f38073c56c685",
     "commitName": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
     "commitTimestamp": 1795025060768,
     "testId": 161
@@ -3356,5 +3356,27 @@
     "commitName": "feat(HU32): calcular el hash sha256 de un token de sesion",
     "commitTimestamp": 1795027563695,
     "testId": 166
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 1,
+    "numTotalTests": 114,
+    "timestamp": 1795027586678,
+    "success": false,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1795027907703,
+    "success": true,
+    "testId": 167
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): crear un token de sesion y guardar solo su hash",
+    "commitTimestamp": 1795027921262,
+    "testId": 167
   }
 ]

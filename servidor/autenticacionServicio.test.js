@@ -21,6 +21,13 @@ describe("Autenticacion servicio", () => {
     expect(resultado.usuario).toEqual({ id: 1, nombre: "Usuario de Prueba", correo: "prueba@cochapet.bo", telefono: "70000001", rol: "USUARIO" });
   });
 
+  it("deberia devolver un token y guardar la sesion con el hash de ese token", async () => {
+    const crearSesion = jest.fn(async () => {});
+    const resultado = await iniciarSesion({ ...repositorio, crearSesion }, { correo: "prueba@cochapet.bo", clave: "prueba123" }, { generarToken: () => "token-fijo" });
+    expect(resultado.token).toBe("token-fijo");
+    expect(crearSesion).toHaveBeenCalledWith(expect.objectContaining({ id: hashDeToken("token-fijo"), usuarioId: 1 }));
+  });
+
   it("deberia rechazar una clave incorrecta con un mensaje general", async () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "equivocada" });
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });

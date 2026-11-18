@@ -3382,12 +3382,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7ff733adfb6f85c8e1418fa896f38073c56c685",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:04:19.000Z",
       "message": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d7ff733adfb6f85c8e1418fa896f38073c56c685"
     },
     "stats": {
       "total": 10,
@@ -3492,6 +3492,25 @@
     },
     "coverage": 100,
     "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:51:59.000Z",
+      "message": "feat(HU32): crear un token de sesion y guardar solo su hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 114,
     "failed_tests": 0,
     "conclusion": "success"
   }
