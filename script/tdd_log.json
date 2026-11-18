@@ -4864,7 +4864,7 @@
     "testId": 202
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f87611055f58e4d217166775acc58963019ede34",
     "commitName": "feat(HU04): consultar la sesion de la cookie al publicar un reporte",
     "commitTimestamp": 1795035741476,
     "testId": 202
@@ -5210,5 +5210,27 @@
     "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
     "commitTimestamp": 1795036023692,
     "testId": 219
+  },
+  {
+    "numPassedTests": 216,
+    "failedTests": 1,
+    "numTotalTests": 217,
+    "timestamp": 1795036029660,
+    "success": false,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 217,
+    "failedTests": 0,
+    "numTotalTests": 217,
+    "timestamp": 1795036036550,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
+    "commitTimestamp": 1795036037621,
+    "testId": 220
   }
 ]

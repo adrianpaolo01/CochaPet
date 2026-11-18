@@ -4997,12 +4997,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f87611055f58e4d217166775acc58963019ede34",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:02:21.000Z",
       "message": "feat(HU04): consultar la sesion de la cookie al publicar un reporte",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f87611055f58e4d217166775acc58963019ede34"
     },
     "stats": {
       "total": 14,
@@ -5335,6 +5335,25 @@
     },
     "coverage": 100,
     "test_count": 216,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:07:17.000Z",
+      "message": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 217,
     "failed_tests": 0,
     "conclusion": "success"
   }

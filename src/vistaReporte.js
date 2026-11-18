@@ -17,6 +17,8 @@ export function htmlVistaReporte() {
         <label for="reporte-raza">Raza (opcional)</label><input id="reporte-raza" name="raza" />
         <label for="reporte-color">Color (opcional)</label><input id="reporte-color" name="color" />
         <label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />
+        <label for="reporte-barrio">Barrio de Cochabamba</label>
+        <select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>
       </form>
     </div>`;
 }

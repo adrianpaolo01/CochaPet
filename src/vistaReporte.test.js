@@ -27,4 +27,9 @@ describe("Vista reporte", () => {
   it("deberia pedir la fecha en que se perdio con un selector de fecha", () => {
     expect(htmlVistaReporte()).toContain('<label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />');
   });
+
+  it("deberia pedir el barrio con una lista que se llena desde la API", () => {
+    expect(htmlVistaReporte()).toContain('<label for="reporte-barrio">Barrio de Cochabamba</label>');
+    expect(htmlVistaReporte()).toContain('<select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>');
+  });
 });
