@@ -4522,12 +4522,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "105f102cc0b0c1de438860123ba0bc6d7356af50",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:02.000Z",
       "message": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/105f102cc0b0c1de438860123ba0bc6d7356af50"
     },
     "stats": {
       "total": 25,
@@ -4913,6 +4913,25 @@
       "total": 19,
       "additions": 19,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 194,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:19:10.000Z",
+      "message": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
       "date": "2026-11-18"
     },
     "coverage": 100,

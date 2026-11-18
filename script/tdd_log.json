@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "105f102cc0b0c1de438860123ba0bc6d7356af50",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -4710,5 +4710,19 @@
     "commitName": "feat(HU03): mostrar mis datos en el perfil",
     "commitTimestamp": 1795040330611,
     "testId": 197
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040348059,
+    "success": true,
+    "testId": 198
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
+    "commitTimestamp": 1795040351194,
+    "testId": 198
   }
 ]
