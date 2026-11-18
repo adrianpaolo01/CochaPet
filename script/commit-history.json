@@ -3629,12 +3629,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1dbd064448ddc6da36e0570f31d6ea89bdd78fc6",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:32:44.000Z",
       "message": "feat(HU32): devolver null si la cookie no esta en la cabecera",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1dbd064448ddc6da36e0570f31d6ea89bdd78fc6"
     },
     "stats": {
       "total": 8,
@@ -3735,6 +3735,25 @@
       "total": 51,
       "additions": 49,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:04:25.000Z",
+      "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 35,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

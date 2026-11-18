@@ -3528,7 +3528,7 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1dbd064448ddc6da36e0570f31d6ea89bdd78fc6",
     "commitName": "feat(HU32): devolver null si la cookie no esta en la cabecera",
     "commitTimestamp": 1795030365559,
     "testId": 174
@@ -3642,5 +3642,19 @@
     "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
     "commitTimestamp": 1795032217589,
     "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1795032255770,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
+    "commitTimestamp": 1795032266678,
+    "testId": 180
   }
 ]
