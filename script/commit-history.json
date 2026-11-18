@@ -3287,12 +3287,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8823c72bdb62b6302d356ddd6a84e66f4a117457",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:55:56.000Z",
       "message": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8823c72bdb62b6302d356ddd6a84e66f4a117457"
     },
     "stats": {
       "total": 7,
@@ -3397,6 +3397,25 @@
     },
     "coverage": 100,
     "test_count": 100,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:28:39.000Z",
+      "message": "feat(HU01): no crear la cuenta si el correo ya esta registrado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 101,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -3140,7 +3140,7 @@
     "testId": 156
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8823c72bdb62b6302d356ddd6a84e66f4a117457",
     "commitName": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
     "commitTimestamp": 1794974157326,
     "testId": 156
@@ -3262,5 +3262,27 @@
     "commitName": "feat(HU01): crear la cuenta del usuario con datos validos",
     "commitTimestamp": 1795033662644,
     "testId": 161
+  },
+  {
+    "numPassedTests": 100,
+    "failedTests": 1,
+    "numTotalTests": 101,
+    "timestamp": 1795033669009,
+    "success": false,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 101,
+    "failedTests": 0,
+    "numTotalTests": 101,
+    "timestamp": 1795033719187,
+    "success": true,
+    "testId": 162
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): no crear la cuenta si el correo ya esta registrado",
+    "commitTimestamp": 1795033719840,
+    "testId": 162
   }
 ]

@@ -11,4 +11,13 @@ describe("Usuarios servicio", () => {
     expect(repositorio.crear).toHaveBeenCalledWith(datos);
     expect(resultado.usuario.id).toEqual(1);
   });
+
+  it("deberia dar error y no crear la cuenta si el correo ya esta registrado", async () => {
+    const repositorio = { buscarPorCorreo: async () => ({ id: 7 }), crear: jest.fn() };
+
+    const resultado = await registrarUsuario(repositorio, datos);
+
+    expect(resultado).toEqual({ error: "Ese correo ya está registrado" });
+    expect(repositorio.crear).not.toHaveBeenCalled();
+  });
 });
