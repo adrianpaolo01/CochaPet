@@ -90,8 +90,9 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para publicar" });
         const entrada = await leerCuerpoJson(req);
         const repositorios = { publicaciones: repositorio, barrios: barriosRepositorio };
-        const { error } = await reportarPerdida(repositorios, usuario, entrada.datos);
+        const { publicacion, error } = await reportarPerdida(repositorios, usuario, entrada.datos);
         if (error) return responderJson(res, 400, { error });
+        responderJson(res, 201, publicacion);
       });
     }
     responderJson(res, 404, { error: "No encontrado" });

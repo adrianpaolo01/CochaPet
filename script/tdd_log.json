@@ -4496,7 +4496,7 @@
     "testId": 186
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ac9045e5cfcc8798469e4d42575e4215cc5d8aab",
     "commitName": "feat(HU04): pedir el barrio donde se perdio la mascota",
     "commitTimestamp": 1795035456011,
     "testId": 186
@@ -4898,5 +4898,27 @@
     "commitName": "feat(HU04): responder 400 con el error al publicar un reporte invalido",
     "commitTimestamp": 1795035763721,
     "testId": 203
+  },
+  {
+    "numPassedTests": 204,
+    "failedTests": 1,
+    "numTotalTests": 205,
+    "timestamp": 1795035775949,
+    "success": false,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035783121,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): responder 201 con la publicacion de perdida creada",
+    "commitTimestamp": 1795035784246,
+    "testId": 204
   }
 ]

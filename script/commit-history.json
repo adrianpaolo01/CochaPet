@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ac9045e5cfcc8798469e4d42575e4215cc5d8aab",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:57:35.000Z",
       "message": "feat(HU04): pedir el barrio donde se perdio la mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ac9045e5cfcc8798469e4d42575e4215cc5d8aab"
     },
     "stats": {
       "total": 5,
@@ -5031,6 +5031,25 @@
     },
     "coverage": 100,
     "test_count": 204,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:03:04.000Z",
+      "message": "feat(HU04): responder 201 con la publicacion de perdida creada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 205,
     "failed_tests": 0,
     "conclusion": "success"
   }

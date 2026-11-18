@@ -86,6 +86,15 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de tu mascota" }));
   });
 
+  it("responde 201 con la publicacion creada al reportar una perdida con sesion", async () => {
+    const autenticacion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+    const reporte = JSON.stringify({ especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" });
+    const peticion = Object.assign(Readable.from([reporte]), { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } });
+    const respuesta = crearRespuesta();
+    await crearManejador({ crear: async () => ({ id: 30 }) }, { listar: async () => [{ nombre: "Cala Cala" }] }, autenticacion)(peticion, respuesta);
+    expect(respuesta.writeHead).toHaveBeenCalledWith(201, expect.anything());
+  });
+
   it("devuelve el detalle de una publicacion activa como JSON", async () => {
     const detalle = { id: 3, estado: "ACTIVA", descripcion: "Collar rojo" };
     const repositorio = { obtenerPorId: jest.fn(async () => detalle) };
