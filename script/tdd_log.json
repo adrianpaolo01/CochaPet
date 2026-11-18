@@ -2994,7 +2994,7 @@
     "testId": 149
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42e8f6df7d5ca0400b42f6a1081a60dead58f1cb",
     "commitName": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
     "commitTimestamp": 1794891635592,
     "testId": 149
@@ -3108,5 +3108,27 @@
     "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
     "commitTimestamp": 1794973816236,
     "testId": 154
+  },
+  {
+    "numPassedTests": 92,
+    "failedTests": 1,
+    "numTotalTests": 93,
+    "timestamp": 1794973823886,
+    "success": false,
+    "testId": 155
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794974134718,
+    "success": true,
+    "testId": 155
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
+    "commitTimestamp": 1794974136700,
+    "testId": 155
   }
 ]

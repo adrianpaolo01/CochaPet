@@ -9,6 +9,7 @@ export function htmlAccionesDetalle() {
 export function htmlVistaDetalle() {
   return `
     <a href="#/" class="enlace-volver">← Volver</a>
+    <p id="detalle-mensaje" class="mensaje-vacio" hidden></p>
     <div class="detalle-tarjeta">
       <div id="detalle-fotos"></div>
       <h2 id="detalle-titulo"></h2>
