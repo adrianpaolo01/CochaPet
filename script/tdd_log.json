@@ -3324,7 +3324,7 @@
     "testId": 164
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0cfdfbae28c4606f407395bee98eb49d869372f",
     "commitName": "feat(HU01): devolver el usuario registrado sin la contrasena",
     "commitTimestamp": 1795033754186,
     "testId": 164
@@ -3430,5 +3430,19 @@
     "commitName": "feat(HU01): guardar el usuario registrado en la base de datos",
     "commitTimestamp": 1795033812764,
     "testId": 169
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 0,
+    "numTotalTests": 107,
+    "timestamp": 1795033819723,
+    "success": true,
+    "testId": 170
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): conectar la ruta de registro en el servidor local y en Vercel",
+    "commitTimestamp": 1795033820223,
+    "testId": 170
   }
 ]

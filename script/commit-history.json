@@ -3439,12 +3439,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0cfdfbae28c4606f407395bee98eb49d869372f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:29:14.000Z",
       "message": "feat(HU01): devolver el usuario registrado sin la contrasena",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c0cfdfbae28c4606f407395bee98eb49d869372f"
     },
     "stats": {
       "total": 10,
@@ -3545,6 +3545,25 @@
       "total": 16,
       "additions": 16,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 107,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:30:20.000Z",
+      "message": "feat(HU01): conectar la ruta de registro en el servidor local y en Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,
