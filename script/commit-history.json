@@ -5206,12 +5206,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "842f8667bda1148e12158998a210ac0f37a7e07d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:05:29.000Z",
       "message": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/842f8667bda1148e12158998a210ac0f37a7e07d"
     },
     "stats": {
       "total": 8,
@@ -5540,6 +5540,25 @@
       "total": 15,
       "additions": 12,
       "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:09:44.000Z",
+      "message": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

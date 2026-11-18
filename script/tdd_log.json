@@ -5082,7 +5082,7 @@
     "testId": 213
   },
   {
-    "commitId": "HEAD",
+    "commitId": "842f8667bda1148e12158998a210ac0f37a7e07d",
     "commitName": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
     "commitTimestamp": 1795035929262,
     "testId": 213
@@ -5388,5 +5388,19 @@
     "commitName": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
     "commitTimestamp": 1795036172286,
     "testId": 230
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036183194,
+    "success": true,
+    "testId": 231
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
+    "commitTimestamp": 1795036184222,
+    "testId": 231
   }
 ]

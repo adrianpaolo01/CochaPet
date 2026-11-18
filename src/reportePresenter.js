@@ -23,6 +23,10 @@ async function publicar(evento) {
     const cuerpo = JSON.stringify({ ...datos, fecha: fechaDelDia(datos.fecha) });
     const respuesta = await fetch("/api/publicaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: cuerpo });
     if (!respuesta.ok) return mostrarError((await respuesta.json()).error);
+    sessionStorage.removeItem(CLAVE_BORRADOR);
+    location.hash = `#/mascota/${(await respuesta.json()).id}`;
+    // recarga para que el inicio ya muestre la nueva publicacion a todos
+    location.reload();
   } catch {
     mostrarError("No se pudo publicar el reporte. Intenta nuevamente más tarde.");
   }
