@@ -3420,12 +3420,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df4de9f50bc6f20f3989a3456b805af9c5bcb23e",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:28:53.000Z",
       "message": "feat(HU01): no crear la cuenta si los datos de registro no son validos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/df4de9f50bc6f20f3989a3456b805af9c5bcb23e"
     },
     "stats": {
       "total": 13,
@@ -3526,6 +3526,25 @@
       "total": 16,
       "additions": 14,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 107,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:30:12.000Z",
+      "message": "feat(HU01): guardar el usuario registrado en la base de datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

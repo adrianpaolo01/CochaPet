@@ -3302,7 +3302,7 @@
     "testId": 163
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df4de9f50bc6f20f3989a3456b805af9c5bcb23e",
     "commitName": "feat(HU01): no crear la cuenta si los datos de registro no son validos",
     "commitTimestamp": 1795033733149,
     "testId": 163
@@ -3416,5 +3416,19 @@
     "commitName": "feat(HU01): responder 400 con el error cuando el registro no es valido",
     "commitTimestamp": 1795033804365,
     "testId": 168
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 0,
+    "numTotalTests": 107,
+    "timestamp": 1795033812246,
+    "success": true,
+    "testId": 169
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): guardar el usuario registrado en la base de datos",
+    "commitTimestamp": 1795033812764,
+    "testId": 169
   }
 ]
