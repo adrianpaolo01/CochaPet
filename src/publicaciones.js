@@ -45,6 +45,10 @@ export function mensajeInicio(publicaciones) {
   return publicaciones.length === 0 ? "Todavía no hay mascotas publicadas." : null;
 }
 
+export function mensajeDetalle(respuesta) {
+  return respuesta.ok ? null : "Esta publicación no existe o ya no está disponible";
+}
+
 export function idDesdeHash(hash) {
   const coincidencia = hash.match(/^#\/mascota\/(\d+)$/);
   return coincidencia ? Number(coincidencia[1]) : null;

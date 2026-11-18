@@ -2950,7 +2950,7 @@
     "testId": 147
   },
   {
-    "commitId": "HEAD",
+    "commitId": "109b94e4e80b90058acd0afc996c8b6a1eb830ff",
     "commitName": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
     "commitTimestamp": 1794891262588,
     "testId": 147
@@ -2972,7 +2972,7 @@
     "testId": 148
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f965b3e640e0176c6b519fa7f1ed674fd2a18e4b",
     "commitName": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
     "commitTimestamp": 1794891419477,
     "testId": 148
@@ -2994,7 +2994,7 @@
     "testId": 149
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42e8f6df7d5ca0400b42f6a1081a60dead58f1cb",
     "commitName": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
     "commitTimestamp": 1794891635592,
     "testId": 149
@@ -3016,7 +3016,7 @@
     "testId": 150
   },
   {
-    "commitId": "HEAD",
+    "commitId": "51b79c982faa1226180c79155e03d6359ed27776",
     "commitName": "fix(busqueda): no fallar si el texto buscado no esta definido",
     "commitTimestamp": 1794891793361,
     "testId": 150
@@ -3056,5 +3056,93 @@
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794973175118,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 1,
+    "numTotalTests": 91,
+    "timestamp": 1794973188089,
+    "success": false,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794973495579,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
+    "commitTimestamp": 1794973497749,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 1,
+    "numTotalTests": 92,
+    "timestamp": 1794973505746,
+    "success": false,
+    "testId": 154
+  },
+  {
+    "numPassedTests": 92,
+    "failedTests": 0,
+    "numTotalTests": 92,
+    "timestamp": 1794973814071,
+    "success": true,
+    "testId": 154
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
+    "commitTimestamp": 1794973816236,
+    "testId": 154
+  },
+  {
+    "numPassedTests": 92,
+    "failedTests": 1,
+    "numTotalTests": 93,
+    "timestamp": 1794973823886,
+    "success": false,
+    "testId": 155
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794974134718,
+    "success": true,
+    "testId": 155
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
+    "commitTimestamp": 1794974136700,
+    "testId": 155
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794974155319,
+    "success": true,
+    "testId": 156
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
+    "commitTimestamp": 1794974157326,
+    "testId": 156
   }
 ]

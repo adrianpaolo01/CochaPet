@@ -1,4 +1,4 @@
-import { badgeEstado, caracteristicasMascota, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, tituloPublicacion } from "./publicaciones.js";
+import { badgeEstado, caracteristicasMascota, enlaceLlamada, enlaceWhatsApp, formatearFecha, idDesdeHash, mensajeDetalle, tituloPublicacion } from "./publicaciones.js";
 import { anteriorIndice, fotoAmpliada, hayVariasFotos, siguienteIndice, textoContador } from "./galeria.js";
 import { htmlVisor, htmlVistaDetalle } from "./vistaDetalle.js";
 
@@ -36,6 +36,11 @@ async function mostrarVista() {
   vistaDetalle.hidden = id === null;
   if (id === null) return;
   const respuesta = await fetch(`/api/publicaciones/${id}`);
+  const mensaje = document.querySelector("#detalle-mensaje");
+  mensaje.textContent = mensajeDetalle(respuesta) ?? "";
+  mensaje.hidden = respuesta.ok;
+  document.querySelector(".detalle-tarjeta").hidden = !respuesta.ok;
+  if (!respuesta.ok) return;
   const publicacion = await respuesta.json();
   document.querySelector("#detalle-titulo").textContent = tituloPublicacion(publicacion);
   const estado = document.querySelector("#detalle-estado");

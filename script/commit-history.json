@@ -3116,12 +3116,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "109b94e4e80b90058acd0afc996c8b6a1eb830ff",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:54:21.000Z",
       "message": "fix(busqueda): mostrar todas las mascotas al buscar solo espacios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/109b94e4e80b90058acd0afc996c8b6a1eb830ff"
     },
     "stats": {
       "total": 7,
@@ -3135,12 +3135,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f965b3e640e0176c6b519fa7f1ed674fd2a18e4b",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T04:56:58.000Z",
       "message": "fix(busqueda): juntar los espacios y tabulaciones internos al buscar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f965b3e640e0176c6b519fa7f1ed674fd2a18e4b"
     },
     "stats": {
       "total": 7,
@@ -3154,12 +3154,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "42e8f6df7d5ca0400b42f6a1081a60dead58f1cb",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:00:34.000Z",
       "message": "fix(busqueda): no repetir opciones que solo difieren en mayusculas, tildes o espacios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/42e8f6df7d5ca0400b42f6a1081a60dead58f1cb"
     },
     "stats": {
       "total": 9,
@@ -3173,12 +3173,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "51b79c982faa1226180c79155e03d6359ed27776",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:03:12.000Z",
       "message": "fix(busqueda): no fallar si el texto buscado no esta definido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/51b79c982faa1226180c79155e03d6359ed27776"
     },
     "stats": {
       "total": 7,
@@ -3226,6 +3226,82 @@
     },
     "coverage": 100,
     "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T03:44:57.000Z",
+      "message": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T03:50:15.000Z",
+      "message": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 92,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T03:55:36.000Z",
+      "message": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 93,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T03:55:56.000Z",
+      "message": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 93,
     "failed_tests": 0,
     "conclusion": "success"
   }
