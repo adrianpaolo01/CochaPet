@@ -4,6 +4,7 @@ describe("Rutas", () => {
   it.each([
     ["#/ingresar", "login"],
     ["#/reportar/perdida", "reporte"],
+    ["#/ingresar?volver=/reportar/perdida", "login"],
     ["#/mascota/3", "detalle"],
     ["", "lista"],
     ["#/", "lista"],

@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a17014f94ceab7972bee8aa7b36682298b12b90",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -4654,5 +4654,27 @@
     "commitName": "feat(HU04): abrir la vista de reporte con la ruta reportar perdida",
     "commitTimestamp": 1795035556093,
     "testId": 193
+  },
+  {
+    "numPassedTests": 196,
+    "failedTests": 1,
+    "numTotalTests": 197,
+    "timestamp": 1795035561239,
+    "success": false,
+    "testId": 194
+  },
+  {
+    "numPassedTests": 197,
+    "failedTests": 0,
+    "numTotalTests": 197,
+    "timestamp": 1795035567232,
+    "success": true,
+    "testId": 194
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el inicio de sesion aunque la ruta indique a donde volver",
+    "commitTimestamp": 1795035568389,
+    "testId": 194
   }
 ]
