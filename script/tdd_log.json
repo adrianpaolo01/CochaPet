@@ -3052,7 +3052,7 @@
     "testId": 152
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f758065815058bd6986fc252dbf06a1b8970be5f",
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
@@ -3166,5 +3166,19 @@
     "commitName": "feat(HU32): verificar una clave contra su hash guardado",
     "commitTimestamp": 1795023980232,
     "testId": 157
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1795024006270,
+    "success": true,
+    "testId": 158
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(HU32): rechazar una clave que no coincide con el hash",
+    "commitTimestamp": 1795024016355,
+    "testId": 158
   }
 ]

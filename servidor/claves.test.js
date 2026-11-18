@@ -11,4 +11,8 @@ describe("Claves", () => {
   it("deberia aceptar la clave que coincide con el hash guardado", () => {
     expect(verificarClave("prueba123", hashDe("prueba123"))).toBe(true);
   });
+
+  it("deberia rechazar una clave que no coincide con el hash guardado", () => {
+    expect(verificarClave("otraClave", hashDe("prueba123"))).toBe(false);
+  });
 });

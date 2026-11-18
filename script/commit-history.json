@@ -3211,12 +3211,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f758065815058bd6986fc252dbf06a1b8970be5f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:07:26.000Z",
       "message": "test(busqueda): buscar en un dato que no es texto sin fallar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f758065815058bd6986fc252dbf06a1b8970be5f"
     },
     "stats": {
       "total": 5,
@@ -3321,6 +3321,25 @@
     },
     "coverage": 100,
     "test_count": 94,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:46:54.000Z",
+      "message": "test(HU32): rechazar una clave que no coincide con el hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
     "failed_tests": 0,
     "conclusion": "success"
   }
