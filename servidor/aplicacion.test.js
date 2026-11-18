@@ -5,6 +5,12 @@ function peticionRegistro(datos) {
   return Object.assign(Readable.from([JSON.stringify(datos)]), { method: "POST", url: "/api/usuarios" });
 }
 
+const conSesion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+
+function peticionReporte(datos) {
+  return Object.assign(Readable.from([JSON.stringify(datos)]), { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } });
+}
+
 function crearRespuesta() {
   return { writeHead: jest.fn(), end: jest.fn() };
 }
@@ -55,7 +61,6 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
   it.each([
     ["GET", "/api/desconocida"],
-    ["POST", "/api/publicaciones"],
   ])("rechaza %s %s sin consultar la base", async (method, url) => {
     const repositorio = { listar: jest.fn() };
     const respuesta = crearRespuesta();
@@ -64,6 +69,39 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(404);
     expect(repositorio.listar).not.toHaveBeenCalled();
+  });
+
+  it("responde 401 al publicar un reporte sin sesion iniciada", async () => {
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, {})({ method: "POST", url: "/api/publicaciones", headers: {} }, respuesta);
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(401);
+  });
+
+  it("consulta la sesion de la cookie al publicar un reporte", async () => {
+    const autenticacion = { obtenerSesion: jest.fn(async () => undefined) };
+    const peticion = { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } };
+    await crearManejador({}, {}, autenticacion)(peticion, crearRespuesta());
+    expect(autenticacion.obtenerSesion).toHaveBeenCalled();
+  });
+
+  it("responde 400 con el error al publicar un reporte invalido con sesion", async () => {
+    const peticion = peticionReporte({});
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, conSesion)(peticion, respuesta);
+    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de tu mascota" }));
+  });
+
+  it("responde 201 con la publicacion creada al reportar una perdida con sesion", async () => {
+    const peticion = peticionReporte({ especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" });
+    const respuesta = crearRespuesta();
+    await crearManejador({ crear: async () => ({ id: 30 }) }, { listar: async () => [{ nombre: "Cala Cala" }] }, conSesion)(peticion, respuesta);
+    expect(respuesta.writeHead).toHaveBeenCalledWith(201, expect.anything());
+  });
+
+  it("responde 400 si el reporte no llega como objeto JSON", async () => {
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, conSesion)(peticionReporte("texto"), respuesta);
+    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Los datos enviados no son validos" }));
   });
 
   it("devuelve el detalle de una publicacion activa como JSON", async () => {

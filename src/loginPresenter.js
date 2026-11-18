@@ -1,4 +1,4 @@
-import { vistaParaHash } from "./rutas.js";
+import { destinoTrasIngresar, vistaParaHash } from "./rutas.js";
 import { textoSesion, validarCredenciales } from "./sesion.js";
 import { htmlVistaLogin } from "./vistaLogin.js";
 
@@ -22,7 +22,7 @@ function mostrarUsuario(usuario) {
 function mostrarVista() {
   const enLogin = vistaParaHash(location.hash) === "login";
   if (enLogin && usuarioActual) {
-    location.hash = "#/";
+    location.hash = destinoTrasIngresar(location.hash);
     return;
   }
   vistaLogin.hidden = !enLogin;
@@ -50,7 +50,7 @@ async function iniciarSesion(evento) {
     if (!respuesta.ok) return mostrarError(cuerpo.error ?? "No se pudo iniciar sesión. Intenta nuevamente.");
     formulario.reset();
     mostrarUsuario(cuerpo.usuario);
-    location.hash = "#/";
+    location.hash = destinoTrasIngresar(location.hash);
   } catch {
     mostrarError("No se pudo iniciar sesión. Revisa tu conexión e intenta nuevamente.");
   } finally {

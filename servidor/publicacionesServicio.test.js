@@ -1,6 +1,9 @@
-import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 
 describe("Publicaciones servicio", () => {
+  const reporte = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
+  const barrios = { listar: async () => [{ id: 1, nombre: "Cala Cala" }] };
+
   it("deberia devolver solo las publicaciones activas", async () => {
     const repositorio = {
       listar: async () => [
@@ -35,5 +38,26 @@ describe("Publicaciones servicio", () => {
     const repositorio = { obtenerPorId: async () => ({ id: 1, estado }) };
 
     expect(await detalleDePublicacion(repositorio, 1)).toBeNull();
+  });
+
+  it("deberia rechazar un reporte de perdida sin los datos obligatorios", async () => {
+    const resultado = await reportarPerdida({}, { id: 7 }, { especie: "" });
+
+    expect(resultado).toEqual({ error: "Elige la especie de tu mascota" });
+  });
+
+  it("deberia rechazar un barrio que no es de Cochabamba", async () => {
+    const datos = { ...reporte, barrio: "Miraflores" };
+
+    expect(await reportarPerdida({ barrios }, { id: 7 }, datos)).toEqual({ error: "Elige un barrio de Cochabamba" });
+  });
+
+
+  it("deberia crear la publicacion como perdida con la cuenta y el telefono del autor", async () => {
+    const publicaciones = { crear: jest.fn(async () => ({ id: 30 })) };
+
+    await reportarPerdida({ publicaciones, barrios }, { id: 7, telefono: "70000000" }, reporte);
+
+    expect(publicaciones.crear).toHaveBeenCalledWith({ ...reporte, tipo: "PERDIDA", autorId: 7, telefono: "70000000" });
   });
 });

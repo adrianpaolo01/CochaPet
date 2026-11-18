@@ -32,7 +32,7 @@ export function formatearFecha(fecha) {
 }
 
 export function fotoPrincipal(publicacion) {
-  return publicacion.fotos[0];
+  return publicacion.fotos[0] ?? null;
 }
 
 export function ordenarParaInicio(publicaciones) {

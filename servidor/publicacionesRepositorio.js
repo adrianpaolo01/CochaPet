@@ -26,4 +26,12 @@ export const publicacionesRepositorio = {
       GROUP BY p.id, b.nombre`, [id]);
     return rows[0];
   },
+
+  async crear({ tipo, especie, nombre, raza, color, descripcion, fecha, barrio, telefono, autorId }) {
+    const { rows } = await db.query(`
+      INSERT INTO publicacion (tipo, especie, nombre, raza, color, descripcion, fecha, barrio_id, telefono_contacto, autor_id)
+      VALUES ($1, $2, $3, $4, $5, $6, $7, (SELECT id FROM barrio WHERE nombre = $8), $9, $10) RETURNING id`,
+      [tipo, especie, nombre || null, raza || null, color || null, descripcion.trim(), fecha, barrio, telefono, autorId]);
+    return rows[0];
+  },
 };

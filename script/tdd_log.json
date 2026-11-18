@@ -3840,7 +3840,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ac252a802b3c25040abea895c6c70e1be816d94a",
     "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
     "commitTimestamp": 1795032266678,
     "testId": 180
@@ -4528,5 +4528,1031 @@
     "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
     "commitTimestamp": 1795037033419,
     "testId": 188
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795035350117,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 1,
+    "numTotalTests": 187,
+    "timestamp": 1795035423719,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 0,
+    "numTotalTests": 187,
+    "timestamp": 1795035429661,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "2db2fc3ccccb9b51ea76cbd8707557c515e19fb6",
+    "commitName": "feat(HU04): pedir la especie al reportar una mascota perdida",
+    "commitTimestamp": 1795035431291,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 0,
+    "numTotalTests": 187,
+    "timestamp": 1795035440019,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 1,
+    "numTotalTests": 188,
+    "timestamp": 1795035448328,
+    "success": false,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795035454897,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "ac9045e5cfcc8798469e4d42575e4215cc5d8aab",
+    "commitName": "feat(HU04): pedir el barrio donde se perdio la mascota",
+    "commitTimestamp": 1795035456011,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 1,
+    "numTotalTests": 189,
+    "timestamp": 1795035463404,
+    "success": false,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 0,
+    "numTotalTests": 189,
+    "timestamp": 1795035470000,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "81513319a394f62cefb62fa0e4976e9eb0f52b17",
+    "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota",
+    "commitTimestamp": 1795035471118,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 1,
+    "numTotalTests": 190,
+    "timestamp": 1795035477214,
+    "success": false,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 0,
+    "numTotalTests": 190,
+    "timestamp": 1795035483929,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "af871fb791e1cbd4096d069830fae6bea56926a7",
+    "commitName": "feat(HU04): pedir una descripcion de la mascota perdida",
+    "commitTimestamp": 1795035485059,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 1,
+    "numTotalTests": 191,
+    "timestamp": 1795035491396,
+    "success": false,
+    "testId": 189
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795035497751,
+    "success": true,
+    "testId": 189
+  },
+  {
+    "commitId": "b041289ddc7cff8ddb65d8bdf51b15c1cec8ddee",
+    "commitName": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
+    "commitTimestamp": 1795035498756,
+    "testId": 189
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 1,
+    "numTotalTests": 192,
+    "timestamp": 1795035505850,
+    "success": false,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 0,
+    "numTotalTests": 192,
+    "timestamp": 1795035512846,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "commitId": "d425fdcdee259336f0897220f34c6102e8f4feac",
+    "commitName": "feat(HU04): enviar la fecha de perdida al mediodia local para no cambiar de dia",
+    "commitTimestamp": 1795035513954,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 1,
+    "numTotalTests": 193,
+    "timestamp": 1795035519997,
+    "success": false,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 0,
+    "numTotalTests": 193,
+    "timestamp": 1795035525648,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "commitId": "ca14dd45d475a0f0894fad5fe635c786815b8bb7",
+    "commitName": "feat(HU04): recuperar lo escrito en el borrador del reporte",
+    "commitTimestamp": 1795035526760,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 2,
+    "numTotalTests": 195,
+    "timestamp": 1795035534829,
+    "success": false,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 195,
+    "failedTests": 0,
+    "numTotalTests": 195,
+    "timestamp": 1795035542007,
+    "success": true,
+    "testId": 192
+  },
+  {
+    "commitId": "48450896f4053b2ffc2bd62376004904fb28ab7f",
+    "commitName": "feat(HU04): empezar el reporte vacio si no hay borrador o esta danado",
+    "commitTimestamp": 1795035543017,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 195,
+    "failedTests": 1,
+    "numTotalTests": 196,
+    "timestamp": 1795035548084,
+    "success": false,
+    "testId": 193
+  },
+  {
+    "numPassedTests": 196,
+    "failedTests": 0,
+    "numTotalTests": 196,
+    "timestamp": 1795035554992,
+    "success": true,
+    "testId": 193
+  },
+  {
+    "commitId": "b0c358683598795c95a4f8bfc4b76b133a56bd4c",
+    "commitName": "feat(HU04): abrir la vista de reporte con la ruta reportar perdida",
+    "commitTimestamp": 1795035556093,
+    "testId": 193
+  },
+  {
+    "numPassedTests": 196,
+    "failedTests": 1,
+    "numTotalTests": 197,
+    "timestamp": 1795035561239,
+    "success": false,
+    "testId": 194
+  },
+  {
+    "numPassedTests": 197,
+    "failedTests": 0,
+    "numTotalTests": 197,
+    "timestamp": 1795035567232,
+    "success": true,
+    "testId": 194
+  },
+  {
+    "commitId": "e1f72390a1e49787b4f7780d223019cf567d58e2",
+    "commitName": "feat(HU04): mostrar el inicio de sesion aunque la ruta indique a donde volver",
+    "commitTimestamp": 1795035568389,
+    "testId": 194
+  },
+  {
+    "numPassedTests": 197,
+    "failedTests": 1,
+    "numTotalTests": 198,
+    "timestamp": 1795035576663,
+    "success": false,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 198,
+    "failedTests": 0,
+    "numTotalTests": 198,
+    "timestamp": 1795035583277,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "commitId": "613faa727d81d3777f764e636ad4199ad4c2383f",
+    "commitName": "feat(HU04): volver a la ruta indicada despues de iniciar sesion",
+    "commitTimestamp": 1795035584420,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 198,
+    "failedTests": 1,
+    "numTotalTests": 199,
+    "timestamp": 1795035589682,
+    "success": false,
+    "testId": 196
+  },
+  {
+    "numPassedTests": 199,
+    "failedTests": 0,
+    "numTotalTests": 199,
+    "timestamp": 1795035595168,
+    "success": true,
+    "testId": 196
+  },
+  {
+    "commitId": "dd8382f6fd74d43854a52531d3189d91ea7ba3e1",
+    "commitName": "feat(HU04): volver al inicio tras iniciar sesion si no hay ruta de regreso",
+    "commitTimestamp": 1795035596307,
+    "testId": 196
+  },
+  {
+    "numPassedTests": 199,
+    "failedTests": 1,
+    "numTotalTests": 200,
+    "timestamp": 1795035603532,
+    "success": false,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 200,
+    "failedTests": 0,
+    "numTotalTests": 200,
+    "timestamp": 1795035610284,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "commitId": "dd57afb9b92390cf46c1c53bd9d766efdcd09022",
+    "commitName": "feat(HU04): rechazar en el servidor el reporte de perdida sin datos obligatorios",
+    "commitTimestamp": 1795035611394,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 200,
+    "failedTests": 1,
+    "numTotalTests": 201,
+    "timestamp": 1795035618119,
+    "success": false,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 0,
+    "numTotalTests": 201,
+    "timestamp": 1795035624401,
+    "success": true,
+    "testId": 198
+  },
+  {
+    "commitId": "6b409b0f5affe65998e50b6c5c26982502a56130",
+    "commitName": "feat(HU04): rechazar el reporte si el barrio no es de Cochabamba",
+    "commitTimestamp": 1795035625569,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035637554,
+    "success": false,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035644074,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 0,
+    "numTotalTests": 201,
+    "timestamp": 1795035652958,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "commitId": "cd664a8e4c99068d2a98135a4da4a2479530a484",
+    "commitName": "refactor(HU04): compartir los datos de prueba del reporte en el servicio",
+    "commitTimestamp": 1795035654153,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035659981,
+    "success": false,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035666562,
+    "success": true,
+    "testId": 200
+  },
+  {
+    "commitId": "0695b7512567a01865677b44fb41b8ea38d1465a",
+    "commitName": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
+    "commitTimestamp": 1795035667566,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 1,
+    "numTotalTests": 202,
+    "timestamp": 1795035689008,
+    "success": false,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035695889,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 0,
+    "numTotalTests": 202,
+    "timestamp": 1795035708627,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "commitId": "4173234d438eac7c086d36fec052617b75d8b705",
+    "commitName": "feat(HU04): pedir sesion iniciada para publicar un reporte",
+    "commitTimestamp": 1795035709771,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 1,
+    "numTotalTests": 203,
+    "timestamp": 1795035733377,
+    "success": false,
+    "testId": 202
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 0,
+    "numTotalTests": 203,
+    "timestamp": 1795035740339,
+    "success": true,
+    "testId": 202
+  },
+  {
+    "commitId": "f87611055f58e4d217166775acc58963019ede34",
+    "commitName": "feat(HU04): consultar la sesion de la cookie al publicar un reporte",
+    "commitTimestamp": 1795035741476,
+    "testId": 202
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 1,
+    "numTotalTests": 204,
+    "timestamp": 1795035748316,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 1,
+    "numTotalTests": 204,
+    "timestamp": 1795035754701,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 204,
+    "failedTests": 0,
+    "numTotalTests": 204,
+    "timestamp": 1795035762609,
+    "success": true,
+    "testId": 203
+  },
+  {
+    "commitId": "f5a3decce9bffdc959ede86818298872d4e3640f",
+    "commitName": "feat(HU04): responder 400 con el error al publicar un reporte invalido",
+    "commitTimestamp": 1795035763721,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 204,
+    "failedTests": 1,
+    "numTotalTests": 205,
+    "timestamp": 1795035775949,
+    "success": false,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035783121,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "commitId": "bce6d6bf773469f84beb904ac2a76519b34f4343",
+    "commitName": "feat(HU04): responder 201 con la publicacion de perdida creada",
+    "commitTimestamp": 1795035784246,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035798082,
+    "success": true,
+    "testId": 205
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035813846,
+    "success": true,
+    "testId": 205
+  },
+  {
+    "commitId": "ceb062c0652aa2ff79893bce0f953553fe72e4d3",
+    "commitName": "refactor(HU04): compartir la peticion de reporte en los tests de la API",
+    "commitTimestamp": 1795035815088,
+    "testId": 205
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035816876,
+    "success": true,
+    "testId": 206
+  },
+  {
+    "commitId": "df87d8302cba5a7dd049add2ea9042325d144430",
+    "commitName": "refactor(HU04): compartir la sesion iniciada en los tests de reporte de la API",
+    "commitTimestamp": 1795035817907,
+    "testId": 206
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 1,
+    "numTotalTests": 206,
+    "timestamp": 1795035826788,
+    "success": false,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 0,
+    "numTotalTests": 206,
+    "timestamp": 1795035833464,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "commitId": "470bf2c0bfd563dc8d18412cd39b33ab1a204f64",
+    "commitName": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
+    "commitTimestamp": 1795035834572,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 0,
+    "numTotalTests": 206,
+    "timestamp": 1795035854501,
+    "success": true,
+    "testId": 208
+  },
+  {
+    "commitId": "1ce79259790228ccb2f1244c4fa0c1310e6e4ec7",
+    "commitName": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
+    "commitTimestamp": 1795035855602,
+    "testId": 208
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 1,
+    "numTotalTests": 207,
+    "timestamp": 1795035862434,
+    "success": false,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035870590,
+    "success": true,
+    "testId": 209
+  },
+  {
+    "commitId": "89064502de525ffd17d6b4c97ea19c6ab16d796a",
+    "commitName": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
+    "commitTimestamp": 1795035871671,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035880588,
+    "success": true,
+    "testId": 210
+  },
+  {
+    "commitId": "796cea48ad187024ce52c9bf9d4e594fb2e49c08",
+    "commitName": "feat(HU04): ocultar la foto de la tarjeta cuando la publicacion no tiene fotos",
+    "commitTimestamp": 1795035881660,
+    "testId": 210
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035893787,
+    "success": true,
+    "testId": 211
+  },
+  {
+    "commitId": "d67f7feca21c48da61d39c4d40f609cfb10d0438",
+    "commitName": "fix(HU04): ocultar la foto de la tarjeta segun la foto principal y no segun src",
+    "commitTimestamp": 1795035894882,
+    "testId": 211
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 1,
+    "numTotalTests": 208,
+    "timestamp": 1795035902900,
+    "success": false,
+    "testId": 212
+  },
+  {
+    "numPassedTests": 208,
+    "failedTests": 0,
+    "numTotalTests": 208,
+    "timestamp": 1795035910752,
+    "success": true,
+    "testId": 212
+  },
+  {
+    "commitId": "d01c5872ddabda7c7e28facc422e34809876db34",
+    "commitName": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
+    "commitTimestamp": 1795035911888,
+    "testId": 212
+  },
+  {
+    "numPassedTests": 208,
+    "failedTests": 1,
+    "numTotalTests": 209,
+    "timestamp": 1795035920874,
+    "success": false,
+    "testId": 213
+  },
+  {
+    "numPassedTests": 209,
+    "failedTests": 0,
+    "numTotalTests": 209,
+    "timestamp": 1795035928261,
+    "success": true,
+    "testId": 213
+  },
+  {
+    "commitId": "842f8667bda1148e12158998a210ac0f37a7e07d",
+    "commitName": "feat(HU04): mostrar en el inicio el boton grande Encontre una mascota",
+    "commitTimestamp": 1795035929262,
+    "testId": 213
+  },
+  {
+    "numPassedTests": 209,
+    "failedTests": 0,
+    "numTotalTests": 209,
+    "timestamp": 1795035939041,
+    "success": true,
+    "testId": 214
+  },
+  {
+    "commitId": "5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8",
+    "commitName": "style(HU04): estilos de los botones grandes para reportar en el inicio",
+    "commitTimestamp": 1795035940075,
+    "testId": 214
+  },
+  {
+    "numPassedTests": 209,
+    "failedTests": 1,
+    "numTotalTests": 210,
+    "timestamp": 1795035950036,
+    "success": false,
+    "testId": 215
+  },
+  {
+    "numPassedTests": 210,
+    "failedTests": 0,
+    "numTotalTests": 210,
+    "timestamp": 1795035958119,
+    "success": true,
+    "testId": 215
+  },
+  {
+    "commitId": "48bc162446291ab8bf4e3fd1e275253af58a3858",
+    "commitName": "feat(HU04): mostrar el titulo del formulario de mascota perdida",
+    "commitTimestamp": 1795035959210,
+    "testId": 215
+  },
+  {
+    "numPassedTests": 210,
+    "failedTests": 1,
+    "numTotalTests": 211,
+    "timestamp": 1795035968335,
+    "success": false,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 211,
+    "failedTests": 0,
+    "numTotalTests": 211,
+    "timestamp": 1795035976476,
+    "success": true,
+    "testId": 216
+  },
+  {
+    "commitId": "5b0ab32aec7fad855477114bcb9f1f283a0ae599",
+    "commitName": "feat(HU04): avisar en el formulario que hay que iniciar sesion o registrarse",
+    "commitTimestamp": 1795035977498,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 211,
+    "failedTests": 1,
+    "numTotalTests": 212,
+    "timestamp": 1795035984540,
+    "success": false,
+    "testId": 217
+  },
+  {
+    "numPassedTests": 212,
+    "failedTests": 0,
+    "numTotalTests": 212,
+    "timestamp": 1795035992815,
+    "success": true,
+    "testId": 217
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
+    "commitTimestamp": 1795035993894,
+    "testId": 217
+  },
+  {
+    "numPassedTests": 212,
+    "failedTests": 3,
+    "numTotalTests": 215,
+    "timestamp": 1795036001272,
+    "success": false,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 215,
+    "failedTests": 0,
+    "numTotalTests": 215,
+    "timestamp": 1795036009031,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
+    "commitTimestamp": 1795036010099,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 215,
+    "failedTests": 1,
+    "numTotalTests": 216,
+    "timestamp": 1795036021369,
+    "success": false,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 216,
+    "failedTests": 0,
+    "numTotalTests": 216,
+    "timestamp": 1795036022653,
+    "success": true,
+    "testId": 219
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
+    "commitTimestamp": 1795036023692,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 216,
+    "failedTests": 1,
+    "numTotalTests": 217,
+    "timestamp": 1795036029660,
+    "success": false,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 217,
+    "failedTests": 0,
+    "numTotalTests": 217,
+    "timestamp": 1795036036550,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
+    "commitTimestamp": 1795036037621,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 217,
+    "failedTests": 1,
+    "numTotalTests": 218,
+    "timestamp": 1795036048166,
+    "success": false,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 218,
+    "failedTests": 0,
+    "numTotalTests": 218,
+    "timestamp": 1795036049365,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
+    "commitTimestamp": 1795036050476,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 218,
+    "failedTests": 1,
+    "numTotalTests": 219,
+    "timestamp": 1795036060540,
+    "success": false,
+    "testId": 222
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036061688,
+    "success": true,
+    "testId": 222
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
+    "commitTimestamp": 1795036062745,
+    "testId": 222
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036082794,
+    "success": true,
+    "testId": 223
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el formulario de mascota perdida al tocar Perdi mi mascota",
+    "commitTimestamp": 1795036083832,
+    "testId": 223
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036095330,
+    "success": true,
+    "testId": 224
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
+    "commitTimestamp": 1795036096610,
+    "testId": 224
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036111344,
+    "success": true,
+    "testId": 225
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
+    "commitTimestamp": 1795036112440,
+    "testId": 225
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036124495,
+    "success": true,
+    "testId": 226
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
+    "commitTimestamp": 1795036125577,
+    "testId": 226
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036134113,
+    "success": true,
+    "testId": 227
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
+    "commitTimestamp": 1795036135247,
+    "testId": 227
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036144277,
+    "success": true,
+    "testId": 228
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
+    "commitTimestamp": 1795036145319,
+    "testId": 228
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036156275,
+    "success": true,
+    "testId": 229
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
+    "commitTimestamp": 1795036157384,
+    "testId": 229
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036171219,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
+    "commitTimestamp": 1795036172286,
+    "testId": 230
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036183194,
+    "success": true,
+    "testId": 231
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
+    "commitTimestamp": 1795036184222,
+    "testId": 231
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036192379,
+    "success": true,
+    "testId": 232
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
+    "commitTimestamp": 1795036193486,
+    "testId": 232
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036209912,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
+    "commitTimestamp": 1795036210979,
+    "testId": 233
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036212898,
+    "success": true,
+    "testId": 234
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
+    "commitTimestamp": 1795036213932,
+    "testId": 234
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036250532,
+    "success": true,
+    "testId": 235
+  },
+  {
+    "numPassedTests": 221,
+    "failedTests": 0,
+    "numTotalTests": 221,
+    "timestamp": 1795037486019,
+    "success": true,
+    "testId": 235
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
+    "commitTimestamp": 1795037487189,
+    "testId": 235
   }
 ]
