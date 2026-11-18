@@ -1,5 +1,5 @@
 import { scryptSync } from "node:crypto";
-import { iniciarSesion } from "./autenticacionServicio.js";
+import { hashDeToken, iniciarSesion } from "./autenticacionServicio.js";
 
 const SAL = "00ff00ff00ff00ff00ff00ff00ff00ff";
 const claveHash = `${SAL}:${scryptSync("prueba123", SAL, 64).toString("hex")}`;
@@ -7,6 +7,10 @@ const usuario = { id: 1, nombre: "Usuario de Prueba", correo: "prueba@cochapet.b
 const repositorio = { buscarUsuarioPorCorreo: async () => usuario, crearSesion: async () => {} };
 
 describe("Autenticacion servicio", () => {
+  it("deberia calcular el hash sha256 de un token", () => {
+    expect(hashDeToken("abc")).toBe("ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad");
+  });
+
   it("deberia iniciar sesion con el correo y la clave correctos", async () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "prueba123" });
     expect(resultado.ok).toBe(true);

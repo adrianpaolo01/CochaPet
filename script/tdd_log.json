@@ -3220,7 +3220,7 @@
     "testId": 160
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42fe72a7c0ddbb37bc7c2b65895d32ff0627d187",
     "commitName": "feat(HU32): iniciar sesion con el correo y la clave correctos",
     "commitTimestamp": 1795024716294,
     "testId": 160
@@ -3334,5 +3334,27 @@
     "commitName": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
     "commitTimestamp": 1795027200436,
     "testId": 165
+  },
+  {
+    "numPassedTests": 112,
+    "failedTests": 1,
+    "numTotalTests": 113,
+    "timestamp": 1795027237607,
+    "success": false,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1795027557862,
+    "success": true,
+    "testId": 166
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): calcular el hash sha256 de un token de sesion",
+    "commitTimestamp": 1795027563695,
+    "testId": 166
   }
 ]
