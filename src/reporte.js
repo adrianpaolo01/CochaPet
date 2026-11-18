@@ -12,3 +12,7 @@ export function validarReporte(datos) {
 export function fechaDelDia(dia) {
   return new Date(`${dia}T12:00`).toISOString();
 }
+
+export function leerBorrador(texto) {
+  return JSON.parse(texto);
+}

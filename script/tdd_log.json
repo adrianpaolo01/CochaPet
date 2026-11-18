@@ -4234,7 +4234,7 @@
     "testId": 173
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b834151f076ab4fef862f7dfb8937e45cdc7fef5",
     "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
     "commitTimestamp": 1795033853866,
     "testId": 173
@@ -4588,5 +4588,27 @@
     "commitName": "feat(HU04): enviar la fecha de perdida al mediodia local para no cambiar de dia",
     "commitTimestamp": 1795035513954,
     "testId": 190
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 1,
+    "numTotalTests": 193,
+    "timestamp": 1795035519997,
+    "success": false,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 0,
+    "numTotalTests": 193,
+    "timestamp": 1795035525648,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): recuperar lo escrito en el borrador del reporte",
+    "commitTimestamp": 1795035526760,
+    "testId": 191
   }
 ]

@@ -1,4 +1,4 @@
-import { fechaDelDia, validarReporte } from "./reporte.js";
+import { fechaDelDia, leerBorrador, validarReporte } from "./reporte.js";
 
 describe("Reporte", () => {
   const datosValidos = { especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" };
@@ -25,5 +25,9 @@ describe("Reporte", () => {
 
   it("deberia conservar el dia elegido sin importar la zona horaria", () => {
     expect(new Date(fechaDelDia("2026-11-17")).getDate()).toBe(17);
+  });
+
+  it("deberia recuperar lo escrito en el borrador guardado", () => {
+    expect(leerBorrador('{"nombre":"Toby"}')).toEqual({ nombre: "Toby" });
   });
 });

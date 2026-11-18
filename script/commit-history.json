@@ -4446,12 +4446,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b834151f076ab4fef862f7dfb8937e45cdc7fef5",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:53.000Z",
       "message": "feat(HU01): mostrar el error de validacion en el formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b834151f076ab4fef862f7dfb8937e45cdc7fef5"
     },
     "stats": {
       "total": 20,
@@ -4784,6 +4784,25 @@
     },
     "coverage": 100,
     "test_count": 192,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:58:46.000Z",
+      "message": "feat(HU04): recuperar lo escrito en el borrador del reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 193,
     "failed_tests": 0,
     "conclusion": "success"
   }
