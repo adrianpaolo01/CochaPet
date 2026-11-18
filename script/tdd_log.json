@@ -3390,7 +3390,7 @@
     "testId": 167
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0862d820164ea6e295fda10374333cbe90758186",
     "commitName": "feat(HU01): registrar usuario con POST /api/usuarios y responder 201",
     "commitTimestamp": 1795033792576,
     "testId": 167
@@ -3480,5 +3480,19 @@
     "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
     "commitTimestamp": 1795033846722,
     "testId": 172
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1795033853367,
+    "success": true,
+    "testId": 173
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
+    "commitTimestamp": 1795033853866,
+    "testId": 173
   }
 ]

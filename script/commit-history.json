@@ -3496,12 +3496,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0862d820164ea6e295fda10374333cbe90758186",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:29:52.000Z",
       "message": "feat(HU01): registrar usuario con POST /api/usuarios y responder 201",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0862d820164ea6e295fda10374333cbe90758186"
     },
     "stats": {
       "total": 20,
@@ -3601,6 +3601,25 @@
     "stats": {
       "total": 17,
       "additions": 17,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:30:53.000Z",
+      "message": "feat(HU01): mostrar el error de validacion en el formulario de registro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
       "deletions": 0,
       "date": "2026-11-18"
     },
