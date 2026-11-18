@@ -4248,7 +4248,7 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b6aa87e4046b3dc1c4e17d610473d23873b2bce6",
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
@@ -5866,5 +5866,27 @@
     "commitName": "chore(HU03): fusionar main con HU04 y HU02 y resolver conflictos",
     "commitTimestamp": 1795041322741,
     "testId": 251
+  },
+  {
+    "numPassedTests": 242,
+    "failedTests": 1,
+    "numTotalTests": 243,
+    "timestamp": 1795041334311,
+    "success": false,
+    "testId": 252
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795041644894,
+    "success": true,
+    "testId": 252
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): llevar el saludo del encabezado a mi perfil",
+    "commitTimestamp": 1795041647862,
+    "testId": 252
   }
 ]

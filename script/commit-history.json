@@ -4465,12 +4465,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b6aa87e4046b3dc1c4e17d610473d23873b2bce6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:30.000Z",
       "message": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b6aa87e4046b3dc1c4e17d610473d23873b2bce6"
     },
     "stats": {
       "total": 10,
@@ -6015,6 +6015,25 @@
       "total": 528,
       "additions": 504,
       "deletions": 24,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 243,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:40:47.000Z",
+      "message": "feat(HU03): llevar el saludo del encabezado a mi perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-18"
     },
     "coverage": 100,
