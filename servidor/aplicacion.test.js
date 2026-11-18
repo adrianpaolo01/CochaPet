@@ -124,7 +124,7 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
   it("registra un usuario y responde 201 con la cuenta creada", async () => {
     const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
-    const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }) };
+    const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5, ...datos }), crearSesion: async () => {} };
     const respuesta = crearRespuesta();
 
     await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
@@ -142,5 +142,16 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(400);
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "Ese correo ya está registrado" });
+  });
+
+  it("deja la sesion iniciada con una cookie al registrarse", async () => {
+    const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
+    const usuariosRepositorio = { buscarUsuarioPorCorreo: async () => undefined, crear: async () => ({ id: 5 }), crearSesion: jest.fn(async () => {}) };
+    const respuesta = crearRespuesta();
+
+    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+
+    expect(usuariosRepositorio.crearSesion).toHaveBeenCalledWith(expect.objectContaining({ usuarioId: 5 }));
+    expect(respuesta.writeHead.mock.calls[0][1]["Set-Cookie"]).toMatch(/^sesion=\w+; HttpOnly/);
   });
 });

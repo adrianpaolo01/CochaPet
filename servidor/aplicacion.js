@@ -1,4 +1,4 @@
-import { iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
@@ -76,8 +76,10 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
     if (req.method === "POST" && ruta === "/api/usuarios") {
       return manejarErrores(res, "No se pudo crear la cuenta", async () => {
         const { usuario, error } = await registrarUsuario(autenticacionRepositorio, await leerCuerpo(req));
-        if (error) responderJson(res, 400, { error });
-        else responderJson(res, 201, usuario);
+        if (error) return responderJson(res, 400, { error });
+        const { token, expiraEn } = await abrirSesion(autenticacionRepositorio, usuario);
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 201, usuario, { "Set-Cookie": cookieDeSesion(token, expiraEn, { seguro }) });
       });
     }
     responderJson(res, 404, { error: "No encontrado" });

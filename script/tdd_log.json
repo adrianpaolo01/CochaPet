@@ -2868,7 +2868,7 @@
     "testId": 143
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4c5e70460faa6e2fa47dd6363f89f1f9875f321",
     "commitName": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
     "commitTimestamp": 1794885969082,
     "testId": 143
@@ -4368,5 +4368,27 @@
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 1,
+    "numTotalTests": 187,
+    "timestamp": 1795034339850,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 0,
+    "numTotalTests": 187,
+    "timestamp": 1795034347994,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
+    "commitTimestamp": 1795034349158,
+    "testId": 181
   }
 ]

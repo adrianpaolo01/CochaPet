@@ -3135,12 +3135,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4c5e70460faa6e2fa47dd6363f89f1f9875f321",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:26:08.000Z",
       "message": "style(estilos): pasar el verde de whatsapp a la variable --whatsapp",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d4c5e70460faa6e2fa47dd6363f89f1f9875f321"
     },
     "stats": {
       "total": 3,
@@ -4594,6 +4594,25 @@
     },
     "coverage": 100,
     "test_count": 186,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:39:09.000Z",
+      "message": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 17,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 187,
     "failed_tests": 0,
     "conclusion": "success"
   }
