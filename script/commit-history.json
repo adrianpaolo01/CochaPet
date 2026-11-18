@@ -4921,12 +4921,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b409b0f5affe65998e50b6c5c26982502a56130",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:00:25.000Z",
       "message": "feat(HU04): rechazar el reporte si el barrio no es de Cochabamba",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6b409b0f5affe65998e50b6c5c26982502a56130"
     },
     "stats": {
       "total": 9,
@@ -5259,6 +5259,25 @@
     },
     "coverage": 100,
     "test_count": 210,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:06:17.000Z",
+      "message": "feat(HU04): avisar en el formulario que hay que iniciar sesion o registrarse",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 211,
     "failed_tests": 0,
     "conclusion": "success"
   }

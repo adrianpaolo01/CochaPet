@@ -4760,7 +4760,7 @@
     "testId": 198
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b409b0f5affe65998e50b6c5c26982502a56130",
     "commitName": "feat(HU04): rechazar el reporte si el barrio no es de Cochabamba",
     "commitTimestamp": 1795035625569,
     "testId": 198
@@ -5122,5 +5122,27 @@
     "commitName": "feat(HU04): mostrar el titulo del formulario de mascota perdida",
     "commitTimestamp": 1795035959210,
     "testId": 215
+  },
+  {
+    "numPassedTests": 210,
+    "failedTests": 1,
+    "numTotalTests": 211,
+    "timestamp": 1795035968335,
+    "success": false,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 211,
+    "failedTests": 0,
+    "numTotalTests": 211,
+    "timestamp": 1795035976476,
+    "success": true,
+    "testId": 216
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): avisar en el formulario que hay que iniciar sesion o registrarse",
+    "commitTimestamp": 1795035977498,
+    "testId": 216
   }
 ]
