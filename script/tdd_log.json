@@ -5010,7 +5010,7 @@
     "testId": 209
   },
   {
-    "commitId": "HEAD",
+    "commitId": "89064502de525ffd17d6b4c97ea19c6ab16d796a",
     "commitName": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
     "commitTimestamp": 1795035871671,
     "testId": 209
@@ -5332,5 +5332,19 @@
     "commitName": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
     "commitTimestamp": 1795036125577,
     "testId": 226
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036134113,
+    "success": true,
+    "testId": 227
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
+    "commitTimestamp": 1795036135247,
+    "testId": 227
   }
 ]

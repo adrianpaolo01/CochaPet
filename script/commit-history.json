@@ -5130,12 +5130,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "89064502de525ffd17d6b4c97ea19c6ab16d796a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:04:31.000Z",
       "message": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/89064502de525ffd17d6b4c97ea19c6ab16d796a"
     },
     "stats": {
       "total": 6,
@@ -5463,6 +5463,25 @@
     "stats": {
       "total": 11,
       "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:08:55.000Z",
+      "message": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
       "deletions": 0,
       "date": "2026-11-18"
     },

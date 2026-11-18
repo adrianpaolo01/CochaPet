@@ -43,4 +43,8 @@ function mostrarVista() {
 window.addEventListener("hashchange", mostrarVista);
 mostrarVista();
 formulario.addEventListener("input", guardarBorrador);
+document.querySelector("#reporte-registrarse").addEventListener("click", () => document.querySelector("#abrir-registro").click());
+window.addEventListener("sesion-iniciada", () => {
+  avisoSesion.hidden = true;
+});
 cargarBarrios().then(restaurarBorrador);
