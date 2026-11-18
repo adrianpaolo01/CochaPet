@@ -17,6 +17,16 @@ describe("Autenticacion servicio", () => {
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
   });
 
+  it.each([["", "prueba123"], ["   ", "prueba123"], ["prueba@cochapet.bo", ""], [undefined, undefined], ["prueba@cochapet.bo", 123]])(
+    "deberia pedir correo y clave sin consultar la base con %p y %p",
+    async (correo, clave) => {
+      const buscarUsuarioPorCorreo = jest.fn();
+      const resultado = await iniciarSesion({ ...repositorio, buscarUsuarioPorCorreo }, { correo, clave });
+      expect(resultado).toEqual({ ok: false, estado: 400, error: "Ingresa tu correo y tu contraseña" });
+      expect(buscarUsuarioPorCorreo).not.toHaveBeenCalled();
+    }
+  );
+
   it("deberia rechazar un correo inexistente con el mismo mensaje general", async () => {
     const sinUsuario = { ...repositorio, buscarUsuarioPorCorreo: async () => undefined };
     const resultado = await iniciarSesion(sinUsuario, { correo: "nadie@cochapet.bo", clave: "prueba123" });

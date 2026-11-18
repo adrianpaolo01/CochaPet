@@ -3162,7 +3162,7 @@
     "testId": 157
   },
   {
-    "commitId": "HEAD",
+    "commitId": "54f1ea42320e8cba46fa56aeb06b49dce45b0506",
     "commitName": "feat(HU32): verificar una clave contra su hash guardado",
     "commitTimestamp": 1795023980232,
     "testId": 157
@@ -3268,5 +3268,27 @@
     "commitName": "feat(HU32): rechazar un correo inexistente con el mismo mensaje general",
     "commitTimestamp": 1795025535257,
     "testId": 162
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 5,
+    "numTotalTests": 110,
+    "timestamp": 1795025565461,
+    "success": false,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1795025882001,
+    "success": true,
+    "testId": 163
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
+    "commitTimestamp": 1795025892639,
+    "testId": 163
   }
 ]

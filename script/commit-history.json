@@ -3306,12 +3306,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "54f1ea42320e8cba46fa56aeb06b49dce45b0506",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T17:46:18.000Z",
       "message": "feat(HU32): verificar una clave contra su hash guardado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/54f1ea42320e8cba46fa56aeb06b49dce45b0506"
     },
     "stats": {
       "total": 20,
@@ -3416,6 +3416,25 @@
     },
     "coverage": 100,
     "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:18:11.000Z",
+      "message": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 110,
     "failed_tests": 0,
     "conclusion": "success"
   }
