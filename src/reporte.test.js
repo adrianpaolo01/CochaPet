@@ -38,4 +38,8 @@ describe("Reporte", () => {
   it("deberia titular el reporte de una mascota encontrada", () => {
     expect(textosReporte("ENCONTRADA").titulo).toBe("Encontré una mascota");
   });
+
+  it("deberia titular el reporte de una mascota perdida", () => {
+    expect(textosReporte("PERDIDA").titulo).toBe("Perdí mi mascota");
+  });
 });

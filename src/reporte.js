@@ -8,8 +8,13 @@ export function validarReporte(datos) {
   return null;
 }
 
-export function textosReporte() {
-  return { titulo: "Encontré una mascota" };
+const TEXTOS_REPORTE = {
+  PERDIDA: { titulo: "Perdí mi mascota" },
+  ENCONTRADA: { titulo: "Encontré una mascota" },
+};
+
+export function textosReporte(tipo) {
+  return TEXTOS_REPORTE[tipo];
 }
 
 // Mediodia local: asi la fecha no cambia de dia al convertirse a UTC en el servidor.

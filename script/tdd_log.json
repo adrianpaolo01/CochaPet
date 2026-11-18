@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -6038,5 +6038,27 @@
     "commitName": "feat(HU05): titular el formulario como Encontre una mascota",
     "commitTimestamp": 1795044256234,
     "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 1,
+    "numTotalTests": 249,
+    "timestamp": 1795044266645,
+    "success": false,
+    "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795044273005,
+    "success": true,
+    "testId": 258
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044274470,
+    "testId": 258
   }
 ]

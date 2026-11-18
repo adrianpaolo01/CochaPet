@@ -4579,12 +4579,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:37:43.000Z",
       "message": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ff6fc6589075b7f2e346c9379d538d5f762f2bc9"
     },
     "stats": {
       "total": 666,
@@ -6133,6 +6133,25 @@
     },
     "coverage": 100,
     "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:24:34.000Z",
+      "message": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 249,
     "failed_tests": 0,
     "conclusion": "success"
   }
