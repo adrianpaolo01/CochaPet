@@ -3363,12 +3363,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cd73fb568e520ad906730b4a1c51450d6d319215",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:25:36.000Z",
       "message": "feat(HU01): rechazar correo sin formato valido al registrarse",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cd73fb568e520ad906730b4a1c51450d6d319215"
     },
     "stats": {
       "total": 6,
@@ -3473,6 +3473,25 @@
     },
     "coverage": 100,
     "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:29:38.000Z",
+      "message": "feat(HU01): leer el cuerpo JSON de la peticion en el servidor local",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   }

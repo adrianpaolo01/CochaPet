@@ -116,4 +116,9 @@ describe("API compartida entre desarrollo y Vercel", () => {
   it("leerCuerpo usa el cuerpo ya leido por Vercel", async () => {
     expect(await leerCuerpo({ body: { correo: "ana@correo.com" } })).toEqual({ correo: "ana@correo.com" });
   });
+
+  it("leerCuerpo lee el JSON que llega por partes en el servidor local", async () => {
+    const req = (async function* () { yield Buffer.from('{"correo":'); yield Buffer.from('"ana@correo.com"}'); })();
+    expect(await leerCuerpo(req)).toEqual({ correo: "ana@correo.com" });
+  });
 });

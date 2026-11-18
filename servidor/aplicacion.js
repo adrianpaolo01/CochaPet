@@ -39,5 +39,8 @@ export function crearManejador(repositorio, barriosRepositorio) {
 }
 
 export async function leerCuerpo(req) {
-  return req.body;
+  if (req.body) return req.body;
+  const partes = [];
+  for await (const parte of req) partes.push(parte);
+  return JSON.parse(Buffer.concat(partes).toString());
 }

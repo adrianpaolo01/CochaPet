@@ -3236,7 +3236,7 @@
     "testId": 160
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cd73fb568e520ad906730b4a1c51450d6d319215",
     "commitName": "feat(HU01): rechazar correo sin formato valido al registrarse",
     "commitTimestamp": 1795033536582,
     "testId": 160
@@ -3350,5 +3350,27 @@
     "commitName": "feat(HU01): leer el cuerpo de la peticion ya parseado por Vercel",
     "commitTimestamp": 1795033767939,
     "testId": 165
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 1,
+    "numTotalTests": 105,
+    "timestamp": 1795033773482,
+    "success": false,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 0,
+    "numTotalTests": 105,
+    "timestamp": 1795033778198,
+    "success": true,
+    "testId": 166
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): leer el cuerpo JSON de la peticion en el servidor local",
+    "commitTimestamp": 1795033778777,
+    "testId": 166
   }
 ]
