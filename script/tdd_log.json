@@ -5272,7 +5272,7 @@
     "testId": 218
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f094d130b77a7758a26d820ef4bf5259d482552",
     "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
     "commitTimestamp": 1795036010099,
     "testId": 218
@@ -6226,5 +6226,19 @@
     "commitName": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
     "commitTimestamp": 1795044430135,
     "testId": 267
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044440764,
+    "success": true,
+    "testId": 268
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): enviar a la API si el reporte es de una mascota perdida o encontrada",
+    "commitTimestamp": 1795044442009,
+    "testId": 268
   }
 ]

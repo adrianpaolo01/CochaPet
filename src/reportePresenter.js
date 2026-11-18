@@ -21,7 +21,7 @@ async function publicar(evento) {
   mostrarError(error);
   if (error) return;
   try {
-    const cuerpo = JSON.stringify({ ...datos, fecha: fechaDelDia(datos.fecha) });
+    const cuerpo = JSON.stringify({ ...datos, tipo: tipoDeReporte(location.hash), fecha: fechaDelDia(datos.fecha) });
     const respuesta = await fetch("/api/publicaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: cuerpo });
     if (!respuesta.ok) return mostrarError((await respuesta.json()).error);
     sessionStorage.removeItem(CLAVE_BORRADOR);
