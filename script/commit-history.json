@@ -4845,12 +4845,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e1f72390a1e49787b4f7780d223019cf567d58e2",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:59:28.000Z",
       "message": "feat(HU04): mostrar el inicio de sesion aunque la ruta indique a donde volver",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e1f72390a1e49787b4f7780d223019cf567d58e2"
     },
     "stats": {
       "total": 3,
@@ -5183,6 +5183,25 @@
     },
     "coverage": 100,
     "test_count": 207,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:05:11.000Z",
+      "message": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 208,
     "failed_tests": 0,
     "conclusion": "success"
   }

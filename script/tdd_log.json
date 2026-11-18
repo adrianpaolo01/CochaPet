@@ -4672,7 +4672,7 @@
     "testId": 194
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e1f72390a1e49787b4f7780d223019cf567d58e2",
     "commitName": "feat(HU04): mostrar el inicio de sesion aunque la ruta indique a donde volver",
     "commitTimestamp": 1795035568389,
     "testId": 194
@@ -5042,5 +5042,27 @@
     "commitName": "fix(HU04): ocultar la foto de la tarjeta segun la foto principal y no segun src",
     "commitTimestamp": 1795035894882,
     "testId": 211
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 1,
+    "numTotalTests": 208,
+    "timestamp": 1795035902900,
+    "success": false,
+    "testId": 212
+  },
+  {
+    "numPassedTests": 208,
+    "failedTests": 0,
+    "numTotalTests": 208,
+    "timestamp": 1795035910752,
+    "success": true,
+    "testId": 212
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar en el inicio el boton grande Perdi mi mascota",
+    "commitTimestamp": 1795035911888,
+    "testId": 212
   }
 ]

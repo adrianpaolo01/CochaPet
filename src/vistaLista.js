@@ -1,7 +1,10 @@
 export function htmlEncabezadoLista() {
   return `
     <h1>Mascotas perdidas y encontradas</h1>
-    <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>`;
+    <p class="subtitulo">Mira las publicaciones de Cochabamba sin crear una cuenta.</p>
+    <nav class="acciones-reporte">
+      <a id="reportar-perdida" class="boton boton-grande" href="#/reportar/perdida">Perdí mi mascota</a>
+    </nav>`;
 }
 
 export function htmlFiltros() {
