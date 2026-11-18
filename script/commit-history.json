@@ -3667,12 +3667,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "48822d7900b3897ac5e5e7109796f1d69736cf10",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:43:51.000Z",
       "message": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/48822d7900b3897ac5e5e7109796f1d69736cf10"
     },
     "stats": {
       "total": 5,
@@ -5715,6 +5715,25 @@
     },
     "coverage": 100,
     "test_count": 221,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:02:42.000Z",
+      "message": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 36,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 229,
     "failed_tests": 0,
     "conclusion": "success"
   }

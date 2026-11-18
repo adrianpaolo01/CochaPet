@@ -1,6 +1,14 @@
-import { cookieDeSesion, leerCookie } from "./cookies.js";
+import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 
 describe("Cookies", () => {
+  it("deberia armar la cookie que le ordena al navegador borrar la sesion", () => {
+    expect(cookieBorrada()).toBe("sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0");
+  });
+
+  it("deberia mantener Secure al borrar la cookie en una conexion segura", () => {
+    expect(cookieBorrada({ seguro: true })).toBe("sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0; Secure");
+  });
+
   it("deberia armar la cookie de sesion con sus protecciones y su duracion", () => {
     const ahora = new Date("2026-11-20T10:00:00Z");
     const expiraEn = new Date("2026-11-27T10:00:00Z");

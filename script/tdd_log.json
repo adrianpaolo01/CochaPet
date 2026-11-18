@@ -3870,7 +3870,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "48822d7900b3897ac5e5e7109796f1d69736cf10",
     "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
     "commitTimestamp": 1795032534548,
     "testId": 181
@@ -5554,5 +5554,35 @@
     "commitName": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
     "commitTimestamp": 1795037487189,
     "testId": 235
+  },
+  {
+    "numPassedTests": 221,
+    "failedTests": 0,
+    "numTotalTests": 221,
+    "timestamp": 1795038749368,
+    "success": true,
+    "testId": 236
+  },
+  {
+    "numPassedTests": 225,
+    "failedTests": 4,
+    "numTotalTests": 229,
+    "timestamp": 1795039155321,
+    "success": false,
+    "testId": 236
+  },
+  {
+    "numPassedTests": 229,
+    "failedTests": 0,
+    "numTotalTests": 229,
+    "timestamp": 1795039352167,
+    "success": true,
+    "testId": 236
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
+    "commitTimestamp": 1795039363421,
+    "testId": 236
   }
 ]
