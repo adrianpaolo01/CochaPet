@@ -10,4 +10,8 @@ describe("Reporte", () => {
   it("deberia pedir el barrio donde se perdio", () => {
     expect(validarReporte({ ...datosValidos, barrio: " " })).toBe("Elige el barrio donde se perdió");
   });
+
+  it("deberia pedir la fecha en que se perdio", () => {
+    expect(validarReporte({ ...datosValidos, fecha: "" })).toBe("Indica la fecha en que se perdió");
+  });
 });

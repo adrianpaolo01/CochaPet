@@ -3870,7 +3870,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f92583340298821f90da6314b2751cc07a48452",
     "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
     "commitTimestamp": 1795032534548,
     "testId": 181
@@ -4500,5 +4500,27 @@
     "commitName": "feat(HU04): pedir el barrio donde se perdio la mascota",
     "commitTimestamp": 1795035456011,
     "testId": 186
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 1,
+    "numTotalTests": 189,
+    "timestamp": 1795035463404,
+    "success": false,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 189,
+    "failedTests": 0,
+    "numTotalTests": 189,
+    "timestamp": 1795035470000,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota",
+    "commitTimestamp": 1795035471118,
+    "testId": 187
   }
 ]
