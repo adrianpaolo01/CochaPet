@@ -4262,7 +4262,7 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df254e3732119062f2792a8a0c9023f9ae69fcfa",
     "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
     "commitTimestamp": 1795033868169,
     "testId": 175
@@ -4632,5 +4632,27 @@
     "commitName": "feat(HU04): empezar el reporte vacio si no hay borrador o esta danado",
     "commitTimestamp": 1795035543017,
     "testId": 192
+  },
+  {
+    "numPassedTests": 195,
+    "failedTests": 1,
+    "numTotalTests": 196,
+    "timestamp": 1795035548084,
+    "success": false,
+    "testId": 193
+  },
+  {
+    "numPassedTests": 196,
+    "failedTests": 0,
+    "numTotalTests": 196,
+    "timestamp": 1795035554992,
+    "success": true,
+    "testId": 193
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): abrir la vista de reporte con la ruta reportar perdida",
+    "commitTimestamp": 1795035556093,
+    "testId": 193
   }
 ]

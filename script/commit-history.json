@@ -4484,12 +4484,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df254e3732119062f2792a8a0c9023f9ae69fcfa",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:08.000Z",
       "message": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/df254e3732119062f2792a8a0c9023f9ae69fcfa"
     },
     "stats": {
       "total": 3,
@@ -4822,6 +4822,25 @@
     },
     "coverage": 100,
     "test_count": 195,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:59:15.000Z",
+      "message": "feat(HU04): abrir la vista de reporte con la ruta reportar perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 196,
     "failed_tests": 0,
     "conclusion": "success"
   }
