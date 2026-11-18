@@ -12,4 +12,13 @@ describe("GET /api/mis-publicaciones", () => {
     expect(estado).toBe(401);
     expect(cuerpo).toEqual({ error: "Inicia sesion para ver tus publicaciones" });
   });
+
+  it("responde 200 con las publicaciones del usuario de la sesion", async () => {
+    const autenticacionRepositorio = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+    const repositorio = { listarPorAutor: jest.fn(async () => [{ id: 1, estado: "ACTIVA" }]) };
+    const { estado, cuerpo } = await pedirMisPublicaciones({ cookie: "sesion=abc123" }, repositorio, autenticacionRepositorio);
+    expect(estado).toBe(200);
+    expect(cuerpo).toEqual([{ id: 1, estado: "ACTIVA" }]);
+    expect(repositorio.listarPorAutor).toHaveBeenCalledWith(7);
+  });
 });

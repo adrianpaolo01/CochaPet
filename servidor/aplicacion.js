@@ -1,7 +1,7 @@
 import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieDeSesion, leerCookie } from "./cookies.js";
-import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -58,7 +58,11 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
       });
     }
     if (req.method === "GET" && ruta === "/api/mis-publicaciones") {
-      return responderJson(res, 401, { error: "Inicia sesion para ver tus publicaciones" });
+      return manejarErrores(res, "No se pudieron cargar tus publicaciones", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para ver tus publicaciones" });
+        responderJson(res, 200, await misPublicaciones(repositorio, usuario.id));
+      });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {
       return manejarErrores(res, "No se pudieron cargar las publicaciones", async () =>

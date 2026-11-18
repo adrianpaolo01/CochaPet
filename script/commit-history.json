@@ -3686,12 +3686,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e0f711a45d13bf5fc9332ae370ea13c56328388",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:44:03.000Z",
       "message": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3e0f711a45d13bf5fc9332ae370ea13c56328388"
     },
     "stats": {
       "total": 4,
@@ -4784,6 +4784,25 @@
     },
     "coverage": 100,
     "test_count": 190,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:01:43.000Z",
+      "message": "feat(HU03): responder mis publicaciones si hay sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 191,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -3884,7 +3884,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e0f711a45d13bf5fc9332ae370ea13c56328388",
     "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
     "commitTimestamp": 1795032623524,
     "testId": 182
@@ -4580,5 +4580,27 @@
     "commitName": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
     "commitTimestamp": 1795038974578,
     "testId": 190
+  },
+  {
+    "numPassedTests": 190,
+    "failedTests": 1,
+    "numTotalTests": 191,
+    "timestamp": 1795038987858,
+    "success": false,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795039301171,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): responder mis publicaciones si hay sesion",
+    "commitTimestamp": 1795039304360,
+    "testId": 191
   }
 ]
