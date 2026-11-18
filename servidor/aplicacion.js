@@ -1,7 +1,8 @@
-import { iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
 
@@ -71,6 +72,17 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
     if (req.method === "GET" && ruta === "/api/barrios") {
       return manejarErrores(res, "No se pudieron cargar los barrios", async () =>
         responderJson(res, 200, await barriosParaLista(barriosRepositorio)));
+    }
+    if (req.method === "POST" && ruta === "/api/usuarios") {
+      return manejarErrores(res, "No se pudo crear la cuenta", async () => {
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const { usuario, error } = await registrarUsuario(autenticacionRepositorio, entrada.datos);
+        if (error) return responderJson(res, 400, { error });
+        const { token, expiraEn } = await abrirSesion(autenticacionRepositorio, usuario);
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 201, usuario, { "Set-Cookie": cookieDeSesion(token, expiraEn, { seguro }) });
+      });
     }
     responderJson(res, 404, { error: "No encontrado" });
   };

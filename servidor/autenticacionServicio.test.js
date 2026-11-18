@@ -1,5 +1,5 @@
 import { scryptSync } from "node:crypto";
-import { hashDeToken, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, hashDeToken, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 
 const SAL = "00ff00ff00ff00ff00ff00ff00ff00ff";
 const claveHash = `${SAL}:${scryptSync("prueba123", SAL, 64).toString("hex")}`;
@@ -85,5 +85,15 @@ describe("Autenticacion servicio", () => {
     const sinUsuario = { ...repositorio, buscarUsuarioPorCorreo: async () => undefined };
     const resultado = await iniciarSesion(sinUsuario, { correo: "nadie@cochapet.bo", clave: "prueba123" });
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
+  });
+
+  it("deberia abrir una sesion de 7 dias para un usuario recien registrado", async () => {
+    const crearSesion = jest.fn(async () => {});
+    const ahora = new Date("2026-11-20T10:00:00Z");
+
+    const sesion = await abrirSesion({ crearSesion }, { id: 9 }, { generarToken: () => "token-nuevo", ahora });
+
+    expect(sesion).toEqual({ token: "token-nuevo", expiraEn: new Date("2026-11-27T10:00:00Z") });
+    expect(crearSesion).toHaveBeenCalledWith({ id: hashDeToken("token-nuevo"), usuarioId: 9, expiraEn: sesion.expiraEn });
   });
 });

@@ -15,14 +15,19 @@ export async function usuarioDeSesion(repositorio, token, ahora = new Date()) {
   return sesion && sesion.expiraEn > ahora ? sesion.usuario : null;
 }
 
-export async function iniciarSesion(repositorio, { correo, clave }, { generarToken = () => randomBytes(32).toString("hex"), ahora = new Date() } = {}) {
+export async function abrirSesion(repositorio, usuario, { generarToken = () => randomBytes(32).toString("hex"), ahora = new Date() } = {}) {
+  const token = generarToken();
+  const expiraEn = new Date(ahora.getTime() + VIGENCIA_SESION_MS);
+  await repositorio.crearSesion({ id: hashDeToken(token), usuarioId: usuario.id, expiraEn });
+  return { token, expiraEn };
+}
+
+export async function iniciarSesion(repositorio, { correo, clave }, opciones = {}) {
   const correoLimpio = typeof correo === "string" ? correo.trim() : "";
   if (!correoLimpio || typeof clave !== "string" || clave === "") return FALTAN_DATOS;
   const usuario = await repositorio.buscarUsuarioPorCorreo(correoLimpio);
   if (!usuario || !verificarClave(clave, usuario.claveHash)) return CREDENCIALES_INCORRECTAS;
   const { id, nombre, telefono, rol } = usuario;
-  const token = generarToken();
-  const expiraEn = new Date(ahora.getTime() + VIGENCIA_SESION_MS);
-  await repositorio.crearSesion({ id: hashDeToken(token), usuarioId: id, expiraEn });
+  const { token, expiraEn } = await abrirSesion(repositorio, usuario, opciones);
   return { ok: true, token, expiraEn, usuario: { id, nombre, correo: usuario.correo, telefono, rol } };
 }

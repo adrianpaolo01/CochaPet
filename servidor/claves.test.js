@@ -1,5 +1,5 @@
 import { scryptSync } from "node:crypto";
-import { verificarClave } from "./claves.js";
+import { hashearClave, verificarClave } from "./claves.js";
 
 const SAL = "00ff00ff00ff00ff00ff00ff00ff00ff";
 
@@ -22,4 +22,8 @@ describe("Claves", () => {
       expect(verificarClave("prueba123", hashGuardado)).toBe(false);
     }
   );
+
+  it("deberia generar un hash que el inicio de sesion pueda verificar", () => {
+    expect(verificarClave("secreta123", hashearClave("secreta123"))).toBe(true);
+  });
 });

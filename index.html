@@ -11,16 +11,29 @@
     <header class="encabezado">
       <span class="marca">Cocha<span class="marca-acento">Pet</span></span>
       <a id="enlace-sesion" class="enlace-sesion" href="#/ingresar">Iniciar sesión</a>
+      <button type="button" id="abrir-registro" class="boton">Registrarse</button>
     </header>
     <main class="contenedor">
       <div id="vista-lista"></div>
       <section id="vista-detalle" hidden></section>
       <section id="vista-login" hidden></section>
       <dialog id="visor"></dialog>
+      <dialog id="registro">
+        <form id="formulario-registro" method="dialog" novalidate>
+          <h2>Crear cuenta</h2>
+          <label for="registro-nombre">Nombre</label><input id="registro-nombre" autocomplete="name" />
+          <label for="registro-correo">Correo</label><input id="registro-correo" type="email" autocomplete="email" />
+          <label for="registro-telefono">Teléfono</label><input id="registro-telefono" type="tel" autocomplete="tel" />
+          <label for="registro-clave">Contraseña</label><input id="registro-clave" type="password" autocomplete="new-password" />
+          <p id="registro-error" role="alert" hidden></p>
+          <button type="submit" class="boton">Crear cuenta</button>
+        </form>
+      </dialog>
     </main>
 
     <script type="module" src="./src/presenter.js"></script>
     <script type="module" src="./src/detallePresenter.js"></script>
     <script type="module" src="./src/loginPresenter.js"></script>
+    <script type="module" src="./src/registroPresenter.js"></script>
   </body>
 </html>
