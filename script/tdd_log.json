@@ -3104,7 +3104,7 @@
     "testId": 154
   },
   {
-    "commitId": "HEAD",
+    "commitId": "602339f01d2e3c317b8a994416d96945e7f28363",
     "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
     "commitTimestamp": 1794973816236,
     "testId": 154
@@ -3218,5 +3218,27 @@
     "commitName": "feat(HU01): pedir completar nombre, correo y telefono al registrarse",
     "commitTimestamp": 1795033460569,
     "testId": 159
+  },
+  {
+    "numPassedTests": 98,
+    "failedTests": 1,
+    "numTotalTests": 99,
+    "timestamp": 1795033465953,
+    "success": false,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 99,
+    "failedTests": 0,
+    "numTotalTests": 99,
+    "timestamp": 1795033535928,
+    "success": true,
+    "testId": 160
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): rechazar correo sin formato valido al registrarse",
+    "commitTimestamp": 1795033536582,
+    "testId": 160
   }
 ]

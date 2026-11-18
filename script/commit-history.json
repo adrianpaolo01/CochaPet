@@ -3249,12 +3249,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "602339f01d2e3c317b8a994416d96945e7f28363",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:50:15.000Z",
       "message": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/602339f01d2e3c317b8a994416d96945e7f28363"
     },
     "stats": {
       "total": 8,
@@ -3359,6 +3359,25 @@
     },
     "coverage": 100,
     "test_count": 98,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:25:36.000Z",
+      "message": "feat(HU01): rechazar correo sin formato valido al registrarse",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 99,
     "failed_tests": 0,
     "conclusion": "success"
   }

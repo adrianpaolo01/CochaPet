@@ -14,4 +14,8 @@ describe("Registro", () => {
   it.each(["nombre", "correo", "telefono"])("deberia pedir completar los campos si falta el %s", (campo) => {
     expect(validarRegistro({ ...datosValidos, [campo]: "  " })).toEqual("Completa todos los campos");
   });
+
+  it("deberia rechazar un correo sin formato valido", () => {
+    expect(validarRegistro({ ...datosValidos, correo: "ana.correo.com" })).toEqual("Ingresa un correo válido");
+  });
 });
