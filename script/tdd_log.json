@@ -3286,7 +3286,7 @@
     "testId": 163
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fc37da73143ead7b8c5f7bbcfcf6ed3d4ff95de6",
     "commitName": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
     "commitTimestamp": 1795025892639,
     "testId": 163
@@ -3400,5 +3400,27 @@
     "commitName": "feat(HU32): dar 7 dias de vigencia a la sesion",
     "commitTimestamp": 1795028278661,
     "testId": 168
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 1,
+    "numTotalTests": 116,
+    "timestamp": 1795028307743,
+    "success": false,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 0,
+    "numTotalTests": 116,
+    "timestamp": 1795028626500,
+    "success": true,
+    "testId": 169
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): obtener el usuario de una sesion vigente",
+    "commitTimestamp": 1795028631597,
+    "testId": 169
   }
 ]

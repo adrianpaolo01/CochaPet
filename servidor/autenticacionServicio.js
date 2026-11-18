@@ -9,6 +9,11 @@ export function hashDeToken(token) {
   return createHash("sha256").update(token).digest("hex");
 }
 
+export async function usuarioDeSesion(repositorio, token) {
+  const sesion = await repositorio.obtenerSesion(hashDeToken(token));
+  return sesion.usuario;
+}
+
 export async function iniciarSesion(repositorio, { correo, clave }, { generarToken = () => randomBytes(32).toString("hex"), ahora = new Date() } = {}) {
   const correoLimpio = typeof correo === "string" ? correo.trim() : "";
   if (!correoLimpio || typeof clave !== "string" || clave === "") return FALTAN_DATOS;
