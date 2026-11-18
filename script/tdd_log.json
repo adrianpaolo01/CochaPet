@@ -4262,7 +4262,7 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8900b8a5fb6d09ba7bd3335441964887ab544a59",
     "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
     "commitTimestamp": 1795033868169,
     "testId": 175
@@ -4682,5 +4682,19 @@
     "commitName": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
     "commitTimestamp": 1795040288376,
     "testId": 195
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040308321,
+    "success": true,
+    "testId": 196
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
+    "commitTimestamp": 1795040311273,
+    "testId": 196
   }
 ]

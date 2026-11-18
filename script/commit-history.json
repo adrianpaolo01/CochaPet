@@ -4484,12 +4484,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8900b8a5fb6d09ba7bd3335441964887ab544a59",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:46.000Z",
       "message": "feat(HU01): mostrar el formulario de registro desde el encabezado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8900b8a5fb6d09ba7bd3335441964887ab544a59"
     },
     "stats": {
       "total": 17,
@@ -4875,6 +4875,25 @@
       "total": 10,
       "additions": 8,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 194,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:18:30.000Z",
+      "message": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

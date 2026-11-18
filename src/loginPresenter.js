@@ -15,7 +15,7 @@ let usuarioActual = null;
 function mostrarUsuario(usuario) {
   usuarioActual = usuario;
   enlaceSesion.textContent = textoSesion(usuario);
-  enlaceSesion.href = usuario ? "#/" : "#/ingresar";
+  enlaceSesion.href = usuario ? "#/perfil" : "#/ingresar";
   document.querySelector("#abrir-registro").hidden = Boolean(usuario);
 }
 
