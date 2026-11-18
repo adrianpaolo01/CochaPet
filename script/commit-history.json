@@ -4522,12 +4522,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e16627064a1fe2ecef5b57c5eb704c31778525f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:37:43.000Z",
       "message": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7e16627064a1fe2ecef5b57c5eb704c31778525f"
     },
     "stats": {
       "total": 666,
@@ -4860,6 +4860,25 @@
     },
     "coverage": 100,
     "test_count": 197,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:59:44.000Z",
+      "message": "feat(HU04): volver a la ruta indicada despues de iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 198,
     "failed_tests": 0,
     "conclusion": "success"
   }

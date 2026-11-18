@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7e16627064a1fe2ecef5b57c5eb704c31778525f",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -4676,5 +4676,27 @@
     "commitName": "feat(HU04): mostrar el inicio de sesion aunque la ruta indique a donde volver",
     "commitTimestamp": 1795035568389,
     "testId": 194
+  },
+  {
+    "numPassedTests": 197,
+    "failedTests": 1,
+    "numTotalTests": 198,
+    "timestamp": 1795035576663,
+    "success": false,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 198,
+    "failedTests": 0,
+    "numTotalTests": 198,
+    "timestamp": 1795035583277,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): volver a la ruta indicada despues de iniciar sesion",
+    "commitTimestamp": 1795035584420,
+    "testId": 195
   }
 ]
