@@ -4248,7 +4248,7 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "78c3cb6ad79c3da2c84df5dedd48ecd5bf4795fb",
     "commitName": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
     "commitTimestamp": 1795033862593,
     "testId": 174
@@ -4610,5 +4610,27 @@
     "commitName": "feat(HU04): recuperar lo escrito en el borrador del reporte",
     "commitTimestamp": 1795035526760,
     "testId": 191
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 2,
+    "numTotalTests": 195,
+    "timestamp": 1795035534829,
+    "success": false,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 195,
+    "failedTests": 0,
+    "numTotalTests": 195,
+    "timestamp": 1795035542007,
+    "success": true,
+    "testId": 192
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): empezar el reporte vacio si no hay borrador o esta danado",
+    "commitTimestamp": 1795035543017,
+    "testId": 192
   }
 ]

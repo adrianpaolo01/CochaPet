@@ -14,5 +14,9 @@ export function fechaDelDia(dia) {
 }
 
 export function leerBorrador(texto) {
-  return JSON.parse(texto);
+  try {
+    return JSON.parse(texto) ?? {};
+  } catch {
+    return {};
+  }
 }

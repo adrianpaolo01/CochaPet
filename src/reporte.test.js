@@ -30,4 +30,8 @@ describe("Reporte", () => {
   it("deberia recuperar lo escrito en el borrador guardado", () => {
     expect(leerBorrador('{"nombre":"Toby"}')).toEqual({ nombre: "Toby" });
   });
+
+  it.each([null, "{roto"])("deberia empezar sin datos si el borrador es %p", (texto) => {
+    expect(leerBorrador(texto)).toEqual({});
+  });
 });
