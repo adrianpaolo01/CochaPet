@@ -1,4 +1,4 @@
-import { crearManejador, manejarErrores } from "./aplicacion.js";
+import { crearManejador, leerCuerpo, manejarErrores } from "./aplicacion.js";
 
 function crearRespuesta() {
   return { writeHead: jest.fn(), end: jest.fn() };
@@ -111,5 +111,9 @@ describe("API compartida entre desarrollo y Vercel", () => {
 
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(500);
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "No se pudieron cargar los barrios" });
+  });
+
+  it("leerCuerpo usa el cuerpo ya leido por Vercel", async () => {
+    expect(await leerCuerpo({ body: { correo: "ana@correo.com" } })).toEqual({ correo: "ana@correo.com" });
   });
 });

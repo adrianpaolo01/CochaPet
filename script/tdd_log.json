@@ -3214,7 +3214,7 @@
     "testId": 159
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0ed86be7d28165067c9c3e6b5efd1f920f2366bd",
     "commitName": "feat(HU01): pedir completar nombre, correo y telefono al registrarse",
     "commitTimestamp": 1795033460569,
     "testId": 159
@@ -3328,5 +3328,27 @@
     "commitName": "feat(HU01): devolver el usuario registrado sin la contrasena",
     "commitTimestamp": 1795033754186,
     "testId": 164
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 1,
+    "numTotalTests": 104,
+    "timestamp": 1795033763174,
+    "success": false,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 0,
+    "numTotalTests": 104,
+    "timestamp": 1795033767355,
+    "success": true,
+    "testId": 165
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): leer el cuerpo de la peticion ya parseado por Vercel",
+    "commitTimestamp": 1795033767939,
+    "testId": 165
   }
 ]

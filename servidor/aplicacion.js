@@ -37,3 +37,7 @@ export function crearManejador(repositorio, barriosRepositorio) {
     responderJson(res, 404, { error: "No encontrado" });
   };
 }
+
+export async function leerCuerpo(req) {
+  return req.body;
+}
