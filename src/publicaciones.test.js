@@ -25,6 +25,10 @@ describe("Publicaciones", () => {
     expect(fotoPrincipal({ fotos: ["frente.jpg", "perfil.jpg"] })).toEqual("frente.jpg");
   });
 
+  it("deberia no tener foto principal si la publicacion no tiene fotos", () => {
+    expect(fotoPrincipal({ fotos: [] })).toBeNull();
+  });
+
   it("deberia mostrar primero las publicaciones destacadas", () => {
     const publicaciones = [{ id: 1, destacada: false }, { id: 2, destacada: true }];
     expect(ordenarParaInicio(publicaciones).map((p) => p.id)).toEqual([2, 1]);

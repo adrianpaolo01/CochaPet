@@ -4606,7 +4606,7 @@
     "testId": 191
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ca14dd45d475a0f0894fad5fe635c786815b8bb7",
     "commitName": "feat(HU04): recuperar lo escrito en el borrador del reporte",
     "commitTimestamp": 1795035526760,
     "testId": 191
@@ -4992,5 +4992,27 @@
     "commitName": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
     "commitTimestamp": 1795035855602,
     "testId": 208
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 1,
+    "numTotalTests": 207,
+    "timestamp": 1795035862434,
+    "success": false,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 207,
+    "failedTests": 0,
+    "numTotalTests": 207,
+    "timestamp": 1795035870590,
+    "success": true,
+    "testId": 209
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
+    "commitTimestamp": 1795035871671,
+    "testId": 209
   }
 ]

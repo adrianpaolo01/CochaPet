@@ -4788,12 +4788,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ca14dd45d475a0f0894fad5fe635c786815b8bb7",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:58:46.000Z",
       "message": "feat(HU04): recuperar lo escrito en el borrador del reporte",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ca14dd45d475a0f0894fad5fe635c786815b8bb7"
     },
     "stats": {
       "total": 10,
@@ -5126,6 +5126,25 @@
     },
     "coverage": 100,
     "test_count": 206,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:04:31.000Z",
+      "message": "feat(HU04): no tener foto principal si la publicacion no tiene fotos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 207,
     "failed_tests": 0,
     "conclusion": "success"
   }
