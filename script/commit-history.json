@@ -5111,12 +5111,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ce79259790228ccb2f1244c4fa0c1310e6e4ec7",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:04:15.000Z",
       "message": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1ce79259790228ccb2f1244c4fa0c1310e6e4ec7"
     },
     "stats": {
       "total": 12,
@@ -5445,6 +5445,25 @@
       "total": 14,
       "additions": 13,
       "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:08:45.000Z",
+      "message": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

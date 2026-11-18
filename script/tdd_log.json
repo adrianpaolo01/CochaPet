@@ -4988,7 +4988,7 @@
     "testId": 208
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ce79259790228ccb2f1244c4fa0c1310e6e4ec7",
     "commitName": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
     "commitTimestamp": 1795035855602,
     "testId": 208
@@ -5318,5 +5318,19 @@
     "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
     "commitTimestamp": 1795036112440,
     "testId": 225
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036124495,
+    "success": true,
+    "testId": 226
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
+    "commitTimestamp": 1795036125577,
+    "testId": 226
   }
 ]

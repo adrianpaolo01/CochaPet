@@ -5,7 +5,17 @@ import { htmlVistaReporte } from "./vistaReporte.js";
 const vistaReporte = document.querySelector("#vista-reporte");
 vistaReporte.innerHTML = htmlVistaReporte();
 const formulario = document.querySelector("#formulario-reporte");
+const avisoSesion = document.querySelector("#reporte-aviso-sesion");
 const CLAVE_BORRADOR = "borrador-reporte-perdida";
+
+async function mostrarAvisoSesion() {
+  try {
+    const { usuario } = await (await fetch("/api/sesion")).json();
+    avisoSesion.hidden = Boolean(usuario);
+  } catch {
+    avisoSesion.hidden = false;
+  }
+}
 
 function guardarBorrador() {
   sessionStorage.setItem(CLAVE_BORRADOR, JSON.stringify(Object.fromEntries(new FormData(formulario))));
@@ -27,6 +37,7 @@ async function cargarBarrios() {
 
 function mostrarVista() {
   vistaReporte.hidden = vistaParaHash(location.hash) !== "reporte";
+  if (!vistaReporte.hidden) mostrarAvisoSesion();
 }
 
 window.addEventListener("hashchange", mostrarVista);
