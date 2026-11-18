@@ -3458,12 +3458,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1a87c0a7863272e2e912a175c3c3f7c077005e26",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:39:59.000Z",
       "message": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1a87c0a7863272e2e912a175c3c3f7c077005e26"
     },
     "stats": {
       "total": 8,
@@ -3568,6 +3568,25 @@
     },
     "coverage": 100,
     "test_count": 117,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:15:19.000Z",
+      "message": "feat(HU32): no dar usuario si la sesion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 118,
     "failed_tests": 0,
     "conclusion": "success"
   }

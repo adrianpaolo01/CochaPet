@@ -20,6 +20,11 @@ describe("Autenticacion servicio", () => {
     expect(resultado).toBeNull();
   });
 
+  it("deberia devolver null si la sesion no existe", async () => {
+    const obtenerSesion = async () => undefined;
+    expect(await usuarioDeSesion({ obtenerSesion }, "token-inventado")).toBeNull();
+  });
+
   it("deberia calcular el hash sha256 de un token", () => {
     expect(hashDeToken("abc")).toBe("ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad");
   });

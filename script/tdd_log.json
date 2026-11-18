@@ -3330,7 +3330,7 @@
     "testId": 165
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1a87c0a7863272e2e912a175c3c3f7c077005e26",
     "commitName": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
     "commitTimestamp": 1795027200436,
     "testId": 165
@@ -3444,5 +3444,27 @@
     "commitName": "feat(HU32): no dar usuario si la sesion ya vencio",
     "commitTimestamp": 1795028976799,
     "testId": 170
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 1,
+    "numTotalTests": 118,
+    "timestamp": 1795028999596,
+    "success": false,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 0,
+    "numTotalTests": 118,
+    "timestamp": 1795029316056,
+    "success": true,
+    "testId": 171
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): no dar usuario si la sesion no existe",
+    "commitTimestamp": 1795029321133,
+    "testId": 171
   }
 ]

@@ -11,7 +11,7 @@ export function hashDeToken(token) {
 
 export async function usuarioDeSesion(repositorio, token, ahora = new Date()) {
   const sesion = await repositorio.obtenerSesion(hashDeToken(token));
-  return sesion.expiraEn > ahora ? sesion.usuario : null;
+  return sesion && sesion.expiraEn > ahora ? sesion.usuario : null;
 }
 
 export async function iniciarSesion(repositorio, { correo, clave }, { generarToken = () => randomBytes(32).toString("hex"), ahora = new Date() } = {}) {
