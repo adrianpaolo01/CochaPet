@@ -3126,7 +3126,7 @@
     "testId": 155
   },
   {
-    "commitId": "HEAD",
+    "commitId": "70d25a62b554d34d38b523577593a8a310fefb9d",
     "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
     "commitTimestamp": 1794974136700,
     "testId": 155
@@ -3240,5 +3240,27 @@
     "commitName": "feat(HU01): rechazar correo sin formato valido al registrarse",
     "commitTimestamp": 1795033536582,
     "testId": 160
+  },
+  {
+    "numPassedTests": 99,
+    "failedTests": 1,
+    "numTotalTests": 100,
+    "timestamp": 1795033545336,
+    "success": false,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 100,
+    "failedTests": 0,
+    "numTotalTests": 100,
+    "timestamp": 1795033661973,
+    "success": true,
+    "testId": 161
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): crear la cuenta del usuario con datos validos",
+    "commitTimestamp": 1795033662644,
+    "testId": 161
   }
 ]
