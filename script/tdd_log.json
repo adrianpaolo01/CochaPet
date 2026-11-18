@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0966a74fc9ece99dd2834eb6cc4087d7da587698",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -4742,5 +4742,27 @@
     "commitName": "feat(HU04): rechazar en el servidor el reporte de perdida sin datos obligatorios",
     "commitTimestamp": 1795035611394,
     "testId": 197
+  },
+  {
+    "numPassedTests": 200,
+    "failedTests": 1,
+    "numTotalTests": 201,
+    "timestamp": 1795035618119,
+    "success": false,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 201,
+    "failedTests": 0,
+    "numTotalTests": 201,
+    "timestamp": 1795035624401,
+    "success": true,
+    "testId": 198
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): rechazar el reporte si el barrio no es de Cochabamba",
+    "commitTimestamp": 1795035625569,
+    "testId": 198
   }
 ]

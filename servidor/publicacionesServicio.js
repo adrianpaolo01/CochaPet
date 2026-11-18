@@ -13,4 +13,6 @@ export async function detalleDePublicacion(repositorio, id) {
 export async function reportarPerdida(repositorios, usuario, datos) {
   const error = validarReporte(datos);
   if (error) return { error };
+  const barrios = await repositorios.barrios.listar();
+  if (!barrios.some((b) => b.nombre === datos.barrio)) return { error: "Elige un barrio de Cochabamba" };
 }

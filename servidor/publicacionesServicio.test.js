@@ -42,4 +42,11 @@ describe("Publicaciones servicio", () => {
 
     expect(resultado).toEqual({ error: "Elige la especie de tu mascota" });
   });
+
+  it("deberia rechazar un barrio que no es de Cochabamba", async () => {
+    const barrios = { listar: async () => [{ id: 1, nombre: "Cala Cala" }] };
+    const datos = { especie: "PERRO", barrio: "Miraflores", fecha: "2026-11-17", descripcion: "Collar rojo" };
+
+    expect(await reportarPerdida({ barrios }, { id: 7 }, datos)).toEqual({ error: "Elige un barrio de Cochabamba" });
+  });
 });
