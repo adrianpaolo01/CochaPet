@@ -89,6 +89,7 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para publicar" });
         const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
         const repositorios = { publicaciones: repositorio, barrios: barriosRepositorio };
         const { publicacion, error } = await reportarPerdida(repositorios, usuario, entrada.datos);
         if (error) return responderJson(res, 400, { error });

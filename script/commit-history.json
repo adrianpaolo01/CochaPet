@@ -4750,12 +4750,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b041289ddc7cff8ddb65d8bdf51b15c1cec8ddee",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:58:18.000Z",
       "message": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b041289ddc7cff8ddb65d8bdf51b15c1cec8ddee"
     },
     "stats": {
       "total": 5,
@@ -5088,6 +5088,25 @@
     },
     "coverage": 100,
     "test_count": 205,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:03:54.000Z",
+      "message": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 206,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -4562,7 +4562,7 @@
     "testId": 189
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b041289ddc7cff8ddb65d8bdf51b15c1cec8ddee",
     "commitName": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
     "commitTimestamp": 1795035498756,
     "testId": 189
@@ -4956,5 +4956,27 @@
     "commitName": "refactor(HU04): compartir la sesion iniciada en los tests de reporte de la API",
     "commitTimestamp": 1795035817907,
     "testId": 206
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 1,
+    "numTotalTests": 206,
+    "timestamp": 1795035826788,
+    "success": false,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 0,
+    "numTotalTests": 206,
+    "timestamp": 1795035833464,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
+    "commitTimestamp": 1795035834572,
+    "testId": 207
   }
 ]

@@ -98,6 +98,12 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(respuesta.writeHead).toHaveBeenCalledWith(201, expect.anything());
   });
 
+  it("responde 400 si el reporte no llega como objeto JSON", async () => {
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, conSesion)(peticionReporte("texto"), respuesta);
+    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Los datos enviados no son validos" }));
+  });
+
   it("devuelve el detalle de una publicacion activa como JSON", async () => {
     const detalle = { id: 3, estado: "ACTIVA", descripcion: "Collar rojo" };
     const repositorio = { obtenerPorId: jest.fn(async () => detalle) };
