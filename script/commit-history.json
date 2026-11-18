@@ -4636,12 +4636,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "424bb4c94456378326ec16600430a12a4314b228",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:49.000Z",
       "message": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/424bb4c94456378326ec16600430a12a4314b228"
     },
     "stats": {
       "total": 25,
@@ -6185,6 +6185,25 @@
     "stats": {
       "total": 11,
       "additions": 9,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 251,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:15.000Z",
+      "message": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
       "deletions": 2,
       "date": "2026-11-18"
     },

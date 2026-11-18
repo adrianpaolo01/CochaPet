@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "HEAD",
+    "commitId": "424bb4c94456378326ec16600430a12a4314b228",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -6096,5 +6096,19 @@
     "commitName": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
     "commitTimestamp": 1795044303131,
     "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795044313997,
+    "success": true,
+    "testId": 261
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
+    "commitTimestamp": 1795044315403,
+    "testId": 261
   }
 ]
