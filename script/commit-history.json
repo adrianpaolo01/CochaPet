@@ -3116,12 +3116,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d1972cff676e76b20ff1ecc351fe48838d3adc3e",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:26:01.000Z",
       "message": "style(estilos): pasar el color del borde a la variable --borde",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d1972cff676e76b20ff1ecc351fe48838d3adc3e"
     },
     "stats": {
       "total": 3,
@@ -4575,6 +4575,25 @@
     },
     "coverage": 100,
     "test_count": 185,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:38:49.000Z",
+      "message": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 20,
+      "deletions": 5,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 186,
     "failed_tests": 0,
     "conclusion": "success"
   }

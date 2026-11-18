@@ -2854,7 +2854,7 @@
     "testId": 142
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d1972cff676e76b20ff1ecc351fe48838d3adc3e",
     "commitName": "style(estilos): pasar el color del borde a la variable --borde",
     "commitTimestamp": 1794885961258,
     "testId": 142
@@ -4346,5 +4346,27 @@
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
+  },
+  {
+    "numPassedTests": 185,
+    "failedTests": 1,
+    "numTotalTests": 186,
+    "timestamp": 1795034319875,
+    "success": false,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795034328321,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
+    "commitTimestamp": 1795034329387,
+    "testId": 180
   }
 ]
