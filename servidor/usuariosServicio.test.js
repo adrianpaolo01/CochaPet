@@ -20,4 +20,13 @@ describe("Usuarios servicio", () => {
     expect(resultado).toEqual({ error: "Ese correo ya está registrado" });
     expect(repositorio.crear).not.toHaveBeenCalled();
   });
+
+  it("deberia dar error y no crear la cuenta si la contrasena es corta", async () => {
+    const repositorio = { buscarPorCorreo: async () => undefined, crear: jest.fn() };
+
+    const resultado = await registrarUsuario(repositorio, { ...datos, clave: "corta" });
+
+    expect(resultado).toEqual({ error: "La contraseña debe tener al menos 8 caracteres" });
+    expect(repositorio.crear).not.toHaveBeenCalled();
+  });
 });

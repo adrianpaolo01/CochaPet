@@ -3306,12 +3306,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c38802873bea0d45eb555f2c59b2601d52710e4f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:19:04.000Z",
       "message": "feat(HU01): aceptar datos de registro validos sin error",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c38802873bea0d45eb555f2c59b2601d52710e4f"
     },
     "stats": {
       "total": 12,
@@ -3416,6 +3416,25 @@
     },
     "coverage": 100,
     "test_count": 101,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:28:53.000Z",
+      "message": "feat(HU01): no crear la cuenta si los datos de registro no son validos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 102,
     "failed_tests": 0,
     "conclusion": "success"
   }

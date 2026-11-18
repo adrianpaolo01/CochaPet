@@ -3170,7 +3170,7 @@
     "testId": 157
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c38802873bea0d45eb555f2c59b2601d52710e4f",
     "commitName": "feat(HU01): aceptar datos de registro validos sin error",
     "commitTimestamp": 1795033144169,
     "testId": 157
@@ -3284,5 +3284,27 @@
     "commitName": "feat(HU01): no crear la cuenta si el correo ya esta registrado",
     "commitTimestamp": 1795033719840,
     "testId": 162
+  },
+  {
+    "numPassedTests": 101,
+    "failedTests": 1,
+    "numTotalTests": 102,
+    "timestamp": 1795033727087,
+    "success": false,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 0,
+    "numTotalTests": 102,
+    "timestamp": 1795033732581,
+    "success": true,
+    "testId": 163
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): no crear la cuenta si los datos de registro no son validos",
+    "commitTimestamp": 1795033733149,
+    "testId": 163
   }
 ]
