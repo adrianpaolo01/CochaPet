@@ -3280,7 +3280,7 @@
     "testId": 162
   },
   {
-    "commitId": "HEAD",
+    "commitId": "08b3fe6c23781ee578b9d327b0b9197d407c164c",
     "commitName": "feat(HU01): no crear la cuenta si el correo ya esta registrado",
     "commitTimestamp": 1795033719840,
     "testId": 162
@@ -3394,5 +3394,27 @@
     "commitName": "feat(HU01): registrar usuario con POST /api/usuarios y responder 201",
     "commitTimestamp": 1795033792576,
     "testId": 167
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 1,
+    "numTotalTests": 107,
+    "timestamp": 1795033798602,
+    "success": false,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 0,
+    "numTotalTests": 107,
+    "timestamp": 1795033803767,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): responder 400 con el error cuando el registro no es valido",
+    "commitTimestamp": 1795033804365,
+    "testId": 168
   }
 ]

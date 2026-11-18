@@ -37,8 +37,9 @@ export function crearManejador(repositorio, barriosRepositorio, usuariosReposito
     }
     if (req.method === "POST" && ruta === "/api/usuarios") {
       return manejarErrores(res, "No se pudo crear la cuenta", async () => {
-        const { usuario } = await registrarUsuario(usuariosRepositorio, await leerCuerpo(req));
-        responderJson(res, 201, usuario);
+        const { usuario, error } = await registrarUsuario(usuariosRepositorio, await leerCuerpo(req));
+        if (error) responderJson(res, 400, { error });
+        else responderJson(res, 201, usuario);
       });
     }
     responderJson(res, 404, { error: "No encontrado" });

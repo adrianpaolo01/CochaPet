@@ -3401,12 +3401,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "08b3fe6c23781ee578b9d327b0b9197d407c164c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:28:39.000Z",
       "message": "feat(HU01): no crear la cuenta si el correo ya esta registrado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/08b3fe6c23781ee578b9d327b0b9197d407c164c"
     },
     "stats": {
       "total": 10,
@@ -3511,6 +3511,25 @@
     },
     "coverage": 100,
     "test_count": 106,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:30:04.000Z",
+      "message": "feat(HU01): responder 400 con el error cuando el registro no es valido",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 107,
     "failed_tests": 0,
     "conclusion": "success"
   }

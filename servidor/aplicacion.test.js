@@ -132,4 +132,15 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(201);
     expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ id: 5, nombre: "Ana", correo: "ana@correo.com", telefono: "71234567" });
   });
+
+  it("responde 400 con el error si el correo ya esta registrado", async () => {
+    const usuariosRepositorio = { buscarPorCorreo: async () => ({ id: 1 }), crear: jest.fn() };
+    const datos = { nombre: "Ana", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
+    const respuesta = crearRespuesta();
+
+    await crearManejador({}, {}, usuariosRepositorio)({ method: "POST", url: "/api/usuarios", body: datos }, respuesta);
+
+    expect(respuesta.writeHead.mock.calls[0][0]).toBe(400);
+    expect(JSON.parse(respuesta.end.mock.calls[0][0])).toEqual({ error: "Ese correo ya está registrado" });
+  });
 });
