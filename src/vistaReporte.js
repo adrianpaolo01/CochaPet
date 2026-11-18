@@ -13,6 +13,9 @@ export function htmlVistaReporte() {
         <select id="reporte-especie" name="especie">
           <option value="">Elige una opción</option><option value="PERRO">Perro</option><option value="GATO">Gato</option><option value="OTRO">Otro</option>
         </select>
+        <label for="reporte-nombre">Nombre (opcional)</label><input id="reporte-nombre" name="nombre" />
+        <label for="reporte-raza">Raza (opcional)</label><input id="reporte-raza" name="raza" />
+        <label for="reporte-color">Color (opcional)</label><input id="reporte-color" name="color" />
       </form>
     </div>`;
 }

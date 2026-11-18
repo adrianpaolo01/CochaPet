@@ -4812,7 +4812,7 @@
     "testId": 200
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0695b7512567a01865677b44fb41b8ea38d1465a",
     "commitName": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
     "commitTimestamp": 1795035667566,
     "testId": 200
@@ -5166,5 +5166,27 @@
     "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
     "commitTimestamp": 1795035993894,
     "testId": 217
+  },
+  {
+    "numPassedTests": 212,
+    "failedTests": 3,
+    "numTotalTests": 215,
+    "timestamp": 1795036001272,
+    "success": false,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 215,
+    "failedTests": 0,
+    "numTotalTests": 215,
+    "timestamp": 1795036009031,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
+    "commitTimestamp": 1795036010099,
+    "testId": 218
   }
 ]

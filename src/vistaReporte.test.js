@@ -15,4 +15,12 @@ describe("Vista reporte", () => {
     expect(htmlVistaReporte()).toContain('<label for="reporte-especie">Especie</label>');
     expect(htmlVistaReporte()).toMatch(/<select id="reporte-especie" name="especie">.*value="PERRO".*value="GATO".*value="OTRO"/s);
   });
+
+  it.each([
+    ["nombre", "Nombre (opcional)"],
+    ["raza", "Raza (opcional)"],
+    ["color", "Color (opcional)"],
+  ])("deberia tener el campo opcional %s", (campo, etiqueta) => {
+    expect(htmlVistaReporte()).toContain(`<label for="reporte-${campo}">${etiqueta}</label><input id="reporte-${campo}" name="${campo}" />`);
+  });
 });

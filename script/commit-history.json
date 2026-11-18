@@ -4959,12 +4959,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0695b7512567a01865677b44fb41b8ea38d1465a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:01:07.000Z",
       "message": "feat(HU04): crear la publicacion como perdida con la cuenta del autor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0695b7512567a01865677b44fb41b8ea38d1465a"
     },
     "stats": {
       "total": 10,
@@ -5297,6 +5297,25 @@
     },
     "coverage": 100,
     "test_count": 212,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:06:49.000Z",
+      "message": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 215,
     "failed_tests": 0,
     "conclusion": "success"
   }
