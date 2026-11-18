@@ -3782,7 +3782,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dcb15c74fdce30bca72da6ba977566ac9d1831bf",
     "commitName": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
     "commitTimestamp": 1795031404900,
     "testId": 177
@@ -4412,5 +4412,19 @@
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795034385237,
+    "success": true,
+    "testId": 183
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
+    "commitTimestamp": 1795034389272,
+    "testId": 183
   }
 ]

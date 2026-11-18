@@ -16,6 +16,7 @@ function mostrarUsuario(usuario) {
   usuarioActual = usuario;
   enlaceSesion.textContent = textoSesion(usuario);
   enlaceSesion.href = usuario ? "#/" : "#/ingresar";
+  document.querySelector("#abrir-registro").hidden = Boolean(usuario);
 }
 
 function mostrarVista() {
@@ -69,5 +70,6 @@ async function cargarSesion() {
 
 formulario.addEventListener("submit", iniciarSesion);
 window.addEventListener("hashchange", mostrarVista);
+window.addEventListener("sesion-iniciada", (evento) => mostrarUsuario(evento.detail));
 mostrarVista();
 cargarSesion();

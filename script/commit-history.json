@@ -4028,12 +4028,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dcb15c74fdce30bca72da6ba977566ac9d1831bf",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:50:03.000Z",
       "message": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dcb15c74fdce30bca72da6ba977566ac9d1831bf"
     },
     "stats": {
       "total": 10,
@@ -4628,6 +4628,25 @@
       "total": 42,
       "additions": 21,
       "deletions": 21,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 186,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:39:49.000Z",
+      "message": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 4,
+      "deletions": 16,
       "date": "2026-11-18"
     },
     "coverage": 100,

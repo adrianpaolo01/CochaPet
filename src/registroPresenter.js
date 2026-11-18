@@ -1,5 +1,4 @@
 import { validarRegistro } from "./registro.js";
-import { textoSesion } from "./sesion.js";
 
 const dialogo = document.querySelector("#registro");
 const formulario = document.querySelector("#formulario-registro");
@@ -17,14 +16,6 @@ function mostrarError(texto) {
 
 document.querySelector("#abrir-registro").addEventListener("click", () => dialogo.showModal());
 
-function iniciarSesion(usuario) {
-  localStorage.setItem("usuario", JSON.stringify(usuario));
-  document.querySelector("#abrir-registro").hidden = true;
-  const saludo = document.querySelector("#saludo-sesion");
-  saludo.textContent = textoSesion(usuario);
-  saludo.hidden = false;
-}
-
 formulario.addEventListener("submit", async (evento) => {
   evento.preventDefault();
   const datos = leerFormulario();
@@ -34,12 +25,9 @@ formulario.addEventListener("submit", async (evento) => {
     const respuesta = await fetch("/api/usuarios", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(datos) });
     const cuerpo = await respuesta.json();
     if (!respuesta.ok) return mostrarError(cuerpo.error);
-    iniciarSesion(cuerpo);
+    window.dispatchEvent(new CustomEvent("sesion-iniciada", { detail: cuerpo }));
     dialogo.close();
   } catch {
     mostrarError("No se pudo crear la cuenta. Intenta nuevamente más tarde.");
   }
 });
-
-const usuarioGuardado = localStorage.getItem("usuario");
-if (usuarioGuardado) iniciarSesion(JSON.parse(usuarioGuardado));
