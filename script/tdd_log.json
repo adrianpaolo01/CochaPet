@@ -4436,7 +4436,7 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f3af59c5722b55c377b6183a1b30e993e6afbb1",
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
@@ -4846,5 +4846,27 @@
     "commitName": "feat(HU04): pedir sesion iniciada para publicar un reporte",
     "commitTimestamp": 1795035709771,
     "testId": 201
+  },
+  {
+    "numPassedTests": 202,
+    "failedTests": 1,
+    "numTotalTests": 203,
+    "timestamp": 1795035733377,
+    "success": false,
+    "testId": 202
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 0,
+    "numTotalTests": 203,
+    "timestamp": 1795035740339,
+    "success": true,
+    "testId": 202
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): consultar la sesion de la cookie al publicar un reporte",
+    "commitTimestamp": 1795035741476,
+    "testId": 202
   }
 ]

@@ -71,6 +71,13 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(respuesta.writeHead.mock.calls[0][0]).toBe(401);
   });
 
+  it("consulta la sesion de la cookie al publicar un reporte", async () => {
+    const autenticacion = { obtenerSesion: jest.fn(async () => undefined) };
+    const peticion = { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } };
+    await crearManejador({}, {}, autenticacion)(peticion, crearRespuesta());
+    expect(autenticacion.obtenerSesion).toHaveBeenCalled();
+  });
+
   it("devuelve el detalle de una publicacion activa como JSON", async () => {
     const detalle = { id: 3, estado: "ACTIVA", descripcion: "Collar rojo" };
     const repositorio = { obtenerPorId: jest.fn(async () => detalle) };
