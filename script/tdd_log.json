@@ -3826,7 +3826,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "404bf3c6ec68ac721d3cdf44ed23b54b92da4f14",
     "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
     "commitTimestamp": 1795032217589,
     "testId": 179
@@ -4440,5 +4440,93 @@
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794976597733,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976608395,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976703424,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 0,
+    "numTotalTests": 94,
+    "timestamp": 1794977014506,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
+    "commitTimestamp": 1794977016735,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977030041,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
+    "commitTimestamp": 1794977032184,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977041589,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+    "commitTimestamp": 1794977043745,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037009473,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037030361,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
+    "commitTimestamp": 1795037033419,
+    "testId": 188
   }
 ]

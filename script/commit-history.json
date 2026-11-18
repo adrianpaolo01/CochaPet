@@ -3648,6 +3648,63 @@
     "conclusion": "success"
   },
   {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T04:43:36.000Z",
+      "message": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 94,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T04:43:51.000Z",
+      "message": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T04:44:03.000Z",
+      "message": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "54f1ea42320e8cba46fa56aeb06b49dce45b0506",
     "author": "Mateo Quintanilla",
     "commit": {
@@ -4066,12 +4123,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "404bf3c6ec68ac721d3cdf44ed23b54b92da4f14",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:03:36.000Z",
       "message": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/404bf3c6ec68ac721d3cdf44ed23b54b92da4f14"
     },
     "stats": {
       "total": 51,
@@ -4670,6 +4727,25 @@
     },
     "coverage": 100,
     "test_count": 186,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T21:23:52.000Z",
+      "message": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 871,
+      "additions": 848,
+      "deletions": 23,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 188,
     "failed_tests": 0,
     "conclusion": "success"
   }
