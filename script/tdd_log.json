@@ -3038,7 +3038,7 @@
     "testId": 151
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e4d65abd13f934d21290b8518452d792d97dab2f",
     "commitName": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
     "commitTimestamp": 1794892020208,
     "testId": 151
@@ -3052,7 +3052,7 @@
     "testId": 152
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f758065815058bd6986fc252dbf06a1b8970be5f",
     "commitName": "test(busqueda): buscar en un dato que no es texto sin fallar",
     "commitTimestamp": 1794892047898,
     "testId": 152
@@ -3082,7 +3082,7 @@
     "testId": 153
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8557a4b1c13efffad91ff2bd96c917af6b0de633",
     "commitName": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
     "commitTimestamp": 1794973497749,
     "testId": 153
@@ -3104,7 +3104,7 @@
     "testId": 154
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f2daf9d486c6978d641d42bdc6439b3c4ed5bd78",
     "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
     "commitTimestamp": 1794973816236,
     "testId": 154
@@ -3126,7 +3126,7 @@
     "testId": 155
   },
   {
-    "commitId": "HEAD",
+    "commitId": "72a80d530bbaafbb2460a5abc9d154f09db1c4bf",
     "commitName": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
     "commitTimestamp": 1794974136700,
     "testId": 155
@@ -3140,9 +3140,565 @@
     "testId": 156
   },
   {
-    "commitId": "HEAD",
+    "commitId": "441a757578198f9e4f37cadebee4d87dfabd6c16",
     "commitName": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
     "commitTimestamp": 1794974157326,
     "testId": 156
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1795023649721,
+    "success": false,
+    "testId": 157
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 0,
+    "numTotalTests": 94,
+    "timestamp": 1795023967413,
+    "success": true,
+    "testId": 157
+  },
+  {
+    "commitId": "54f1ea42320e8cba46fa56aeb06b49dce45b0506",
+    "commitName": "feat(HU32): verificar una clave contra su hash guardado",
+    "commitTimestamp": 1795023980232,
+    "testId": 157
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1795024006270,
+    "success": true,
+    "testId": 158
+  },
+  {
+    "commitId": "7845b129e6779ccb47967d1729da1897601a5eeb",
+    "commitName": "test(HU32): rechazar una clave que no coincide con el hash",
+    "commitTimestamp": 1795024016355,
+    "testId": 158
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 7,
+    "numTotalTests": 102,
+    "timestamp": 1795024037902,
+    "success": false,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 0,
+    "numTotalTests": 102,
+    "timestamp": 1795024354890,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "9fe2614e69e02f5680ac65cab6331d99fccfabd5",
+    "commitName": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
+    "commitTimestamp": 1795024364854,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 1,
+    "numTotalTests": 103,
+    "timestamp": 1795024394350,
+    "success": false,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1795024710985,
+    "success": true,
+    "testId": 160
+  },
+  {
+    "commitId": "42fe72a7c0ddbb37bc7c2b65895d32ff0627d187",
+    "commitName": "feat(HU32): iniciar sesion con el correo y la clave correctos",
+    "commitTimestamp": 1795024716294,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 1,
+    "numTotalTests": 104,
+    "timestamp": 1795024737978,
+    "success": false,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 0,
+    "numTotalTests": 104,
+    "timestamp": 1795025055621,
+    "success": true,
+    "testId": 161
+  },
+  {
+    "commitId": "d7ff733adfb6f85c8e1418fa896f38073c56c685",
+    "commitName": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
+    "commitTimestamp": 1795025060768,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 1,
+    "numTotalTests": 105,
+    "timestamp": 1795025209523,
+    "success": false,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 0,
+    "numTotalTests": 105,
+    "timestamp": 1795025524152,
+    "success": true,
+    "testId": 162
+  },
+  {
+    "commitId": "0d2ef7ef021671185aafa94e482a2eee532a2026",
+    "commitName": "feat(HU32): rechazar un correo inexistente con el mismo mensaje general",
+    "commitTimestamp": 1795025535257,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 5,
+    "numTotalTests": 110,
+    "timestamp": 1795025565461,
+    "success": false,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1795025882001,
+    "success": true,
+    "testId": 163
+  },
+  {
+    "commitId": "fc37da73143ead7b8c5f7bbcfcf6ed3d4ff95de6",
+    "commitName": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
+    "commitTimestamp": 1795025892639,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 1,
+    "numTotalTests": 111,
+    "timestamp": 1795025916107,
+    "success": false,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 0,
+    "numTotalTests": 111,
+    "timestamp": 1795026230642,
+    "success": true,
+    "testId": 164
+  },
+  {
+    "commitId": "8a99316aee473de5e69179f5f28638658b057a6d",
+    "commitName": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
+    "commitTimestamp": 1795026241946,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 1,
+    "numTotalTests": 112,
+    "timestamp": 1795026268561,
+    "success": false,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 112,
+    "failedTests": 0,
+    "numTotalTests": 112,
+    "timestamp": 1795027186050,
+    "success": true,
+    "testId": 165
+  },
+  {
+    "commitId": "1a87c0a7863272e2e912a175c3c3f7c077005e26",
+    "commitName": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
+    "commitTimestamp": 1795027200436,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 112,
+    "failedTests": 1,
+    "numTotalTests": 113,
+    "timestamp": 1795027237607,
+    "success": false,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1795027557862,
+    "success": true,
+    "testId": 166
+  },
+  {
+    "commitId": "4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c",
+    "commitName": "feat(HU32): calcular el hash sha256 de un token de sesion",
+    "commitTimestamp": 1795027563695,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 1,
+    "numTotalTests": 114,
+    "timestamp": 1795027586678,
+    "success": false,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1795027907703,
+    "success": true,
+    "testId": 167
+  },
+  {
+    "commitId": "94a2d750d9640a95c5add4c8c26487220d4a9433",
+    "commitName": "feat(HU32): crear un token de sesion y guardar solo su hash",
+    "commitTimestamp": 1795027921262,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 1,
+    "numTotalTests": 115,
+    "timestamp": 1795027946454,
+    "success": false,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 0,
+    "numTotalTests": 115,
+    "timestamp": 1795028266795,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "commitId": "a73c065d22b2b9dcf4a734e5388100bece728f57",
+    "commitName": "feat(HU32): dar 7 dias de vigencia a la sesion",
+    "commitTimestamp": 1795028278661,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 1,
+    "numTotalTests": 116,
+    "timestamp": 1795028307743,
+    "success": false,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 0,
+    "numTotalTests": 116,
+    "timestamp": 1795028626500,
+    "success": true,
+    "testId": 169
+  },
+  {
+    "commitId": "397df64b31da2cbf35a122e3cf40e3269c36e2c6",
+    "commitName": "feat(HU32): obtener el usuario de una sesion vigente",
+    "commitTimestamp": 1795028631597,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 1,
+    "numTotalTests": 117,
+    "timestamp": 1795028653475,
+    "success": false,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1795028971145,
+    "success": true,
+    "testId": 170
+  },
+  {
+    "commitId": "1881e127528d4fab010fbb987e900d1bcbcf98f7",
+    "commitName": "feat(HU32): no dar usuario si la sesion ya vencio",
+    "commitTimestamp": 1795028976799,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 1,
+    "numTotalTests": 118,
+    "timestamp": 1795028999596,
+    "success": false,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 0,
+    "numTotalTests": 118,
+    "timestamp": 1795029316056,
+    "success": true,
+    "testId": 171
+  },
+  {
+    "commitId": "bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7",
+    "commitName": "feat(HU32): no dar usuario si la sesion no existe",
+    "commitTimestamp": 1795029321133,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 4,
+    "numTotalTests": 122,
+    "timestamp": 1795029346405,
+    "success": false,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 0,
+    "numTotalTests": 122,
+    "timestamp": 1795029663503,
+    "success": true,
+    "testId": 172
+  },
+  {
+    "commitId": "ad6982cc5e160f86e8509b4cf129c620003f92e3",
+    "commitName": "feat(HU32): no consultar la base si falta el token de sesion",
+    "commitTimestamp": 1795029668935,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 1,
+    "numTotalTests": 123,
+    "timestamp": 1795029698410,
+    "success": false,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 0,
+    "numTotalTests": 123,
+    "timestamp": 1795030014022,
+    "success": true,
+    "testId": 173
+  },
+  {
+    "commitId": "20ae68b6198c9c627f8c84ae5f480c0abefc2005",
+    "commitName": "feat(HU32): leer el valor de una cookie por su nombre",
+    "commitTimestamp": 1795030019549,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 4,
+    "numTotalTests": 127,
+    "timestamp": 1795030041885,
+    "success": false,
+    "testId": 174
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 0,
+    "numTotalTests": 127,
+    "timestamp": 1795030359850,
+    "success": true,
+    "testId": 174
+  },
+  {
+    "commitId": "1dbd064448ddc6da36e0570f31d6ea89bdd78fc6",
+    "commitName": "feat(HU32): devolver null si la cookie no esta en la cabecera",
+    "commitTimestamp": 1795030365559,
+    "testId": 174
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 1,
+    "numTotalTests": 128,
+    "timestamp": 1795030387753,
+    "success": false,
+    "testId": 175
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 0,
+    "numTotalTests": 128,
+    "timestamp": 1795030705001,
+    "success": true,
+    "testId": 175
+  },
+  {
+    "commitId": "4022ea1d6cc7b24ca907f04410c087c9dd09123d",
+    "commitName": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
+    "commitTimestamp": 1795030710386,
+    "testId": 175
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 1,
+    "numTotalTests": 129,
+    "timestamp": 1795030738643,
+    "success": false,
+    "testId": 176
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 0,
+    "numTotalTests": 129,
+    "timestamp": 1795031054989,
+    "success": true,
+    "testId": 176
+  },
+  {
+    "commitId": "42888ed16312ec025377120d38052ea7012302c6",
+    "commitName": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
+    "commitTimestamp": 1795031060105,
+    "testId": 176
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 1,
+    "numTotalTests": 130,
+    "timestamp": 1795031081254,
+    "success": false,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 0,
+    "numTotalTests": 130,
+    "timestamp": 1795031399224,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
+    "commitTimestamp": 1795031404900,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 10,
+    "numTotalTests": 140,
+    "timestamp": 1795031453820,
+    "success": false,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 0,
+    "numTotalTests": 140,
+    "timestamp": 1795031954466,
+    "success": true,
+    "testId": 178
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
+    "commitTimestamp": 1795031967930,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 6,
+    "numTotalTests": 146,
+    "timestamp": 1795032004977,
+    "success": false,
+    "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1795032204627,
+    "success": true,
+    "testId": 179
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
+    "commitTimestamp": 1795032217589,
+    "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1795032255770,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
+    "commitTimestamp": 1795032266678,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 21,
+    "numTotalTests": 167,
+    "timestamp": 1795032313891,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 21,
+    "numTotalTests": 167,
+    "timestamp": 1795032320131,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1795032523619,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
+    "commitTimestamp": 1795032534548,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1795032603900,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
+    "commitTimestamp": 1795032623524,
+    "testId": 182
   }
 ]

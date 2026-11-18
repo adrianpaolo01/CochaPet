@@ -3192,12 +3192,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e4d65abd13f934d21290b8518452d792d97dab2f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:06:58.000Z",
       "message": "fix(busqueda): raza y color vacios por defecto al combinar los filtros",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e4d65abd13f934d21290b8518452d792d97dab2f"
     },
     "stats": {
       "total": 7,
@@ -3211,12 +3211,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f758065815058bd6986fc252dbf06a1b8970be5f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-17T05:07:26.000Z",
       "message": "test(busqueda): buscar en un dato que no es texto sin fallar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f758065815058bd6986fc252dbf06a1b8970be5f"
     },
     "stats": {
       "total": 5,
@@ -3230,12 +3230,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8557a4b1c13efffad91ff2bd96c917af6b0de633",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:44:57.000Z",
       "message": "fix(issue48): avisar que la publicacion no existe si la respuesta falla",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8557a4b1c13efffad91ff2bd96c917af6b0de633"
     },
     "stats": {
       "total": 10,
@@ -3249,12 +3249,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f2daf9d486c6978d641d42bdc6439b3c4ed5bd78",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:50:15.000Z",
       "message": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f2daf9d486c6978d641d42bdc6439b3c4ed5bd78"
     },
     "stats": {
       "total": 8,
@@ -3268,12 +3268,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "72a80d530bbaafbb2460a5abc9d154f09db1c4bf",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:55:36.000Z",
       "message": "fix(issue48): lugar en el detalle para avisar que la publicacion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/72a80d530bbaafbb2460a5abc9d154f09db1c4bf"
     },
     "stats": {
       "total": 5,
@@ -3287,12 +3287,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "441a757578198f9e4f37cadebee4d87dfabd6c16",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:55:56.000Z",
       "message": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/441a757578198f9e4f37cadebee4d87dfabd6c16"
     },
     "stats": {
       "total": 7,
@@ -3302,6 +3302,500 @@
     },
     "coverage": 100,
     "test_count": 93,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "54f1ea42320e8cba46fa56aeb06b49dce45b0506",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:46:18.000Z",
+      "message": "feat(HU32): verificar una clave contra su hash guardado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/54f1ea42320e8cba46fa56aeb06b49dce45b0506"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 94,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7845b129e6779ccb47967d1729da1897601a5eeb",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:46:54.000Z",
+      "message": "test(HU32): rechazar una clave que no coincide con el hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7845b129e6779ccb47967d1729da1897601a5eeb"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9fe2614e69e02f5680ac65cab6331d99fccfabd5",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:52:43.000Z",
+      "message": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9fe2614e69e02f5680ac65cab6331d99fccfabd5"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 102,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "42fe72a7c0ddbb37bc7c2b65895d32ff0627d187",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:58:34.000Z",
+      "message": "feat(HU32): iniciar sesion con el correo y la clave correctos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/42fe72a7c0ddbb37bc7c2b65895d32ff0627d187"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 103,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d7ff733adfb6f85c8e1418fa896f38073c56c685",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:04:19.000Z",
+      "message": "feat(HU32): rechazar una clave incorrecta con un mensaje general",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d7ff733adfb6f85c8e1418fa896f38073c56c685"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0d2ef7ef021671185aafa94e482a2eee532a2026",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:12:13.000Z",
+      "message": "feat(HU32): rechazar un correo inexistente con el mismo mensaje general",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0d2ef7ef021671185aafa94e482a2eee532a2026"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "fc37da73143ead7b8c5f7bbcfcf6ed3d4ff95de6",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:18:11.000Z",
+      "message": "feat(HU32): pedir correo y clave sin consultar la base si faltan datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/fc37da73143ead7b8c5f7bbcfcf6ed3d4ff95de6"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 110,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8a99316aee473de5e69179f5f28638658b057a6d",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:24:00.000Z",
+      "message": "feat(HU32): buscar al usuario con el correo sin espacios sobrantes",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8a99316aee473de5e69179f5f28638658b057a6d"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 111,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1a87c0a7863272e2e912a175c3c3f7c077005e26",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:39:59.000Z",
+      "message": "feat(HU32): devolver solo los datos publicos del usuario al iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1a87c0a7863272e2e912a175c3c3f7c077005e26"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 112,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:46:02.000Z",
+      "message": "feat(HU32): calcular el hash sha256 de un token de sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "94a2d750d9640a95c5add4c8c26487220d4a9433",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:51:59.000Z",
+      "message": "feat(HU32): crear un token de sesion y guardar solo su hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/94a2d750d9640a95c5add4c8c26487220d4a9433"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 12,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 114,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "a73c065d22b2b9dcf4a734e5388100bece728f57",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:57:57.000Z",
+      "message": "feat(HU32): dar 7 dias de vigencia a la sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a73c065d22b2b9dcf4a734e5388100bece728f57"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 13,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 115,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "397df64b31da2cbf35a122e3cf40e3269c36e2c6",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:03:50.000Z",
+      "message": "feat(HU32): obtener el usuario de una sesion vigente",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/397df64b31da2cbf35a122e3cf40e3269c36e2c6"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 116,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1881e127528d4fab010fbb987e900d1bcbcf98f7",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:09:35.000Z",
+      "message": "feat(HU32): no dar usuario si la sesion ya vencio",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1881e127528d4fab010fbb987e900d1bcbcf98f7"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 117,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:15:19.000Z",
+      "message": "feat(HU32): no dar usuario si la sesion no existe",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bef81ce21fd8e72fe1cefd6ef6b14ff5f2a7b0c7"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 118,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ad6982cc5e160f86e8509b4cf129c620003f92e3",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:21:07.000Z",
+      "message": "feat(HU32): no consultar la base si falta el token de sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ad6982cc5e160f86e8509b4cf129c620003f92e3"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 122,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "20ae68b6198c9c627f8c84ae5f480c0abefc2005",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:26:58.000Z",
+      "message": "feat(HU32): leer el valor de una cookie por su nombre",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/20ae68b6198c9c627f8c84ae5f480c0abefc2005"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1dbd064448ddc6da36e0570f31d6ea89bdd78fc6",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:32:44.000Z",
+      "message": "feat(HU32): devolver null si la cookie no esta en la cabecera",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/1dbd064448ddc6da36e0570f31d6ea89bdd78fc6"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 127,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4022ea1d6cc7b24ca907f04410c087c9dd09123d",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:38:29.000Z",
+      "message": "feat(HU32): leer la cookie aunque no haya espacio tras el punto y coma",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4022ea1d6cc7b24ca907f04410c087c9dd09123d"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 128,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "42888ed16312ec025377120d38052ea7012302c6",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:44:18.000Z",
+      "message": "feat(HU32): armar la cookie de sesion con sus protecciones y su duracion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/42888ed16312ec025377120d38052ea7012302c6"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 129,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:50:03.000Z",
+      "message": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 130,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:59:26.000Z",
+      "message": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 114,
+      "additions": 111,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 140,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:03:36.000Z",
+      "message": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 49,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:04:25.000Z",
+      "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 35,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:08:53.000Z",
+      "message": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 99,
+      "additions": 99,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 167,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T20:10:21.000Z",
+      "message": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 94,
+      "additions": 90,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 167,
     "failed_tests": 0,
     "conclusion": "success"
   }
