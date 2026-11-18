@@ -25,6 +25,12 @@ describe("Autenticacion servicio", () => {
     expect(await usuarioDeSesion({ obtenerSesion }, "token-inventado")).toBeNull();
   });
 
+  it.each([undefined, null, "", 123])("deberia devolver null sin consultar la base si el token es %p", async (token) => {
+    const obtenerSesion = jest.fn();
+    expect(await usuarioDeSesion({ obtenerSesion }, token)).toBeNull();
+    expect(obtenerSesion).not.toHaveBeenCalled();
+  });
+
   it("deberia calcular el hash sha256 de un token", () => {
     expect(hashDeToken("abc")).toBe("ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad");
   });

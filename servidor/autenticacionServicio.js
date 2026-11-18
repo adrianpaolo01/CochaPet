@@ -10,6 +10,7 @@ export function hashDeToken(token) {
 }
 
 export async function usuarioDeSesion(repositorio, token, ahora = new Date()) {
+  if (typeof token !== "string" || token === "") return null;
   const sesion = await repositorio.obtenerSesion(hashDeToken(token));
   return sesion && sesion.expiraEn > ahora ? sesion.usuario : null;
 }

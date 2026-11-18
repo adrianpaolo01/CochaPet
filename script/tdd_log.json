@@ -3352,7 +3352,7 @@
     "testId": 166
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c",
     "commitName": "feat(HU32): calcular el hash sha256 de un token de sesion",
     "commitTimestamp": 1795027563695,
     "testId": 166
@@ -3466,5 +3466,27 @@
     "commitName": "feat(HU32): no dar usuario si la sesion no existe",
     "commitTimestamp": 1795029321133,
     "testId": 171
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 4,
+    "numTotalTests": 122,
+    "timestamp": 1795029346405,
+    "success": false,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 0,
+    "numTotalTests": 122,
+    "timestamp": 1795029663503,
+    "success": true,
+    "testId": 172
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): no consultar la base si falta el token de sesion",
+    "commitTimestamp": 1795029668935,
+    "testId": 172
   }
 ]

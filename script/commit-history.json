@@ -3477,12 +3477,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T18:46:02.000Z",
       "message": "feat(HU32): calcular el hash sha256 de un token de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4a992eedc85f3a2833a0c2cd4cf09e01ea03bb3c"
     },
     "stats": {
       "total": 11,
@@ -3587,6 +3587,25 @@
     },
     "coverage": 100,
     "test_count": 118,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:21:07.000Z",
+      "message": "feat(HU32): no consultar la base si falta el token de sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 122,
     "failed_tests": 0,
     "conclusion": "success"
   }
