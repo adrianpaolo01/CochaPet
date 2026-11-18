@@ -4180,12 +4180,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a481d220a59dc11137f738a7d2e34d82e33f979e",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:10:21.000Z",
       "message": "feat(HU32): pantalla de inicio de sesion con encabezado, rutas y estilos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a481d220a59dc11137f738a7d2e34d82e33f979e"
     },
     "stats": {
       "total": 94,
@@ -4841,6 +4841,25 @@
     },
     "coverage": 100,
     "test_count": 192,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:12:45.000Z",
+      "message": "feat(HU03): mostrar Activa como estado de mi publicacion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 193,
     "failed_tests": 0,
     "conclusion": "success"
   }

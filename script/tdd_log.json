@@ -4234,7 +4234,7 @@
     "testId": 173
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a481d220a59dc11137f738a7d2e34d82e33f979e",
     "commitName": "feat(HU01): mostrar el error de validacion en el formulario de registro",
     "commitTimestamp": 1795033853866,
     "testId": 173
@@ -4638,5 +4638,27 @@
     "commitName": "feat(HU03): abrir el perfil desde su ruta",
     "commitTimestamp": 1795039644990,
     "testId": 193
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 1,
+    "numTotalTests": 193,
+    "timestamp": 1795039653991,
+    "success": false,
+    "testId": 194
+  },
+  {
+    "numPassedTests": 193,
+    "failedTests": 0,
+    "numTotalTests": 193,
+    "timestamp": 1795039963417,
+    "success": true,
+    "testId": 194
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): mostrar Activa como estado de mi publicacion",
+    "commitTimestamp": 1795039966371,
+    "testId": 194
   }
 ]
