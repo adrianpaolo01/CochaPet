@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "323896a047d4ff67e415b4c0cccc556116268478",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -4724,5 +4724,19 @@
     "commitName": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
     "commitTimestamp": 1795040351194,
     "testId": 198
+  },
+  {
+    "numPassedTests": 194,
+    "failedTests": 0,
+    "numTotalTests": 194,
+    "timestamp": 1795040362189,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU03): estilos del perfil y de mis publicaciones",
+    "commitTimestamp": 1795040365181,
+    "testId": 199
   }
 ]

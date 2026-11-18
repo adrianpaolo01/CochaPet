@@ -4541,12 +4541,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "323896a047d4ff67e415b4c0cccc556116268478",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:08.000Z",
       "message": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/323896a047d4ff67e415b4c0cccc556116268478"
     },
     "stats": {
       "total": 3,
@@ -4932,6 +4932,25 @@
       "total": 19,
       "additions": 17,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 194,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:19:24.000Z",
+      "message": "style(HU03): estilos del perfil y de mis publicaciones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,
