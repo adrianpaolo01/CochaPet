@@ -5035,12 +5035,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bce6d6bf773469f84beb904ac2a76519b34f4343",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:03:04.000Z",
       "message": "feat(HU04): responder 201 con la publicacion de perdida creada",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bce6d6bf773469f84beb904ac2a76519b34f4343"
     },
     "stats": {
       "total": 12,
@@ -5373,6 +5373,25 @@
     },
     "coverage": 100,
     "test_count": 218,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:07:42.000Z",
+      "message": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 219,
     "failed_tests": 0,
     "conclusion": "success"
   }

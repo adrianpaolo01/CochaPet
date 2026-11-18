@@ -4916,7 +4916,7 @@
     "testId": 204
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bce6d6bf773469f84beb904ac2a76519b34f4343",
     "commitName": "feat(HU04): responder 201 con la publicacion de perdida creada",
     "commitTimestamp": 1795035784246,
     "testId": 204
@@ -5254,5 +5254,27 @@
     "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
     "commitTimestamp": 1795036050476,
     "testId": 221
+  },
+  {
+    "numPassedTests": 218,
+    "failedTests": 1,
+    "numTotalTests": 219,
+    "timestamp": 1795036060540,
+    "success": false,
+    "testId": 222
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036061688,
+    "success": true,
+    "testId": 222
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
+    "commitTimestamp": 1795036062745,
+    "testId": 222
   }
 ]

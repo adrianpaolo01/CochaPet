@@ -36,4 +36,9 @@ describe("Vista reporte", () => {
   it("deberia pedir una descripcion de la mascota", () => {
     expect(htmlVistaReporte()).toMatch(/<label for="reporte-descripcion">Descripción<\/label>\s*<textarea id="reporte-descripcion" name="descripcion"/);
   });
+
+  it("deberia tener un lugar oculto para errores y un boton para publicar", () => {
+    expect(htmlVistaReporte()).toContain('<p id="reporte-mensaje" class="mensaje-error" role="alert" hidden></p>');
+    expect(htmlVistaReporte()).toContain('<button id="reporte-publicar" class="boton" type="submit">Publicar</button>');
+  });
 });

@@ -21,6 +21,8 @@ export function htmlVistaReporte() {
         <select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>
         <label for="reporte-descripcion">Descripción</label>
         <textarea id="reporte-descripcion" name="descripcion" rows="4" placeholder="Ej.: collar rojo, cojea de la pata izquierda, responde a su nombre"></textarea>
+        <p id="reporte-mensaje" class="mensaje-error" role="alert" hidden></p>
+        <button id="reporte-publicar" class="boton" type="submit">Publicar</button>
       </form>
     </div>`;
 }
