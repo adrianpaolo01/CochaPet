@@ -10,8 +10,8 @@ export function vistaParaHash(hash) {
   return hash.split("?")[0] === "#/ingresar" ? "login" : "lista";
 }
 
-export function tipoDeReporte() {
-  return "PERDIDA";
+export function tipoDeReporte(hash) {
+  return hash === RUTA_REPORTE_ENCONTRADA ? "ENCONTRADA" : "PERDIDA";
 }
 
 export function destinoTrasIngresar(hash) {

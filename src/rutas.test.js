@@ -24,7 +24,10 @@ describe("Rutas", () => {
     expect(destinoTrasIngresar("#/ingresar")).toBe("#/");
   });
 
-  it("deberia reportar una mascota perdida desde la ruta reportar perdida", () => {
-    expect(tipoDeReporte("#/reportar/perdida")).toBe("PERDIDA");
+  it.each([
+    ["#/reportar/perdida", "PERDIDA"],
+    ["#/reportar/encontrada", "ENCONTRADA"],
+  ])("deberia saber el tipo de reporte desde la ruta %p", (hash, tipo) => {
+    expect(tipoDeReporte(hash)).toBe(tipo);
   });
 });

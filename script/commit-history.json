@@ -4522,12 +4522,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:02.000Z",
       "message": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a98f3946bafb8eb5caab78a395288a1ed6917b1"
     },
     "stats": {
       "total": 25,
@@ -6076,6 +6076,25 @@
     },
     "coverage": 100,
     "test_count": 245,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:23:02.000Z",
+      "message": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 7,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 246,
     "failed_tests": 0,
     "conclusion": "success"
   }

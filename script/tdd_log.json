@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -5956,5 +5956,27 @@
     "commitName": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
     "commitTimestamp": 1795044167414,
     "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795044175564,
+    "success": false,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795044181938,
+    "success": true,
+    "testId": 255
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
+    "commitTimestamp": 1795044183083,
+    "testId": 255
   }
 ]
