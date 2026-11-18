@@ -74,4 +74,12 @@ describe("Publicaciones servicio", () => {
 
     expect(publicaciones.crear).toHaveBeenCalledWith({ ...reporte, tipo: "PERDIDA", autorId: 7, telefono: "70000000" });
   });
+
+  it("deberia crear la publicacion como encontrada si se reporta una mascota encontrada", async () => {
+    const publicaciones = { crear: jest.fn(async () => ({ id: 31 })) };
+
+    await reportarPerdida({ publicaciones, barrios }, { id: 7, telefono: "70000000" }, { ...reporte, tipo: "ENCONTRADA" });
+
+    expect(publicaciones.crear).toHaveBeenCalledWith(expect.objectContaining({ tipo: "ENCONTRADA", autorId: 7 }));
+  });
 });

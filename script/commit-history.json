@@ -5396,12 +5396,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "92d818b684d40904f06e301ee1a614c8a43bfa03",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:17.000Z",
       "message": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/92d818b684d40904f06e301ee1a614c8a43bfa03"
     },
     "stats": {
       "total": 7,
@@ -6342,6 +6342,25 @@
     },
     "coverage": 100,
     "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:27:47.000Z",
+      "message": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 254,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -5294,7 +5294,7 @@
     "testId": 219
   },
   {
-    "commitId": "HEAD",
+    "commitId": "92d818b684d40904f06e301ee1a614c8a43bfa03",
     "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
     "commitTimestamp": 1795036023692,
     "testId": 219
@@ -6240,5 +6240,27 @@
     "commitName": "feat(HU05): enviar a la API si el reporte es de una mascota perdida o encontrada",
     "commitTimestamp": 1795044442009,
     "testId": 268
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 1,
+    "numTotalTests": 254,
+    "timestamp": 1795044455377,
+    "success": false,
+    "testId": 269
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 0,
+    "numTotalTests": 254,
+    "timestamp": 1795044464629,
+    "success": true,
+    "testId": 269
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
+    "commitTimestamp": 1795044467854,
+    "testId": 269
   }
 ]
