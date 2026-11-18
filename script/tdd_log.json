@@ -2826,7 +2826,7 @@
     "testId": 140
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8be028d996eeee4279833ca2aefd78921b0fc9ec",
     "commitName": "style(filtros): usar campo-filtro en el foco de los campos",
     "commitTimestamp": 1794885946278,
     "testId": 140
@@ -4294,5 +4294,27 @@
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
+  },
+  {
+    "numPassedTests": 183,
+    "failedTests": 1,
+    "numTotalTests": 184,
+    "timestamp": 1795034273710,
+    "success": false,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 184,
+    "failedTests": 0,
+    "numTotalTests": 184,
+    "timestamp": 1795034279686,
+    "success": true,
+    "testId": 178
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
+    "commitTimestamp": 1795034280686,
+    "testId": 178
   }
 ]

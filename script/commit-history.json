@@ -3078,12 +3078,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8be028d996eeee4279833ca2aefd78921b0fc9ec",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-17T03:25:46.000Z",
       "message": "style(filtros): usar campo-filtro en el foco de los campos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8be028d996eeee4279833ca2aefd78921b0fc9ec"
     },
     "stats": {
       "total": 2,
@@ -4537,6 +4537,25 @@
     },
     "coverage": 100,
     "test_count": 183,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:38:00.000Z",
+      "message": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 184,
     "failed_tests": 0,
     "conclusion": "success"
   }
