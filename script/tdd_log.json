@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdbab65aff0c0413371a16a38c37545105eb3952",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -6074,5 +6074,27 @@
     "commitName": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
     "commitTimestamp": 1795044288008,
     "testId": 259
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 2,
+    "numTotalTests": 251,
+    "timestamp": 1795044295085,
+    "success": false,
+    "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795044301890,
+    "success": true,
+    "testId": 260
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044303131,
+    "testId": 260
   }
 ]

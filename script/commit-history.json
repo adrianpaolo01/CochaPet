@@ -4617,12 +4617,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bdbab65aff0c0413371a16a38c37545105eb3952",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:28.000Z",
       "message": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bdbab65aff0c0413371a16a38c37545105eb3952"
     },
     "stats": {
       "total": 25,
@@ -6171,6 +6171,25 @@
     },
     "coverage": 100,
     "test_count": 249,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:03.000Z",
+      "message": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 251,
     "failed_tests": 0,
     "conclusion": "success"
   }

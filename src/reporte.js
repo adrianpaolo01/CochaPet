@@ -9,8 +9,8 @@ export function validarReporte(datos) {
 }
 
 const TEXTOS_REPORTE = {
-  PERDIDA: { titulo: "Perdí mi mascota" },
-  ENCONTRADA: { titulo: "Encontré una mascota" },
+  PERDIDA: { titulo: "Perdí mi mascota", preguntaFecha: "¿Cuándo se perdió?" },
+  ENCONTRADA: { titulo: "Encontré una mascota", preguntaFecha: "¿Cuándo la encontraste?" },
 };
 
 export function textosReporte(tipo) {
