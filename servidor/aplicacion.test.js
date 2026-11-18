@@ -5,6 +5,8 @@ function peticionRegistro(datos) {
   return Object.assign(Readable.from([JSON.stringify(datos)]), { method: "POST", url: "/api/usuarios" });
 }
 
+const conSesion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+
 function peticionReporte(datos) {
   return Object.assign(Readable.from([JSON.stringify(datos)]), { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } });
 }
@@ -83,18 +85,16 @@ describe("API compartida entre desarrollo y Vercel", () => {
   });
 
   it("responde 400 con el error al publicar un reporte invalido con sesion", async () => {
-    const autenticacion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
     const peticion = peticionReporte({});
     const respuesta = crearRespuesta();
-    await crearManejador({}, {}, autenticacion)(peticion, respuesta);
+    await crearManejador({}, {}, conSesion)(peticion, respuesta);
     expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de tu mascota" }));
   });
 
   it("responde 201 con la publicacion creada al reportar una perdida con sesion", async () => {
-    const autenticacion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
     const peticion = peticionReporte({ especie: "PERRO", barrio: "Cala Cala", fecha: "2026-11-17", descripcion: "Collar rojo" });
     const respuesta = crearRespuesta();
-    await crearManejador({ crear: async () => ({ id: 30 }) }, { listar: async () => [{ nombre: "Cala Cala" }] }, autenticacion)(peticion, respuesta);
+    await crearManejador({ crear: async () => ({ id: 30 }) }, { listar: async () => [{ nombre: "Cala Cala" }] }, conSesion)(peticion, respuesta);
     expect(respuesta.writeHead).toHaveBeenCalledWith(201, expect.anything());
   });
 

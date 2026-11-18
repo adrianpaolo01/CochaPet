@@ -4731,12 +4731,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "af871fb791e1cbd4096d069830fae6bea56926a7",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:58:04.000Z",
       "message": "feat(HU04): pedir una descripcion de la mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/af871fb791e1cbd4096d069830fae6bea56926a7"
     },
     "stats": {
       "total": 5,
@@ -5065,6 +5065,25 @@
       "total": 9,
       "additions": 6,
       "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 205,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:03:37.000Z",
+      "message": "refactor(HU04): compartir la sesion iniciada en los tests de reporte de la API",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-11-18"
     },
     "coverage": 100,

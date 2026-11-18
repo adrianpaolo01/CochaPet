@@ -4540,7 +4540,7 @@
     "testId": 188
   },
   {
-    "commitId": "HEAD",
+    "commitId": "af871fb791e1cbd4096d069830fae6bea56926a7",
     "commitName": "feat(HU04): pedir una descripcion de la mascota perdida",
     "commitTimestamp": 1795035485059,
     "testId": 188
@@ -4942,5 +4942,19 @@
     "commitName": "refactor(HU04): compartir la peticion de reporte en los tests de la API",
     "commitTimestamp": 1795035815088,
     "testId": 205
+  },
+  {
+    "numPassedTests": 205,
+    "failedTests": 0,
+    "numTotalTests": 205,
+    "timestamp": 1795035816876,
+    "success": true,
+    "testId": 206
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU04): compartir la sesion iniciada en los tests de reporte de la API",
+    "commitTimestamp": 1795035817907,
+    "testId": 206
   }
 ]
