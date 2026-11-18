@@ -3804,7 +3804,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "88459d1c567726af6666ee8036afe1d4b44c6661",
     "commitName": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
     "commitTimestamp": 1795031967930,
     "testId": 178
@@ -4426,5 +4426,19 @@
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795034401885,
+    "success": true,
+    "testId": 184
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
+    "commitTimestamp": 1795034402989,
+    "testId": 184
   }
 ]

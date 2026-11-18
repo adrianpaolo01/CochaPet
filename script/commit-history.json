@@ -4047,12 +4047,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "88459d1c567726af6666ee8036afe1d4b44c6661",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:59:26.000Z",
       "message": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/88459d1c567726af6666ee8036afe1d4b44c6661"
     },
     "stats": {
       "total": 114,
@@ -4647,6 +4647,25 @@
       "total": 20,
       "additions": 4,
       "deletions": 16,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 186,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:40:02.000Z",
+      "message": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,
