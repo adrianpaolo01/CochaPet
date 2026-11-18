@@ -4142,12 +4142,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a4c68f2e809535f667e46f37b94f8d6d040b57e",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:04:25.000Z",
       "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a4c68f2e809535f667e46f37b94f8d6d040b57e"
     },
     "stats": {
       "total": 36,
@@ -4799,6 +4799,25 @@
       "total": 17,
       "additions": 15,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 191,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:02:02.000Z",
+      "message": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
       "date": "2026-11-18"
     },
     "coverage": 100,

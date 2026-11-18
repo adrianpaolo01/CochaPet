@@ -4206,7 +4206,7 @@
     "testId": 171
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a4c68f2e809535f667e46f37b94f8d6d040b57e",
     "commitName": "feat(HU01): saludar con el primer nombre al usuario con sesion iniciada",
     "commitTimestamp": 1795033830492,
     "testId": 171
@@ -4602,5 +4602,19 @@
     "commitName": "feat(HU03): responder mis publicaciones si hay sesion",
     "commitTimestamp": 1795039304360,
     "testId": 191
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 0,
+    "numTotalTests": 191,
+    "timestamp": 1795039319635,
+    "success": true,
+    "testId": 192
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
+    "commitTimestamp": 1795039322642,
+    "testId": 192
   }
 ]
