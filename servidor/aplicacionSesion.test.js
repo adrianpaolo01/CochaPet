@@ -10,7 +10,7 @@ const usuarioPublico = { id: 1, nombre: "Usuario de Prueba", correo: "prueba@coc
 const credenciales = { correo: "prueba@cochapet.bo", clave: "prueba123" };
 
 function crearRepositorio(cambios = {}) {
-  return { buscarUsuarioPorCorreo: async () => usuario, crearSesion: jest.fn(async () => {}), obtenerSesion: async () => undefined, ...cambios };
+  return { buscarUsuarioPorCorreo: async () => usuario, crearSesion: jest.fn(async () => {}), obtenerSesion: async () => undefined, eliminarSesion: jest.fn(async () => {}), ...cambios };
 }
 
 async function iniciar(cuerpo, repositorio = crearRepositorio(), headers = {}) {
@@ -113,5 +113,48 @@ describe("GET /api/sesion", () => {
     const { estado, cuerpo } = await consultar({ cookie: "sesion=abc123" }, crearRepositorio({ obtenerSesion }));
     expect(estado).toBe(500);
     expect(cuerpo).toEqual({ error: "No se pudo consultar la sesion" });
+  });
+});
+
+async function cerrar(headers, repositorio = crearRepositorio()) {
+  const respuesta = { writeHead: jest.fn(), end: jest.fn() };
+  await crearManejador({}, {}, repositorio)({ method: "DELETE", url: "/api/sesion", headers }, respuesta);
+  return { estado: respuesta.writeHead.mock.calls[0][0], cabeceras: respuesta.writeHead.mock.calls[0][1], cuerpo: JSON.parse(respuesta.end.mock.calls[0][0]) };
+}
+
+describe("DELETE /api/sesion", () => {
+  const COOKIE_BORRADA = "sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0";
+
+  beforeEach(() => jest.spyOn(console, "error").mockImplementation(() => {}));
+  afterEach(() => jest.restoreAllMocks());
+
+  it("cierra la sesion indicada en la cookie y le ordena al navegador borrarla", async () => {
+    const eliminarSesion = jest.fn(async () => {});
+    const { estado, cabeceras, cuerpo } = await cerrar({ cookie: "tema=oscuro; sesion=abc123" }, crearRepositorio({ eliminarSesion }));
+    expect(estado).toBe(200);
+    expect(cuerpo).toEqual({ usuario: null });
+    expect(cabeceras["Set-Cookie"]).toBe(COOKIE_BORRADA);
+    expect(eliminarSesion).toHaveBeenCalledWith(hashDeToken("abc123"));
+  });
+
+  it.each([undefined, { cookie: "tema=oscuro" }])("responde 200 y borra la cookie sin consultar la base si no hay sesion (%p)", async (headers) => {
+    const eliminarSesion = jest.fn();
+    const { estado, cabeceras } = await cerrar(headers, crearRepositorio({ eliminarSesion }));
+    expect(estado).toBe(200);
+    expect(cabeceras["Set-Cookie"]).toBe(COOKIE_BORRADA);
+    expect(eliminarSesion).not.toHaveBeenCalled();
+  });
+
+  it("mantiene Secure al borrar la cookie cuando la conexion llega por https", async () => {
+    const { cabeceras } = await cerrar({ cookie: "sesion=abc123", "x-forwarded-proto": "https" });
+    expect(cabeceras["Set-Cookie"]).toBe(`${COOKIE_BORRADA}; Secure`);
+  });
+
+  it("responde 500 sin revelar detalles y sin borrar la cookie si falla la base de datos", async () => {
+    const eliminarSesion = async () => { throw new Error("detalle privado"); };
+    const { estado, cabeceras, cuerpo } = await cerrar({ cookie: "sesion=abc123" }, crearRepositorio({ eliminarSesion }));
+    expect(estado).toBe(500);
+    expect(cuerpo).toEqual({ error: "No se pudo cerrar la sesion" });
+    expect(cabeceras["Set-Cookie"]).toBeUndefined();
   });
 });

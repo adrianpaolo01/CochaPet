@@ -1,7 +1,7 @@
-import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
-import { cookieDeSesion, leerCookie } from "./cookies.js";
-import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
+import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -40,6 +40,13 @@ export async function manejarErrores(res, mensaje, accion) {
 export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "DELETE" && ruta === "/api/sesion") {
+      return manejarErrores(res, "No se pudo cerrar la sesion", async () => {
+        await cerrarSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 200, { usuario: null }, { "Set-Cookie": cookieBorrada({ seguro }) });
+      });
+    }
     if (req.method === "GET" && ruta === "/api/sesion") {
       return manejarErrores(res, "No se pudo consultar la sesion", async () => {
         const token = leerCookie(req.headers?.cookie, "sesion");
@@ -89,6 +96,18 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const { token, expiraEn } = await abrirSesion(autenticacionRepositorio, usuario);
         const seguro = req.headers?.["x-forwarded-proto"] === "https";
         responderJson(res, 201, usuario, { "Set-Cookie": cookieDeSesion(token, expiraEn, { seguro }) });
+      });
+    }
+    if (req.method === "POST" && ruta === "/api/publicaciones") {
+      return manejarErrores(res, "No se pudo publicar el reporte", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para publicar" });
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const repositorios = { publicaciones: repositorio, barrios: barriosRepositorio };
+        const { publicacion, error } = await reportarPerdida(repositorios, usuario, entrada.datos);
+        if (error) return responderJson(res, 400, { error });
+        responderJson(res, 201, publicacion);
       });
     }
     responderJson(res, 404, { error: "No encontrado" });

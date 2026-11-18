@@ -1,5 +1,5 @@
 import { scryptSync } from "node:crypto";
-import { abrirSesion, hashDeToken, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, cerrarSesion, hashDeToken, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 
 const SAL = "00ff00ff00ff00ff00ff00ff00ff00ff";
 const claveHash = `${SAL}:${scryptSync("prueba123", SAL, 64).toString("hex")}`;
@@ -7,6 +7,23 @@ const usuario = { id: 1, nombre: "Usuario de Prueba", correo: "prueba@cochapet.b
 const repositorio = { buscarUsuarioPorCorreo: async () => usuario, crearSesion: async () => {} };
 
 describe("Autenticacion servicio", () => {
+  it("deberia eliminar la sesion usando el hash del token", async () => {
+    const eliminarSesion = jest.fn(async () => {});
+    await cerrarSesion({ eliminarSesion }, "token-fijo");
+    expect(eliminarSesion).toHaveBeenCalledWith(hashDeToken("token-fijo"));
+  });
+
+  it.each([undefined, null, "", 123])("deberia cerrar sesion sin consultar la base si el token es %p", async (token) => {
+    const eliminarSesion = jest.fn();
+    await cerrarSesion({ eliminarSesion }, token);
+    expect(eliminarSesion).not.toHaveBeenCalled();
+  });
+
+  it("deberia avisar del error si la base falla al eliminar la sesion", async () => {
+    const eliminarSesion = async () => { throw new Error("detalle privado"); };
+    await expect(cerrarSesion({ eliminarSesion }, "token-fijo")).rejects.toThrow("detalle privado");
+  });
+
   it("deberia devolver el usuario de una sesion vigente", async () => {
     const obtenerSesion = jest.fn(async () => ({ expiraEn: new Date("2026-11-27T10:00:00Z"), usuario: { id: 1, nombre: "Prueba" } }));
     const resultado = await usuarioDeSesion({ obtenerSesion }, "token-fijo", new Date("2026-11-20T10:00:00Z"));

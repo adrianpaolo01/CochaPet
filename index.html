@@ -12,12 +12,15 @@
       <span class="marca">Cocha<span class="marca-acento">Pet</span></span>
       <a id="enlace-sesion" class="enlace-sesion" href="#/ingresar">Iniciar sesión</a>
       <button type="button" id="abrir-registro" class="boton">Registrarse</button>
+      <button type="button" id="cerrar-sesion" class="boton boton-secundario" hidden>Cerrar sesión</button>
     </header>
     <main class="contenedor">
+      <p id="mensaje-sesion" class="mensaje-error" role="alert" hidden></p>
       <div id="vista-lista"></div>
       <section id="vista-detalle" hidden></section>
       <section id="vista-login" hidden></section>
       <section id="vista-perfil" hidden></section>
+      <section id="vista-reporte" hidden></section>
       <dialog id="visor"></dialog>
       <dialog id="registro">
         <form id="formulario-registro" method="dialog" novalidate>
@@ -37,5 +40,6 @@
     <script type="module" src="./src/loginPresenter.js"></script>
     <script type="module" src="./src/perfilPresenter.js"></script>
     <script type="module" src="./src/registroPresenter.js"></script>
+    <script type="module" src="./src/reportePresenter.js"></script>
   </body>
 </html>
