@@ -3591,12 +3591,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad6982cc5e160f86e8509b4cf129c620003f92e3",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T19:21:07.000Z",
       "message": "feat(HU32): no consultar la base si falta el token de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ad6982cc5e160f86e8509b4cf129c620003f92e3"
     },
     "stats": {
       "total": 7,
@@ -3701,6 +3701,25 @@
     },
     "coverage": 100,
     "test_count": 130,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T19:59:26.000Z",
+      "message": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 114,
+      "additions": 111,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 140,
     "failed_tests": 0,
     "conclusion": "success"
   }

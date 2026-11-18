@@ -3484,7 +3484,7 @@
     "testId": 172
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ad6982cc5e160f86e8509b4cf129c620003f92e3",
     "commitName": "feat(HU32): no consultar la base si falta el token de sesion",
     "commitTimestamp": 1795029668935,
     "testId": 172
@@ -3598,5 +3598,27 @@
     "commitName": "feat(HU32): marcar la cookie de sesion como Secure en conexiones https",
     "commitTimestamp": 1795031404900,
     "testId": 177
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 10,
+    "numTotalTests": 140,
+    "timestamp": 1795031453820,
+    "success": false,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 0,
+    "numTotalTests": 140,
+    "timestamp": 1795031954466,
+    "success": true,
+    "testId": 178
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): ruta POST api sesion con cookie, validaciones y errores controlados",
+    "commitTimestamp": 1795031967930,
+    "testId": 178
   }
 ]
