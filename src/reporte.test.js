@@ -35,11 +35,10 @@ describe("Reporte", () => {
     expect(leerBorrador(texto)).toEqual({});
   });
 
-  it("deberia titular el reporte de una mascota encontrada", () => {
-    expect(textosReporte("ENCONTRADA").titulo).toBe("Encontré una mascota");
-  });
-
-  it("deberia titular el reporte de una mascota perdida", () => {
-    expect(textosReporte("PERDIDA").titulo).toBe("Perdí mi mascota");
+  it.each([
+    ["PERDIDA", "Perdí mi mascota"],
+    ["ENCONTRADA", "Encontré una mascota"],
+  ])("deberia titular el reporte de tipo %s", (tipo, titulo) => {
+    expect(textosReporte(tipo).titulo).toBe(titulo);
   });
 });

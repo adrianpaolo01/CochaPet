@@ -4598,12 +4598,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:00.000Z",
       "message": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f8954fd8de92beb39bd728ecc77775c78b2bebfe"
     },
     "stats": {
       "total": 13,
@@ -6148,6 +6148,25 @@
       "total": 13,
       "additions": 11,
       "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 249,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:24:47.000Z",
+      "message": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 5,
+      "deletions": 6,
       "date": "2026-11-18"
     },
     "coverage": 100,

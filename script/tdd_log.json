@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -6060,5 +6060,19 @@
     "commitName": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
     "commitTimestamp": 1795044274470,
     "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795044286693,
+    "success": true,
+    "testId": 259
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
+    "commitTimestamp": 1795044288008,
+    "testId": 259
   }
 ]
