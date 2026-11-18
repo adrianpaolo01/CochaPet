@@ -3104,7 +3104,7 @@
     "testId": 154
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f2daf9d486c6978d641d42bdc6439b3c4ed5bd78",
     "commitName": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
     "commitTimestamp": 1794973816236,
     "testId": 154
@@ -3202,5 +3202,27 @@
     "commitName": "feat(HU32): rechazar sin fallar un hash guardado mal formado",
     "commitTimestamp": 1795024364854,
     "testId": 159
+  },
+  {
+    "numPassedTests": 102,
+    "failedTests": 1,
+    "numTotalTests": 103,
+    "timestamp": 1795024394350,
+    "success": false,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1795024710985,
+    "success": true,
+    "testId": 160
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU32): iniciar sesion con el correo y la clave correctos",
+    "commitTimestamp": 1795024716294,
+    "testId": 160
   }
 ]

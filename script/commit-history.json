@@ -3249,12 +3249,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f2daf9d486c6978d641d42bdc6439b3c4ed5bd78",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:50:15.000Z",
       "message": "fix(issue48): no dar mensaje si la publicacion se cargo bien",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f2daf9d486c6978d641d42bdc6439b3c4ed5bd78"
     },
     "stats": {
       "total": 8,
@@ -3359,6 +3359,25 @@
     },
     "coverage": 100,
     "test_count": 102,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T17:58:34.000Z",
+      "message": "feat(HU32): iniciar sesion con el correo y la clave correctos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 103,
     "failed_tests": 0,
     "conclusion": "success"
   }
