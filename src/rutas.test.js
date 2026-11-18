@@ -3,6 +3,7 @@ import { vistaParaHash } from "./rutas.js";
 describe("Rutas", () => {
   it.each([
     ["#/ingresar", "login"],
+    ["#/perfil", "perfil"],
     ["#/mascota/3", "detalle"],
     ["", "lista"],
     ["#/", "lista"],

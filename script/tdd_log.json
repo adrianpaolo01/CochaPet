@@ -4220,7 +4220,7 @@
     "testId": 172
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db1577ed98e343419f202906edf205503da0e87e",
     "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
     "commitTimestamp": 1795033846722,
     "testId": 172
@@ -4616,5 +4616,27 @@
     "commitName": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
     "commitTimestamp": 1795039322642,
     "testId": 192
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 1,
+    "numTotalTests": 192,
+    "timestamp": 1795039332016,
+    "success": false,
+    "testId": 193
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 0,
+    "numTotalTests": 192,
+    "timestamp": 1795039642015,
+    "success": true,
+    "testId": 193
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU03): abrir el perfil desde su ruta",
+    "commitTimestamp": 1795039644990,
+    "testId": 193
   }
 ]

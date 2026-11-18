@@ -4161,12 +4161,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db1577ed98e343419f202906edf205503da0e87e",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:08:53.000Z",
       "message": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/db1577ed98e343419f202906edf205503da0e87e"
     },
     "stats": {
       "total": 99,
@@ -4822,6 +4822,25 @@
     },
     "coverage": 100,
     "test_count": 191,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-18T22:07:24.000Z",
+      "message": "feat(HU03): abrir el perfil desde su ruta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 192,
     "failed_tests": 0,
     "conclusion": "success"
   }
