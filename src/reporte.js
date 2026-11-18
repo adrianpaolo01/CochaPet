@@ -7,3 +7,8 @@ export function validarReporte(datos) {
   if (!datos.descripcion?.trim()) return "Describe a tu mascota para que la reconozcan";
   return null;
 }
+
+// Mediodia local: asi la fecha no cambia de dia al convertirse a UTC en el servidor.
+export function fechaDelDia(dia) {
+  return new Date(`${dia}T12:00`).toISOString();
+}

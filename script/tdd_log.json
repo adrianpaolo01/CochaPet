@@ -4220,7 +4220,7 @@
     "testId": 172
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4bab4b2fcf1a1038fef603db186aa3ab153efbe1",
     "commitName": "feat(HU01): mostrar el formulario de registro desde el encabezado",
     "commitTimestamp": 1795033846722,
     "testId": 172
@@ -4566,5 +4566,27 @@
     "commitName": "feat(HU04): aceptar el reporte de perdida con los datos obligatorios",
     "commitTimestamp": 1795035498756,
     "testId": 189
+  },
+  {
+    "numPassedTests": 191,
+    "failedTests": 1,
+    "numTotalTests": 192,
+    "timestamp": 1795035505850,
+    "success": false,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 192,
+    "failedTests": 0,
+    "numTotalTests": 192,
+    "timestamp": 1795035512846,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): enviar la fecha de perdida al mediodia local para no cambiar de dia",
+    "commitTimestamp": 1795035513954,
+    "testId": 190
   }
 ]
