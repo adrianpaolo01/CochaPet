@@ -16,4 +16,8 @@ describe("Vista detalle", () => {
     expect(htmlVisor()).toContain('<button id="visor-anterior" class="boton" type="button">Anterior</button>');
     expect(htmlVisor()).toContain('<button id="visor-siguiente" class="boton" type="button">Siguiente</button>');
   });
+
+  it("deberia tener un lugar oculto para avisar que la publicacion no existe", () => {
+    expect(htmlVistaDetalle()).toContain('<p id="detalle-mensaje" class="mensaje-vacio" hidden></p>');
+  });
 });

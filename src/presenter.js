@@ -62,6 +62,8 @@ function registrarFiltros(publicaciones) {
   filtroEspecie.addEventListener("change", () => {
     filtroRaza.replaceChildren(new Option("Todas", ""));
     llenarSelect(filtroRaza, opcionesDe(publicaciones, "raza", filtroEspecie.value));
+    filtroColor.replaceChildren(new Option("Todos", ""));
+    llenarSelect(filtroColor, opcionesDe(publicaciones, "color", filtroEspecie.value));
     aplicarFiltros();
   });
 }
