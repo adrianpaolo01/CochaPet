@@ -4466,7 +4466,7 @@
     "testId": 185
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2db2fc3ccccb9b51ea76cbd8707557c515e19fb6",
     "commitName": "feat(HU04): pedir la especie al reportar una mascota perdida",
     "commitTimestamp": 1795035431291,
     "testId": 185
@@ -4868,5 +4868,35 @@
     "commitName": "feat(HU04): consultar la sesion de la cookie al publicar un reporte",
     "commitTimestamp": 1795035741476,
     "testId": 202
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 1,
+    "numTotalTests": 204,
+    "timestamp": 1795035748316,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 203,
+    "failedTests": 1,
+    "numTotalTests": 204,
+    "timestamp": 1795035754701,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 204,
+    "failedTests": 0,
+    "numTotalTests": 204,
+    "timestamp": 1795035762609,
+    "success": true,
+    "testId": 203
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): responder 400 con el error al publicar un reporte invalido",
+    "commitTimestamp": 1795035763721,
+    "testId": 203
   }
 ]

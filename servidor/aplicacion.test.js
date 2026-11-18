@@ -78,6 +78,14 @@ describe("API compartida entre desarrollo y Vercel", () => {
     expect(autenticacion.obtenerSesion).toHaveBeenCalled();
   });
 
+  it("responde 400 con el error al publicar un reporte invalido con sesion", async () => {
+    const autenticacion = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+    const peticion = Object.assign(Readable.from(["{}"]), { method: "POST", url: "/api/publicaciones", headers: { cookie: "sesion=abc" } });
+    const respuesta = crearRespuesta();
+    await crearManejador({}, {}, autenticacion)(peticion, respuesta);
+    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de tu mascota" }));
+  });
+
   it("devuelve el detalle de una publicacion activa como JSON", async () => {
     const detalle = { id: 3, estado: "ACTIVA", descripcion: "Collar rojo" };
     const repositorio = { obtenerPorId: jest.fn(async () => detalle) };

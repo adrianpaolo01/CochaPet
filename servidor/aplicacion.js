@@ -1,7 +1,7 @@
 import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieDeSesion, leerCookie } from "./cookies.js";
-import { detalleDePublicacion, publicacionesParaInicio } from "./publicacionesServicio.js";
+import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -88,6 +88,10 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
       return manejarErrores(res, "No se pudo publicar el reporte", async () => {
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para publicar" });
+        const entrada = await leerCuerpoJson(req);
+        const repositorios = { publicaciones: repositorio, barrios: barriosRepositorio };
+        const { error } = await reportarPerdida(repositorios, usuario, entrada.datos);
+        if (error) return responderJson(res, 400, { error });
       });
     }
     responderJson(res, 404, { error: "No encontrado" });
