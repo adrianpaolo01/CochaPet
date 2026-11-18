@@ -4769,12 +4769,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d425fdcdee259336f0897220f34c6102e8f4feac",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:58:33.000Z",
       "message": "feat(HU04): enviar la fecha de perdida al mediodia local para no cambiar de dia",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d425fdcdee259336f0897220f34c6102e8f4feac"
     },
     "stats": {
       "total": 11,
@@ -5103,6 +5103,25 @@
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 206,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:04:15.000Z",
+      "message": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
       "date": "2026-11-18"
     },
     "coverage": 100,

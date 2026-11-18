@@ -4584,7 +4584,7 @@
     "testId": 190
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d425fdcdee259336f0897220f34c6102e8f4feac",
     "commitName": "feat(HU04): enviar la fecha de perdida al mediodia local para no cambiar de dia",
     "commitTimestamp": 1795035513954,
     "testId": 190
@@ -4978,5 +4978,19 @@
     "commitName": "feat(HU04): responder 400 si el reporte no llega como objeto JSON",
     "commitTimestamp": 1795035834572,
     "testId": 207
+  },
+  {
+    "numPassedTests": 206,
+    "failedTests": 0,
+    "numTotalTests": 206,
+    "timestamp": 1795035854501,
+    "success": true,
+    "testId": 208
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): guardar el reporte de perdida en la base y publicarlo en Vercel",
+    "commitTimestamp": 1795035855602,
+    "testId": 208
   }
 ]
