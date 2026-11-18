@@ -3826,7 +3826,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3b5a9dd4f011dba84657d9f749a08f73c9c1d053",
     "commitName": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
     "commitTimestamp": 1795032217589,
     "testId": 179
@@ -4440,5 +4440,35 @@
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 0,
+    "numTotalTests": 186,
+    "timestamp": 1795035350117,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 186,
+    "failedTests": 1,
+    "numTotalTests": 187,
+    "timestamp": 1795035423719,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 187,
+    "failedTests": 0,
+    "numTotalTests": 187,
+    "timestamp": 1795035429661,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la especie al reportar una mascota perdida",
+    "commitTimestamp": 1795035431291,
+    "testId": 185
   }
 ]

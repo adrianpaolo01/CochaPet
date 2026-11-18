@@ -4066,12 +4066,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3b5a9dd4f011dba84657d9f749a08f73c9c1d053",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:03:36.000Z",
       "message": "feat(HU32): ruta GET api sesion para saber que usuario tiene sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3b5a9dd4f011dba84657d9f749a08f73c9c1d053"
     },
     "stats": {
       "total": 51,
@@ -4670,6 +4670,25 @@
     },
     "coverage": 100,
     "test_count": 186,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T20:57:11.000Z",
+      "message": "feat(HU04): pedir la especie al reportar una mascota perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 187,
     "failed_tests": 0,
     "conclusion": "success"
   }
