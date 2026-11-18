@@ -4952,7 +4952,7 @@
     "testId": 206
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df87d8302cba5a7dd049add2ea9042325d144430",
     "commitName": "refactor(HU04): compartir la sesion iniciada en los tests de reporte de la API",
     "commitTimestamp": 1795035817907,
     "testId": 206
@@ -5290,5 +5290,19 @@
     "commitName": "feat(HU04): mostrar el formulario de mascota perdida al tocar Perdi mi mascota",
     "commitTimestamp": 1795036083832,
     "testId": 223
+  },
+  {
+    "numPassedTests": 219,
+    "failedTests": 0,
+    "numTotalTests": 219,
+    "timestamp": 1795036095330,
+    "success": true,
+    "testId": 224
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
+    "commitTimestamp": 1795036096610,
+    "testId": 224
   }
 ]
