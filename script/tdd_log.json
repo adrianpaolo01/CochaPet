@@ -4894,7 +4894,7 @@
     "testId": 203
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5a3decce9bffdc959ede86818298872d4e3640f",
     "commitName": "feat(HU04): responder 400 con el error al publicar un reporte invalido",
     "commitTimestamp": 1795035763721,
     "testId": 203
@@ -5232,5 +5232,27 @@
     "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036037621,
     "testId": 220
+  },
+  {
+    "numPassedTests": 217,
+    "failedTests": 1,
+    "numTotalTests": 218,
+    "timestamp": 1795036048166,
+    "success": false,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 218,
+    "failedTests": 0,
+    "numTotalTests": 218,
+    "timestamp": 1795036049365,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
+    "commitTimestamp": 1795036050476,
+    "testId": 221
   }
 ]

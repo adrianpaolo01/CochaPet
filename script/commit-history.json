@@ -5016,12 +5016,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f5a3decce9bffdc959ede86818298872d4e3640f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:02:43.000Z",
       "message": "feat(HU04): responder 400 con el error al publicar un reporte invalido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f5a3decce9bffdc959ede86818298872d4e3640f"
     },
     "stats": {
       "total": 14,
@@ -5354,6 +5354,25 @@
     },
     "coverage": 100,
     "test_count": 217,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T21:07:30.000Z",
+      "message": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 218,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -19,6 +19,8 @@ export function htmlVistaReporte() {
         <label for="reporte-fecha">¿Cuándo se perdió?</label><input id="reporte-fecha" name="fecha" type="date" />
         <label for="reporte-barrio">Barrio de Cochabamba</label>
         <select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>
+        <label for="reporte-descripcion">Descripción</label>
+        <textarea id="reporte-descripcion" name="descripcion" rows="4" placeholder="Ej.: collar rojo, cojea de la pata izquierda, responde a su nombre"></textarea>
       </form>
     </div>`;
 }

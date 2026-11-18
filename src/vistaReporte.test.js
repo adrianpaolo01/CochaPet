@@ -32,4 +32,8 @@ describe("Vista reporte", () => {
     expect(htmlVistaReporte()).toContain('<label for="reporte-barrio">Barrio de Cochabamba</label>');
     expect(htmlVistaReporte()).toContain('<select id="reporte-barrio" name="barrio"><option value="">Elige el barrio</option></select>');
   });
+
+  it("deberia pedir una descripcion de la mascota", () => {
+    expect(htmlVistaReporte()).toMatch(/<label for="reporte-descripcion">Descripción<\/label>\s*<textarea id="reporte-descripcion" name="descripcion"/);
+  });
 });
