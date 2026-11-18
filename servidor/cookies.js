@@ -1,3 +1,7 @@
+export function cookieBorrada({ seguro = false } = {}) {
+  return `sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0${seguro ? "; Secure" : ""}`;
+}
+
 export function cookieDeSesion(token, expiraEn, { ahora = new Date(), seguro = false } = {}) {
   const segundos = Math.floor((expiraEn - ahora) / 1000);
   return `sesion=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${segundos}${seguro ? "; Secure" : ""}`;

@@ -3667,12 +3667,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "48822d7900b3897ac5e5e7109796f1d69736cf10",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:43:51.000Z",
       "message": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/48822d7900b3897ac5e5e7109796f1d69736cf10"
     },
     "stats": {
       "total": 5,
@@ -3686,12 +3686,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2a2e35c55bf887efa8a15b793de83675f92143c0",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T04:44:03.000Z",
       "message": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2a2e35c55bf887efa8a15b793de83675f92143c0"
     },
     "stats": {
       "total": 4,
@@ -4142,12 +4142,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad4b8e65e0c946793fe8970ee5e16ef03ff93c54",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:04:25.000Z",
       "message": "feat(HU32): conectar el inicio de sesion con la base de datos y con Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ad4b8e65e0c946793fe8970ee5e16ef03ff93c54"
     },
     "stats": {
       "total": 36,
@@ -4161,12 +4161,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7817510386b9eecb93e4287aca749f841888ebf3",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T20:08:53.000Z",
       "message": "feat(HU32): validar el formulario, elegir la vista por ruta y armar la pantalla de login",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7817510386b9eecb93e4287aca749f841888ebf3"
     },
     "stats": {
       "total": 99,
@@ -5715,6 +5715,82 @@
     },
     "coverage": 100,
     "test_count": 221,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:02:42.000Z",
+      "message": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 36,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 229,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:06:58.000Z",
+      "message": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 60,
+      "additions": 57,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 234,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:10:54.000Z",
+      "message": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 237,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T22:11:47.000Z",
+      "message": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 34,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 237,
     "failed_tests": 0,
     "conclusion": "success"
   }

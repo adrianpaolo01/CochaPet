@@ -8,6 +8,11 @@ export function validarCredenciales({ correo, clave }) {
   return null;
 }
 
+export function estadoEncabezado(usuario) {
+  const conSesion = Boolean(usuario);
+  return { texto: textoSesion(usuario), href: conSesion ? "#/" : "#/ingresar", mostrarCerrar: conSesion, mostrarRegistro: !conSesion };
+}
+
 export function textoSesion(usuario) {
   if (!usuario) return "Iniciar sesión";
   const primerNombre = String(usuario.nombre ?? "").trim().split(/\s+/)[0];

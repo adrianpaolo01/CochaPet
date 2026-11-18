@@ -1,8 +1,18 @@
-import { textoSesion, validarCredenciales } from "./sesion.js";
+import { estadoEncabezado, textoSesion, validarCredenciales } from "./sesion.js";
 
 const CORREO_NO_VALIDO = "Escribe un correo válido, por ejemplo nombre@correo.com";
+const SIN_SESION = { texto: "Iniciar sesión", href: "#/ingresar", mostrarCerrar: false, mostrarRegistro: true };
+const CON_SESION = { texto: "Hola, Usuario", href: "#/", mostrarCerrar: true, mostrarRegistro: false };
 
 describe("Sesion", () => {
+  it.each([
+    [null, SIN_SESION],
+    [undefined, SIN_SESION],
+    [{ nombre: "Usuario de Prueba" }, CON_SESION],
+  ])("deberia decidir que muestra el encabezado segun la sesion %p", (usuario, esperado) => {
+    expect(estadoEncabezado(usuario)).toEqual(esperado);
+  });
+
   it.each([
     [{ correo: "", clave: "abc" }, "Escribe tu correo"],
     [{ correo: "   ", clave: "abc" }, "Escribe tu correo"],

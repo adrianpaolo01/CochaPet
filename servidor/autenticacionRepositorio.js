@@ -18,6 +18,10 @@ export const autenticacionRepositorio = {
     return rows[0];
   },
 
+  async eliminarSesion(id) {
+    await db.query("DELETE FROM sesion WHERE id = $1", [id]);
+  },
+
   async crearSesion({ id, usuarioId, expiraEn }) {
     await db.query("DELETE FROM sesion WHERE expira_en < now()");
     await db.query("INSERT INTO sesion (id, usuario_id, expira_en) VALUES ($1, $2, $3)", [id, usuarioId, expiraEn]);

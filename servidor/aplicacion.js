@@ -1,6 +1,6 @@
-import { abrirSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
+import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./autenticacionServicio.js";
 import { barriosParaLista } from "./barriosServicio.js";
-import { cookieDeSesion, leerCookie } from "./cookies.js";
+import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
 
@@ -40,6 +40,13 @@ export async function manejarErrores(res, mensaje, accion) {
 export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "DELETE" && ruta === "/api/sesion") {
+      return manejarErrores(res, "No se pudo cerrar la sesion", async () => {
+        await cerrarSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 200, { usuario: null }, { "Set-Cookie": cookieBorrada({ seguro }) });
+      });
+    }
     if (req.method === "GET" && ruta === "/api/sesion") {
       return manejarErrores(res, "No se pudo consultar la sesion", async () => {
         const token = leerCookie(req.headers?.cookie, "sesion");
