@@ -3287,12 +3287,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "441a757578198f9e4f37cadebee4d87dfabd6c16",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T03:55:56.000Z",
       "message": "fix(issue48): mostrar el aviso en lugar del detalle si la publicacion no existe",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/441a757578198f9e4f37cadebee4d87dfabd6c16"
     },
     "stats": {
       "total": 7,
@@ -3397,6 +3397,25 @@
     },
     "coverage": 100,
     "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-11-18T18:12:13.000Z",
+      "message": "feat(HU32): rechazar un correo inexistente con el mismo mensaje general",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   }

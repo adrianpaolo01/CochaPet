@@ -16,4 +16,10 @@ describe("Autenticacion servicio", () => {
     const resultado = await iniciarSesion(repositorio, { correo: "prueba@cochapet.bo", clave: "equivocada" });
     expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
   });
+
+  it("deberia rechazar un correo inexistente con el mismo mensaje general", async () => {
+    const sinUsuario = { ...repositorio, buscarUsuarioPorCorreo: async () => undefined };
+    const resultado = await iniciarSesion(sinUsuario, { correo: "nadie@cochapet.bo", clave: "prueba123" });
+    expect(resultado).toEqual({ ok: false, estado: 401, error: "Correo o contraseña incorrectos" });
+  });
 });
