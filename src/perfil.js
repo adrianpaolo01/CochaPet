@@ -4,6 +4,7 @@ export function textoEstado(estado) {
   return TEXTOS_ESTADO[estado];
 }
 
-export function validarDatosPerfil() {
-  return "Completa tu nombre y teléfono";
+export function validarDatosPerfil({ nombre, telefono }) {
+  if (!nombre?.trim() || !telefono?.trim()) return "Completa tu nombre y teléfono";
+  return null;
 }

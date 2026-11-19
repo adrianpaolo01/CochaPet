@@ -12,4 +12,8 @@ describe("Perfil", () => {
   it("deberia pedir el nombre si lo dejo vacio al editar mis datos", () => {
     expect(validarDatosPerfil({ nombre: " ", telefono: "71234567", foto: "" })).toEqual("Completa tu nombre y teléfono");
   });
+
+  it("deberia aceptar mis datos si nombre y telefono estan completos", () => {
+    expect(validarDatosPerfil({ nombre: "Ana", telefono: "71234567", foto: "" })).toBeNull();
+  });
 });
