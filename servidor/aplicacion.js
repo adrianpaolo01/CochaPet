@@ -82,6 +82,12 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         responderJson(res, 200, resultado.usuario);
       });
     }
+    if (req.method === "DELETE" && ruta === "/api/perfil") {
+      return manejarErrores(res, "No se pudo eliminar tu cuenta", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para eliminar tu cuenta" });
+      });
+    }
     if (req.method === "GET" && ruta === "/api/publicaciones") {
       return manejarErrores(res, "No se pudieron cargar las publicaciones", async () =>
         responderJson(res, 200, await publicacionesParaInicio(repositorio)));

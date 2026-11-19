@@ -46,3 +46,9 @@ describe("PUT /api/perfil", () => {
     expect((await pedirPerfil("PUT", { headers: { cookie: "sesion=abc" }, datos: { ...nuevos, telefono: "" }, autenticacionRepositorio })).estado).toBe(400);
   });
 });
+
+describe("DELETE /api/perfil", () => {
+  it("responde 401 si no hay sesion", async () => {
+    expect(await pedirPerfil("DELETE", {})).toEqual({ estado: 401, cuerpo: { error: "Inicia sesion para eliminar tu cuenta" } });
+  });
+});

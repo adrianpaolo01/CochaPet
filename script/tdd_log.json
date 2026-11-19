@@ -5430,7 +5430,7 @@
     "testId": 227
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0bd4a43e2b0aa0de589828dabadf6d2725ad483c",
     "commitName": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
     "commitTimestamp": 1795036135247,
     "testId": 227
@@ -6566,5 +6566,35 @@
     "commitName": "refactor(HU25): pedir al perfil con cualquier metodo en los tests de la API",
     "commitTimestamp": 1795060149229,
     "testId": 285
+  },
+  {
+    "numPassedTests": 261,
+    "failedTests": 1,
+    "numTotalTests": 262,
+    "timestamp": 1795060155160,
+    "success": false,
+    "testId": 286
+  },
+  {
+    "numPassedTests": 261,
+    "failedTests": 1,
+    "numTotalTests": 262,
+    "timestamp": 1795060158586,
+    "success": false,
+    "testId": 286
+  },
+  {
+    "numPassedTests": 262,
+    "failedTests": 0,
+    "numTotalTests": 262,
+    "timestamp": 1795060167229,
+    "success": true,
+    "testId": 286
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): pedir iniciar sesion para eliminar la cuenta",
+    "commitTimestamp": 1795060168682,
+    "testId": 286
   }
 ]
