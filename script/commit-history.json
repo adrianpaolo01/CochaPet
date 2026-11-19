@@ -4579,12 +4579,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06dd03e4491b157ebcdf58f1c7bafbdfeab40c80",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:37:43.000Z",
       "message": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/06dd03e4491b157ebcdf58f1c7bafbdfeab40c80"
     },
     "stats": {
       "total": 666,
@@ -6129,6 +6129,25 @@
       "total": 17,
       "additions": 16,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:07.000Z",
+      "message": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
       "date": "2026-11-19"
     },
     "coverage": 99.67,

@@ -29,7 +29,7 @@ export const autenticacionRepositorio = {
 
   async obtenerSesion(id) {
     const { rows } = await db.query(
-      `SELECT s.expira_en AS "expiraEn", u.id, u.nombre, u.correo, u.telefono, u.rol
+      `SELECT s.expira_en AS "expiraEn", u.id, u.nombre, u.correo, u.telefono, u.foto_url AS foto, u.rol
        FROM sesion s JOIN usuario u ON u.id = s.usuario_id
        WHERE s.id = $1`,
       [id]
@@ -37,5 +37,13 @@ export const autenticacionRepositorio = {
     if (!rows[0]) return undefined;
     const { expiraEn, ...usuario } = rows[0];
     return { expiraEn, usuario };
+  },
+
+  async actualizar(id, { nombre, telefono, foto }) {
+    const { rows } = await db.query(
+      `UPDATE usuario SET nombre = $2, telefono = $3, foto_url = $4 WHERE id = $1
+       RETURNING id, nombre, correo, telefono, foto_url AS foto, rol`,
+      [id, nombre.trim(), telefono.trim(), foto?.trim() || null]);
+    return rows[0];
   },
 };

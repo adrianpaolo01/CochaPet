@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06dd03e4491b157ebcdf58f1c7bafbdfeab40c80",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -5998,5 +5998,19 @@
     "commitName": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
     "commitTimestamp": 1795059274750,
     "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059304915,
+    "success": true,
+    "testId": 258
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
+    "commitTimestamp": 1795059307921,
+    "testId": 258
   }
 ]
