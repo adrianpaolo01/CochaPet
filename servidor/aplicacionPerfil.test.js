@@ -29,9 +29,9 @@ async function pedirPerfil(metodo, { headers = {}, datos, autenticacionRepositor
   const respuesta = { writeHead: jest.fn(), end: jest.fn() };
   const peticion = { method: metodo, url: "/api/perfil", headers, [Symbol.asyncIterator]: async function* () { yield JSON.stringify(datos); } };
   await crearManejador({}, {}, autenticacionRepositorio)(peticion, respuesta);
-  const [estado] = respuesta.writeHead.mock.calls[0] ?? [];
+  const [estado, cabeceras] = respuesta.writeHead.mock.calls[0] ?? [];
   const [cuerpo] = respuesta.end.mock.calls[0] ?? [];
-  return { estado, cuerpo: cuerpo && JSON.parse(cuerpo) };
+  return { estado, cuerpo: cuerpo && JSON.parse(cuerpo), cookie: cabeceras?.["Set-Cookie"] };
 }
 
 describe("PUT /api/perfil", () => {
@@ -61,5 +61,10 @@ describe("DELETE /api/perfil", () => {
     const { estado } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio });
     expect(estado).toBe(200);
     expect(autenticacionRepositorio.eliminar).toHaveBeenCalledWith(7);
+  });
+
+  it("le ordena al navegador borrar la cookie de la sesion al eliminar la cuenta", async () => {
+    const { cookie } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio: { obtenerSesion: sesionVigente, eliminar: jest.fn() } });
+    expect(cookie).toContain("sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0");
   });
 });

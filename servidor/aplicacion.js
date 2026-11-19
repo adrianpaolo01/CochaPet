@@ -87,7 +87,8 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para eliminar tu cuenta" });
         await eliminarCuenta(autenticacionRepositorio, usuario.id);
-        responderJson(res, 200, { usuario: null });
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 200, { usuario: null }, { "Set-Cookie": cookieBorrada({ seguro }) });
       });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {

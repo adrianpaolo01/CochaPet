@@ -5486,7 +5486,7 @@
     "testId": 231
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16fdb6bd3fc54fe5889582d4703e9921df77b4bc",
     "commitName": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
     "commitTimestamp": 1795036184222,
     "testId": 231
@@ -6654,5 +6654,27 @@
     "commitName": "refactor(HU25): compartir la sesion vigente en los tests de la API del perfil",
     "commitTimestamp": 1795060244936,
     "testId": 289
+  },
+  {
+    "numPassedTests": 263,
+    "failedTests": 1,
+    "numTotalTests": 264,
+    "timestamp": 1795060256972,
+    "success": false,
+    "testId": 290
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060266262,
+    "success": true,
+    "testId": 290
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): borrar la cookie de la sesion al eliminar la cuenta",
+    "commitTimestamp": 1795060267587,
+    "testId": 290
   }
 ]

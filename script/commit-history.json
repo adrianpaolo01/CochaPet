@@ -5624,12 +5624,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "16fdb6bd3fc54fe5889582d4703e9921df77b4bc",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:53.000Z",
       "message": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/16fdb6bd3fc54fe5889582d4703e9921df77b4bc"
     },
     "stats": {
       "total": 5,
@@ -6741,6 +6741,25 @@
     },
     "coverage": 99.69,
     "test_count": 263,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:51:07.000Z",
+      "message": "feat(HU25): borrar la cookie de la sesion al eliminar la cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
     "failed_tests": 0,
     "conclusion": "success"
   }
