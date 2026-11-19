@@ -1,5 +1,7 @@
 import { crearManejador } from "./aplicacion.js";
 
+const sesionVigente = async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } });
+
 async function pedirMisPublicaciones(headers, repositorio = {}, autenticacionRepositorio = {}) {
   const respuesta = { writeHead: jest.fn(), end: jest.fn() };
   await crearManejador(repositorio, {}, autenticacionRepositorio)({ method: "GET", url: "/api/mis-publicaciones", headers }, respuesta);
@@ -14,7 +16,7 @@ describe("GET /api/mis-publicaciones", () => {
   });
 
   it("responde 200 con las publicaciones del usuario de la sesion", async () => {
-    const autenticacionRepositorio = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+    const autenticacionRepositorio = { obtenerSesion: sesionVigente };
     const repositorio = { listarPorAutor: jest.fn(async () => [{ id: 1, estado: "ACTIVA" }]) };
     const { estado, cuerpo } = await pedirMisPublicaciones({ cookie: "sesion=abc123" }, repositorio, autenticacionRepositorio);
     expect(estado).toBe(200);
@@ -40,7 +42,7 @@ describe("PUT /api/perfil", () => {
 
   it("responde 200 con mis datos guardados y 400 si son invalidos", async () => {
     const autenticacionRepositorio = {
-      obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }),
+      obtenerSesion: sesionVigente,
       actualizar: async (id, nuevos) => ({ id, ...nuevos }),
     };
     const nuevos = { nombre: "Ana", telefono: "71234567", foto: "" };
@@ -55,7 +57,7 @@ describe("DELETE /api/perfil", () => {
   });
 
   it("elimina la cuenta del usuario de la sesion y responde 200", async () => {
-    const autenticacionRepositorio = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }), eliminar: jest.fn() };
+    const autenticacionRepositorio = { obtenerSesion: sesionVigente, eliminar: jest.fn() };
     const { estado } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio });
     expect(estado).toBe(200);
     expect(autenticacionRepositorio.eliminar).toHaveBeenCalledWith(7);

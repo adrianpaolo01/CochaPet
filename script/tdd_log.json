@@ -5472,7 +5472,7 @@
     "testId": 230
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdea92a77d2dcddf4da85d76e8ab4a3cb3cfd097",
     "commitName": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
     "commitTimestamp": 1795036172286,
     "testId": 230
@@ -6640,5 +6640,19 @@
     "commitName": "feat(HU25): eliminar la cuenta del usuario de la sesion desde la API",
     "commitTimestamp": 1795060224725,
     "testId": 288
+  },
+  {
+    "numPassedTests": 263,
+    "failedTests": 0,
+    "numTotalTests": 263,
+    "timestamp": 1795060243810,
+    "success": true,
+    "testId": 289
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU25): compartir la sesion vigente en los tests de la API del perfil",
+    "commitTimestamp": 1795060244936,
+    "testId": 289
   }
 ]

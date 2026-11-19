@@ -5605,12 +5605,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bdea92a77d2dcddf4da85d76e8ab4a3cb3cfd097",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:44.000Z",
       "message": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bdea92a77d2dcddf4da85d76e8ab4a3cb3cfd097"
     },
     "stats": {
       "total": 4,
@@ -6718,6 +6718,25 @@
       "total": 11,
       "additions": 10,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 263,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:44.000Z",
+      "message": "refactor(HU25): compartir la sesion vigente en los tests de la API del perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
       "date": "2026-11-19"
     },
     "coverage": 99.69,
