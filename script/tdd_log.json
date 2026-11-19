@@ -4262,7 +4262,7 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ff4a3e40ced161c404db778ee87fe1310a7b725",
     "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
     "commitTimestamp": 1795033868169,
     "testId": 175
@@ -5888,5 +5888,35 @@
     "commitName": "feat(HU03): llevar el saludo del encabezado a mi perfil",
     "commitTimestamp": 1795041647862,
     "testId": 252
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795056017712,
+    "success": true,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 1,
+    "numTotalTests": 244,
+    "timestamp": 1795056045410,
+    "success": false,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 0,
+    "numTotalTests": 244,
+    "timestamp": 1795056058839,
+    "success": true,
+    "testId": 253
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): aceptar los datos validos de cambio de clave",
+    "commitTimestamp": 1795056070163,
+    "testId": 253
   }
 ]
