@@ -4598,12 +4598,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "200e7002706fd37a3956aed78fbdcf879be46e4c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:00.000Z",
       "message": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/200e7002706fd37a3956aed78fbdcf879be46e4c"
     },
     "stats": {
       "total": 13,
@@ -6147,6 +6147,25 @@
     "stats": {
       "total": 18,
       "additions": 16,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:34.000Z",
+      "message": "feat(HU24): formulario para editar mis datos en el perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 48,
       "deletions": 2,
       "date": "2026-11-19"
     },

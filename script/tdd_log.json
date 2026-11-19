@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "200e7002706fd37a3956aed78fbdcf879be46e4c",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -6012,5 +6012,19 @@
     "commitName": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
     "commitTimestamp": 1795059307921,
     "testId": 258
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059332415,
+    "success": true,
+    "testId": 259
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): formulario para editar mis datos en el perfil",
+    "commitTimestamp": 1795059335516,
+    "testId": 259
   }
 ]
