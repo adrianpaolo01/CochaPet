@@ -5388,7 +5388,7 @@
     "testId": 224
   },
   {
-    "commitId": "HEAD",
+    "commitId": "320691f0dd26ab223996203661ad980639917121",
     "commitName": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036096610,
     "testId": 224
@@ -6342,5 +6342,185 @@
     "commitName": "refactor(HU05): nombrar el borrador como del reporte y no solo de la perdida",
     "commitTimestamp": 1795044549098,
     "testId": 273
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 1,
+    "numTotalTests": 244,
+    "timestamp": 1795057641849,
+    "success": false,
+    "testId": 274
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 0,
+    "numTotalTests": 244,
+    "timestamp": 1795057953708,
+    "success": true,
+    "testId": 274
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): pedir nombre y telefono si los dejo vacios al editar mis datos",
+    "commitTimestamp": 1795057960501,
+    "testId": 274
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 1,
+    "numTotalTests": 245,
+    "timestamp": 1795057972457,
+    "success": false,
+    "testId": 275
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 0,
+    "numTotalTests": 245,
+    "timestamp": 1795058284211,
+    "success": true,
+    "testId": 275
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): aceptar mis datos si nombre y telefono estan completos",
+    "commitTimestamp": 1795058287761,
+    "testId": 275
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795058302020,
+    "success": false,
+    "testId": 276
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795058613398,
+    "success": true,
+    "testId": 276
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos nuevos solo si son validos",
+    "commitTimestamp": 1795058616694,
+    "testId": 276
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795058627193,
+    "success": false,
+    "testId": 277
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795058939522,
+    "success": true,
+    "testId": 277
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
+    "commitTimestamp": 1795058942713,
+    "testId": 277
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795058957186,
+    "success": false,
+    "testId": 278
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059271206,
+    "success": true,
+    "testId": 278
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
+    "commitTimestamp": 1795059274750,
+    "testId": 278
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059304915,
+    "success": true,
+    "testId": 279
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
+    "commitTimestamp": 1795059307921,
+    "testId": 279
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059332415,
+    "success": true,
+    "testId": 280
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): formulario para editar mis datos en el perfil",
+    "commitTimestamp": 1795059335516,
+    "testId": 280
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059354268,
+    "success": true,
+    "testId": 281
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
+    "commitTimestamp": 1795059357384,
+    "testId": 281
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059362835,
+    "success": true,
+    "testId": 282
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU24): estilos del formulario de mis datos y del autor",
+    "commitTimestamp": 1795059365871,
+    "testId": 282
+  },
+  {
+    "numPassedTests": 260,
+    "failedTests": 0,
+    "numTotalTests": 260,
+    "timestamp": 1795059841342,
+    "success": true,
+    "testId": 283
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
+    "commitTimestamp": 1795059850848,
+    "testId": 283
   }
 ]

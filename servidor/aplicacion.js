@@ -2,7 +2,7 @@ import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./aut
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
-import { registrarUsuario } from "./usuariosServicio.js";
+import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
 
@@ -69,6 +69,17 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para ver tus publicaciones" });
         responderJson(res, 200, await misPublicaciones(repositorio, usuario.id));
+      });
+    }
+    if (req.method === "PUT" && ruta === "/api/perfil") {
+      return manejarErrores(res, "No se pudieron guardar tus datos", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para editar tus datos" });
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const resultado = await actualizarDatos(autenticacionRepositorio, usuario.id, entrada.datos);
+        if (resultado.error) return responderJson(res, 400, { error: resultado.error });
+        responderJson(res, 200, resultado.usuario);
       });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {

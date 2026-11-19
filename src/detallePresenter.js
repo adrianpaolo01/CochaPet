@@ -52,6 +52,10 @@ async function mostrarVista() {
   document.querySelector("#detalle-datos").textContent = `${publicacion.barrio} · ${formatearFecha(publicacion.fecha)}`;
   document.querySelector("#detalle-caracteristicas").textContent = caracteristicasMascota(publicacion);
   document.querySelector("#detalle-descripcion").textContent = publicacion.descripcion;
+  document.querySelector("#detalle-autor-nombre").textContent = `Publicado por ${publicacion.autor}`;
+  const fotoAutor = document.querySelector("#detalle-autor-foto");
+  fotoAutor.hidden = !publicacion.autorFoto;
+  if (publicacion.autorFoto) fotoAutor.src = publicacion.autorFoto;
   document.querySelector("#detalle-whatsapp").href = enlaceWhatsApp(publicacion);
   document.querySelector("#detalle-llamar").href = enlaceLlamada(publicacion);
   contenedorFotos.replaceChildren(...publicacion.fotos.map((url) => Object.assign(new Image(), { src: url, alt: "" })));

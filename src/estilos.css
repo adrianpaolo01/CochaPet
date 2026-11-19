@@ -113,3 +113,12 @@ label[for="login-correo"], label[for="login-clave"] { display: block; margin: 20
 .perfil-datos { padding: 16px 20px; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); color: var(--tinta-suave); font-weight: 600; }
 .perfil-publicaciones { display: grid; gap: 10px; padding: 0; list-style: none; }
 .perfil-publicaciones li { padding: 14px 18px; border-radius: 12px; background: var(--superficie); box-shadow: var(--sombra); }
+.perfil-foto, #detalle-autor-foto { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
+#detalle-autor-foto { width: 36px; height: 36px; }
+.perfil-foto[hidden], #detalle-autor-foto[hidden], #perfil-mensaje[hidden] { display: none; }
+.detalle-autor { display: flex; align-items: center; gap: 10px; color: var(--tinta-suave); font-weight: 600; }
+.formulario-perfil { margin: 16px 0; padding: 16px 20px; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); }
+.formulario-perfil label { display: block; margin: 14px 0 6px; font-weight: 700; }
+.formulario-perfil input { box-sizing: border-box; width: 100%; padding: 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
+.formulario-perfil .boton { margin-top: 16px; }
+#perfil-mensaje { margin: 12px 0 0; font-weight: 600; }

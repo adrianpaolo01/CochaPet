@@ -5491,12 +5491,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "320691f0dd26ab223996203661ad980639917121",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:32.000Z",
       "message": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/320691f0dd26ab223996203661ad980639917121"
     },
     "stats": {
       "total": 14,
@@ -6437,6 +6437,196 @@
     },
     "coverage": 100,
     "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:12:39.000Z",
+      "message": "feat(HU24): pedir nombre y telefono si los dejo vacios al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 244,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:18:06.000Z",
+      "message": "feat(HU24): aceptar mis datos si nombre y telefono estan completos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 245,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:23:36.000Z",
+      "message": "feat(HU24): guardar mis datos nuevos solo si son validos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 246,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:29:02.000Z",
+      "message": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 247,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:34:34.000Z",
+      "message": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:07.000Z",
+      "message": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:34.000Z",
+      "message": "feat(HU24): formulario para editar mis datos en el perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 48,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:56.000Z",
+      "message": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:36:05.000Z",
+      "message": "style(HU24): estilos del formulario de mis datos y del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:44:10.000Z",
+      "message": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 142,
+      "additions": 113,
+      "deletions": 29,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 260,
     "failed_tests": 0,
     "conclusion": "success"
   }
