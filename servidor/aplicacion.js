@@ -2,7 +2,7 @@ import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./aut
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
-import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
+import { actualizarDatos, eliminarCuenta, registrarUsuario } from "./usuariosServicio.js";
 
 const LIMITE_CUERPO = 10000;
 
@@ -86,6 +86,8 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
       return manejarErrores(res, "No se pudo eliminar tu cuenta", async () => {
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para eliminar tu cuenta" });
+        await eliminarCuenta(autenticacionRepositorio, usuario.id);
+        responderJson(res, 200, { usuario: null });
       });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {

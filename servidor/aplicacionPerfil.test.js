@@ -53,4 +53,11 @@ describe("DELETE /api/perfil", () => {
   it("responde 401 si no hay sesion", async () => {
     expect(await pedirPerfil("DELETE", {})).toEqual({ estado: 401, cuerpo: { error: "Inicia sesion para eliminar tu cuenta" } });
   });
+
+  it("elimina la cuenta del usuario de la sesion y responde 200", async () => {
+    const autenticacionRepositorio = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }), eliminar: jest.fn() };
+    const { estado } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio });
+    expect(estado).toBe(200);
+    expect(autenticacionRepositorio.eliminar).toHaveBeenCalledWith(7);
+  });
 });

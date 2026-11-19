@@ -5458,7 +5458,7 @@
     "testId": 229
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ef70134fa49944dd8d6bfcf00af13349342fa199",
     "commitName": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
     "commitTimestamp": 1795036157384,
     "testId": 229
@@ -6618,5 +6618,27 @@
     "commitName": "refactor(HU25): leer sin errores una peticion al perfil que no obtuvo respuesta en los tests",
     "commitTimestamp": 1795060203151,
     "testId": 287
+  },
+  {
+    "numPassedTests": 262,
+    "failedTests": 1,
+    "numTotalTests": 263,
+    "timestamp": 1795060214633,
+    "success": false,
+    "testId": 288
+  },
+  {
+    "numPassedTests": 263,
+    "failedTests": 0,
+    "numTotalTests": 263,
+    "timestamp": 1795060223473,
+    "success": true,
+    "testId": 288
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): eliminar la cuenta del usuario de la sesion desde la API",
+    "commitTimestamp": 1795060224725,
+    "testId": 288
   }
 ]

@@ -5586,12 +5586,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ef70134fa49944dd8d6bfcf00af13349342fa199",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:32.000Z",
       "message": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ef70134fa49944dd8d6bfcf00af13349342fa199"
     },
     "stats": {
       "total": 15,
@@ -6703,6 +6703,25 @@
     },
     "coverage": 99.68,
     "test_count": 262,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:24.000Z",
+      "message": "feat(HU25): eliminar la cuenta del usuario de la sesion desde la API",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 263,
     "failed_tests": 0,
     "conclusion": "success"
   }
