@@ -1,10 +1,13 @@
 import { textoEstado, validarDatosPerfil } from "./perfil.js";
 import { formatearFecha, tituloPublicacion } from "./publicaciones.js";
 import { vistaParaHash } from "./rutas.js";
+import { htmlCambioClave } from "./vistaCambioClave.js";
+import { conectarCambioClave } from "./cambioClavePresenter.js";
 import { estadoEncabezado } from "./sesion.js";
 
 const vistaPerfil = document.querySelector("#vista-perfil");
 vistaPerfil.innerHTML = `
+  <a href="#/" class="enlace-volver">← Volver</a>
   <h1>Mi perfil</h1>
   <img id="perfil-foto" class="perfil-foto" alt="Mi foto" hidden />
   <p id="perfil-datos" class="perfil-datos"></p>
@@ -17,13 +20,14 @@ vistaPerfil.innerHTML = `
     <button type="submit" class="boton">Guardar</button>
   </form>
   <h2>Mis publicaciones</h2>
-  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>
+  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>${htmlCambioClave()}
   <section class="zona-eliminar-cuenta">
     <h2>Eliminar mi cuenta</h2>
     <p>Se borrarán tu cuenta y todas tus publicaciones. No se puede deshacer.</p>
     <p id="eliminar-cuenta-mensaje" class="mensaje-error" role="alert" hidden></p>
     <button type="button" id="eliminar-cuenta" class="boton boton-peligro">Eliminar mi cuenta</button>
   </section>`;
+conectarCambioClave();
 
 const formulario = document.querySelector("#formulario-perfil");
 const mensaje = document.querySelector("#perfil-mensaje");

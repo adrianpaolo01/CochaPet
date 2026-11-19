@@ -1,4 +1,4 @@
-const LONGITUD_MINIMA_CLAVE = 8;
+export const LONGITUD_MINIMA_CLAVE = 8;
 
 const CAMPOS_OBLIGATORIOS = ["nombre", "correo", "telefono"];
 const FORMATO_CORREO = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

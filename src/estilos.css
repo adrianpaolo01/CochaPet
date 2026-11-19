@@ -114,6 +114,11 @@ label[for="login-correo"], label[for="login-clave"] { display: block; margin: 20
 .perfil-datos { padding: 16px 20px; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); color: var(--tinta-suave); font-weight: 600; }
 .perfil-publicaciones { display: grid; gap: 10px; padding: 0; list-style: none; }
 .perfil-publicaciones li { padding: 14px 18px; border-radius: 12px; background: var(--superficie); box-shadow: var(--sombra); }
+.cambio-clave { margin-top: 24px; padding: 20px; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); }
+.cambio-clave form { max-width: 420px; }
+.cambio-clave label { display: block; margin: 16px 0 8px; font-weight: 700; }
+.cambio-clave input { box-sizing: border-box; width: 100%; padding: 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
+.cambio-clave input:focus-visible { outline: 2px solid var(--primario); outline-offset: 2px; }
 .perfil-foto, #detalle-autor-foto { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
 #detalle-autor-foto { width: 36px; height: 36px; }
 .perfil-foto[hidden], #detalle-autor-foto[hidden], #perfil-mensaje[hidden] { display: none; }

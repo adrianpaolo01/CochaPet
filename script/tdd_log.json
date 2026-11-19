@@ -3335,6 +3335,72 @@
   },
   {
     "numPassedTests": 93,
+    "failedTests": 0,
+    "numTotalTests": 93,
+    "timestamp": 1794976597733,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976608395,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 93,
+    "failedTests": 1,
+    "numTotalTests": 94,
+    "timestamp": 1794976703424,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 94,
+    "failedTests": 0,
+    "numTotalTests": 94,
+    "timestamp": 1794977014506,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
+    "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
+    "commitTimestamp": 1794977016735,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977030041,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
+    "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
+    "commitTimestamp": 1794977032184,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794977041589,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "d4511b45208e3c4486613960f9b174fa01c06d61",
+    "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
+    "commitTimestamp": 1794977043745,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 93,
     "failedTests": 1,
     "numTotalTests": 94,
     "timestamp": 1795023649721,
@@ -4442,94 +4508,6 @@
     "testId": 184
   },
   {
-    "numPassedTests": 93,
-    "failedTests": 0,
-    "numTotalTests": 93,
-    "timestamp": 1794976597733,
-    "success": true,
-    "testId": 185
-  },
-  {
-    "numPassedTests": 93,
-    "failedTests": 1,
-    "numTotalTests": 94,
-    "timestamp": 1794976608395,
-    "success": false,
-    "testId": 185
-  },
-  {
-    "numPassedTests": 93,
-    "failedTests": 1,
-    "numTotalTests": 94,
-    "timestamp": 1794976703424,
-    "success": false,
-    "testId": 185
-  },
-  {
-    "numPassedTests": 94,
-    "failedTests": 0,
-    "numTotalTests": 94,
-    "timestamp": 1794977014506,
-    "success": true,
-    "testId": 185
-  },
-  {
-    "commitId": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
-    "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
-    "commitTimestamp": 1794977016735,
-    "testId": 185
-  },
-  {
-    "numPassedTests": 95,
-    "failedTests": 0,
-    "numTotalTests": 95,
-    "timestamp": 1794977030041,
-    "success": true,
-    "testId": 186
-  },
-  {
-    "commitId": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
-    "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
-    "commitTimestamp": 1794977032184,
-    "testId": 186
-  },
-  {
-    "numPassedTests": 95,
-    "failedTests": 0,
-    "numTotalTests": 95,
-    "timestamp": 1794977041589,
-    "success": true,
-    "testId": 187
-  },
-  {
-    "commitId": "d4511b45208e3c4486613960f9b174fa01c06d61",
-    "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
-    "commitTimestamp": 1794977043745,
-    "testId": 187
-  },
-  {
-    "numPassedTests": 188,
-    "failedTests": 0,
-    "numTotalTests": 188,
-    "timestamp": 1795037009473,
-    "success": true,
-    "testId": 188
-  },
-  {
-    "numPassedTests": 188,
-    "failedTests": 0,
-    "numTotalTests": 188,
-    "timestamp": 1795037030361,
-    "success": true,
-    "testId": 188
-  },
-  {
-    "commitId": "7c3017c796fbe8b759c6cf404d535415db54d918",
-    "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
-    "commitTimestamp": 1795037033419,
-    "testId": 188
-  },
-  {
     "numPassedTests": 186,
     "failedTests": 0,
     "numTotalTests": 186,
@@ -5402,7 +5380,7 @@
     "testId": 225
   },
   {
-    "commitId": "dc557f58797616638062e0ab69d7abf534ddd76c",
+    "commitId": "1ce79259790228ccb2f1244c4fa0c1310e6e4ec7",
     "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
     "commitTimestamp": 1795036112440,
     "testId": 225
@@ -5416,7 +5394,7 @@
     "testId": 226
   },
   {
-    "commitId": "2e7840ad26aeaf2a6bedf59458928f3e7c51a89f",
+    "commitId": "89064502de525ffd17d6b4c97ea19c6ab16d796a",
     "commitName": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
     "commitTimestamp": 1795036125577,
     "testId": 226
@@ -5430,7 +5408,7 @@
     "testId": 227
   },
   {
-    "commitId": "0bd4a43e2b0aa0de589828dabadf6d2725ad483c",
+    "commitId": "796cea48ad187024ce52c9bf9d4e594fb2e49c08",
     "commitName": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
     "commitTimestamp": 1795036135247,
     "testId": 227
@@ -5444,7 +5422,7 @@
     "testId": 228
   },
   {
-    "commitId": "81efa219f66db0fd2a6b265a4e7f82fc0936d26c",
+    "commitId": "d67f7feca21c48da61d39c4d40f609cfb10d0438",
     "commitName": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
     "commitTimestamp": 1795036145319,
     "testId": 228
@@ -5458,7 +5436,7 @@
     "testId": 229
   },
   {
-    "commitId": "ef70134fa49944dd8d6bfcf00af13349342fa199",
+    "commitId": "d01c5872ddabda7c7e28facc422e34809876db34",
     "commitName": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
     "commitTimestamp": 1795036157384,
     "testId": 229
@@ -5472,7 +5450,7 @@
     "testId": 230
   },
   {
-    "commitId": "bdea92a77d2dcddf4da85d76e8ab4a3cb3cfd097",
+    "commitId": "842f8667bda1148e12158998a210ac0f37a7e07d",
     "commitName": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
     "commitTimestamp": 1795036172286,
     "testId": 230
@@ -5486,7 +5464,7 @@
     "testId": 231
   },
   {
-    "commitId": "16fdb6bd3fc54fe5889582d4703e9921df77b4bc",
+    "commitId": "5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8",
     "commitName": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
     "commitTimestamp": 1795036184222,
     "testId": 231
@@ -5500,7 +5478,7 @@
     "testId": 232
   },
   {
-    "commitId": "82565b1ab6674b5c1cc5478e35b1ffcabab4662d",
+    "commitId": "48bc162446291ab8bf4e3fd1e275253af58a3858",
     "commitName": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
     "commitTimestamp": 1795036193486,
     "testId": 232
@@ -5514,7 +5492,7 @@
     "testId": 233
   },
   {
-    "commitId": "f3028f7c20c963d6efc7e3c1ca341e11f30d87a0",
+    "commitId": "5b0ab32aec7fad855477114bcb9f1f283a0ae599",
     "commitName": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
     "commitTimestamp": 1795036210979,
     "testId": 233
@@ -5528,7 +5506,7 @@
     "testId": 234
   },
   {
-    "commitId": "c261b613e072174ecae606fac8403e65e1deeabb",
+    "commitId": "ac252a802b3c25040abea895c6c70e1be816d94a",
     "commitName": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
     "commitTimestamp": 1795036213932,
     "testId": 234
@@ -5542,6 +5520,28 @@
     "testId": 235
   },
   {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037009473,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 188,
+    "failedTests": 0,
+    "numTotalTests": 188,
+    "timestamp": 1795037030361,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "7c3017c796fbe8b759c6cf404d535415db54d918",
+    "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
+    "commitTimestamp": 1795037033419,
+    "testId": 188
+  },
+  {
     "numPassedTests": 221,
     "failedTests": 0,
     "numTotalTests": 221,
@@ -5550,98 +5550,10 @@
     "testId": 235
   },
   {
-    "commitId": "32203f24b5046f223fc889bf35d088d12b54c85a",
+    "commitId": "c9ca9299e74de4ac510abbef6639aaa854303051",
     "commitName": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
     "commitTimestamp": 1795037487189,
     "testId": 235
-  },
-  {
-    "numPassedTests": 221,
-    "failedTests": 0,
-    "numTotalTests": 221,
-    "timestamp": 1795038749368,
-    "success": true,
-    "testId": 236
-  },
-  {
-    "numPassedTests": 225,
-    "failedTests": 4,
-    "numTotalTests": 229,
-    "timestamp": 1795039155321,
-    "success": false,
-    "testId": 236
-  },
-  {
-    "numPassedTests": 229,
-    "failedTests": 0,
-    "numTotalTests": 229,
-    "timestamp": 1795039352167,
-    "success": true,
-    "testId": 236
-  },
-  {
-    "commitId": "44ff0c95cec8b20c4b26ab8159534ed3f7107f9a",
-    "commitName": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
-    "commitTimestamp": 1795039363421,
-    "testId": 236
-  },
-  {
-    "numPassedTests": 229,
-    "failedTests": 5,
-    "numTotalTests": 234,
-    "timestamp": 1795039396760,
-    "success": false,
-    "testId": 237
-  },
-  {
-    "numPassedTests": 234,
-    "failedTests": 0,
-    "numTotalTests": 234,
-    "timestamp": 1795039605177,
-    "success": true,
-    "testId": 237
-  },
-  {
-    "commitId": "ebf28863e2db25f815b6629855edfcb5fb38f92d",
-    "commitName": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
-    "commitTimestamp": 1795039619266,
-    "testId": 237
-  },
-  {
-    "numPassedTests": 234,
-    "failedTests": 3,
-    "numTotalTests": 237,
-    "timestamp": 1795039654296,
-    "success": false,
-    "testId": 238
-  },
-  {
-    "numPassedTests": 237,
-    "failedTests": 0,
-    "numTotalTests": 237,
-    "timestamp": 1795039849809,
-    "success": true,
-    "testId": 238
-  },
-  {
-    "commitId": "HEAD",
-    "commitName": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
-    "commitTimestamp": 1795039855527,
-    "testId": 238
-  },
-  {
-    "numPassedTests": 237,
-    "failedTests": 0,
-    "numTotalTests": 237,
-    "timestamp": 1795039898029,
-    "success": true,
-    "testId": 239
-  },
-  {
-    "commitId": "HEAD",
-    "commitName": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
-    "commitTimestamp": 1795039908384,
-    "testId": 239
   },
   {
     "numPassedTests": 188,
@@ -5668,7 +5580,7 @@
     "testId": 240
   },
   {
-    "commitId": "HEAD",
+    "commitId": "606f2baf2404e36c633c0835b15eee2245b6116c",
     "commitName": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
     "commitTimestamp": 1795038646417,
     "testId": 240
@@ -5682,6 +5594,14 @@
     "testId": 241
   },
   {
+    "numPassedTests": 221,
+    "failedTests": 0,
+    "numTotalTests": 221,
+    "timestamp": 1795038749368,
+    "success": true,
+    "testId": 236
+  },
+  {
     "numPassedTests": 190,
     "failedTests": 0,
     "numTotalTests": 190,
@@ -5690,7 +5610,7 @@
     "testId": 241
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e0f711a45d13bf5fc9332ae370ea13c56328388",
     "commitName": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
     "commitTimestamp": 1795038974578,
     "testId": 241
@@ -5704,6 +5624,14 @@
     "testId": 242
   },
   {
+    "numPassedTests": 225,
+    "failedTests": 4,
+    "numTotalTests": 229,
+    "timestamp": 1795039155321,
+    "success": false,
+    "testId": 236
+  },
+  {
     "numPassedTests": 191,
     "failedTests": 0,
     "numTotalTests": 191,
@@ -5712,7 +5640,7 @@
     "testId": 242
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a4c68f2e809535f667e46f37b94f8d6d040b57e",
     "commitName": "feat(HU03): responder mis publicaciones si hay sesion",
     "commitTimestamp": 1795039304360,
     "testId": 242
@@ -5726,7 +5654,7 @@
     "testId": 243
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db1577ed98e343419f202906edf205503da0e87e",
     "commitName": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
     "commitTimestamp": 1795039322642,
     "testId": 243
@@ -5740,6 +5668,42 @@
     "testId": 244
   },
   {
+    "numPassedTests": 229,
+    "failedTests": 0,
+    "numTotalTests": 229,
+    "timestamp": 1795039352167,
+    "success": true,
+    "testId": 236
+  },
+  {
+    "commitId": "2a2e35c55bf887efa8a15b793de83675f92143c0",
+    "commitName": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
+    "commitTimestamp": 1795039363421,
+    "testId": 236
+  },
+  {
+    "numPassedTests": 229,
+    "failedTests": 5,
+    "numTotalTests": 234,
+    "timestamp": 1795039396760,
+    "success": false,
+    "testId": 237
+  },
+  {
+    "numPassedTests": 234,
+    "failedTests": 0,
+    "numTotalTests": 234,
+    "timestamp": 1795039605177,
+    "success": true,
+    "testId": 237
+  },
+  {
+    "commitId": "ad4b8e65e0c946793fe8970ee5e16ef03ff93c54",
+    "commitName": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
+    "commitTimestamp": 1795039619266,
+    "testId": 237
+  },
+  {
     "numPassedTests": 192,
     "failedTests": 0,
     "numTotalTests": 192,
@@ -5748,7 +5712,7 @@
     "testId": 244
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a481d220a59dc11137f738a7d2e34d82e33f979e",
     "commitName": "feat(HU03): abrir el perfil desde su ruta",
     "commitTimestamp": 1795039644990,
     "testId": 244
@@ -5762,6 +5726,42 @@
     "testId": 245
   },
   {
+    "numPassedTests": 234,
+    "failedTests": 3,
+    "numTotalTests": 237,
+    "timestamp": 1795039654296,
+    "success": false,
+    "testId": 238
+  },
+  {
+    "numPassedTests": 237,
+    "failedTests": 0,
+    "numTotalTests": 237,
+    "timestamp": 1795039849809,
+    "success": true,
+    "testId": 238
+  },
+  {
+    "commitId": "7817510386b9eecb93e4287aca749f841888ebf3",
+    "commitName": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
+    "commitTimestamp": 1795039855527,
+    "testId": 238
+  },
+  {
+    "numPassedTests": 237,
+    "failedTests": 0,
+    "numTotalTests": 237,
+    "timestamp": 1795039898029,
+    "success": true,
+    "testId": 239
+  },
+  {
+    "commitId": "e245710487340d70b56c0cdb032e5690441d8d7d",
+    "commitName": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
+    "commitTimestamp": 1795039908384,
+    "testId": 239
+  },
+  {
     "numPassedTests": 193,
     "failedTests": 0,
     "numTotalTests": 193,
@@ -5770,7 +5770,7 @@
     "testId": 245
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb",
     "commitName": "feat(HU03): mostrar Activa como estado de mi publicacion",
     "commitTimestamp": 1795039966371,
     "testId": 245
@@ -5792,7 +5792,7 @@
     "testId": 246
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8900b8a5fb6d09ba7bd3335441964887ab544a59",
     "commitName": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
     "commitTimestamp": 1795040288376,
     "testId": 246
@@ -5806,7 +5806,7 @@
     "testId": 247
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c31826853b2d398075fa8718abcdc5d7af2234aa",
     "commitName": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
     "commitTimestamp": 1795040311273,
     "testId": 247
@@ -5820,7 +5820,7 @@
     "testId": 248
   },
   {
-    "commitId": "HEAD",
+    "commitId": "105f102cc0b0c1de438860123ba0bc6d7356af50",
     "commitName": "feat(HU03): mostrar mis datos en el perfil",
     "commitTimestamp": 1795040330611,
     "testId": 248
@@ -5834,7 +5834,7 @@
     "testId": 249
   },
   {
-    "commitId": "HEAD",
+    "commitId": "323896a047d4ff67e415b4c0cccc556116268478",
     "commitName": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
     "commitTimestamp": 1795040351194,
     "testId": 249
@@ -5848,7 +5848,7 @@
     "testId": 250
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e98311bcf4f026a0808e05e66bc5a1b22d1aef5",
     "commitName": "style(HU03): estilos del perfil y de mis publicaciones",
     "commitTimestamp": 1795040365181,
     "testId": 250
@@ -5862,7 +5862,7 @@
     "testId": 251
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b6aa87e4046b3dc1c4e17d610473d23873b2bce6",
     "commitName": "chore(HU03): fusionar main con HU04 y HU02 y resolver conflictos",
     "commitTimestamp": 1795041322741,
     "testId": 251
@@ -5884,7 +5884,7 @@
     "testId": 252
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ddcd7e7cc5982f2ad130ae23b6e9dcc2d49796a0",
     "commitName": "feat(HU03): llevar el saludo del encabezado a mi perfil",
     "commitTimestamp": 1795041647862,
     "testId": 252
@@ -5930,7 +5930,7 @@
     "testId": 253
   },
   {
-    "commitId": "HEAD",
+    "commitId": "611a7132f18f34c37519ef4c4e23596c719617fc",
     "commitName": "feat(HU05): abrir el formulario de reporte con la ruta reportar encontrada",
     "commitTimestamp": 1795044147287,
     "testId": 253
@@ -5952,7 +5952,7 @@
     "testId": 254
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
     "commitName": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
     "commitTimestamp": 1795044167414,
     "testId": 254
@@ -5974,7 +5974,7 @@
     "testId": 255
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc16ef92a9578974ffe849198aa5125ed2e7dbd4",
     "commitName": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
     "commitTimestamp": 1795044183083,
     "testId": 255
@@ -5996,7 +5996,7 @@
     "testId": 256
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4b02e41365c548c834355474663339a759ed40d7",
     "commitName": "feat(HU05): pedir iniciar sesion y volver a la ruta del reporte actual",
     "commitTimestamp": 1795044201747,
     "testId": 256
@@ -6034,7 +6034,7 @@
     "testId": 257
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
     "commitName": "feat(HU05): titular el formulario como Encontre una mascota",
     "commitTimestamp": 1795044256234,
     "testId": 257
@@ -6056,7 +6056,7 @@
     "testId": 258
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
     "commitName": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
     "commitTimestamp": 1795044274470,
     "testId": 258
@@ -6070,7 +6070,7 @@
     "testId": 259
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdbab65aff0c0413371a16a38c37545105eb3952",
     "commitName": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
     "commitTimestamp": 1795044288008,
     "testId": 259
@@ -6092,7 +6092,7 @@
     "testId": 260
   },
   {
-    "commitId": "HEAD",
+    "commitId": "424bb4c94456378326ec16600430a12a4314b228",
     "commitName": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
     "commitTimestamp": 1795044303131,
     "testId": 260
@@ -6106,7 +6106,7 @@
     "testId": 261
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f4352409f7fc6c639789b173ac73c0d3819c797",
     "commitName": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
     "commitTimestamp": 1795044315403,
     "testId": 261
@@ -6128,7 +6128,7 @@
     "testId": 262
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
     "commitName": "feat(HU05): explicar el reporte segun si la mascota se perdio o se encontro",
     "commitTimestamp": 1795044333264,
     "testId": 262
@@ -6150,7 +6150,7 @@
     "testId": 263
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
     "commitName": "feat(HU05): identificar el titulo y el subtitulo del formulario de reporte",
     "commitTimestamp": 1795044357118,
     "testId": 263
@@ -6172,7 +6172,7 @@
     "testId": 264
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4511b45208e3c4486613960f9b174fa01c06d61",
     "commitName": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
     "commitTimestamp": 1795044375129,
     "testId": 264
@@ -6194,7 +6194,7 @@
     "testId": 265
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c3017c796fbe8b759c6cf404d535415db54d918",
     "commitName": "feat(HU05): mostrar el titulo, el subtitulo y la pregunta de fecha segun el tipo de reporte",
     "commitTimestamp": 1795044403504,
     "testId": 265
@@ -6208,7 +6208,7 @@
     "testId": 266
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
     "commitName": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
     "commitTimestamp": 1795044417469,
     "testId": 266
@@ -6222,7 +6222,7 @@
     "testId": 267
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f094d130b77a7758a26d820ef4bf5259d482552",
     "commitName": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
     "commitTimestamp": 1795044430135,
     "testId": 267
@@ -6236,7 +6236,7 @@
     "testId": 268
   },
   {
-    "commitId": "HEAD",
+    "commitId": "92d818b684d40904f06e301ee1a614c8a43bfa03",
     "commitName": "feat(HU05): enviar a la API si el reporte es de una mascota perdida o encontrada",
     "commitTimestamp": 1795044442009,
     "testId": 268
@@ -6258,7 +6258,7 @@
     "testId": 269
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b463b531c95375e11338f9c1ae968f77d17bc650",
     "commitName": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
     "commitTimestamp": 1795044467854,
     "testId": 269
@@ -6280,7 +6280,7 @@
     "testId": 270
   },
   {
-    "commitId": "HEAD",
+    "commitId": "26c42d59f59935857d2c64f6c519b6385dc72973",
     "commitName": "feat(HU05): rechazar un reporte que no es de mascota perdida ni encontrada",
     "commitTimestamp": 1795044490780,
     "testId": 270
@@ -6302,7 +6302,7 @@
     "testId": 271
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab28fec56f2ee31002692766e8927652f99b1fa8",
     "commitName": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
     "commitTimestamp": 1795044519464,
     "testId": 271
@@ -6324,7 +6324,7 @@
     "testId": 272
   },
   {
-    "commitId": "HEAD",
+    "commitId": "86eb78c13dd8b8e465151c60a707bff1fb706cf6",
     "commitName": "fix(HU05): pedir especie y descripcion de la mascota sin asumir que es del autor",
     "commitTimestamp": 1795044533997,
     "testId": 272
@@ -6338,10 +6338,380 @@
     "testId": 273
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6674a38181481f6701f07c20b980df811c9da4ca",
     "commitName": "refactor(HU05): nombrar el borrador como del reporte y no solo de la perdida",
     "commitTimestamp": 1795044549098,
     "testId": 273
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795056017712,
+    "success": true,
+    "testId": 284
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 1,
+    "numTotalTests": 244,
+    "timestamp": 1795056045410,
+    "success": false,
+    "testId": 284
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 0,
+    "numTotalTests": 244,
+    "timestamp": 1795056058839,
+    "success": true,
+    "testId": 284
+  },
+  {
+    "commitId": "3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68",
+    "commitName": "feat(HU33): aceptar los datos validos de cambio de clave",
+    "commitTimestamp": 1795056070163,
+    "testId": 284
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 1,
+    "numTotalTests": 245,
+    "timestamp": 1795056109742,
+    "success": false,
+    "testId": 285
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 0,
+    "numTotalTests": 245,
+    "timestamp": 1795056124656,
+    "success": true,
+    "testId": 285
+  },
+  {
+    "commitId": "56b62e26c66faa890120b4e0faf7cb99be3c5f76",
+    "commitName": "feat(HU33): exigir las tres contrasenas",
+    "commitTimestamp": 1795056159862,
+    "testId": 285
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795056185769,
+    "success": false,
+    "testId": 286
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795056203911,
+    "success": true,
+    "testId": 286
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795056241776,
+    "success": true,
+    "testId": 286
+  },
+  {
+    "commitId": "7756056a2fdbb388c18e58b129808a65d89c1aa6",
+    "commitName": "feat(HU33): reutilizar el minimo de ocho caracteres",
+    "commitTimestamp": 1795056248651,
+    "testId": 286
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795056262975,
+    "success": false,
+    "testId": 287
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795056284363,
+    "success": true,
+    "testId": 287
+  },
+  {
+    "commitId": "419be0e83ff8dc2fe981607ab8909a04112f297a",
+    "commitName": "feat(HU33): comprobar la confirmacion de la nueva clave",
+    "commitTimestamp": 1795056293190,
+    "testId": 287
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795056308887,
+    "success": false,
+    "testId": 288
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795056329539,
+    "success": true,
+    "testId": 288
+  },
+  {
+    "commitId": "4554773969846875c5e2fae21536793c3bc41d52",
+    "commitName": "feat(HU33): guardar la nueva clave como hash",
+    "commitTimestamp": 1795056336579,
+    "testId": 288
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 1,
+    "numTotalTests": 249,
+    "timestamp": 1795056351218,
+    "success": false,
+    "testId": 289
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795056370335,
+    "success": true,
+    "testId": 289
+  },
+  {
+    "commitId": "dba59ff930ab0776ef0ff6956f19e21569b24bf0",
+    "commitName": "feat(HU33): comprobar la contrasena actual antes de guardar",
+    "commitTimestamp": 1795056378418,
+    "testId": 289
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 1,
+    "numTotalTests": 250,
+    "timestamp": 1795056392711,
+    "success": false,
+    "testId": 290
+  },
+  {
+    "numPassedTests": 250,
+    "failedTests": 0,
+    "numTotalTests": 250,
+    "timestamp": 1795056413732,
+    "success": true,
+    "testId": 290
+  },
+  {
+    "commitId": "129c22793ac2e075aeddb451c29146f0a1a12d54",
+    "commitName": "feat(HU33): validar la nueva contrasena tambien en el servidor",
+    "commitTimestamp": 1795056420977,
+    "testId": 290
+  },
+  {
+    "numPassedTests": 250,
+    "failedTests": 1,
+    "numTotalTests": 251,
+    "timestamp": 1795056438016,
+    "success": false,
+    "testId": 291
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795056470768,
+    "success": true,
+    "testId": 291
+  },
+  {
+    "commitId": "8a32a76e9457f8234af318b8d78ed77fd2c6ba33",
+    "commitName": "feat(HU33): evitar sobrescribir una clave que cambio entretanto",
+    "commitTimestamp": 1795056480109,
+    "testId": 291
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 1,
+    "numTotalTests": 252,
+    "timestamp": 1795056496476,
+    "success": false,
+    "testId": 292
+  },
+  {
+    "numPassedTests": 252,
+    "failedTests": 0,
+    "numTotalTests": 252,
+    "timestamp": 1795056519557,
+    "success": true,
+    "testId": 292
+  },
+  {
+    "commitId": "4e40cfbbcb6786abc2f689b47abaab1fb36ea189",
+    "commitName": "feat(HU33): actualizar solo la clave del usuario autenticado",
+    "commitTimestamp": 1795056526657,
+    "testId": 292
+  },
+  {
+    "numPassedTests": 252,
+    "failedTests": 1,
+    "numTotalTests": 253,
+    "timestamp": 1795056540888,
+    "success": false,
+    "testId": 293
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795056581485,
+    "success": true,
+    "testId": 293
+  },
+  {
+    "commitId": "a009484418b5e0e223c3c852b8da588898e455b1",
+    "commitName": "feat(HU33): proteger la ruta de cambio de clave con sesion",
+    "commitTimestamp": 1795056588901,
+    "testId": 293
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 1,
+    "numTotalTests": 254,
+    "timestamp": 1795056603916,
+    "success": false,
+    "testId": 294
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 0,
+    "numTotalTests": 254,
+    "timestamp": 1795056638168,
+    "success": true,
+    "testId": 294
+  },
+  {
+    "commitId": "516ba319c146a6802228d9a2b98ccfd641038337",
+    "commitName": "feat(HU33): confirmar el cambio de clave desde la API",
+    "commitTimestamp": 1795056646385,
+    "testId": 294
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056662324,
+    "success": true,
+    "testId": 295
+  },
+  {
+    "commitId": "5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4",
+    "commitName": "test(HU33): comprobar que los errores no actualizan la clave",
+    "commitTimestamp": 1795056669583,
+    "testId": 295
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056729641,
+    "success": true,
+    "testId": 296
+  },
+  {
+    "commitId": "0cf8704bec10541b3671930a35331aeaf06d7753",
+    "commitName": "feat(HU33): agregar el formulario de contrasena en mi perfil",
+    "commitTimestamp": 1795056737107,
+    "testId": 296
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056761244,
+    "success": true,
+    "testId": 297
+  },
+  {
+    "commitId": "177057c9c2916db1b7a774b06a17b5e83e487e55",
+    "commitName": "feat(HU33): validar el formulario antes de enviarlo",
+    "commitTimestamp": 1795056768612,
+    "testId": 297
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056810284,
+    "success": true,
+    "testId": 298
+  },
+  {
+    "commitId": "da976f38411f10fbca1ebfd3780c79499b6ecf83",
+    "commitName": "feat(HU33): enviar el cambio y mostrar su confirmacion",
+    "commitTimestamp": 1795056818516,
+    "testId": 298
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056832463,
+    "success": true,
+    "testId": 299
+  },
+  {
+    "commitId": "214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10",
+    "commitName": "feat(HU33): bloquear reenvios y limpiar los campos privados",
+    "commitTimestamp": 1795056839628,
+    "testId": 299
+  },
+  {
+    "numPassedTests": 256,
+    "failedTests": 0,
+    "numTotalTests": 256,
+    "timestamp": 1795056879312,
+    "success": true,
+    "testId": 300
+  },
+  {
+    "commitId": "08f0483663f5b84649d0bf2ea688be31f27ff4c5",
+    "commitName": "test(HU33): rechazar sesiones vencidas o inexistentes",
+    "commitTimestamp": 1795056887209,
+    "testId": 300
+  },
+  {
+    "numPassedTests": 256,
+    "failedTests": 0,
+    "numTotalTests": 256,
+    "timestamp": 1795056900952,
+    "success": true,
+    "testId": 301
+  },
+  {
+    "commitId": "24651a4ed5053f2557aa5ce75b3fad290aa3b860",
+    "commitName": "style(HU33): integrar el formulario con mi perfil",
+    "commitTimestamp": 1795056908297,
+    "testId": 301
+  },
+  {
+    "numPassedTests": 257,
+    "failedTests": 0,
+    "numTotalTests": 257,
+    "timestamp": 1795056962452,
+    "success": true,
+    "testId": 302
+  },
+  {
+    "commitId": "7fd9fc35e50d6600c11dad2f78ccc9dc10fae406",
+    "commitName": "test(HU33): verificar el inicio de sesion con la clave nueva",
+    "commitTimestamp": 1795056971658,
+    "testId": 302
   },
   {
     "numPassedTests": 243,
@@ -6360,7 +6730,7 @@
     "testId": 274
   },
   {
-    "commitId": "HEAD",
+    "commitId": "140b48e430daf62ebafd7f94cfc83899497d7dd2",
     "commitName": "feat(HU24): pedir nombre y telefono si los dejo vacios al editar mis datos",
     "commitTimestamp": 1795057960501,
     "testId": 274
@@ -6382,7 +6752,7 @@
     "testId": 275
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e7adc8672d64fc2f361bfa17140f56c8dcaf30f5",
     "commitName": "feat(HU24): aceptar mis datos si nombre y telefono estan completos",
     "commitTimestamp": 1795058287761,
     "testId": 275
@@ -6404,7 +6774,7 @@
     "testId": 276
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cb3fe88ae54dc0bfb568913b919f77888ef20a26",
     "commitName": "feat(HU24): guardar mis datos nuevos solo si son validos",
     "commitTimestamp": 1795058616694,
     "testId": 276
@@ -6426,7 +6796,7 @@
     "testId": 277
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b",
     "commitName": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
     "commitTimestamp": 1795058942713,
     "testId": 277
@@ -6448,7 +6818,7 @@
     "testId": 278
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06dd03e4491b157ebcdf58f1c7bafbdfeab40c80",
     "commitName": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
     "commitTimestamp": 1795059274750,
     "testId": 278
@@ -6462,7 +6832,7 @@
     "testId": 279
   },
   {
-    "commitId": "HEAD",
+    "commitId": "200e7002706fd37a3956aed78fbdcf879be46e4c",
     "commitName": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
     "commitTimestamp": 1795059307921,
     "testId": 279
@@ -6476,7 +6846,7 @@
     "testId": 280
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e20a1b60e0e47465cca3aa8eaa3df3eec05d517d",
     "commitName": "feat(HU24): formulario para editar mis datos en el perfil",
     "commitTimestamp": 1795059335516,
     "testId": 280
@@ -6490,7 +6860,7 @@
     "testId": 281
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0508b34171e447672f60cc91482199ae037317ae",
     "commitName": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
     "commitTimestamp": 1795059357384,
     "testId": 281
@@ -6504,7 +6874,7 @@
     "testId": 282
   },
   {
-    "commitId": "HEAD",
+    "commitId": "320691f0dd26ab223996203661ad980639917121",
     "commitName": "style(HU24): estilos del formulario de mis datos y del autor",
     "commitTimestamp": 1795059365871,
     "testId": 282
@@ -6518,7 +6888,7 @@
     "testId": 283
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5bf3d71c64847afc156cfaeb7bc1d43b3099ffa",
     "commitName": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
     "commitTimestamp": 1795059850848,
     "testId": 283
@@ -6540,6 +6910,14 @@
     "testId": 284
   },
   {
+    "numPassedTests": 274,
+    "failedTests": 0,
+    "numTotalTests": 274,
+    "timestamp": 1795060119329,
+    "success": true,
+    "testId": 303
+  },
+  {
     "numPassedTests": 261,
     "failedTests": 0,
     "numTotalTests": 261,
@@ -6548,7 +6926,7 @@
     "testId": 284
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eb05f17687f71c52864a9ad91eb7485c633c7795",
     "commitName": "feat(HU25): eliminar la cuenta del usuario indicado",
     "commitTimestamp": 1795060126154,
     "testId": 284
@@ -6582,6 +6960,12 @@
     "timestamp": 1795060158586,
     "success": false,
     "testId": 286
+  },
+  {
+    "commitId": "7248ab7a183e1bcaa1ffdf12b39ecb91a083e982",
+    "commitName": "chore(HU33): integrar main y resolver conflictos",
+    "commitTimestamp": 1795060159932,
+    "testId": 303
   },
   {
     "numPassedTests": 262,
@@ -6734,6 +7118,20 @@
     "testId": 294
   },
   {
+    "numPassedTests": 260,
+    "failedTests": 0,
+    "numTotalTests": 260,
+    "timestamp": 1795060338720,
+    "success": true,
+    "testId": 304
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): volver al inicio desde mi perfil",
+    "commitTimestamp": 1795060341981,
+    "testId": 304
+  },
+  {
     "numPassedTests": 264,
     "failedTests": 0,
     "numTotalTests": 264,
@@ -6760,5 +7158,33 @@
     "commitName": "refactor(HU25): nombrar el rojo de peligro como variable de color",
     "commitTimestamp": 1795060366745,
     "testId": 296
+  },
+  {
+    "numPassedTests": 274,
+    "failedTests": 0,
+    "numTotalTests": 274,
+    "timestamp": 1795060601544,
+    "success": true,
+    "testId": 305
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU24): fusionar main con HU33 y resolver conflictos de los logs",
+    "commitTimestamp": 1795060605221,
+    "testId": 305
+  },
+  {
+    "numPassedTests": 278,
+    "failedTests": 0,
+    "numTotalTests": 278,
+    "timestamp": 1795060960147,
+    "success": true,
+    "testId": 306
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU25): fusionar main con HU33 y HU24 y resolver conflictos de los logs",
+    "commitTimestamp": 1795060970865,
+    "testId": 306
   }
 ]
