@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dba59ff930ab0776ef0ff6956f19e21569b24bf0",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -6036,5 +6036,27 @@
     "commitName": "feat(HU33): comprobar la contrasena actual antes de guardar",
     "commitTimestamp": 1795056378418,
     "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 1,
+    "numTotalTests": 250,
+    "timestamp": 1795056392711,
+    "success": false,
+    "testId": 259
+  },
+  {
+    "numPassedTests": 250,
+    "failedTests": 0,
+    "numTotalTests": 250,
+    "timestamp": 1795056413732,
+    "success": true,
+    "testId": 259
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): validar la nueva contrasena tambien en el servidor",
+    "commitTimestamp": 1795056420977,
+    "testId": 259
   }
 ]

@@ -10,6 +10,14 @@ const crearRepositorio = () => ({
 });
 
 describe("Cambio de clave servicio", () => {
+  it("deberia validar los datos en el servidor antes de consultar la cuenta", async () => {
+    const repositorio = crearRepositorio();
+    const resultado = await cambiarClave(repositorio, usuario, { ...datos, claveNueva: "corta", confirmacion: "corta" });
+    expect(resultado).toEqual({ ok: false, estado: 400, error: "La nueva contraseña debe tener al menos 8 caracteres" });
+    expect(repositorio.buscarUsuarioPorCorreo).not.toHaveBeenCalled();
+    expect(repositorio.actualizarClave).not.toHaveBeenCalled();
+  });
+
   it("deberia rechazar la clave actual incorrecta sin guardar", async () => {
     const repositorio = crearRepositorio();
     expect(await cambiarClave(repositorio, usuario, { ...datos, claveActual: "incorrecta" }))

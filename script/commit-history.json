@@ -4598,12 +4598,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dba59ff930ab0776ef0ff6956f19e21569b24bf0",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:00.000Z",
       "message": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dba59ff930ab0776ef0ff6956f19e21569b24bf0"
     },
     "stats": {
       "total": 13,
@@ -6152,6 +6152,25 @@
     },
     "coverage": 100,
     "test_count": 249,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:47:00.000Z",
+      "message": "feat(HU33): validar la nueva contrasena tambien en el servidor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 250,
     "failed_tests": 0,
     "conclusion": "success"
   }
