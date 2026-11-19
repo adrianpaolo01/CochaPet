@@ -27,7 +27,9 @@ async function pedirPerfil(metodo, { headers = {}, datos, autenticacionRepositor
   const respuesta = { writeHead: jest.fn(), end: jest.fn() };
   const peticion = { method: metodo, url: "/api/perfil", headers, [Symbol.asyncIterator]: async function* () { yield JSON.stringify(datos); } };
   await crearManejador({}, {}, autenticacionRepositorio)(peticion, respuesta);
-  return { estado: respuesta.writeHead.mock.calls[0][0], cuerpo: JSON.parse(respuesta.end.mock.calls[0][0]) };
+  const [estado] = respuesta.writeHead.mock.calls[0] ?? [];
+  const [cuerpo] = respuesta.end.mock.calls[0] ?? [];
+  return { estado, cuerpo: cuerpo && JSON.parse(cuerpo) };
 }
 
 describe("PUT /api/perfil", () => {

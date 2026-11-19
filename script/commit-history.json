@@ -5567,12 +5567,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "81efa219f66db0fd2a6b265a4e7f82fc0936d26c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:17.000Z",
       "message": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/81efa219f66db0fd2a6b265a4e7f82fc0936d26c"
     },
     "stats": {
       "total": 14,
@@ -6680,6 +6680,25 @@
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 262,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:03.000Z",
+      "message": "refactor(HU25): leer sin errores una peticion al perfil que no obtuvo respuesta en los tests",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
       "date": "2026-11-19"
     },
     "coverage": 99.68,

@@ -5444,7 +5444,7 @@
     "testId": 228
   },
   {
-    "commitId": "HEAD",
+    "commitId": "81efa219f66db0fd2a6b265a4e7f82fc0936d26c",
     "commitName": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
     "commitTimestamp": 1795036145319,
     "testId": 228
@@ -6596,5 +6596,27 @@
     "commitName": "feat(HU25): pedir iniciar sesion para eliminar la cuenta",
     "commitTimestamp": 1795060168682,
     "testId": 286
+  },
+  {
+    "numPassedTests": 262,
+    "failedTests": 0,
+    "numTotalTests": 262,
+    "timestamp": 1795060192313,
+    "success": true,
+    "testId": 287
+  },
+  {
+    "numPassedTests": 262,
+    "failedTests": 0,
+    "numTotalTests": 262,
+    "timestamp": 1795060201891,
+    "success": true,
+    "testId": 287
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU25): leer sin errores una peticion al perfil que no obtuvo respuesta en los tests",
+    "commitTimestamp": 1795060203151,
+    "testId": 287
   }
 ]
