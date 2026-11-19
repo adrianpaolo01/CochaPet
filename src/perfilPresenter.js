@@ -5,6 +5,7 @@ import { estadoEncabezado } from "./sesion.js";
 
 const vistaPerfil = document.querySelector("#vista-perfil");
 vistaPerfil.innerHTML = `
+  <a href="#/" class="enlace-volver">← Volver</a>
   <h1>Mi perfil</h1>
   <img id="perfil-foto" class="perfil-foto" alt="Mi foto" hidden />
   <p id="perfil-datos" class="perfil-datos"></p>

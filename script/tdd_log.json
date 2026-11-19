@@ -5402,7 +5402,7 @@
     "testId": 225
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc557f58797616638062e0ab69d7abf534ddd76c",
     "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
     "commitTimestamp": 1795036112440,
     "testId": 225
@@ -6522,5 +6522,19 @@
     "commitName": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
     "commitTimestamp": 1795059850848,
     "testId": 283
+  },
+  {
+    "numPassedTests": 260,
+    "failedTests": 0,
+    "numTotalTests": 260,
+    "timestamp": 1795060338720,
+    "success": true,
+    "testId": 284
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): volver al inicio desde mi perfil",
+    "commitTimestamp": 1795060341981,
+    "testId": 284
   }
 ]
