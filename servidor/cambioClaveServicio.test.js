@@ -10,6 +10,12 @@ const crearRepositorio = () => ({
 });
 
 describe("Cambio de clave servicio", () => {
+  it("deberia avisar si la clave guardada cambia antes de actualizar", async () => {
+    const repositorio = { ...crearRepositorio(), actualizarClave: jest.fn(async () => false) };
+    expect(await cambiarClave(repositorio, usuario, datos))
+      .toEqual({ ok: false, estado: 400, error: "La contraseña actual es incorrecta" });
+  });
+
   it("deberia validar los datos en el servidor antes de consultar la cuenta", async () => {
     const repositorio = crearRepositorio();
     const resultado = await cambiarClave(repositorio, usuario, { ...datos, claveNueva: "corta", confirmacion: "corta" });

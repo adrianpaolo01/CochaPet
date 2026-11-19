@@ -4617,12 +4617,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "129c22793ac2e075aeddb451c29146f0a1a12d54",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:28.000Z",
       "message": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/129c22793ac2e075aeddb451c29146f0a1a12d54"
     },
     "stats": {
       "total": 25,
@@ -6171,6 +6171,25 @@
     },
     "coverage": 100,
     "test_count": 250,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:47:59.000Z",
+      "message": "feat(HU33): evitar sobrescribir una clave que cambio entretanto",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 251,
     "failed_tests": 0,
     "conclusion": "success"
   }

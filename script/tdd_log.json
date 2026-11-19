@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "129c22793ac2e075aeddb451c29146f0a1a12d54",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -6058,5 +6058,27 @@
     "commitName": "feat(HU33): validar la nueva contrasena tambien en el servidor",
     "commitTimestamp": 1795056420977,
     "testId": 259
+  },
+  {
+    "numPassedTests": 250,
+    "failedTests": 1,
+    "numTotalTests": 251,
+    "timestamp": 1795056438016,
+    "success": false,
+    "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795056470768,
+    "success": true,
+    "testId": 260
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): evitar sobrescribir una clave que cambio entretanto",
+    "commitTimestamp": 1795056480109,
+    "testId": 260
   }
 ]
