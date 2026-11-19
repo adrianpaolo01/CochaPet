@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "56b62e26c66faa890120b4e0faf7cb99be3c5f76",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -5940,5 +5940,35 @@
     "commitName": "feat(HU33): exigir las tres contrasenas",
     "commitTimestamp": 1795056159862,
     "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795056185769,
+    "success": false,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795056203911,
+    "success": true,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795056241776,
+    "success": true,
+    "testId": 255
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): reutilizar el minimo de ocho caracteres",
+    "commitTimestamp": 1795056248651,
+    "testId": 255
   }
 ]
