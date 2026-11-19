@@ -5316,7 +5316,7 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "08f0483663f5b84649d0bf2ea688be31f27ff4c5",
     "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036037621,
     "testId": 220
@@ -6230,5 +6230,19 @@
     "commitName": "test(HU33): rechazar sesiones vencidas o inexistentes",
     "commitTimestamp": 1795056887209,
     "testId": 269
+  },
+  {
+    "numPassedTests": 256,
+    "failedTests": 0,
+    "numTotalTests": 256,
+    "timestamp": 1795056900952,
+    "success": true,
+    "testId": 270
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU33): integrar el formulario con mi perfil",
+    "commitTimestamp": 1795056908297,
+    "testId": 270
   }
 ]
