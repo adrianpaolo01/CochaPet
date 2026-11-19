@@ -5272,7 +5272,7 @@
     "testId": 218
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da976f38411f10fbca1ebfd3780c79499b6ecf83",
     "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
     "commitTimestamp": 1795036010099,
     "testId": 218
@@ -6202,5 +6202,19 @@
     "commitName": "feat(HU33): enviar el cambio y mostrar su confirmacion",
     "commitTimestamp": 1795056818516,
     "testId": 267
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056832463,
+    "success": true,
+    "testId": 268
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): bloquear reenvios y limpiar los campos privados",
+    "commitTimestamp": 1795056839628,
+    "testId": 268
   }
 ]

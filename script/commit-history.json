@@ -5377,12 +5377,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da976f38411f10fbca1ebfd3780c79499b6ecf83",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:03.000Z",
       "message": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/da976f38411f10fbca1ebfd3780c79499b6ecf83"
     },
     "stats": {
       "total": 5,
@@ -6319,6 +6319,25 @@
       "total": 17,
       "additions": 15,
       "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:53:58.000Z",
+      "message": "feat(HU33): bloquear reenvios y limpiar los campos privados",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 96.06,
