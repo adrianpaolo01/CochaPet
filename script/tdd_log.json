@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -5918,5 +5918,27 @@
     "commitName": "feat(HU33): aceptar los datos validos de cambio de clave",
     "commitTimestamp": 1795056070163,
     "testId": 253
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 1,
+    "numTotalTests": 245,
+    "timestamp": 1795056109742,
+    "success": false,
+    "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 0,
+    "numTotalTests": 245,
+    "timestamp": 1795056124656,
+    "success": true,
+    "testId": 254
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): exigir las tres contrasenas",
+    "commitTimestamp": 1795056159862,
+    "testId": 254
   }
 ]

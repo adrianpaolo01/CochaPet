@@ -4503,12 +4503,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:53.000Z",
       "message": "feat(HU01): mostrar el error de validacion en el formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68"
     },
     "stats": {
       "total": 20,
@@ -6057,6 +6057,25 @@
     },
     "coverage": 100,
     "test_count": 244,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:42:47.000Z",
+      "message": "feat(HU33): exigir las tres contrasenas",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 245,
     "failed_tests": 0,
     "conclusion": "success"
   }
