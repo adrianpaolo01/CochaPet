@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7756056a2fdbb388c18e58b129808a65d89c1aa6",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -5970,5 +5970,27 @@
     "commitName": "feat(HU33): reutilizar el minimo de ocho caracteres",
     "commitTimestamp": 1795056248651,
     "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795056262975,
+    "success": false,
+    "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795056284363,
+    "success": true,
+    "testId": 256
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): comprobar la confirmacion de la nueva clave",
+    "commitTimestamp": 1795056293190,
+    "testId": 256
   }
 ]
