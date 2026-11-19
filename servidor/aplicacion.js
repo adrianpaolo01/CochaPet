@@ -40,6 +40,12 @@ export async function manejarErrores(res, mensaje, accion) {
 export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "PATCH" && ruta === "/api/usuarios/clave") {
+      return manejarErrores(res, "No se pudo cambiar la contraseña", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para cambiar tu contraseña" });
+      });
+    }
     if (req.method === "DELETE" && ruta === "/api/sesion") {
       return manejarErrores(res, "No se pudo cerrar la sesion", async () => {
         await cerrarSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));

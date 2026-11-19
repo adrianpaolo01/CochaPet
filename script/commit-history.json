@@ -4655,12 +4655,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e40cfbbcb6786abc2f689b47abaab1fb36ea189",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:09.000Z",
       "message": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4e40cfbbcb6786abc2f689b47abaab1fb36ea189"
     },
     "stats": {
       "total": 21,
@@ -6209,6 +6209,25 @@
     },
     "coverage": 96.23,
     "test_count": 252,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:49:48.000Z",
+      "message": "feat(HU33): proteger la ruta de cambio de clave con sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.28,
+    "test_count": 253,
     "failed_tests": 0,
     "conclusion": "success"
   }

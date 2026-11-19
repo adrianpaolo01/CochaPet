@@ -4436,7 +4436,7 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e40cfbbcb6786abc2f689b47abaab1fb36ea189",
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
@@ -6102,5 +6102,27 @@
     "commitName": "feat(HU33): actualizar solo la clave del usuario autenticado",
     "commitTimestamp": 1795056526657,
     "testId": 261
+  },
+  {
+    "numPassedTests": 252,
+    "failedTests": 1,
+    "numTotalTests": 253,
+    "timestamp": 1795056540888,
+    "success": false,
+    "testId": 262
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795056581485,
+    "success": true,
+    "testId": 262
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): proteger la ruta de cambio de clave con sesion",
+    "commitTimestamp": 1795056588901,
+    "testId": 262
   }
 ]
