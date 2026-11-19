@@ -20,6 +20,6 @@ export async function reportarPerdida(repositorios, usuario, datos) {
   if (error) return { error };
   const barrios = await repositorios.barrios.listar();
   if (!barrios.some((b) => b.nombre === datos.barrio)) return { error: "Elige un barrio de Cochabamba" };
-  const publicacion = await repositorios.publicaciones.crear({ ...datos, tipo: "PERDIDA", autorId: usuario.id, telefono: usuario.telefono });
+  const publicacion = await repositorios.publicaciones.crear({ tipo: "PERDIDA", ...datos, autorId: usuario.id, telefono: usuario.telefono });
   return { publicacion };
 }

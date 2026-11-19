@@ -4262,7 +4262,7 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ff4a3e40ced161c404db778ee87fe1310a7b725",
     "commitName": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
     "commitTimestamp": 1795033868169,
     "testId": 175
@@ -4276,7 +4276,7 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "611a7132f18f34c37519ef4c4e23596c719617fc",
     "commitName": "style(HU01): estilos del encabezado y del formulario de registro",
     "commitTimestamp": 1795033876850,
     "testId": 176
@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc16ef92a9578974ffe849198aa5125ed2e7dbd4",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4b02e41365c548c834355474663339a759ed40d7",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -4386,7 +4386,7 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
     "commitName": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
     "commitTimestamp": 1795034349158,
     "testId": 181
@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdbab65aff0c0413371a16a38c37545105eb3952",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "HEAD",
+    "commitId": "424bb4c94456378326ec16600430a12a4314b228",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -4436,7 +4436,7 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f4352409f7fc6c639789b173ac73c0d3819c797",
     "commitName": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
     "commitTimestamp": 1795034402989,
     "testId": 184
@@ -4474,7 +4474,7 @@
     "testId": 185
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
     "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
     "commitTimestamp": 1794977016735,
     "testId": 185
@@ -4488,7 +4488,7 @@
     "testId": 186
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
     "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
     "commitTimestamp": 1794977032184,
     "testId": 186
@@ -4502,7 +4502,7 @@
     "testId": 187
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4511b45208e3c4486613960f9b174fa01c06d61",
     "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
     "commitTimestamp": 1794977043745,
     "testId": 187
@@ -4524,7 +4524,7 @@
     "testId": 188
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7c3017c796fbe8b759c6cf404d535415db54d918",
     "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
     "commitTimestamp": 1795037033419,
     "testId": 188
@@ -5250,7 +5250,7 @@
     "testId": 217
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
     "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
     "commitTimestamp": 1795035993894,
     "testId": 217
@@ -5272,7 +5272,7 @@
     "testId": 218
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f094d130b77a7758a26d820ef4bf5259d482552",
     "commitName": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
     "commitTimestamp": 1795036010099,
     "testId": 218
@@ -5294,7 +5294,7 @@
     "testId": 219
   },
   {
-    "commitId": "HEAD",
+    "commitId": "92d818b684d40904f06e301ee1a614c8a43bfa03",
     "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
     "commitTimestamp": 1795036023692,
     "testId": 219
@@ -5316,7 +5316,7 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b463b531c95375e11338f9c1ae968f77d17bc650",
     "commitName": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
     "commitTimestamp": 1795036037621,
     "testId": 220
@@ -5338,7 +5338,7 @@
     "testId": 221
   },
   {
-    "commitId": "HEAD",
+    "commitId": "26c42d59f59935857d2c64f6c519b6385dc72973",
     "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
     "commitTimestamp": 1795036050476,
     "testId": 221
@@ -5360,7 +5360,7 @@
     "testId": 222
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab28fec56f2ee31002692766e8927652f99b1fa8",
     "commitName": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
     "commitTimestamp": 1795036062745,
     "testId": 222
@@ -5374,7 +5374,7 @@
     "testId": 223
   },
   {
-    "commitId": "HEAD",
+    "commitId": "86eb78c13dd8b8e465151c60a707bff1fb706cf6",
     "commitName": "feat(HU04): mostrar el formulario de mascota perdida al tocar Perdi mi mascota",
     "commitTimestamp": 1795036083832,
     "testId": 223
@@ -5888,5 +5888,459 @@
     "commitName": "feat(HU03): llevar el saludo del encabezado a mi perfil",
     "commitTimestamp": 1795041647862,
     "testId": 252
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795043802177,
+    "success": true,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 0,
+    "numTotalTests": 243,
+    "timestamp": 1795043834387,
+    "success": true,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 1,
+    "numTotalTests": 244,
+    "timestamp": 1795043841634,
+    "success": false,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 243,
+    "failedTests": 1,
+    "numTotalTests": 244,
+    "timestamp": 1795044132952,
+    "success": false,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 0,
+    "numTotalTests": 244,
+    "timestamp": 1795044141453,
+    "success": true,
+    "testId": 253
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): abrir el formulario de reporte con la ruta reportar encontrada",
+    "commitTimestamp": 1795044147287,
+    "testId": 253
+  },
+  {
+    "numPassedTests": 244,
+    "failedTests": 1,
+    "numTotalTests": 245,
+    "timestamp": 1795044159965,
+    "success": false,
+    "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 0,
+    "numTotalTests": 245,
+    "timestamp": 1795044166101,
+    "success": true,
+    "testId": 254
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
+    "commitTimestamp": 1795044167414,
+    "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795044175564,
+    "success": false,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795044181938,
+    "success": true,
+    "testId": 255
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
+    "commitTimestamp": 1795044183083,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795044194604,
+    "success": false,
+    "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795044200542,
+    "success": true,
+    "testId": 256
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): pedir iniciar sesion y volver a la ruta del reporte actual",
+    "commitTimestamp": 1795044201747,
+    "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795044224067,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795044232471,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795044249094,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795044254972,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): titular el formulario como Encontre una mascota",
+    "commitTimestamp": 1795044256234,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 1,
+    "numTotalTests": 249,
+    "timestamp": 1795044266645,
+    "success": false,
+    "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795044273005,
+    "success": true,
+    "testId": 258
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044274470,
+    "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795044286693,
+    "success": true,
+    "testId": 259
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
+    "commitTimestamp": 1795044288008,
+    "testId": 259
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 2,
+    "numTotalTests": 251,
+    "timestamp": 1795044295085,
+    "success": false,
+    "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795044301890,
+    "success": true,
+    "testId": 260
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044303131,
+    "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 0,
+    "numTotalTests": 251,
+    "timestamp": 1795044313997,
+    "success": true,
+    "testId": 261
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
+    "commitTimestamp": 1795044315403,
+    "testId": 261
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 2,
+    "numTotalTests": 253,
+    "timestamp": 1795044323196,
+    "success": false,
+    "testId": 262
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044331376,
+    "success": true,
+    "testId": 262
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): explicar el reporte segun si la mascota se perdio o se encontro",
+    "commitTimestamp": 1795044333264,
+    "testId": 262
+  },
+  {
+    "numPassedTests": 252,
+    "failedTests": 1,
+    "numTotalTests": 253,
+    "timestamp": 1795044349342,
+    "success": false,
+    "testId": 263
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044355854,
+    "success": true,
+    "testId": 263
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): identificar el titulo y el subtitulo del formulario de reporte",
+    "commitTimestamp": 1795044357118,
+    "testId": 263
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 2,
+    "numTotalTests": 253,
+    "timestamp": 1795044366257,
+    "success": false,
+    "testId": 264
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044373920,
+    "success": true,
+    "testId": 264
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
+    "commitTimestamp": 1795044375129,
+    "testId": 264
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044393354,
+    "success": true,
+    "testId": 265
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044402295,
+    "success": true,
+    "testId": 265
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): mostrar el titulo, el subtitulo y la pregunta de fecha segun el tipo de reporte",
+    "commitTimestamp": 1795044403504,
+    "testId": 265
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044415014,
+    "success": true,
+    "testId": 266
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
+    "commitTimestamp": 1795044417469,
+    "testId": 266
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044428152,
+    "success": true,
+    "testId": 267
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
+    "commitTimestamp": 1795044430135,
+    "testId": 267
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 0,
+    "numTotalTests": 253,
+    "timestamp": 1795044440764,
+    "success": true,
+    "testId": 268
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): enviar a la API si el reporte es de una mascota perdida o encontrada",
+    "commitTimestamp": 1795044442009,
+    "testId": 268
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 1,
+    "numTotalTests": 254,
+    "timestamp": 1795044455377,
+    "success": false,
+    "testId": 269
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 0,
+    "numTotalTests": 254,
+    "timestamp": 1795044464629,
+    "success": true,
+    "testId": 269
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
+    "commitTimestamp": 1795044467854,
+    "testId": 269
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 1,
+    "numTotalTests": 255,
+    "timestamp": 1795044479911,
+    "success": false,
+    "testId": 270
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044489529,
+    "success": true,
+    "testId": 270
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU05): rechazar un reporte que no es de mascota perdida ni encontrada",
+    "commitTimestamp": 1795044490780,
+    "testId": 270
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 2,
+    "numTotalTests": 255,
+    "timestamp": 1795044510699,
+    "success": false,
+    "testId": 271
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044518190,
+    "success": true,
+    "testId": 271
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
+    "commitTimestamp": 1795044519464,
+    "testId": 271
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 4,
+    "numTotalTests": 255,
+    "timestamp": 1795044526980,
+    "success": false,
+    "testId": 272
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044532842,
+    "success": true,
+    "testId": 272
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(HU05): pedir especie y descripcion de la mascota sin asumir que es del autor",
+    "commitTimestamp": 1795044533997,
+    "testId": 272
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795044547947,
+    "success": true,
+    "testId": 273
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU05): nombrar el borrador como del reporte y no solo de la perdida",
+    "commitTimestamp": 1795044549098,
+    "testId": 273
   }
 ]
