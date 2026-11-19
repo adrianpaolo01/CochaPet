@@ -5396,12 +5396,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:17.000Z",
       "message": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10"
     },
     "stats": {
       "total": 7,
@@ -6342,6 +6342,25 @@
     },
     "coverage": 96.06,
     "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:54:46.000Z",
+      "message": "test(HU33): rechazar sesiones vencidas o inexistentes",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 256,
     "failed_tests": 0,
     "conclusion": "success"
   }

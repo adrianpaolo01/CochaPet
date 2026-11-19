@@ -5294,7 +5294,7 @@
     "testId": 219
   },
   {
-    "commitId": "HEAD",
+    "commitId": "214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10",
     "commitName": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
     "commitTimestamp": 1795036023692,
     "testId": 219
@@ -6216,5 +6216,19 @@
     "commitName": "feat(HU33): bloquear reenvios y limpiar los campos privados",
     "commitTimestamp": 1795056839628,
     "testId": 268
+  },
+  {
+    "numPassedTests": 256,
+    "failedTests": 0,
+    "numTotalTests": 256,
+    "timestamp": 1795056879312,
+    "success": true,
+    "testId": 269
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(HU33): rechazar sesiones vencidas o inexistentes",
+    "commitTimestamp": 1795056887209,
+    "testId": 269
   }
 ]

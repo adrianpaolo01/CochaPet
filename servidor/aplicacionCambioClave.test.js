@@ -19,6 +19,14 @@ async function cambiar(datos, repositorio = {}, cookie = "") {
 }
 
 describe("PATCH /api/usuarios/clave", () => {
+  it("deberia rechazar sesiones vencidas o inexistentes sin guardar", async () => {
+    for (const sesion of [undefined, { expiraEn: new Date(0), usuario }]) {
+      const repositorio = { ...crearRepositorio(), obtenerSesion: async () => sesion };
+      expect((await cambiar(datos, repositorio, "sesion=token")).estado).toBe(401);
+      expect(repositorio.actualizarClave).not.toHaveBeenCalled();
+    }
+  });
+
   it("deberia conservar la clave ante credenciales o confirmacion invalidas", async () => {
     for (const cambios of [{ claveActual: "incorrecta" }, { claveNueva: "corta" }, { confirmacion: "otra1234" }, { claveActual: null }]) {
       const repositorio = crearRepositorio();
