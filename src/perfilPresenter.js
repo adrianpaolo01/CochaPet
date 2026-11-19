@@ -81,9 +81,16 @@ formulario.addEventListener("submit", async (evento) => {
   mostrarMensaje("Tus datos se guardaron");
 });
 
+function mostrarErrorAlEliminar() {
+  const aviso = document.querySelector("#eliminar-cuenta-mensaje");
+  aviso.textContent = "No se pudo eliminar tu cuenta. Intenta nuevamente.";
+  aviso.hidden = false;
+}
+
 async function eliminarCuenta() {
   if (!confirm(CONFIRMACION_ELIMINAR_CUENTA)) return;
-  await fetch("/api/perfil", { method: "DELETE" });
+  const respuesta = await fetch("/api/perfil", { method: "DELETE" }).catch(() => null);
+  if (!respuesta?.ok) return mostrarErrorAlEliminar();
   window.dispatchEvent(new CustomEvent("sesion-cerrada"));
   location.hash = "#/";
   // recarga para que el inicio ya no muestre las publicaciones borradas

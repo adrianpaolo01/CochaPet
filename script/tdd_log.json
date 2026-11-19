@@ -5550,7 +5550,7 @@
     "testId": 235
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32203f24b5046f223fc889bf35d088d12b54c85a",
     "commitName": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
     "commitTimestamp": 1795037487189,
     "testId": 235
@@ -6718,5 +6718,19 @@
     "commitName": "feat(HU25): eliminar mi cuenta al confirmar y volver al inicio sin sesion",
     "commitTimestamp": 1795060321934,
     "testId": 293
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060335309,
+    "success": true,
+    "testId": 294
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): avisar si no se pudo eliminar la cuenta y mantener la sesion",
+    "commitTimestamp": 1795060336402,
+    "testId": 294
   }
 ]

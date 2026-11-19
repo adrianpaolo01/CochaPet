@@ -5700,12 +5700,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "32203f24b5046f223fc889bf35d088d12b54c85a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:31:27.000Z",
       "message": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/32203f24b5046f223fc889bf35d088d12b54c85a"
     },
     "stats": {
       "total": 23,
@@ -6813,6 +6813,25 @@
       "total": 11,
       "additions": 11,
       "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:16.000Z",
+      "message": "feat(HU25): avisar si no se pudo eliminar la cuenta y mantener la sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-11-19"
     },
     "coverage": 99.69,
