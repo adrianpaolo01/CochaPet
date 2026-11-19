@@ -5738,12 +5738,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ebf28863e2db25f815b6629855edfcb5fb38f92d",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:56:14.000Z",
       "message": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ebf28863e2db25f815b6629855edfcb5fb38f92d"
     },
     "stats": {
       "total": 18,
@@ -6851,6 +6851,25 @@
       "total": 4,
       "additions": 4,
       "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:46.000Z",
+      "message": "refactor(HU25): nombrar el rojo de peligro como variable de color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
       "date": "2026-11-19"
     },
     "coverage": 99.69,

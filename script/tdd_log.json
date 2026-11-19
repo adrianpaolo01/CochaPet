@@ -5602,7 +5602,7 @@
     "testId": 237
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ebf28863e2db25f815b6629855edfcb5fb38f92d",
     "commitName": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
     "commitTimestamp": 1795039619266,
     "testId": 237
@@ -6746,5 +6746,19 @@
     "commitName": "style(HU25): estilos de la zona y el boton para eliminar la cuenta",
     "commitTimestamp": 1795060357519,
     "testId": 295
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060365591,
+    "success": true,
+    "testId": 296
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU25): nombrar el rojo de peligro como variable de color",
+    "commitTimestamp": 1795060366745,
+    "testId": 296
   }
 ]
