@@ -4712,12 +4712,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:40:02.000Z",
       "message": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4"
     },
     "stats": {
       "total": 2,
@@ -6262,6 +6262,25 @@
       "total": 8,
       "additions": 8,
       "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:52:16.000Z",
+      "message": "feat(HU33): agregar el formulario de contrasena en mi perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
       "date": "2026-11-19"
     },
     "coverage": 96.06,

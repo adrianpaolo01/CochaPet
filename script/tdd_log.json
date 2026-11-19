@@ -4502,7 +4502,7 @@
     "testId": 187
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4",
     "commitName": "test(issue49): indicar el tipo perdida en los tests de WhatsApp",
     "commitTimestamp": 1794977043745,
     "testId": 187
@@ -6160,5 +6160,19 @@
     "commitName": "test(HU33): comprobar que los errores no actualizan la clave",
     "commitTimestamp": 1795056669583,
     "testId": 264
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056729641,
+    "success": true,
+    "testId": 265
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): agregar el formulario de contrasena en mi perfil",
+    "commitTimestamp": 1795056737107,
+    "testId": 265
   }
 ]
