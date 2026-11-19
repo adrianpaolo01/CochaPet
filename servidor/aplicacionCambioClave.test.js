@@ -1,6 +1,7 @@
 import { Readable } from "node:stream";
 import { crearManejador } from "./aplicacion.js";
 import { hashearClave, verificarClave } from "./claves.js";
+import { iniciarSesion } from "./autenticacionServicio.js";
 
 const datos = { claveActual: "anterior123", claveNueva: "nueva123", confirmacion: "nueva123" };
 const usuario = { id: 7, correo: "ana@ejemplo.com" };
@@ -19,6 +20,16 @@ async function cambiar(datos, repositorio = {}, cookie = "") {
 }
 
 describe("PATCH /api/usuarios/clave", () => {
+  it("deberia permitir entrar con la nueva clave y rechazar la anterior", async () => {
+    const cuenta = { ...usuario, claveHash };
+    const repositorio = { ...crearRepositorio(), crearSesion: async () => {},
+      buscarUsuarioPorCorreo: async () => cuenta,
+      actualizarClave: async (_id, hash) => { cuenta.claveHash = hash; return true; } };
+    expect((await cambiar(datos, repositorio, "sesion=token")).estado).toBe(200);
+    expect((await iniciarSesion(repositorio, { correo: usuario.correo, clave: datos.claveNueva })).ok).toBe(true);
+    expect((await iniciarSesion(repositorio, { correo: usuario.correo, clave: datos.claveActual })).ok).toBe(false);
+  });
+
   it("deberia rechazar sesiones vencidas o inexistentes sin guardar", async () => {
     for (const sesion of [undefined, { expiraEn: new Date(0), usuario }]) {
       const repositorio = { ...crearRepositorio(), obtenerSesion: async () => sesion };

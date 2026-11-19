@@ -5338,7 +5338,7 @@
     "testId": 221
   },
   {
-    "commitId": "HEAD",
+    "commitId": "24651a4ed5053f2557aa5ce75b3fad290aa3b860",
     "commitName": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
     "commitTimestamp": 1795036050476,
     "testId": 221
@@ -6244,5 +6244,19 @@
     "commitName": "style(HU33): integrar el formulario con mi perfil",
     "commitTimestamp": 1795056908297,
     "testId": 270
+  },
+  {
+    "numPassedTests": 257,
+    "failedTests": 0,
+    "numTotalTests": 257,
+    "timestamp": 1795056962452,
+    "success": true,
+    "testId": 271
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(HU33): verificar el inicio de sesion con la clave nueva",
+    "commitTimestamp": 1795056971658,
+    "testId": 271
   }
 ]

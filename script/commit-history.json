@@ -5434,12 +5434,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "24651a4ed5053f2557aa5ce75b3fad290aa3b860",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:42.000Z",
       "message": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/24651a4ed5053f2557aa5ce75b3fad290aa3b860"
     },
     "stats": {
       "total": 7,
@@ -6380,6 +6380,25 @@
     },
     "coverage": 96.06,
     "test_count": 256,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:56:10.000Z",
+      "message": "test(HU33): verificar el inicio de sesion con la clave nueva",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 257,
     "failed_tests": 0,
     "conclusion": "success"
   }
