@@ -5250,7 +5250,7 @@
     "testId": 217
   },
   {
-    "commitId": "HEAD",
+    "commitId": "177057c9c2916db1b7a774b06a17b5e83e487e55",
     "commitName": "feat(HU04): pedir la especie en el formulario de mascota perdida",
     "commitTimestamp": 1795035993894,
     "testId": 217
@@ -6188,5 +6188,19 @@
     "commitName": "feat(HU33): validar el formulario antes de enviarlo",
     "commitTimestamp": 1795056768612,
     "testId": 266
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056810284,
+    "success": true,
+    "testId": 267
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): enviar el cambio y mostrar su confirmacion",
+    "commitTimestamp": 1795056818516,
+    "testId": 267
   }
 ]
