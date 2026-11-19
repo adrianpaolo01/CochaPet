@@ -2,6 +2,7 @@ import { textoEstado } from "./perfil.js";
 import { formatearFecha, tituloPublicacion } from "./publicaciones.js";
 import { vistaParaHash } from "./rutas.js";
 import { htmlCambioClave } from "./vistaCambioClave.js";
+import { conectarCambioClave } from "./cambioClavePresenter.js";
 
 const vistaPerfil = document.querySelector("#vista-perfil");
 vistaPerfil.innerHTML = `
@@ -9,6 +10,7 @@ vistaPerfil.innerHTML = `
   <p id="perfil-datos" class="perfil-datos"></p>
   <h2>Mis publicaciones</h2>
   <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>${htmlCambioClave()}`;
+conectarCambioClave();
 
 function crearItem(publicacion) {
   const item = document.createElement("li");

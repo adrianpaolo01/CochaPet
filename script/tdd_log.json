@@ -4524,7 +4524,7 @@
     "testId": 188
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0cf8704bec10541b3671930a35331aeaf06d7753",
     "commitName": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
     "commitTimestamp": 1795037033419,
     "testId": 188
@@ -6174,5 +6174,19 @@
     "commitName": "feat(HU33): agregar el formulario de contrasena en mi perfil",
     "commitTimestamp": 1795056737107,
     "testId": 265
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056761244,
+    "success": true,
+    "testId": 266
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): validar el formulario antes de enviarlo",
+    "commitTimestamp": 1795056768612,
+    "testId": 266
   }
 ]

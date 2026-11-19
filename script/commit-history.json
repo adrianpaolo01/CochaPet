@@ -5339,12 +5339,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0cf8704bec10541b3671930a35331aeaf06d7753",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:06:33.000Z",
       "message": "feat(HU04): pedir la especie en el formulario de mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0cf8704bec10541b3671930a35331aeaf06d7753"
     },
     "stats": {
       "total": 11,
@@ -6281,6 +6281,25 @@
       "total": 17,
       "additions": 16,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:52:47.000Z",
+      "message": "feat(HU33): validar el formulario antes de enviarlo",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 96.06,
