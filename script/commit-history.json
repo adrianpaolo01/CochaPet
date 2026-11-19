@@ -4560,12 +4560,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:16.000Z",
       "message": "style(HU01): estilos del encabezado y del formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b"
     },
     "stats": {
       "total": 14,
@@ -6114,6 +6114,25 @@
     },
     "coverage": 100,
     "test_count": 247,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:34:34.000Z",
+      "message": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
     "failed_tests": 0,
     "conclusion": "success"
   }

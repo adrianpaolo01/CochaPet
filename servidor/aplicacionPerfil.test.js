@@ -35,4 +35,14 @@ describe("PUT /api/perfil", () => {
     const { estado } = await editarPerfil({}, { nombre: "Ana", telefono: "71234567" });
     expect(estado).toBe(401);
   });
+
+  it("responde 200 con mis datos guardados y 400 si son invalidos", async () => {
+    const autenticacionRepositorio = {
+      obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }),
+      actualizar: async (id, nuevos) => ({ id, ...nuevos }),
+    };
+    const nuevos = { nombre: "Ana", telefono: "71234567", foto: "" };
+    expect(await editarPerfil({ cookie: "sesion=abc" }, nuevos, autenticacionRepositorio)).toEqual({ estado: 200, cuerpo: { id: 7, ...nuevos } });
+    expect((await editarPerfil({ cookie: "sesion=abc" }, { ...nuevos, telefono: "" }, autenticacionRepositorio)).estado).toBe(400);
+  });
 });

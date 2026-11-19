@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -5976,5 +5976,27 @@
     "commitName": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
     "commitTimestamp": 1795058942713,
     "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795058957186,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059271206,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
+    "commitTimestamp": 1795059274750,
+    "testId": 257
   }
 ]
