@@ -57,7 +57,7 @@ describe("Publicaciones servicio", () => {
   it("deberia rechazar un reporte de perdida sin los datos obligatorios", async () => {
     const resultado = await reportarPerdida({}, { id: 7 }, { especie: "" });
 
-    expect(resultado).toEqual({ error: "Elige la especie de tu mascota" });
+    expect(resultado).toEqual({ error: "Elige la especie de la mascota" });
   });
 
   it("deberia rechazar un barrio que no es de Cochabamba", async () => {
@@ -73,5 +73,13 @@ describe("Publicaciones servicio", () => {
     await reportarPerdida({ publicaciones, barrios }, { id: 7, telefono: "70000000" }, reporte);
 
     expect(publicaciones.crear).toHaveBeenCalledWith({ ...reporte, tipo: "PERDIDA", autorId: 7, telefono: "70000000" });
+  });
+
+  it("deberia crear la publicacion como encontrada si se reporta una mascota encontrada", async () => {
+    const publicaciones = { crear: jest.fn(async () => ({ id: 31 })) };
+
+    await reportarPerdida({ publicaciones, barrios }, { id: 7, telefono: "70000000" }, { ...reporte, tipo: "ENCONTRADA" });
+
+    expect(publicaciones.crear).toHaveBeenCalledWith(expect.objectContaining({ tipo: "ENCONTRADA", autorId: 7 }));
   });
 });

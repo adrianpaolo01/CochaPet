@@ -88,7 +88,7 @@ describe("API compartida entre desarrollo y Vercel", () => {
     const peticion = peticionReporte({});
     const respuesta = crearRespuesta();
     await crearManejador({}, {}, conSesion)(peticion, respuesta);
-    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de tu mascota" }));
+    expect(respuesta.end).toHaveBeenCalledWith(JSON.stringify({ error: "Elige la especie de la mascota" }));
   });
 
   it("responde 201 con la publicacion creada al reportar una perdida con sesion", async () => {
