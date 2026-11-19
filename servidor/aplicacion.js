@@ -71,6 +71,12 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         responderJson(res, 200, await misPublicaciones(repositorio, usuario.id));
       });
     }
+    if (req.method === "PUT" && ruta === "/api/perfil") {
+      return manejarErrores(res, "No se pudieron guardar tus datos", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para editar tus datos" });
+      });
+    }
     if (req.method === "GET" && ruta === "/api/publicaciones") {
       return manejarErrores(res, "No se pudieron cargar las publicaciones", async () =>
         responderJson(res, 200, await publicacionesParaInicio(repositorio)));

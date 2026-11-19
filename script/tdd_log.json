@@ -4312,7 +4312,7 @@
     "testId": 178
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cb3fe88ae54dc0bfb568913b919f77888ef20a26",
     "commitName": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
     "commitTimestamp": 1795034280686,
     "testId": 178
@@ -5954,5 +5954,27 @@
     "commitName": "feat(HU24): guardar mis datos nuevos solo si son validos",
     "commitTimestamp": 1795058616694,
     "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 1,
+    "numTotalTests": 247,
+    "timestamp": 1795058627193,
+    "success": false,
+    "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 0,
+    "numTotalTests": 247,
+    "timestamp": 1795058939522,
+    "success": true,
+    "testId": 256
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
+    "commitTimestamp": 1795058942713,
+    "testId": 256
   }
 ]

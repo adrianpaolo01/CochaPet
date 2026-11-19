@@ -4541,12 +4541,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cb3fe88ae54dc0bfb568913b919f77888ef20a26",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:08.000Z",
       "message": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cb3fe88ae54dc0bfb568913b919f77888ef20a26"
     },
     "stats": {
       "total": 3,
@@ -6095,6 +6095,25 @@
     },
     "coverage": 100,
     "test_count": 246,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:29:02.000Z",
+      "message": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 247,
     "failed_tests": 0,
     "conclusion": "success"
   }

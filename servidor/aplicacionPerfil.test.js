@@ -22,3 +22,17 @@ describe("GET /api/mis-publicaciones", () => {
     expect(repositorio.listarPorAutor).toHaveBeenCalledWith(7);
   });
 });
+
+async function editarPerfil(headers, datos, autenticacionRepositorio = {}) {
+  const respuesta = { writeHead: jest.fn(), end: jest.fn() };
+  const peticion = { method: "PUT", url: "/api/perfil", headers, [Symbol.asyncIterator]: async function* () { yield JSON.stringify(datos); } };
+  await crearManejador({}, {}, autenticacionRepositorio)(peticion, respuesta);
+  return { estado: respuesta.writeHead.mock.calls[0][0], cuerpo: JSON.parse(respuesta.end.mock.calls[0][0]) };
+}
+
+describe("PUT /api/perfil", () => {
+  it("responde 401 si no hay sesion", async () => {
+    const { estado } = await editarPerfil({}, { nombre: "Ana", telefono: "71234567" });
+    expect(estado).toBe(401);
+  });
+});
