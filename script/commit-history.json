@@ -4560,12 +4560,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "419be0e83ff8dc2fe981607ab8909a04112f297a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:16.000Z",
       "message": "style(HU01): estilos del encabezado y del formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/419be0e83ff8dc2fe981607ab8909a04112f297a"
     },
     "stats": {
       "total": 14,
@@ -6114,6 +6114,25 @@
     },
     "coverage": 100,
     "test_count": 247,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:45:35.000Z",
+      "message": "feat(HU33): guardar la nueva clave como hash",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 28,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 248,
     "failed_tests": 0,
     "conclusion": "success"
   }

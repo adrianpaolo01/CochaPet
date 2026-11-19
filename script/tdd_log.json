@@ -4342,7 +4342,7 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "419be0e83ff8dc2fe981607ab8909a04112f297a",
     "commitName": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
     "commitTimestamp": 1795034308224,
     "testId": 179
@@ -5992,5 +5992,27 @@
     "commitName": "feat(HU33): comprobar la confirmacion de la nueva clave",
     "commitTimestamp": 1795056293190,
     "testId": 256
+  },
+  {
+    "numPassedTests": 247,
+    "failedTests": 1,
+    "numTotalTests": 248,
+    "timestamp": 1795056308887,
+    "success": false,
+    "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795056329539,
+    "success": true,
+    "testId": 257
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): guardar la nueva clave como hash",
+    "commitTimestamp": 1795056336579,
+    "testId": 257
   }
 ]
