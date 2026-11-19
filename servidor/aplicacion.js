@@ -2,7 +2,7 @@ import { abrirSesion, cerrarSesion, iniciarSesion, usuarioDeSesion } from "./aut
 import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
-import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
+import { actualizarDatos, eliminarCuenta, registrarUsuario } from "./usuariosServicio.js";
 import { cambiarClave } from "./cambioClaveServicio.js";
 
 const LIMITE_CUERPO = 10000;
@@ -92,6 +92,15 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
         const resultado = await actualizarDatos(autenticacionRepositorio, usuario.id, entrada.datos);
         if (resultado.error) return responderJson(res, 400, { error: resultado.error });
         responderJson(res, 200, resultado.usuario);
+      });
+    }
+    if (req.method === "DELETE" && ruta === "/api/perfil") {
+      return manejarErrores(res, "No se pudo eliminar tu cuenta", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesion para eliminar tu cuenta" });
+        await eliminarCuenta(autenticacionRepositorio, usuario.id);
+        const seguro = req.headers?.["x-forwarded-proto"] === "https";
+        responderJson(res, 200, { usuario: null }, { "Set-Cookie": cookieBorrada({ seguro }) });
       });
     }
     if (req.method === "GET" && ruta === "/api/publicaciones") {

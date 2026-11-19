@@ -1,5 +1,7 @@
 import { crearManejador } from "./aplicacion.js";
 
+const sesionVigente = async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } });
+
 async function pedirMisPublicaciones(headers, repositorio = {}, autenticacionRepositorio = {}) {
   const respuesta = { writeHead: jest.fn(), end: jest.fn() };
   await crearManejador(repositorio, {}, autenticacionRepositorio)({ method: "GET", url: "/api/mis-publicaciones", headers }, respuesta);
@@ -14,7 +16,7 @@ describe("GET /api/mis-publicaciones", () => {
   });
 
   it("responde 200 con las publicaciones del usuario de la sesion", async () => {
-    const autenticacionRepositorio = { obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }) };
+    const autenticacionRepositorio = { obtenerSesion: sesionVigente };
     const repositorio = { listarPorAutor: jest.fn(async () => [{ id: 1, estado: "ACTIVA" }]) };
     const { estado, cuerpo } = await pedirMisPublicaciones({ cookie: "sesion=abc123" }, repositorio, autenticacionRepositorio);
     expect(estado).toBe(200);
@@ -23,26 +25,46 @@ describe("GET /api/mis-publicaciones", () => {
   });
 });
 
-async function editarPerfil(headers, datos, autenticacionRepositorio = {}) {
+async function pedirPerfil(metodo, { headers = {}, datos, autenticacionRepositorio = {} }) {
   const respuesta = { writeHead: jest.fn(), end: jest.fn() };
-  const peticion = { method: "PUT", url: "/api/perfil", headers, [Symbol.asyncIterator]: async function* () { yield JSON.stringify(datos); } };
+  const peticion = { method: metodo, url: "/api/perfil", headers, [Symbol.asyncIterator]: async function* () { yield JSON.stringify(datos); } };
   await crearManejador({}, {}, autenticacionRepositorio)(peticion, respuesta);
-  return { estado: respuesta.writeHead.mock.calls[0][0], cuerpo: JSON.parse(respuesta.end.mock.calls[0][0]) };
+  const [estado, cabeceras] = respuesta.writeHead.mock.calls[0] ?? [];
+  const [cuerpo] = respuesta.end.mock.calls[0] ?? [];
+  return { estado, cuerpo: cuerpo && JSON.parse(cuerpo), cookie: cabeceras?.["Set-Cookie"] };
 }
 
 describe("PUT /api/perfil", () => {
   it("responde 401 si no hay sesion", async () => {
-    const { estado } = await editarPerfil({}, { nombre: "Ana", telefono: "71234567" });
+    const { estado } = await pedirPerfil("PUT", { datos: { nombre: "Ana", telefono: "71234567" } });
     expect(estado).toBe(401);
   });
 
   it("responde 200 con mis datos guardados y 400 si son invalidos", async () => {
     const autenticacionRepositorio = {
-      obtenerSesion: async () => ({ expiraEn: new Date(Date.now() + 60000), usuario: { id: 7 } }),
+      obtenerSesion: sesionVigente,
       actualizar: async (id, nuevos) => ({ id, ...nuevos }),
     };
     const nuevos = { nombre: "Ana", telefono: "71234567", foto: "" };
-    expect(await editarPerfil({ cookie: "sesion=abc" }, nuevos, autenticacionRepositorio)).toEqual({ estado: 200, cuerpo: { id: 7, ...nuevos } });
-    expect((await editarPerfil({ cookie: "sesion=abc" }, { ...nuevos, telefono: "" }, autenticacionRepositorio)).estado).toBe(400);
+    expect(await pedirPerfil("PUT", { headers: { cookie: "sesion=abc" }, datos: nuevos, autenticacionRepositorio })).toEqual({ estado: 200, cuerpo: { id: 7, ...nuevos } });
+    expect((await pedirPerfil("PUT", { headers: { cookie: "sesion=abc" }, datos: { ...nuevos, telefono: "" }, autenticacionRepositorio })).estado).toBe(400);
+  });
+});
+
+describe("DELETE /api/perfil", () => {
+  it("responde 401 si no hay sesion", async () => {
+    expect(await pedirPerfil("DELETE", {})).toEqual({ estado: 401, cuerpo: { error: "Inicia sesion para eliminar tu cuenta" } });
+  });
+
+  it("elimina la cuenta del usuario de la sesion y responde 200", async () => {
+    const autenticacionRepositorio = { obtenerSesion: sesionVigente, eliminar: jest.fn() };
+    const { estado } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio });
+    expect(estado).toBe(200);
+    expect(autenticacionRepositorio.eliminar).toHaveBeenCalledWith(7);
+  });
+
+  it("le ordena al navegador borrar la cookie de la sesion al eliminar la cuenta", async () => {
+    const { cookie } = await pedirPerfil("DELETE", { headers: { cookie: "sesion=abc" }, autenticacionRepositorio: { obtenerSesion: sesionVigente, eliminar: jest.fn() } });
+    expect(cookie).toContain("sesion=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0");
   });
 });

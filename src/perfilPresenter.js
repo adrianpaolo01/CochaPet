@@ -20,11 +20,18 @@ vistaPerfil.innerHTML = `
     <button type="submit" class="boton">Guardar</button>
   </form>
   <h2>Mis publicaciones</h2>
-  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>${htmlCambioClave()}`;
+  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>${htmlCambioClave()}
+  <section class="zona-eliminar-cuenta">
+    <h2>Eliminar mi cuenta</h2>
+    <p>Se borrarán tu cuenta y todas tus publicaciones. No se puede deshacer.</p>
+    <p id="eliminar-cuenta-mensaje" class="mensaje-error" role="alert" hidden></p>
+    <button type="button" id="eliminar-cuenta" class="boton boton-peligro">Eliminar mi cuenta</button>
+  </section>`;
 conectarCambioClave();
 
 const formulario = document.querySelector("#formulario-perfil");
 const mensaje = document.querySelector("#perfil-mensaje");
+const CONFIRMACION_ELIMINAR_CUENTA = "¿Seguro que quieres eliminar tu cuenta? También se borrarán todas tus publicaciones.";
 
 function crearItem(publicacion) {
   const item = document.createElement("li");
@@ -78,5 +85,22 @@ formulario.addEventListener("submit", async (evento) => {
   mostrarMensaje("Tus datos se guardaron");
 });
 
+function mostrarErrorAlEliminar() {
+  const aviso = document.querySelector("#eliminar-cuenta-mensaje");
+  aviso.textContent = "No se pudo eliminar tu cuenta. Intenta nuevamente.";
+  aviso.hidden = false;
+}
+
+async function eliminarCuenta() {
+  if (!confirm(CONFIRMACION_ELIMINAR_CUENTA)) return;
+  const respuesta = await fetch("/api/perfil", { method: "DELETE" }).catch(() => null);
+  if (!respuesta?.ok) return mostrarErrorAlEliminar();
+  window.dispatchEvent(new CustomEvent("sesion-cerrada"));
+  location.hash = "#/";
+  // recarga para que el inicio ya no muestre las publicaciones borradas
+  location.reload();
+}
+
+document.querySelector("#eliminar-cuenta").addEventListener("click", eliminarCuenta);
 window.addEventListener("hashchange", mostrarPerfil);
 mostrarPerfil();

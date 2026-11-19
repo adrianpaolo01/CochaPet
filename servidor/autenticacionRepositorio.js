@@ -51,4 +51,9 @@ export const autenticacionRepositorio = {
       [id, nombre.trim(), telefono.trim(), foto?.trim() || null]);
     return rows[0];
   },
+
+  // ON DELETE CASCADE borra tambien sus publicaciones (con fotos y promociones) y sus sesiones abiertas.
+  async eliminar(id) {
+    await db.query("DELETE FROM usuario WHERE id = $1", [id]);
+  },
 };

@@ -6992,6 +6992,44 @@
     "conclusion": "success"
   },
   {
+    "sha": "eb05f17687f71c52864a9ad91eb7485c633c7795",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:48:46.000Z",
+      "message": "feat(HU25): eliminar la cuenta del usuario indicado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/eb05f17687f71c52864a9ad91eb7485c633c7795"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 261,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:49:09.000Z",
+      "message": "refactor(HU25): pedir al perfil con cualquier metodo en los tests de la API",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 261,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "7248ab7a183e1bcaa1ffdf12b39ecb91a083e982",
     "author": "Adrian Paolo",
     "commit": {
@@ -7007,6 +7045,177 @@
     },
     "coverage": 95.54,
     "test_count": 274,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:49:28.000Z",
+      "message": "feat(HU25): pedir iniciar sesion para eliminar la cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 262,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:03.000Z",
+      "message": "refactor(HU25): leer sin errores una peticion al perfil que no obtuvo respuesta en los tests",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 262,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:24.000Z",
+      "message": "feat(HU25): eliminar la cuenta del usuario de la sesion desde la API",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 263,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:50:44.000Z",
+      "message": "refactor(HU25): compartir la sesion vigente en los tests de la API del perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 263,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:51:07.000Z",
+      "message": "feat(HU25): borrar la cookie de la sesion al eliminar la cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 9,
+      "deletions": 3,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:51:23.000Z",
+      "message": "feat(HU25): borrar de la base la cuenta con sus publicaciones y sesiones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:51:43.000Z",
+      "message": "feat(HU25): mostrar en el perfil la opcion para eliminar mi cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:01.000Z",
+      "message": "feat(HU25): eliminar mi cuenta al confirmar y volver al inicio sin sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:16.000Z",
+      "message": "feat(HU25): avisar si no se pudo eliminar la cuenta y mantener la sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -7031,6 +7240,44 @@
   },
   {
     "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:37.000Z",
+      "message": "style(HU25): estilos de la zona y el boton para eliminar la cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:46.000Z",
+      "message": "refactor(HU25): nombrar el rojo de peligro como variable de color",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-19T03:56:44.000Z",
@@ -7045,6 +7292,25 @@
     },
     "coverage": 95.54,
     "test_count": 274,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T04:02:50.000Z",
+      "message": "chore(HU25): fusionar main con HU33 y HU24 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 248,
+      "additions": 246,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 95.39,
+    "test_count": 278,
     "failed_tests": 0,
     "conclusion": "success"
   }
