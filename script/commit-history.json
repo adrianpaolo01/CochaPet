@@ -5681,12 +5681,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c261b613e072174ecae606fac8403e65e1deeabb",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:23:52.000Z",
       "message": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c261b613e072174ecae606fac8403e65e1deeabb"
     },
     "stats": {
       "total": 871,
@@ -6794,6 +6794,25 @@
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:01.000Z",
+      "message": "feat(HU25): eliminar mi cuenta al confirmar y volver al inicio sin sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 99.69,

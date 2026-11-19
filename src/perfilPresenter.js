@@ -27,6 +27,7 @@ vistaPerfil.innerHTML = `
 
 const formulario = document.querySelector("#formulario-perfil");
 const mensaje = document.querySelector("#perfil-mensaje");
+const CONFIRMACION_ELIMINAR_CUENTA = "¿Seguro que quieres eliminar tu cuenta? También se borrarán todas tus publicaciones.";
 
 function crearItem(publicacion) {
   const item = document.createElement("li");
@@ -80,5 +81,15 @@ formulario.addEventListener("submit", async (evento) => {
   mostrarMensaje("Tus datos se guardaron");
 });
 
+async function eliminarCuenta() {
+  if (!confirm(CONFIRMACION_ELIMINAR_CUENTA)) return;
+  await fetch("/api/perfil", { method: "DELETE" });
+  window.dispatchEvent(new CustomEvent("sesion-cerrada"));
+  location.hash = "#/";
+  // recarga para que el inicio ya no muestre las publicaciones borradas
+  location.reload();
+}
+
+document.querySelector("#eliminar-cuenta").addEventListener("click", eliminarCuenta);
 window.addEventListener("hashchange", mostrarPerfil);
 mostrarPerfil();

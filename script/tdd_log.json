@@ -5528,7 +5528,7 @@
     "testId": 234
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c261b613e072174ecae606fac8403e65e1deeabb",
     "commitName": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
     "commitTimestamp": 1795036213932,
     "testId": 234
@@ -6704,5 +6704,19 @@
     "commitName": "feat(HU25): mostrar en el perfil la opcion para eliminar mi cuenta",
     "commitTimestamp": 1795060303278,
     "testId": 292
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060320757,
+    "success": true,
+    "testId": 293
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): eliminar mi cuenta al confirmar y volver al inicio sin sesion",
+    "commitTimestamp": 1795060321934,
+    "testId": 293
   }
 ]
