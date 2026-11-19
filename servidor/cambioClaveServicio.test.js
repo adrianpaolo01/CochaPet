@@ -10,6 +10,13 @@ const crearRepositorio = () => ({
 });
 
 describe("Cambio de clave servicio", () => {
+  it("deberia rechazar la clave actual incorrecta sin guardar", async () => {
+    const repositorio = crearRepositorio();
+    expect(await cambiarClave(repositorio, usuario, { ...datos, claveActual: "incorrecta" }))
+      .toEqual({ ok: false, estado: 400, error: "La contraseña actual es incorrecta" });
+    expect(repositorio.actualizarClave).not.toHaveBeenCalled();
+  });
+
   it("deberia guardar la nueva clave como hash para el usuario de la sesion", async () => {
     const repositorio = crearRepositorio();
     expect(await cambiarClave(repositorio, usuario, datos)).toEqual({ ok: true });

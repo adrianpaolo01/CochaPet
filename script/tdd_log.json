@@ -4364,7 +4364,7 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4554773969846875c5e2fae21536793c3bc41d52",
     "commitName": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
     "commitTimestamp": 1795034329387,
     "testId": 180
@@ -6014,5 +6014,27 @@
     "commitName": "feat(HU33): guardar la nueva clave como hash",
     "commitTimestamp": 1795056336579,
     "testId": 257
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 1,
+    "numTotalTests": 249,
+    "timestamp": 1795056351218,
+    "success": false,
+    "testId": 258
+  },
+  {
+    "numPassedTests": 249,
+    "failedTests": 0,
+    "numTotalTests": 249,
+    "timestamp": 1795056370335,
+    "success": true,
+    "testId": 258
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): comprobar la contrasena actual antes de guardar",
+    "commitTimestamp": 1795056378418,
+    "testId": 258
   }
 ]

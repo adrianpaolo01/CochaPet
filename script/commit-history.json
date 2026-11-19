@@ -4579,12 +4579,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4554773969846875c5e2fae21536793c3bc41d52",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:37:43.000Z",
       "message": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4554773969846875c5e2fae21536793c3bc41d52"
     },
     "stats": {
       "total": 666,
@@ -6133,6 +6133,25 @@
     },
     "coverage": 100,
     "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:46:17.000Z",
+      "message": "feat(HU33): comprobar la contrasena actual antes de guardar",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 249,
     "failed_tests": 0,
     "conclusion": "success"
   }
