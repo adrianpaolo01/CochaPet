@@ -118,3 +118,12 @@ label[for="login-correo"], label[for="login-clave"] { display: block; margin: 20
 .cambio-clave label { display: block; margin: 16px 0 8px; font-weight: 700; }
 .cambio-clave input { box-sizing: border-box; width: 100%; padding: 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
 .cambio-clave input:focus-visible { outline: 2px solid var(--primario); outline-offset: 2px; }
+.perfil-foto, #detalle-autor-foto { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
+#detalle-autor-foto { width: 36px; height: 36px; }
+.perfil-foto[hidden], #detalle-autor-foto[hidden], #perfil-mensaje[hidden] { display: none; }
+.detalle-autor { display: flex; align-items: center; gap: 10px; color: var(--tinta-suave); font-weight: 600; }
+.formulario-perfil { margin: 16px 0; padding: 16px 20px; border-radius: 16px; background: var(--superficie); box-shadow: var(--sombra); }
+.formulario-perfil label { display: block; margin: 14px 0 6px; font-weight: 700; }
+.formulario-perfil input { box-sizing: border-box; width: 100%; padding: 12px; border: 1px solid var(--borde); border-radius: 8px; font: inherit; }
+.formulario-perfil .boton { margin-top: 16px; }
+#perfil-mensaje { margin: 12px 0 0; font-weight: 600; }

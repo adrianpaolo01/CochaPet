@@ -4503,12 +4503,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68",
+    "sha": "611a7132f18f34c37519ef4c4e23596c719617fc",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:53.000Z",
       "message": "feat(HU01): mostrar el error de validacion en el formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/611a7132f18f34c37519ef4c4e23596c719617fc"
     },
     "stats": {
       "total": 20,
@@ -4522,12 +4522,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "56b62e26c66faa890120b4e0faf7cb99be3c5f76",
+    "sha": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:02.000Z",
       "message": "feat(HU01): enviar el registro a la API e iniciar la sesion del usuario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/56b62e26c66faa890120b4e0faf7cb99be3c5f76"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a98f3946bafb8eb5caab78a395288a1ed6917b1"
     },
     "stats": {
       "total": 25,
@@ -4541,12 +4541,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "7756056a2fdbb388c18e58b129808a65d89c1aa6",
+    "sha": "cc16ef92a9578974ffe849198aa5125ed2e7dbd4",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:08.000Z",
       "message": "feat(HU01): mantener la sesion iniciada al recargar la pagina",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7756056a2fdbb388c18e58b129808a65d89c1aa6"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cc16ef92a9578974ffe849198aa5125ed2e7dbd4"
     },
     "stats": {
       "total": 3,
@@ -4560,12 +4560,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "419be0e83ff8dc2fe981607ab8909a04112f297a",
+    "sha": "4b02e41365c548c834355474663339a759ed40d7",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:31:16.000Z",
       "message": "style(HU01): estilos del encabezado y del formulario de registro",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/419be0e83ff8dc2fe981607ab8909a04112f297a"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4b02e41365c548c834355474663339a759ed40d7"
     },
     "stats": {
       "total": 14,
@@ -4579,12 +4579,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "4554773969846875c5e2fae21536793c3bc41d52",
+    "sha": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:37:43.000Z",
       "message": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4554773969846875c5e2fae21536793c3bc41d52"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ff6fc6589075b7f2e346c9379d538d5f762f2bc9"
     },
     "stats": {
       "total": 666,
@@ -4598,12 +4598,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "dba59ff930ab0776ef0ff6956f19e21569b24bf0",
+    "sha": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:00.000Z",
       "message": "feat(HU01): generar el hash de la contrasena con el formato del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dba59ff930ab0776ef0ff6956f19e21569b24bf0"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f8954fd8de92beb39bd728ecc77775c78b2bebfe"
     },
     "stats": {
       "total": 13,
@@ -4617,12 +4617,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "129c22793ac2e075aeddb451c29146f0a1a12d54",
+    "sha": "bdbab65aff0c0413371a16a38c37545105eb3952",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:28.000Z",
       "message": "feat(HU01): guardar la contrasena del registro como hash y no en texto plano",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/129c22793ac2e075aeddb451c29146f0a1a12d54"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bdbab65aff0c0413371a16a38c37545105eb3952"
     },
     "stats": {
       "total": 25,
@@ -4636,12 +4636,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "8a32a76e9457f8234af318b8d78ed77fd2c6ba33",
+    "sha": "424bb4c94456378326ec16600430a12a4314b228",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:49.000Z",
       "message": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8a32a76e9457f8234af318b8d78ed77fd2c6ba33"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/424bb4c94456378326ec16600430a12a4314b228"
     },
     "stats": {
       "total": 25,
@@ -4655,12 +4655,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "4e40cfbbcb6786abc2f689b47abaab1fb36ea189",
+    "sha": "9f4352409f7fc6c639789b173ac73c0d3819c797",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:09.000Z",
       "message": "feat(HU01): dejar la sesion iniciada con cookie al registrarse",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4e40cfbbcb6786abc2f689b47abaab1fb36ea189"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9f4352409f7fc6c639789b173ac73c0d3819c797"
     },
     "stats": {
       "total": 21,
@@ -4674,12 +4674,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "a009484418b5e0e223c3c852b8da588898e455b1",
+    "sha": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:32.000Z",
       "message": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a009484418b5e0e223c3c852b8da588898e455b1"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3"
     },
     "stats": {
       "total": 42,
@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "516ba319c146a6802228d9a2b98ccfd641038337",
+    "sha": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:49.000Z",
       "message": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/516ba319c146a6802228d9a2b98ccfd641038337"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6c275647949c7ef9d4eb33ac07ba519b29d41cc6"
     },
     "stats": {
       "total": 20,
@@ -4712,12 +4712,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4",
+    "sha": "d4511b45208e3c4486613960f9b174fa01c06d61",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:40:02.000Z",
       "message": "style(HU01): alinear iniciar sesion y registrarse a la derecha del encabezado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d4511b45208e3c4486613960f9b174fa01c06d61"
     },
     "stats": {
       "total": 2,
@@ -5339,12 +5339,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "0cf8704bec10541b3671930a35331aeaf06d7753",
+    "sha": "7c3017c796fbe8b759c6cf404d535415db54d918",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:06:33.000Z",
       "message": "feat(HU04): pedir la especie en el formulario de mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0cf8704bec10541b3671930a35331aeaf06d7753"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7c3017c796fbe8b759c6cf404d535415db54d918"
     },
     "stats": {
       "total": 11,
@@ -5358,12 +5358,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "177057c9c2916db1b7a774b06a17b5e83e487e55",
+    "sha": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:06:49.000Z",
       "message": "feat(HU04): pedir nombre, raza y color opcionales de la mascota perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/177057c9c2916db1b7a774b06a17b5e83e487e55"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4"
     },
     "stats": {
       "total": 11,
@@ -5377,12 +5377,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "da976f38411f10fbca1ebfd3780c79499b6ecf83",
+    "sha": "4f094d130b77a7758a26d820ef4bf5259d482552",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:03.000Z",
       "message": "feat(HU04): pedir la fecha en que se perdio la mascota en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/da976f38411f10fbca1ebfd3780c79499b6ecf83"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4f094d130b77a7758a26d820ef4bf5259d482552"
     },
     "stats": {
       "total": 5,
@@ -5396,12 +5396,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10",
+    "sha": "92d818b684d40904f06e301ee1a614c8a43bfa03",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:17.000Z",
       "message": "feat(HU04): pedir el barrio de Cochabamba en el formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/92d818b684d40904f06e301ee1a614c8a43bfa03"
     },
     "stats": {
       "total": 7,
@@ -5415,12 +5415,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "08f0483663f5b84649d0bf2ea688be31f27ff4c5",
+    "sha": "b463b531c95375e11338f9c1ae968f77d17bc650",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:30.000Z",
       "message": "feat(HU04): pedir la descripcion de la mascota perdida en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/08f0483663f5b84649d0bf2ea688be31f27ff4c5"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b463b531c95375e11338f9c1ae968f77d17bc650"
     },
     "stats": {
       "total": 6,
@@ -5434,12 +5434,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "24651a4ed5053f2557aa5ce75b3fad290aa3b860",
+    "sha": "26c42d59f59935857d2c64f6c519b6385dc72973",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:07:42.000Z",
       "message": "feat(HU04): mostrar el boton publicar y el lugar del error en el formulario",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/24651a4ed5053f2557aa5ce75b3fad290aa3b860"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/26c42d59f59935857d2c64f6c519b6385dc72973"
     },
     "stats": {
       "total": 7,
@@ -5453,12 +5453,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab28fec56f2ee31002692766e8927652f99b1fa8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:03.000Z",
       "message": "feat(HU04): mostrar el formulario de mascota perdida al tocar Perdi mi mascota",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ab28fec56f2ee31002692766e8927652f99b1fa8"
     },
     "stats": {
       "total": 14,
@@ -5472,12 +5472,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "86eb78c13dd8b8e465151c60a707bff1fb706cf6",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:16.000Z",
       "message": "feat(HU04): llenar los barrios de Cochabamba en el formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/86eb78c13dd8b8e465151c60a707bff1fb706cf6"
     },
     "stats": {
       "total": 11,
@@ -5491,12 +5491,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "320691f0dd26ab223996203661ad980639917121",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:32.000Z",
       "message": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/320691f0dd26ab223996203661ad980639917121"
     },
     "stats": {
       "total": 14,
@@ -5510,12 +5510,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "89064502de525ffd17d6b4c97ea19c6ab16d796a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:45.000Z",
       "message": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/89064502de525ffd17d6b4c97ea19c6ab16d796a"
     },
     "stats": {
       "total": 11,
@@ -5529,12 +5529,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "796cea48ad187024ce52c9bf9d4e594fb2e49c08",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:55.000Z",
       "message": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/796cea48ad187024ce52c9bf9d4e594fb2e49c08"
     },
     "stats": {
       "total": 4,
@@ -5548,12 +5548,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d67f7feca21c48da61d39c4d40f609cfb10d0438",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:05.000Z",
       "message": "feat(HU04): volver al formulario de perdida despues de iniciar sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d67f7feca21c48da61d39c4d40f609cfb10d0438"
     },
     "stats": {
       "total": 6,
@@ -5567,12 +5567,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d01c5872ddabda7c7e28facc422e34809876db34",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:17.000Z",
       "message": "feat(HU04): mostrar el error de validacion al publicar el reporte de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d01c5872ddabda7c7e28facc422e34809876db34"
     },
     "stats": {
       "total": 14,
@@ -5586,12 +5586,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "842f8667bda1148e12158998a210ac0f37a7e07d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:32.000Z",
       "message": "feat(HU04): enviar el reporte de perdida a la API y mostrar su error",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/842f8667bda1148e12158998a210ac0f37a7e07d"
     },
     "stats": {
       "total": 15,
@@ -5605,12 +5605,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:44.000Z",
       "message": "feat(HU04): abrir la publicacion de perdida recien creada y borrar el borrador",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5bc0a6eaaf1cc7ee0933af451eba039a5cfef7e8"
     },
     "stats": {
       "total": 4,
@@ -5624,12 +5624,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "48bc162446291ab8bf4e3fd1e275253af58a3858",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:09:53.000Z",
       "message": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/48bc162446291ab8bf4e3fd1e275253af58a3858"
     },
     "stats": {
       "total": 5,
@@ -5643,12 +5643,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b0ab32aec7fad855477114bcb9f1f283a0ae599",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:10:10.000Z",
       "message": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5b0ab32aec7fad855477114bcb9f1f283a0ae599"
     },
     "stats": {
       "total": 5,
@@ -5662,12 +5662,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ac252a802b3c25040abea895c6c70e1be816d94a",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:10:13.000Z",
       "message": "style(HU04): estilos del aviso para iniciar sesion o registrarse en el reporte",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ac252a802b3c25040abea895c6c70e1be816d94a"
     },
     "stats": {
       "total": 2,
@@ -5681,12 +5681,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "27c55ef3de4fa603e49cd8b4a9f2563a7ddebdf1",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:23:52.000Z",
       "message": "chore(issue49): fusionar main con HU01 y resolver conflictos de los logs",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/27c55ef3de4fa603e49cd8b4a9f2563a7ddebdf1"
     },
     "stats": {
       "total": 871,
@@ -5700,12 +5700,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c9ca9299e74de4ac510abbef6639aaa854303051",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:31:27.000Z",
       "message": "chore(HU04): fusionar main con issue49 y resolver conflictos de los logs",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c9ca9299e74de4ac510abbef6639aaa854303051"
     },
     "stats": {
       "total": 23,
@@ -5719,12 +5719,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "606f2baf2404e36c633c0835b15eee2245b6116c",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:50:45.000Z",
       "message": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/606f2baf2404e36c633c0835b15eee2245b6116c"
     },
     "stats": {
       "total": 21,
@@ -5738,12 +5738,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e0f711a45d13bf5fc9332ae370ea13c56328388",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:56:14.000Z",
       "message": "feat(HU03): responder 401 si no hay sesion al pedir mis publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3e0f711a45d13bf5fc9332ae370ea13c56328388"
     },
     "stats": {
       "total": 18,
@@ -5757,12 +5757,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a4c68f2e809535f667e46f37b94f8d6d040b57e",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:01:43.000Z",
       "message": "feat(HU03): responder mis publicaciones si hay sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a4c68f2e809535f667e46f37b94f8d6d040b57e"
     },
     "stats": {
       "total": 17,
@@ -5776,12 +5776,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db1577ed98e343419f202906edf205503da0e87e",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:02:02.000Z",
       "message": "feat(HU03): consultar mis publicaciones en la base y exponerlas en Vercel",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/db1577ed98e343419f202906edf205503da0e87e"
     },
     "stats": {
       "total": 18,
@@ -5795,12 +5795,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2a2e35c55bf887efa8a15b793de83675f92143c0",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T22:02:42.000Z",
       "message": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2a2e35c55bf887efa8a15b793de83675f92143c0"
     },
     "stats": {
       "total": 38,
@@ -5814,12 +5814,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad4b8e65e0c946793fe8970ee5e16ef03ff93c54",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T22:06:58.000Z",
       "message": "feat(HU02): ruta DELETE api sesion que cierra la sesion y borra la cookie",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ad4b8e65e0c946793fe8970ee5e16ef03ff93c54"
     },
     "stats": {
       "total": 60,
@@ -5833,12 +5833,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a481d220a59dc11137f738a7d2e34d82e33f979e",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:07:24.000Z",
       "message": "feat(HU03): abrir el perfil desde su ruta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a481d220a59dc11137f738a7d2e34d82e33f979e"
     },
     "stats": {
       "total": 2,
@@ -5852,12 +5852,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7817510386b9eecb93e4287aca749f841888ebf3",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T22:10:54.000Z",
       "message": "feat(HU02): decidir que muestra el encabezado segun haya o no sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7817510386b9eecb93e4287aca749f841888ebf3"
     },
     "stats": {
       "total": 17,
@@ -5871,12 +5871,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e245710487340d70b56c0cdb032e5690441d8d7d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-11-18T22:11:47.000Z",
       "message": "feat(HU02): boton cerrar sesion en el encabezado con vuelta al inicio y estilos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e245710487340d70b56c0cdb032e5690441d8d7d"
     },
     "stats": {
       "total": 40,
@@ -5890,12 +5890,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:12:45.000Z",
       "message": "feat(HU03): mostrar Activa como estado de mi publicacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/eaa5a6f2e2bcd8ac922a87527ca3e97113549dcb"
     },
     "stats": {
       "total": 10,
@@ -5909,12 +5909,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8900b8a5fb6d09ba7bd3335441964887ab544a59",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:18:07.000Z",
       "message": "feat(HU03): mostrar Volvio a casa como estado de mi publicacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8900b8a5fb6d09ba7bd3335441964887ab544a59"
     },
     "stats": {
       "total": 10,
@@ -5928,12 +5928,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c31826853b2d398075fa8718abcdc5d7af2234aa",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:18:30.000Z",
       "message": "feat(HU03): enlazar el saludo del encabezado a mi perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/c31826853b2d398075fa8718abcdc5d7af2234aa"
     },
     "stats": {
       "total": 2,
@@ -5947,12 +5947,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "105f102cc0b0c1de438860123ba0bc6d7356af50",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:18:50.000Z",
       "message": "feat(HU03): mostrar mis datos en el perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/105f102cc0b0c1de438860123ba0bc6d7356af50"
     },
     "stats": {
       "total": 19,
@@ -5966,12 +5966,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "323896a047d4ff67e415b4c0cccc556116268478",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:19:10.000Z",
       "message": "feat(HU03): mostrar mis publicaciones con su estado en el perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/323896a047d4ff67e415b4c0cccc556116268478"
     },
     "stats": {
       "total": 19,
@@ -5985,12 +5985,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e98311bcf4f026a0808e05e66bc5a1b22d1aef5",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:19:24.000Z",
       "message": "style(HU03): estilos del perfil y de mis publicaciones",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5e98311bcf4f026a0808e05e66bc5a1b22d1aef5"
     },
     "stats": {
       "total": 5,
@@ -6004,12 +6004,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b6aa87e4046b3dc1c4e17d610473d23873b2bce6",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:35:22.000Z",
       "message": "chore(HU03): fusionar main con HU04 y HU02 y resolver conflictos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b6aa87e4046b3dc1c4e17d610473d23873b2bce6"
     },
     "stats": {
       "total": 528,
@@ -6023,12 +6023,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ddcd7e7cc5982f2ad130ae23b6e9dcc2d49796a0",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T22:40:47.000Z",
       "message": "feat(HU03): llevar el saludo del encabezado a mi perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ddcd7e7cc5982f2ad130ae23b6e9dcc2d49796a0"
     },
     "stats": {
       "total": 4,
@@ -6042,12 +6042,411 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "611a7132f18f34c37519ef4c4e23596c719617fc",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:22:27.000Z",
+      "message": "feat(HU05): abrir el formulario de reporte con la ruta reportar encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/611a7132f18f34c37519ef4c4e23596c719617fc"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 244,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9a98f3946bafb8eb5caab78a395288a1ed6917b1",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:22:47.000Z",
+      "message": "feat(HU05): saber que el reporte es de una mascota perdida por su ruta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9a98f3946bafb8eb5caab78a395288a1ed6917b1"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 245,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cc16ef92a9578974ffe849198aa5125ed2e7dbd4",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:23:02.000Z",
+      "message": "feat(HU05): saber que el reporte es de una mascota encontrada por su ruta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cc16ef92a9578974ffe849198aa5125ed2e7dbd4"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 7,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 246,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4b02e41365c548c834355474663339a759ed40d7",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:23:21.000Z",
+      "message": "feat(HU05): pedir iniciar sesion y volver a la ruta del reporte actual",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4b02e41365c548c834355474663339a759ed40d7"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 247,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ff6fc6589075b7f2e346c9379d538d5f762f2bc9",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:24:16.000Z",
+      "message": "feat(HU05): titular el formulario como Encontre una mascota",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ff6fc6589075b7f2e346c9379d538d5f762f2bc9"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f8954fd8de92beb39bd728ecc77775c78b2bebfe",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:24:34.000Z",
+      "message": "feat(HU05): titular el formulario segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f8954fd8de92beb39bd728ecc77775c78b2bebfe"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 249,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "bdbab65aff0c0413371a16a38c37545105eb3952",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:24:47.000Z",
+      "message": "refactor(HU05): juntar los titulos del reporte en una tabla de casos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/bdbab65aff0c0413371a16a38c37545105eb3952"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 5,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 249,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "424bb4c94456378326ec16600430a12a4314b228",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:03.000Z",
+      "message": "feat(HU05): preguntar la fecha segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/424bb4c94456378326ec16600430a12a4314b228"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 251,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9f4352409f7fc6c639789b173ac73c0d3819c797",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:15.000Z",
+      "message": "refactor(HU05): escribir un texto por linea en la tabla de textos del reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/9f4352409f7fc6c639789b173ac73c0d3819c797"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 251,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:33.000Z",
+      "message": "feat(HU05): explicar el reporte segun si la mascota se perdio o se encontro",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/66fcfe4336ca682fbcdaaa9528a5bde8fd7aacd3"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "6c275647949c7ef9d4eb33ac07ba519b29d41cc6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:25:56.000Z",
+      "message": "feat(HU05): identificar el titulo y el subtitulo del formulario de reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6c275647949c7ef9d4eb33ac07ba519b29d41cc6"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d4511b45208e3c4486613960f9b174fa01c06d61",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:26:15.000Z",
+      "message": "feat(HU05): identificar la pregunta de la fecha y el enlace para iniciar sesion del reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d4511b45208e3c4486613960f9b174fa01c06d61"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7c3017c796fbe8b759c6cf404d535415db54d918",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:26:43.000Z",
+      "message": "feat(HU05): mostrar el titulo, el subtitulo y la pregunta de fecha segun el tipo de reporte",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7c3017c796fbe8b759c6cf404d535415db54d918"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:26:57.000Z",
+      "message": "refactor(HU05): salir antes de pintar el reporte si su vista esta oculta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/d9a059b1047499e35f4c508f1e8f3e9c4cad4dd4"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4f094d130b77a7758a26d820ef4bf5259d482552",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:27:09.000Z",
+      "message": "feat(HU05): volver al reporte de mascota encontrada despues de iniciar sesion",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4f094d130b77a7758a26d820ef4bf5259d482552"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "92d818b684d40904f06e301ee1a614c8a43bfa03",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:27:21.000Z",
+      "message": "feat(HU05): enviar a la API si el reporte es de una mascota perdida o encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/92d818b684d40904f06e301ee1a614c8a43bfa03"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 253,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b463b531c95375e11338f9c1ae968f77d17bc650",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:27:47.000Z",
+      "message": "feat(HU05): crear la publicacion como encontrada con la cuenta del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/b463b531c95375e11338f9c1ae968f77d17bc650"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 254,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "26c42d59f59935857d2c64f6c519b6385dc72973",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:28:10.000Z",
+      "message": "feat(HU05): rechazar un reporte que no es de mascota perdida ni encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/26c42d59f59935857d2c64f6c519b6385dc72973"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ab28fec56f2ee31002692766e8927652f99b1fa8",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:28:39.000Z",
+      "message": "fix(HU05): pedir barrio y fecha con mensajes que sirven para mascota perdida o encontrada",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/ab28fec56f2ee31002692766e8927652f99b1fa8"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "86eb78c13dd8b8e465151c60a707bff1fb706cf6",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:28:53.000Z",
+      "message": "fix(HU05): pedir especie y descripcion de la mascota sin asumir que es del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/86eb78c13dd8b8e465151c60a707bff1fb706cf6"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "6674a38181481f6701f07c20b980df811c9da4ca",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-18T23:29:08.000Z",
+      "message": "refactor(HU05): nombrar el borrador como del reporte y no solo de la perdida",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/6674a38181481f6701f07c20b980df811c9da4ca"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-18"
+    },
+    "coverage": 100,
+    "test_count": 255,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:41:09.000Z",
       "message": "feat(HU33): aceptar los datos validos de cambio de clave",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/3b0b3a82265c1d8cf1e509ba82be7b5dd6fdfb68"
     },
     "stats": {
       "total": 12,
@@ -6061,12 +6460,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "56b62e26c66faa890120b4e0faf7cb99be3c5f76",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:42:47.000Z",
       "message": "feat(HU33): exigir las tres contrasenas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/56b62e26c66faa890120b4e0faf7cb99be3c5f76"
     },
     "stats": {
       "total": 10,
@@ -6080,12 +6479,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7756056a2fdbb388c18e58b129808a65d89c1aa6",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:44:07.000Z",
       "message": "feat(HU33): reutilizar el minimo de ocho caracteres",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7756056a2fdbb388c18e58b129808a65d89c1aa6"
     },
     "stats": {
       "total": 10,
@@ -6099,12 +6498,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "419be0e83ff8dc2fe981607ab8909a04112f297a",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:44:52.000Z",
       "message": "feat(HU33): comprobar la confirmacion de la nueva clave",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/419be0e83ff8dc2fe981607ab8909a04112f297a"
     },
     "stats": {
       "total": 5,
@@ -6118,12 +6517,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4554773969846875c5e2fae21536793c3bc41d52",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:45:35.000Z",
       "message": "feat(HU33): guardar la nueva clave como hash",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4554773969846875c5e2fae21536793c3bc41d52"
     },
     "stats": {
       "total": 28,
@@ -6137,12 +6536,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dba59ff930ab0776ef0ff6956f19e21569b24bf0",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:46:17.000Z",
       "message": "feat(HU33): comprobar la contrasena actual antes de guardar",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dba59ff930ab0776ef0ff6956f19e21569b24bf0"
     },
     "stats": {
       "total": 12,
@@ -6156,12 +6555,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "129c22793ac2e075aeddb451c29146f0a1a12d54",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:47:00.000Z",
       "message": "feat(HU33): validar la nueva contrasena tambien en el servidor",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/129c22793ac2e075aeddb451c29146f0a1a12d54"
     },
     "stats": {
       "total": 11,
@@ -6175,12 +6574,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a32a76e9457f8234af318b8d78ed77fd2c6ba33",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:47:59.000Z",
       "message": "feat(HU33): evitar sobrescribir una clave que cambio entretanto",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8a32a76e9457f8234af318b8d78ed77fd2c6ba33"
     },
     "stats": {
       "total": 13,
@@ -6194,12 +6593,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e40cfbbcb6786abc2f689b47abaab1fb36ea189",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:48:45.000Z",
       "message": "feat(HU33): actualizar solo la clave del usuario autenticado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/4e40cfbbcb6786abc2f689b47abaab1fb36ea189"
     },
     "stats": {
       "total": 18,
@@ -6213,12 +6612,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a009484418b5e0e223c3c852b8da588898e455b1",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:49:48.000Z",
       "message": "feat(HU33): proteger la ruta de cambio de clave con sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a009484418b5e0e223c3c852b8da588898e455b1"
     },
     "stats": {
       "total": 25,
@@ -6232,12 +6631,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "516ba319c146a6802228d9a2b98ccfd641038337",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:50:45.000Z",
       "message": "feat(HU33): confirmar el cambio de clave desde la API",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/516ba319c146a6802228d9a2b98ccfd641038337"
     },
     "stats": {
       "total": 27,
@@ -6251,12 +6650,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:51:08.000Z",
       "message": "test(HU33): comprobar que los errores no actualizan la clave",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/5d1feb3a29f6cdb3b5e13ee5bca1ed59b1dcc1a4"
     },
     "stats": {
       "total": 8,
@@ -6270,12 +6669,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0cf8704bec10541b3671930a35331aeaf06d7753",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:52:16.000Z",
       "message": "feat(HU33): agregar el formulario de contrasena en mi perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0cf8704bec10541b3671930a35331aeaf06d7753"
     },
     "stats": {
       "total": 17,
@@ -6289,12 +6688,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "177057c9c2916db1b7a774b06a17b5e83e487e55",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:52:47.000Z",
       "message": "feat(HU33): validar el formulario antes de enviarlo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/177057c9c2916db1b7a774b06a17b5e83e487e55"
     },
     "stats": {
       "total": 14,
@@ -6308,12 +6707,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da976f38411f10fbca1ebfd3780c79499b6ecf83",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:53:37.000Z",
       "message": "feat(HU33): enviar el cambio y mostrar su confirmacion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/da976f38411f10fbca1ebfd3780c79499b6ecf83"
     },
     "stats": {
       "total": 17,
@@ -6327,12 +6726,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:53:58.000Z",
       "message": "feat(HU33): bloquear reenvios y limpiar los campos privados",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/214ec59b02bce5ab9c57a8c37c71bcbfa6a86f10"
     },
     "stats": {
       "total": 8,
@@ -6346,12 +6745,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "08f0483663f5b84649d0bf2ea688be31f27ff4c5",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:54:46.000Z",
       "message": "test(HU33): rechazar sesiones vencidas o inexistentes",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/08f0483663f5b84649d0bf2ea688be31f27ff4c5"
     },
     "stats": {
       "total": 8,
@@ -6365,12 +6764,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "24651a4ed5053f2557aa5ce75b3fad290aa3b860",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:55:07.000Z",
       "message": "style(HU33): integrar el formulario con mi perfil",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/24651a4ed5053f2557aa5ce75b3fad290aa3b860"
     },
     "stats": {
       "total": 5,
@@ -6384,12 +6783,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fd9fc35e50d6600c11dad2f78ccc9dc10fae406",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T02:56:10.000Z",
       "message": "test(HU33): verificar el inicio de sesion con la clave nueva",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7fd9fc35e50d6600c11dad2f78ccc9dc10fae406"
     },
     "stats": {
       "total": 11,
@@ -6399,6 +6798,215 @@
     },
     "coverage": 96.06,
     "test_count": 257,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "140b48e430daf62ebafd7f94cfc83899497d7dd2",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:12:39.000Z",
+      "message": "feat(HU24): pedir nombre y telefono si los dejo vacios al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/140b48e430daf62ebafd7f94cfc83899497d7dd2"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 244,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e7adc8672d64fc2f361bfa17140f56c8dcaf30f5",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:18:06.000Z",
+      "message": "feat(HU24): aceptar mis datos si nombre y telefono estan completos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e7adc8672d64fc2f361bfa17140f56c8dcaf30f5"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 245,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cb3fe88ae54dc0bfb568913b919f77888ef20a26",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:23:36.000Z",
+      "message": "feat(HU24): guardar mis datos nuevos solo si son validos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/cb3fe88ae54dc0bfb568913b919f77888ef20a26"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 246,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:29:02.000Z",
+      "message": "feat(HU24): responder 401 si no hay sesion al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/a9a5c196a1a9ecbe3effb2fc523e430bf3a81f2b"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 247,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "06dd03e4491b157ebcdf58f1c7bafbdfeab40c80",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:34:34.000Z",
+      "message": "feat(HU24): guardar mis datos si hay sesion y avisar si son invalidos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/06dd03e4491b157ebcdf58f1c7bafbdfeab40c80"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "200e7002706fd37a3956aed78fbdcf879be46e4c",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:07.000Z",
+      "message": "feat(HU24): guardar mis datos en la base y mostrar el autor en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/200e7002706fd37a3956aed78fbdcf879be46e4c"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e20a1b60e0e47465cca3aa8eaa3df3eec05d517d",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:34.000Z",
+      "message": "feat(HU24): formulario para editar mis datos en el perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/e20a1b60e0e47465cca3aa8eaa3df3eec05d517d"
+    },
+    "stats": {
+      "total": 50,
+      "additions": 48,
+      "deletions": 2,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0508b34171e447672f60cc91482199ae037317ae",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:35:56.000Z",
+      "message": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0508b34171e447672f60cc91482199ae037317ae"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "320691f0dd26ab223996203661ad980639917121",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:36:05.000Z",
+      "message": "style(HU24): estilos del formulario de mis datos y del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/320691f0dd26ab223996203661ad980639917121"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f5bf3d71c64847afc156cfaeb7bc1d43b3099ffa",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:44:10.000Z",
+      "message": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/f5bf3d71c64847afc156cfaeb7bc1d43b3099ffa"
+    },
+    "stats": {
+      "total": 142,
+      "additions": 113,
+      "deletions": 29,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 260,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T03:49:19.000Z",
+      "message": "chore(HU33): integrar main y resolver conflictos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 296,
+      "additions": 259,
+      "deletions": 37,
+      "date": "2026-11-19"
+    },
+    "coverage": 95.54,
+    "test_count": 274,
     "failed_tests": 0,
     "conclusion": "success"
   }

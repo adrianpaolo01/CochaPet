@@ -16,7 +16,8 @@ export function htmlVistaDetalle() {
       <span id="detalle-estado"></span>
       <p id="detalle-datos"></p>
       <p id="detalle-caracteristicas"></p>
-      <p id="detalle-descripcion"></p>${htmlAccionesDetalle()}
+      <p id="detalle-descripcion"></p>
+      <p class="detalle-autor"><img id="detalle-autor-foto" alt="" hidden /><span id="detalle-autor-nombre"></span></p>${htmlAccionesDetalle()}
       <p id="aviso-seguridad" class="aviso-seguridad" role="note"><strong>⚠️ Cuidado con las estafas:</strong> nunca pagues recompensas ni envíes dinero por adelantado. Entrega o recibe la recompensa solo cuando veas a la mascota en persona.</p>
     </div>`;
 }

@@ -31,12 +31,14 @@ export const publicacionesRepositorio = {
     const { rows } = await db.query(`
       SELECT p.id, p.tipo, p.especie, p.nombre, p.raza, p.color, p.descripcion, p.fecha, p.estado,
              p.telefono_contacto AS telefono, b.nombre AS barrio,
+             u.nombre AS autor, u.foto_url AS "autorFoto",
              coalesce(array_agg(f.url ORDER BY f.orden) FILTER (WHERE f.id IS NOT NULL), '{}') AS fotos
       FROM publicacion p
       JOIN barrio b ON b.id = p.barrio_id
+      JOIN usuario u ON u.id = p.autor_id
       LEFT JOIN foto f ON f.publicacion_id = p.id
       WHERE p.id = $1
-      GROUP BY p.id, b.nombre`, [id]);
+      GROUP BY p.id, b.nombre, u.nombre, u.foto_url`, [id]);
     return rows[0];
   },
 

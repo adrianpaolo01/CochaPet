@@ -1,5 +1,5 @@
 import { verificarClave } from "./claves.js";
-import { registrarUsuario } from "./usuariosServicio.js";
+import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
 
 const datos = { nombre: "Ana Perez", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
 
@@ -47,5 +47,14 @@ describe("Usuarios servicio", () => {
     const guardado = repositorio.crear.mock.calls[0][0];
     expect(guardado.clave).toBeUndefined();
     expect(verificarClave("secreta123", guardado.claveHash)).toBe(true);
+  });
+
+  it("deberia guardar mis datos nuevos solo si son validos", async () => {
+    const repositorio = { actualizar: jest.fn(async (id, nuevos) => ({ id, ...nuevos })) };
+    const nuevos = { nombre: "Ana Rojas", telefono: "70000002", foto: "https://foto.com/ana.jpg" };
+
+    expect(await actualizarDatos(repositorio, 7, { ...nuevos, nombre: "" })).toEqual({ error: "Completa tu nombre y teléfono" });
+    expect(await actualizarDatos(repositorio, 7, nuevos)).toEqual({ usuario: { id: 7, ...nuevos } });
+    expect(repositorio.actualizar).toHaveBeenCalledTimes(1);
   });
 });

@@ -1,5 +1,5 @@
-import { fechaDelDia, leerBorrador, validarReporte } from "./reporte.js";
-import { vistaParaHash } from "./rutas.js";
+import { fechaDelDia, leerBorrador, textosReporte, validarReporte } from "./reporte.js";
+import { enlaceIngresarDesde, tipoDeReporte, vistaParaHash } from "./rutas.js";
 import { htmlVistaReporte } from "./vistaReporte.js";
 
 const vistaReporte = document.querySelector("#vista-reporte");
@@ -7,7 +7,7 @@ vistaReporte.innerHTML = htmlVistaReporte();
 const formulario = document.querySelector("#formulario-reporte");
 const avisoSesion = document.querySelector("#reporte-aviso-sesion");
 const mensaje = document.querySelector("#reporte-mensaje");
-const CLAVE_BORRADOR = "borrador-reporte-perdida";
+const CLAVE_BORRADOR = "borrador-reporte";
 
 function mostrarError(texto) {
   mensaje.textContent = texto;
@@ -21,7 +21,7 @@ async function publicar(evento) {
   mostrarError(error);
   if (error) return;
   try {
-    const cuerpo = JSON.stringify({ ...datos, fecha: fechaDelDia(datos.fecha) });
+    const cuerpo = JSON.stringify({ ...datos, tipo: tipoDeReporte(location.hash), fecha: fechaDelDia(datos.fecha) });
     const respuesta = await fetch("/api/publicaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: cuerpo });
     if (!respuesta.ok) return mostrarError((await respuesta.json()).error);
     sessionStorage.removeItem(CLAVE_BORRADOR);
@@ -60,9 +60,19 @@ async function cargarBarrios() {
   }
 }
 
+function pintarTipoDeReporte() {
+  const textos = textosReporte(tipoDeReporte(location.hash));
+  document.querySelector("#reporte-titulo").textContent = textos.titulo;
+  document.querySelector("#reporte-subtitulo").textContent = textos.subtitulo;
+  document.querySelector("#reporte-pregunta-fecha").textContent = textos.preguntaFecha;
+  document.querySelector("#reporte-ingresar").href = enlaceIngresarDesde(location.hash);
+}
+
 function mostrarVista() {
   vistaReporte.hidden = vistaParaHash(location.hash) !== "reporte";
-  if (!vistaReporte.hidden) mostrarAvisoSesion();
+  if (vistaReporte.hidden) return;
+  pintarTipoDeReporte();
+  mostrarAvisoSesion();
 }
 
 window.addEventListener("hashchange", mostrarVista);

@@ -1,10 +1,11 @@
-import { destinoTrasIngresar, vistaParaHash } from "./rutas.js";
+import { destinoTrasIngresar, enlaceIngresarDesde, tipoDeReporte, vistaParaHash } from "./rutas.js";
 
 describe("Rutas", () => {
   it.each([
     ["#/ingresar", "login"],
     ["#/perfil", "perfil"],
     ["#/reportar/perdida", "reporte"],
+    ["#/reportar/encontrada", "reporte"],
     ["#/ingresar?volver=/reportar/perdida", "login"],
     ["#/mascota/3", "detalle"],
     ["", "lista"],
@@ -21,5 +22,16 @@ describe("Rutas", () => {
 
   it("deberia volver al inicio si no se indico a donde volver", () => {
     expect(destinoTrasIngresar("#/ingresar")).toBe("#/");
+  });
+
+  it("deberia pedir iniciar sesion y volver a la ruta del reporte", () => {
+    expect(enlaceIngresarDesde("#/reportar/encontrada")).toBe("#/ingresar?volver=/reportar/encontrada");
+  });
+
+  it.each([
+    ["#/reportar/perdida", "PERDIDA"],
+    ["#/reportar/encontrada", "ENCONTRADA"],
+  ])("deberia saber el tipo de reporte desde la ruta %p", (hash, tipo) => {
+    expect(tipoDeReporte(hash)).toBe(tipo);
   });
 });
