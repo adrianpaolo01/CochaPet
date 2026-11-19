@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8a32a76e9457f8234af318b8d78ed77fd2c6ba33",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -6080,5 +6080,27 @@
     "commitName": "feat(HU33): evitar sobrescribir una clave que cambio entretanto",
     "commitTimestamp": 1795056480109,
     "testId": 260
+  },
+  {
+    "numPassedTests": 251,
+    "failedTests": 1,
+    "numTotalTests": 252,
+    "timestamp": 1795056496476,
+    "success": false,
+    "testId": 261
+  },
+  {
+    "numPassedTests": 252,
+    "failedTests": 0,
+    "numTotalTests": 252,
+    "timestamp": 1795056519557,
+    "success": true,
+    "testId": 261
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): actualizar solo la clave del usuario autenticado",
+    "commitTimestamp": 1795056526657,
+    "testId": 261
   }
 ]

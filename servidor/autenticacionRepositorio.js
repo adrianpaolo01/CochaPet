@@ -1,6 +1,11 @@
 import db from "../db/conexion.js";
 
 export const autenticacionRepositorio = {
+  async actualizarClave(id, claveHash, anteriorHash) {
+    const { rowCount } = await db.query("UPDATE usuario SET clave_hash = $2 WHERE id = $1 AND clave_hash = $3", [id, claveHash, anteriorHash]);
+    return rowCount === 1;
+  },
+
   async buscarUsuarioPorCorreo(correo) {
     const { rows } = await db.query(
       `SELECT id, nombre, correo, telefono, rol, clave_hash AS "claveHash"

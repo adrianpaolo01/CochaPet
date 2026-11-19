@@ -4636,12 +4636,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a32a76e9457f8234af318b8d78ed77fd2c6ba33",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:49.000Z",
       "message": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/8a32a76e9457f8234af318b8d78ed77fd2c6ba33"
     },
     "stats": {
       "total": 25,
@@ -6190,6 +6190,25 @@
     },
     "coverage": 100,
     "test_count": 251,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:48:45.000Z",
+      "message": "feat(HU33): actualizar solo la clave del usuario autenticado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.23,
+    "test_count": 252,
     "failed_tests": 0,
     "conclusion": "success"
   }
