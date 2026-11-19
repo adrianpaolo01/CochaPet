@@ -4488,7 +4488,7 @@
     "testId": 186
   },
   {
-    "commitId": "HEAD",
+    "commitId": "516ba319c146a6802228d9a2b98ccfd641038337",
     "commitName": "test(issue49): no mencionar tu gato en el WhatsApp de una mascota encontrada sin nombre",
     "commitTimestamp": 1794977032184,
     "testId": 186
@@ -6146,5 +6146,19 @@
     "commitName": "feat(HU33): confirmar el cambio de clave desde la API",
     "commitTimestamp": 1795056646385,
     "testId": 263
+  },
+  {
+    "numPassedTests": 255,
+    "failedTests": 0,
+    "numTotalTests": 255,
+    "timestamp": 1795056662324,
+    "success": true,
+    "testId": 264
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(HU33): comprobar que los errores no actualizan la clave",
+    "commitTimestamp": 1795056669583,
+    "testId": 264
   }
 ]

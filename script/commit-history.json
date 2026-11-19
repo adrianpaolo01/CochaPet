@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "516ba319c146a6802228d9a2b98ccfd641038337",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:39:49.000Z",
       "message": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/516ba319c146a6802228d9a2b98ccfd641038337"
     },
     "stats": {
       "total": 20,
@@ -6247,6 +6247,25 @@
     },
     "coverage": 95.76,
     "test_count": 254,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-11-19T02:51:08.000Z",
+      "message": "test(HU33): comprobar que los errores no actualizan la clave",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 96.06,
+    "test_count": 255,
     "failed_tests": 0,
     "conclusion": "success"
   }

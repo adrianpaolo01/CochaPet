@@ -19,6 +19,14 @@ async function cambiar(datos, repositorio = {}, cookie = "") {
 }
 
 describe("PATCH /api/usuarios/clave", () => {
+  it("deberia conservar la clave ante credenciales o confirmacion invalidas", async () => {
+    for (const cambios of [{ claveActual: "incorrecta" }, { claveNueva: "corta" }, { confirmacion: "otra1234" }, { claveActual: null }]) {
+      const repositorio = crearRepositorio();
+      expect((await cambiar({ ...datos, ...cambios }, repositorio, "sesion=token")).estado).toBe(400);
+      expect(repositorio.actualizarClave).not.toHaveBeenCalled();
+    }
+  });
+
   it("deberia guardar la clave y confirmar para el usuario de la cookie", async () => {
     const repositorio = crearRepositorio();
     expect(await cambiar({ ...datos, usuarioId: 99 }, repositorio, "sesion=token"))
