@@ -4484,12 +4484,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2ff4a3e40ced161c404db778ee87fe1310a7b725",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:30:46.000Z",
       "message": "feat(HU01): mostrar el formulario de registro desde el encabezado",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2ff4a3e40ced161c404db778ee87fe1310a7b725"
     },
     "stats": {
       "total": 17,
@@ -6038,6 +6038,25 @@
     },
     "coverage": 100,
     "test_count": 243,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:12:39.000Z",
+      "message": "feat(HU24): pedir nombre y telefono si los dejo vacios al editar mis datos",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 100,
+    "test_count": 244,
     "failed_tests": 0,
     "conclusion": "success"
   }
