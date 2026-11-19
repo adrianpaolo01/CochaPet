@@ -3,6 +3,7 @@ import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
+import { cambiarClave } from "./cambioClaveServicio.js";
 
 const LIMITE_CUERPO = 10000;
 
@@ -40,6 +41,17 @@ export async function manejarErrores(res, mensaje, accion) {
 export function crearManejador(repositorio, barriosRepositorio, autenticacionRepositorio) {
   return async (req, res) => {
     const ruta = new URL(req.url, "http://localhost").pathname;
+    if (req.method === "PATCH" && ruta === "/api/usuarios/clave") {
+      return manejarErrores(res, "No se pudo cambiar la contraseña", async () => {
+        const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
+        if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para cambiar tu contraseña" });
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const resultado = await cambiarClave(autenticacionRepositorio, usuario, entrada.datos);
+        if (!resultado.ok) return responderJson(res, resultado.estado, { error: resultado.error });
+        responderJson(res, 200, { mensaje: "Contraseña actualizada." });
+      });
+    }
     if (req.method === "DELETE" && ruta === "/api/sesion") {
       return manejarErrores(res, "No se pudo cerrar la sesion", async () => {
         await cerrarSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
