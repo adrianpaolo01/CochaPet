@@ -5514,7 +5514,7 @@
     "testId": 233
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f3028f7c20c963d6efc7e3c1ca341e11f30d87a0",
     "commitName": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
     "commitTimestamp": 1795036210979,
     "testId": 233
@@ -6690,5 +6690,19 @@
     "commitName": "feat(HU25): borrar de la base la cuenta con sus publicaciones y sesiones",
     "commitTimestamp": 1795060283663,
     "testId": 291
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060301685,
+    "success": true,
+    "testId": 292
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): mostrar en el perfil la opcion para eliminar mi cuenta",
+    "commitTimestamp": 1795060303278,
+    "testId": 292
   }
 ]

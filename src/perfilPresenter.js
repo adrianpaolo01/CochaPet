@@ -17,7 +17,13 @@ vistaPerfil.innerHTML = `
     <button type="submit" class="boton">Guardar</button>
   </form>
   <h2>Mis publicaciones</h2>
-  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>`;
+  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>
+  <section class="zona-eliminar-cuenta">
+    <h2>Eliminar mi cuenta</h2>
+    <p>Se borrarán tu cuenta y todas tus publicaciones. No se puede deshacer.</p>
+    <p id="eliminar-cuenta-mensaje" class="mensaje-error" role="alert" hidden></p>
+    <button type="button" id="eliminar-cuenta" class="boton boton-peligro">Eliminar mi cuenta</button>
+  </section>`;
 
 const formulario = document.querySelector("#formulario-perfil");
 const mensaje = document.querySelector("#perfil-mensaje");
