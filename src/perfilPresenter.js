@@ -1,6 +1,8 @@
 import { textoEstado, validarDatosPerfil } from "./perfil.js";
 import { formatearFecha, tituloPublicacion } from "./publicaciones.js";
 import { vistaParaHash } from "./rutas.js";
+import { htmlCambioClave } from "./vistaCambioClave.js";
+import { conectarCambioClave } from "./cambioClavePresenter.js";
 import { estadoEncabezado } from "./sesion.js";
 
 const vistaPerfil = document.querySelector("#vista-perfil");
@@ -17,7 +19,8 @@ vistaPerfil.innerHTML = `
     <button type="submit" class="boton">Guardar</button>
   </form>
   <h2>Mis publicaciones</h2>
-  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>`;
+  <ul id="perfil-publicaciones" class="perfil-publicaciones"></ul>${htmlCambioClave()}`;
+conectarCambioClave();
 
 const formulario = document.querySelector("#formulario-perfil");
 const mensaje = document.querySelector("#perfil-mensaje");
