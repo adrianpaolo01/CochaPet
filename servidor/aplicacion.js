@@ -3,6 +3,7 @@ import { barriosParaLista } from "./barriosServicio.js";
 import { cookieBorrada, cookieDeSesion, leerCookie } from "./cookies.js";
 import { detalleDePublicacion, misPublicaciones, publicacionesParaInicio, reportarPerdida } from "./publicacionesServicio.js";
 import { registrarUsuario } from "./usuariosServicio.js";
+import { cambiarClave } from "./cambioClaveServicio.js";
 
 const LIMITE_CUERPO = 10000;
 
@@ -44,6 +45,11 @@ export function crearManejador(repositorio, barriosRepositorio, autenticacionRep
       return manejarErrores(res, "No se pudo cambiar la contraseña", async () => {
         const usuario = await usuarioDeSesion(autenticacionRepositorio, leerCookie(req.headers?.cookie, "sesion"));
         if (!usuario) return responderJson(res, 401, { error: "Inicia sesión para cambiar tu contraseña" });
+        const entrada = await leerCuerpoJson(req);
+        if (!entrada.ok) return responderJson(res, entrada.estado, { error: entrada.error });
+        const resultado = await cambiarClave(autenticacionRepositorio, usuario, entrada.datos);
+        if (!resultado.ok) return responderJson(res, resultado.estado, { error: resultado.error });
+        responderJson(res, 200, { mensaje: "Contraseña actualizada." });
       });
     }
     if (req.method === "DELETE" && ruta === "/api/sesion") {

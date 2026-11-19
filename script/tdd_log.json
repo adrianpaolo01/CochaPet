@@ -4474,7 +4474,7 @@
     "testId": 185
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a009484418b5e0e223c3c852b8da588898e455b1",
     "commitName": "fix(issue49): escribir como dueño en el WhatsApp de una mascota encontrada",
     "commitTimestamp": 1794977016735,
     "testId": 185
@@ -6124,5 +6124,27 @@
     "commitName": "feat(HU33): proteger la ruta de cambio de clave con sesion",
     "commitTimestamp": 1795056588901,
     "testId": 262
+  },
+  {
+    "numPassedTests": 253,
+    "failedTests": 1,
+    "numTotalTests": 254,
+    "timestamp": 1795056603916,
+    "success": false,
+    "testId": 263
+  },
+  {
+    "numPassedTests": 254,
+    "failedTests": 0,
+    "numTotalTests": 254,
+    "timestamp": 1795056638168,
+    "success": true,
+    "testId": 263
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU33): confirmar el cambio de clave desde la API",
+    "commitTimestamp": 1795056646385,
+    "testId": 263
   }
 ]
