@@ -4408,7 +4408,7 @@
     "testId": 182
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e20a1b60e0e47465cca3aa8eaa3df3eec05d517d",
     "commitName": "refactor(HU01): leer el registro con leerCuerpoJson y responder 400 si no es JSON valido",
     "commitTimestamp": 1795034372216,
     "testId": 182
@@ -6026,5 +6026,19 @@
     "commitName": "feat(HU24): formulario para editar mis datos en el perfil",
     "commitTimestamp": 1795059335516,
     "testId": 259
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059354268,
+    "success": true,
+    "testId": 260
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
+    "commitTimestamp": 1795059357384,
+    "testId": 260
   }
 ]
