@@ -4636,12 +4636,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0508b34171e447672f60cc91482199ae037317ae",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T20:38:49.000Z",
       "message": "feat(HU01): abrir una sesion para un usuario sin pedir su contrasena de nuevo",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/0508b34171e447672f60cc91482199ae037317ae"
     },
     "stats": {
       "total": 25,
@@ -6186,6 +6186,25 @@
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.67,
+    "test_count": 248,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:36:05.000Z",
+      "message": "style(HU24): estilos del formulario de mis datos y del autor",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 99.67,

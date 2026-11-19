@@ -4422,7 +4422,7 @@
     "testId": 183
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0508b34171e447672f60cc91482199ae037317ae",
     "commitName": "feat(HU01): mostrar la sesion del registro en el encabezado del inicio de sesion",
     "commitTimestamp": 1795034389272,
     "testId": 183
@@ -6040,5 +6040,19 @@
     "commitName": "feat(HU24): mostrar el nombre y la foto del autor en el detalle",
     "commitTimestamp": 1795059357384,
     "testId": 260
+  },
+  {
+    "numPassedTests": 248,
+    "failedTests": 0,
+    "numTotalTests": 248,
+    "timestamp": 1795059362835,
+    "success": true,
+    "testId": 261
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU24): estilos del formulario de mis datos y del autor",
+    "commitTimestamp": 1795059365871,
+    "testId": 261
   }
 ]
