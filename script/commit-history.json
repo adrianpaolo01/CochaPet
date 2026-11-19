@@ -5529,12 +5529,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2e7840ad26aeaf2a6bedf59458928f3e7c51a89f",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:55.000Z",
       "message": "feat(HU04): registrarse desde el reporte y seguir en el formulario con la sesion",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/2e7840ad26aeaf2a6bedf59458928f3e7c51a89f"
     },
     "stats": {
       "total": 4,
@@ -6642,6 +6642,25 @@
       "total": 14,
       "additions": 13,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 261,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:49:09.000Z",
+      "message": "refactor(HU25): pedir al perfil con cualquier metodo en los tests de la API",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
       "date": "2026-11-19"
     },
     "coverage": 99.68,

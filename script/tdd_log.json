@@ -5416,7 +5416,7 @@
     "testId": 226
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e7840ad26aeaf2a6bedf59458928f3e7c51a89f",
     "commitName": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
     "commitTimestamp": 1795036125577,
     "testId": 226
@@ -6552,5 +6552,19 @@
     "commitName": "feat(HU25): eliminar la cuenta del usuario indicado",
     "commitTimestamp": 1795060126154,
     "testId": 284
+  },
+  {
+    "numPassedTests": 261,
+    "failedTests": 0,
+    "numTotalTests": 261,
+    "timestamp": 1795060148044,
+    "success": true,
+    "testId": 285
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(HU25): pedir al perfil con cualquier metodo en los tests de la API",
+    "commitTimestamp": 1795060149229,
+    "testId": 285
   }
 ]
