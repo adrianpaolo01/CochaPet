@@ -5500,7 +5500,7 @@
     "testId": 232
   },
   {
-    "commitId": "HEAD",
+    "commitId": "82565b1ab6674b5c1cc5478e35b1ffcabab4662d",
     "commitName": "refactor(HU04): decidir el envio del reporte con el error de validacion y no con el DOM",
     "commitTimestamp": 1795036193486,
     "testId": 232
@@ -6676,5 +6676,19 @@
     "commitName": "feat(HU25): borrar la cookie de la sesion al eliminar la cuenta",
     "commitTimestamp": 1795060267587,
     "testId": 290
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060282486,
+    "success": true,
+    "testId": 291
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): borrar de la base la cuenta con sus publicaciones y sesiones",
+    "commitTimestamp": 1795060283663,
+    "testId": 291
   }
 ]

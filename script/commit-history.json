@@ -5643,12 +5643,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "82565b1ab6674b5c1cc5478e35b1ffcabab4662d",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:10:10.000Z",
       "message": "style(HU04): estilos de la tarjeta y los campos del formulario de perdida",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/82565b1ab6674b5c1cc5478e35b1ffcabab4662d"
     },
     "stats": {
       "total": 5,
@@ -6756,6 +6756,25 @@
       "total": 12,
       "additions": 9,
       "deletions": 3,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:51:23.000Z",
+      "message": "feat(HU25): borrar de la base la cuenta con sus publicaciones y sesiones",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 99.69,
