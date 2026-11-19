@@ -5719,12 +5719,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44ff0c95cec8b20c4b26ab8159534ed3f7107f9a",
     "author": "carloschavezs-canix",
     "commit": {
       "date": "2026-11-18T21:50:45.000Z",
       "message": "feat(HU03): devolver las publicaciones del autor sin las ocultas",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/44ff0c95cec8b20c4b26ab8159534ed3f7107f9a"
     },
     "stats": {
       "total": 21,
@@ -6832,6 +6832,25 @@
       "total": 9,
       "additions": 8,
       "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.69,
+    "test_count": 264,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:52:37.000Z",
+      "message": "style(HU25): estilos de la zona y el boton para eliminar la cuenta",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
       "date": "2026-11-19"
     },
     "coverage": 99.69,

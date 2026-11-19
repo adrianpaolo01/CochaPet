@@ -5580,7 +5580,7 @@
     "testId": 236
   },
   {
-    "commitId": "HEAD",
+    "commitId": "44ff0c95cec8b20c4b26ab8159534ed3f7107f9a",
     "commitName": "feat(HU02): eliminar la sesion por su token y armar la cookie que la borra",
     "commitTimestamp": 1795039363421,
     "testId": 236
@@ -6732,5 +6732,19 @@
     "commitName": "feat(HU25): avisar si no se pudo eliminar la cuenta y mantener la sesion",
     "commitTimestamp": 1795060336402,
     "testId": 294
+  },
+  {
+    "numPassedTests": 264,
+    "failedTests": 0,
+    "numTotalTests": 264,
+    "timestamp": 1795060356408,
+    "success": true,
+    "testId": 295
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style(HU25): estilos de la zona y el boton para eliminar la cuenta",
+    "commitTimestamp": 1795060357519,
+    "testId": 295
   }
 ]
