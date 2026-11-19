@@ -4290,7 +4290,7 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e7adc8672d64fc2f361bfa17140f56c8dcaf30f5",
     "commitName": "merge: integrar main con HU32 en HU01 y usar un solo repositorio de usuarios",
     "commitTimestamp": 1795034263823,
     "testId": 177
@@ -5932,5 +5932,27 @@
     "commitName": "feat(HU24): aceptar mis datos si nombre y telefono estan completos",
     "commitTimestamp": 1795058287761,
     "testId": 254
+  },
+  {
+    "numPassedTests": 245,
+    "failedTests": 1,
+    "numTotalTests": 246,
+    "timestamp": 1795058302020,
+    "success": false,
+    "testId": 255
+  },
+  {
+    "numPassedTests": 246,
+    "failedTests": 0,
+    "numTotalTests": 246,
+    "timestamp": 1795058613398,
+    "success": true,
+    "testId": 255
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): guardar mis datos nuevos solo si son validos",
+    "commitTimestamp": 1795058616694,
+    "testId": 255
   }
 ]
