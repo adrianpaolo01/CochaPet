@@ -5510,12 +5510,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dc557f58797616638062e0ab69d7abf534ddd76c",
     "author": "BerniUCb",
     "commit": {
       "date": "2026-11-18T21:08:45.000Z",
       "message": "feat(HU04): pedir iniciar sesion o registrarse al abrir el reporte sin cuenta",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/dc557f58797616638062e0ab69d7abf534ddd76c"
     },
     "stats": {
       "total": 11,
@@ -6627,6 +6627,25 @@
     },
     "coverage": 99.68,
     "test_count": 260,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "BerniUCb",
+    "commit": {
+      "date": "2026-11-19T03:48:46.000Z",
+      "message": "feat(HU25): eliminar la cuenta del usuario indicado",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 261,
     "failed_tests": 0,
     "conclusion": "success"
   }

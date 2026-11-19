@@ -1,5 +1,5 @@
 import { verificarClave } from "./claves.js";
-import { actualizarDatos, registrarUsuario } from "./usuariosServicio.js";
+import { actualizarDatos, eliminarCuenta, registrarUsuario } from "./usuariosServicio.js";
 
 const datos = { nombre: "Ana Perez", correo: "ana@correo.com", telefono: "71234567", clave: "secreta123" };
 
@@ -56,5 +56,13 @@ describe("Usuarios servicio", () => {
     expect(await actualizarDatos(repositorio, 7, { ...nuevos, nombre: "" })).toEqual({ error: "Completa tu nombre y teléfono" });
     expect(await actualizarDatos(repositorio, 7, nuevos)).toEqual({ usuario: { id: 7, ...nuevos } });
     expect(repositorio.actualizar).toHaveBeenCalledTimes(1);
+  });
+
+  it("deberia eliminar la cuenta del usuario indicado", async () => {
+    const repositorio = { eliminar: jest.fn(async () => {}) };
+
+    await eliminarCuenta(repositorio, 7);
+
+    expect(repositorio.eliminar).toHaveBeenCalledWith(7);
   });
 });

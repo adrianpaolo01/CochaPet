@@ -16,3 +16,7 @@ export async function actualizarDatos(repositorio, usuarioId, { nombre, telefono
   if (error) return { error };
   return { usuario: await repositorio.actualizar(usuarioId, { nombre, telefono, foto }) };
 }
+
+export async function eliminarCuenta(repositorio, usuarioId) {
+  await repositorio.eliminar(usuarioId);
+}

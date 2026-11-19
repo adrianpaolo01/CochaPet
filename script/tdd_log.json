@@ -5402,7 +5402,7 @@
     "testId": 225
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc557f58797616638062e0ab69d7abf534ddd76c",
     "commitName": "feat(HU04): guardar lo escrito en el reporte para no perderlo al iniciar sesion",
     "commitTimestamp": 1795036112440,
     "testId": 225
@@ -6522,5 +6522,35 @@
     "commitName": "chore(HU24): fusionar main con HU05 y resolver conflictos de los logs",
     "commitTimestamp": 1795059850848,
     "testId": 283
+  },
+  {
+    "numPassedTests": 260,
+    "failedTests": 0,
+    "numTotalTests": 260,
+    "timestamp": 1795060064645,
+    "success": true,
+    "testId": 284
+  },
+  {
+    "numPassedTests": 260,
+    "failedTests": 1,
+    "numTotalTests": 261,
+    "timestamp": 1795060118757,
+    "success": false,
+    "testId": 284
+  },
+  {
+    "numPassedTests": 261,
+    "failedTests": 0,
+    "numTotalTests": 261,
+    "timestamp": 1795060124907,
+    "success": true,
+    "testId": 284
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU25): eliminar la cuenta del usuario indicado",
+    "commitTimestamp": 1795060126154,
+    "testId": 284
   }
 ]
