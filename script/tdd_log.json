@@ -6902,9 +6902,37 @@
     "testId": 303
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7248ab7a183e1bcaa1ffdf12b39ecb91a083e982",
     "commitName": "chore(HU33): integrar main y resolver conflictos",
     "commitTimestamp": 1795060159932,
     "testId": 303
+  },
+  {
+    "numPassedTests": 260,
+    "failedTests": 0,
+    "numTotalTests": 260,
+    "timestamp": 1795060338720,
+    "success": true,
+    "testId": 304
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(HU24): volver al inicio desde mi perfil",
+    "commitTimestamp": 1795060341981,
+    "testId": 304
+  },
+  {
+    "numPassedTests": 274,
+    "failedTests": 0,
+    "numTotalTests": 274,
+    "timestamp": 1795060601544,
+    "success": true,
+    "testId": 305
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore(HU24): fusionar main con HU33 y resolver conflictos de los logs",
+    "commitTimestamp": 1795060605221,
+    "testId": 305
   }
 ]

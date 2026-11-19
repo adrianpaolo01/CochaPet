@@ -6992,17 +6992,55 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7248ab7a183e1bcaa1ffdf12b39ecb91a083e982",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-11-19T03:49:19.000Z",
       "message": "chore(HU33): integrar main y resolver conflictos",
-      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/7248ab7a183e1bcaa1ffdf12b39ecb91a083e982"
     },
     "stats": {
       "total": 296,
       "additions": 259,
       "deletions": 37,
+      "date": "2026-11-19"
+    },
+    "coverage": 95.54,
+    "test_count": 274,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:52:21.000Z",
+      "message": "feat(HU24): volver al inicio desde mi perfil",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
+      "date": "2026-11-19"
+    },
+    "coverage": 99.68,
+    "test_count": 260,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "carloschavezs-canix",
+    "commit": {
+      "date": "2026-11-19T03:56:44.000Z",
+      "message": "chore(HU24): fusionar main con HU33 y resolver conflictos de los logs",
+      "url": "https://github.com/adrianpaolo01/CochaPet/commit/HEAD"
+    },
+    "stats": {
+      "total": 247,
+      "additions": 245,
+      "deletions": 2,
       "date": "2026-11-19"
     },
     "coverage": 95.54,
